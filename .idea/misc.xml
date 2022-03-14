@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/norberto.rojas/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_sacrificio1.xml" value="0.5359375" />
+        <entry key="..\:/Users/norberto.rojas/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_liconsa.xml" value="0.25" />
+        <entry key="..\:/Users/norberto.rojas/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_par_operativo.xml" value="0.25" />
+        <entry key="..\:/Users/norberto.rojas/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_sacrificio1.xml" value="0.33" />
       </map>
     </option>
   </component>

@@ -165,7 +165,7 @@ public class GpsEnableb extends AppCompatActivity {
         //horaActual= (String.format("%d:%d:%d", hora, minutos, segundos));
 
         obtenFoliodos();
-        textid.setText("FA"+folioo);
+        textid.setText("IN"+folioo);
         proyecto = (Spinner)findViewById(R.id.spiproyectogeo);
         proyecto.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override

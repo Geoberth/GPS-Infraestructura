@@ -6,4 +6,413 @@
     android:layout_height="match_parent"
     tools:context=".Infra_Sacrificio.Sacrificio_1">
 
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CENTROS DE SACRIFICO"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Lineamiento: Registrar los establecimientos que cuentan con infraestructura para sacrificio y faenado de especies pecuarias"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14                                                                                                                                                                                                                  dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pg_leche_tvFech"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="Fecha:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/pg_leche_txtFecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Entidad:"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/pgb_o_spiEstado1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/borde"
+            android:entries="@array/Estados2021"
+            android:spinnerMode="dropdown"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Delegación:"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/pgb_o_spiEstado01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/borde"
+            android:entries="@array/Estados2021"
+            android:spinnerMode="dropdown"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Municipio:"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/pgb_o_spiMunicipio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/borde"
+            android:enabled="false"
+            android:entries="@array/Aguascalientes2021"
+            android:spinnerMode="dropdown"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Municipio:"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/pgb_o_spiMunicipio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/borde"
+            android:enabled="false"
+            android:entries="@array/Aguascalientes2021"
+            android:spinnerMode="dropdown"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Municipio:"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/pgb_o_spiMunicipio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/borde"
+            android:enabled="false"
+            android:entries="@array/Aguascalientes2021"
+            android:spinnerMode="dropdown"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Colonia/Localidad:"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/localidadpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo de Centro de Sacrificio:"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/spinner_sacri1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/borde"
+            android:entries="@array/type_censacri"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre del centro de sacrificio:"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/sacri3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estatus en la que se encuentra el centro de sacrificio:"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/sacri4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/borde"
+            android:entries="@array/sacri_estatus"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Número de turnos que se realizan en un día (24 horas):"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/sacri5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capacidad instalada Mensual para sacriicio de equinos:"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/sacri6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cabezas"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capacidad instalada Mensual para sacriicio de bovinos:"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/sacri7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cabezas"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capacidad instalada Mensual para sacriicio de porcinos:"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/sacri8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cabezas"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capacidad instalada Mensual para sacriicio de ovinos:"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/sacri9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cabezas"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capacidad instalada Mensual para sacriicio de caprinos:"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/sacri10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cabezas"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capacidad instalada Mensual para sacrificio de aves (pollos y/o gallinas:"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/sacri11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cabezas"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capacidad instalada Mensual para sacrificio de equinos:"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/sacri12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="%"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capacidad instalada Mensual para sacrificio de bovinos:"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/sacri13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="%"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capacidad instalada Mensual para sacrificio de porcinos:"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/sacri14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="%"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capacidad instalada Mensual para sacrificio de ovinos:"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/sacri15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="%"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capacidad instalada Mensual para sacrificio de caprinos:"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/sacri16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="%"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capacidad instalada Mensual para sacrificio de aves (pollos y/o gallinas):"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/sacri17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="%"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Observaciones:"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/sacriobs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="%"
+            android:maxLines="1" />
+
+
+
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+android:id="@+id/par_et_sig"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="bottom|center_horizontal"
+android:layout_marginTop="30dp"
+android:layout_marginBottom="25dp"
+android:backgroundTint="@color/mtrl_on_primary_emphasis_high_type"
+android:text="Siguiente"
+android:theme="@style/Theme.MaterialComponents.Light"
+app:icon="@android:drawable/ic_input_add"
+app:iconPadding="20dp" />
+    <!--no olvidar cambiar nombre de las variables de los resources,
+            los nombres de los catalogos y actividades-->
+    </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

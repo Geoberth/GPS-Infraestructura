@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="type_censacri">
+        <item>Intensivo</item>
+        <item>Semi-intensivo</item>
+        <item>Extensivo</item>
+    </string-array>
+
+    <string-array name="sacri_estatus">
+        <item>Activo</item>
+        <item>Inactivo</item>
+    </string-array>
+
+
+</resources>
