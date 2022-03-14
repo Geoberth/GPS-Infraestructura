@@ -22,6 +22,8 @@ import android.provider.MediaStore;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.geosegalmex.Infra_Engorda.Engorda;
+import com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1;
 import com.example.geosegalmex.Liconsa.Liconsa;
 import com.example.geosegalmex.Liconsa2.LiconsaVerificacion;
 import com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario;
@@ -267,6 +269,12 @@ public class NewCamara extends AppCompatActivity {
                                     }
                                     else if (General.Proyecto.equals("PG Beneficiario Estimulos")){
                                         startActivity(new Intent(getApplication(), PGBeneficiariosGranosIncentivos.class));
+                                    }
+                                    else if (General.Proyecto.equals("Centros de Sacrificio")){
+                                        startActivity(new Intent(getApplication(), Sacrificio_1.class));
+                                    }
+                                    else if (General.Proyecto.equals("Corrales de Engorda")){
+                                        startActivity(new Intent(getApplication(), Engorda.class));
                                     }
                                     else{
                                         startActivity(new Intent(getApplication(), IdentificacionCuestionario.class));

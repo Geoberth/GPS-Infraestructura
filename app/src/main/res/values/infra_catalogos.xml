@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="infra_estatus">
+        <item>Activo</item>
+        <item>Inactivo</item>
+    </string-array>
+
+    <string-array name="infra_sistemacorrales">
+        <item>Intensivo</item>
+        <item>Semi-intensivo</item>
+        <item>Extensivo</item>
+    </string-array>
+
+    <string-array name="infra_actividadcorrales">
+        <item>Ciclo completo</item>
+        <item>Engorda</item>
+        <item>Producción de becerro</item>
+    </string-array>
+
+    <string-array name="infra_razaengorda">
+        <item>Criolla</item>
+        <item>Angus</item>
+        <item>Charolais</item>
+        <item>Chianina</item>
+        <item>Hereford</item>
+        <item>Holstein Friesian</item>
+        <item>Limousin</item>
+        <item>Pardo suizo</item>
+        <item>Simmental</item>
+        <item>Bradford</item>
+        <item>Brangus</item>
+        <item>Charbray</item>
+        <item>Girolando</item>
+        <item>Simbrah</item>
+        <item>Sta. Gertrudis</item>
+        <item>Suiz-bu</item>
+        <item>Tropicarne</item>
+        <item>Brahman</item>
+        <item>Guzerat</item>
+        <item>Indo-brasil</item>
+        <item>Nelore</item>
+        <item>Cruza</item>
+        <item>Otra</item>
+        <item>Beefmaster</item>
+        <item>Cebú</item>
+        <item>Wagyu</item>
+        <item>Angus Negro</item>
+        <item>Angus Rojo</item>
+        <item>Belmont Red</item>
+        <item>Brangus Negro</item>
+        <item>Brangus Rojo</item>
+        <item>Europea</item>
+        <item>Hereford Black</item>
+        <item>Hereford sin Cuernos</item>
+        <item>Sardo Negro</item>
+        <item>Tuli</item>
+        <item>Jersey</item>
+        <item>Romagnola</item>
+        <item>Gyr</item>
+        <item>Pardo Suizo Europeo</item>
+        <item>Brahman Rojo</item>
+        <item>Pardo Suizo Americano</item>
+    </string-array>
+
+</resources>

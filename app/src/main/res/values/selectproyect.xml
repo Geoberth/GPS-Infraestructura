@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="selectproyect">
-    <!--<item>Frontera Agrícola</item>-->
-    <!--<item>Estimación de Superficie Agrícola</item>-->
-        <!--<item>Estimación de Superficie Agrícola</item>-->
     <item>Centros de Sacrificio</item>
-    <item>PASL Beneficiario</item>
-
-
+    <item>Corrales de Engorda</item>
     </string-array>
 
     <string name="relacion_proyecto">relaproyect</string>

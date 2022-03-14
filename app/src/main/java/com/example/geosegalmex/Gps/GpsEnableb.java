@@ -171,50 +171,12 @@ public class GpsEnableb extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 switch (position){
-                   /* case 0:
-                        textid.setText("FA"+folioo);
-                        break;
-                    case 1:
-                        textid.setText("ES"+folioo);
-                        break;*/
                     case 0:
-                        textid.setText("PASL_O_"+folioo);
+                        textid.setText("INFRA_SA"+folioo);
                         break;
                     case 1:
-                        textid.setText("PASL_B_"+folioo);
+                        textid.setText("INFRA_EN"+folioo);
                         break;
-                    case 2:
-                        textid.setText("PG_O_E_"+folioo);
-                        break;
-                    case 3:
-                        textid.setText("PG_O_G_"+folioo);
-                        break;
-                    case 4:
-                        textid.setText("PG_O_L_"+folioo);
-                        break;
-                    case 5:
-                        textid.setText("PG_B_L_"+folioo);
-                        break;
-                    case 6:
-                        textid.setText("PG_B_G_"+folioo);
-                        break;
-                    case 7:
-                        textid.setText("PG_B_E_"+folioo);
-                        break;
-                    case 8:
-                        textid.setText("PAR_B_"+folioo);
-                        break;
-                    case 9:
-                        textid.setText("PAR_O_"+folioo);
-                        break;
-                    case 10:
-                        textid.setText("LI_"+folioo);
-                        break;
-                    case 11:
-                        textid.setText("LI_E_"+folioo);
-                        flag = 1;
-                        break;
-
                 }
             }
             @Override

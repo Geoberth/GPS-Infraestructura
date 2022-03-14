@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Infra_Sacrificio.Sacrificio_1">
-
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Infra_Sacrificio.Sacrificio_1">
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="25dp">
 
-    <LinearLayout
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginLeft="15dp"
@@ -22,7 +21,7 @@
         android:layout_marginBottom="16dp"
         android:orientation="vertical">
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="CENTROS DE SACRIFICO"
@@ -32,7 +31,7 @@
             android:textStyle="bold" />
 
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -40,38 +39,38 @@
             android:textColor="#000000"
             android:textStyle="bold" />
 
-        <LinearLayout
+            <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="14                                                                                                                                                                                                                  dp"
+            android:layout_marginTop="1dp"
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/pg_leche_tvFech"
-                android:layout_width="178dp"
-                android:layout_height="wrap_content"
-                android:text="Fecha:"
-                android:textColor="#000000"
-                android:textSize="15sp" />
+            android:id="@+id/pg_leche_tvFech"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:text="Fecha:"
+            android:textColor="#000000"
+            android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/pg_leche_txtFecha"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="right"
-                android:textColor="#000000"
-                android:textSize="15sp" />
-        </LinearLayout>
+            android:id="@+id/pg_leche_txtFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+            </LinearLayout>
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:text="Entidad:"
             android:textColor="#000000" />
 
-        <Spinner
+            <Spinner
             android:id="@+id/pgb_o_spiEstado1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -82,14 +81,14 @@
             android:spinnerMode="dropdown"
             android:textSize="15sp" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:text="Delegación:"
             android:textColor="#000000" />
 
-        <Spinner
+            <Spinner
             android:id="@+id/pgb_o_spiEstado01"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -100,14 +99,14 @@
             android:spinnerMode="dropdown"
             android:textSize="15sp" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Municipio:"
             android:layout_marginTop="20dp"
             android:textColor="#000000" />
 
-        <Spinner
+            <Spinner
             android:id="@+id/pgb_o_spiMunicipio1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -119,14 +118,14 @@
             android:spinnerMode="dropdown"
             android:textSize="15sp" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Municipio:"
             android:layout_marginTop="20dp"
             android:textColor="#000000" />
 
-        <Spinner
+            <Spinner
             android:id="@+id/pgb_o_spiMunicipio2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -138,14 +137,14 @@
             android:spinnerMode="dropdown"
             android:textSize="15sp" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Municipio:"
             android:layout_marginTop="20dp"
             android:textColor="#000000" />
 
-        <Spinner
+            <Spinner
             android:id="@+id/pgb_o_spiMunicipio3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -157,26 +156,26 @@
             android:spinnerMode="dropdown"
             android:textSize="15sp" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Colonia/Localidad:"
             android:layout_marginTop="15dp"
             android:textColor="#000000" />
 
-        <EditText
+            <EditText
             android:id="@+id/localidadpar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:maxLines="1" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Tipo de Centro de Sacrificio:"
             android:textColor="#000000" />
 
-        <Spinner
+            <Spinner
             android:id="@+id/spinner_sacri1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -186,25 +185,25 @@
             android:entries="@array/type_censacri"
             android:spinnerMode="dialog" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nombre del centro de sacrificio:"
             android:textColor="#000000" />
 
-        <EditText
+            <EditText
             android:id="@+id/sacri3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:maxLines="1" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Estatus en la que se encuentra el centro de sacrificio:"
             android:textColor="#000000" />
 
-        <Spinner
+            <Spinner
             android:id="@+id/sacri4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -214,205 +213,204 @@
             android:entries="@array/sacri_estatus"
             android:spinnerMode="dialog" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Número de turnos que se realizan en un día (24 horas):"
             android:textColor="#000000" />
 
-        <EditText
+            <EditText
             android:id="@+id/sacri5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:maxLines="1" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Capacidad instalada Mensual para sacriicio de equinos:"
             android:textColor="#000000" />
 
-        <EditText
+            <EditText
             android:id="@+id/sacri6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Cabezas"
             android:maxLines="1" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Capacidad instalada Mensual para sacriicio de bovinos:"
             android:textColor="#000000" />
 
-        <EditText
+            <EditText
             android:id="@+id/sacri7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Cabezas"
             android:maxLines="1" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Capacidad instalada Mensual para sacriicio de porcinos:"
             android:textColor="#000000" />
 
-        <EditText
+            <EditText
             android:id="@+id/sacri8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Cabezas"
             android:maxLines="1" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Capacidad instalada Mensual para sacriicio de ovinos:"
             android:textColor="#000000" />
 
-        <EditText
+            <EditText
             android:id="@+id/sacri9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Cabezas"
             android:maxLines="1" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Capacidad instalada Mensual para sacriicio de caprinos:"
             android:textColor="#000000" />
 
-        <EditText
+            <EditText
             android:id="@+id/sacri10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Cabezas"
             android:maxLines="1" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Capacidad instalada Mensual para sacrificio de aves (pollos y/o gallinas:"
             android:textColor="#000000" />
 
-        <EditText
+            <EditText
             android:id="@+id/sacri11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Cabezas"
             android:maxLines="1" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Capacidad instalada Mensual para sacrificio de equinos:"
             android:textColor="#000000" />
 
-        <EditText
+            <EditText
             android:id="@+id/sacri12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="%"
             android:maxLines="1" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Capacidad instalada Mensual para sacrificio de bovinos:"
             android:textColor="#000000" />
 
-        <EditText
+            <EditText
             android:id="@+id/sacri13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="%"
             android:maxLines="1" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Capacidad instalada Mensual para sacrificio de porcinos:"
             android:textColor="#000000" />
 
-        <EditText
+            <EditText
             android:id="@+id/sacri14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="%"
             android:maxLines="1" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Capacidad instalada Mensual para sacrificio de ovinos:"
             android:textColor="#000000" />
 
-        <EditText
+            <EditText
             android:id="@+id/sacri15"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="%"
             android:maxLines="1" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Capacidad instalada Mensual para sacrificio de caprinos:"
             android:textColor="#000000" />
 
-        <EditText
+            <EditText
             android:id="@+id/sacri16"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="%"
             android:maxLines="1" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Capacidad instalada Mensual para sacrificio de aves (pollos y/o gallinas):"
             android:textColor="#000000" />
 
-        <EditText
+            <EditText
             android:id="@+id/sacri17"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="%"
             android:maxLines="1" />
 
-        <TextView
+            <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Observaciones:"
             android:textColor="#000000" />
 
-        <EditText
+            <EditText
             android:id="@+id/sacriobs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="%"
             android:maxLines="1" />
 
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+
+            android:id="@+id/btn_Avanzar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/mtrl_on_primary_emphasis_high_type"
+            android:text="Siguiente"
+            android:theme="@style/Theme.MaterialComponents.Light"
+            app:icon="@android:drawable/ic_input_add"
+            app:iconPadding="20dp" />
+
+        </LinearLayout>
 
 
-
-        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-android:id="@+id/par_et_sig"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:layout_gravity="bottom|center_horizontal"
-android:layout_marginTop="30dp"
-android:layout_marginBottom="25dp"
-android:backgroundTint="@color/mtrl_on_primary_emphasis_high_type"
-android:text="Siguiente"
-android:theme="@style/Theme.MaterialComponents.Light"
-app:icon="@android:drawable/ic_input_add"
-app:iconPadding="20dp" />
-    <!--no olvidar cambiar nombre de las variables de los resources,
-            los nombres de los catalogos y actividades-->
-    </LinearLayout>
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

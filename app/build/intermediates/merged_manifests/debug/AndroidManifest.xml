@@ -37,6 +37,12 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.geosegalmex.Infra_Engorda.Engorda"
+            android:exported="false" />
+        <activity
             android:name="com.example.geosegalmex.Firma"
             android:exported="false"
             android:screenOrientation="portrait" />
