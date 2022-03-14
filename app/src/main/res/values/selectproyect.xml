@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="selectproyect">
+    <!--<item>Frontera Agrícola</item>-->
+    <!--<item>Estimación de Superficie Agrícola</item>-->
+        <!--<item>Estimación de Superficie Agrícola</item>-->
+    <item>PASL Operativo</item>
+    <item>PASL Beneficiario</item>
+    <item>PG Operativo Estimulos</item>
+    <item>PG Operativo Granos</item>
+    <item>PG Operativo Leche</item>
+    <item>PG Beneficiario Leche</item>
+    <item>PG Beneficiario Granos</item>
+    <item>PG Beneficiario Estimulos</item>
+    <item>PAR Beneficiario</item>
+    <item>PAR Operativo</item>
+    <item>RNPL Productor</item>
+    <item>RNPL Expediente</item>
+
+    </string-array>
+
+    <string name="relacion_proyecto">relaproyect</string>
+
+</resources>
