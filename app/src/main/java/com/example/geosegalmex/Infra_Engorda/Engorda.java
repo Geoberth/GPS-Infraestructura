@@ -27,7 +27,7 @@ public class Engorda extends AppCompatActivity {
     Button btnNext;
     TextView textFecha, tvCruza, tvOtra;
     Spinner spi_edo, spi_representacion, spi_ddr, spi_cader, spi_mun, spi_estatus, spi_sistema, spi_actividad, spi_raza;
-    EditText localidad, domupp, nomupp, vientres, lechones, crecimiento, finalizacion, sementales, capins, caputi, total, cruza, otra, superficie, observaciones;
+    EditText localidad, domupp, nomupp, capins, caputi, total, periodo, cruza, otra, superficie, observaciones;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,14 +47,10 @@ public class Engorda extends AppCompatActivity {
         spi_estatus = (Spinner)findViewById(R.id.ce_spiestatus);
         spi_sistema = (Spinner)findViewById(R.id.ce_spisistema);
         spi_actividad = (Spinner)findViewById(R.id.ce_spiactividad);
-        vientres = (EditText)findViewById(R.id.ce_txtvientres);
-        lechones = (EditText)findViewById(R.id.ce_txtlechones);
-        crecimiento = (EditText)findViewById(R.id.ce_txtcrecimiento);
-        finalizacion = (EditText)findViewById(R.id.ce_txtfinalización);
-        sementales = (EditText)findViewById(R.id.ce_txtSementales);
         capins = (EditText)findViewById(R.id.ce_txtinstalada);
         caputi = (EditText)findViewById(R.id.ce_txtutilizada);
         total = (EditText)findViewById(R.id.ce_txtanimales);
+        periodo = (EditText)findViewById(R.id.ce_txtperiodo);
         spi_raza = (Spinner)findViewById(R.id.ce_spiraza);
         tvCruza = (TextView)findViewById(R.id.ce_tvCruza);
         cruza = (EditText)findViewById(R.id.ce_txtcruza);
@@ -137,26 +133,6 @@ public class Engorda extends AppCompatActivity {
             nomupp.setError("No puede quedar vacio");
             retorno=false;
         }
-        else if(vientres.getText().toString().isEmpty()){
-            vientres.setError("No puede quedar vacio");
-            retorno=false;
-        }
-        else if(lechones.getText().toString().isEmpty()){
-            lechones.setError("No puede quedar vacio");
-            retorno=false;
-        }
-        else if(crecimiento.getText().toString().isEmpty()){
-            crecimiento.setError("No puede quedar vacio");
-            retorno=false;
-        }
-        else if(finalizacion.getText().toString().isEmpty()){
-            finalizacion.setError("No puede quedar vacio");
-            retorno=false;
-        }
-        else if(sementales.getText().toString().isEmpty()){
-            sementales.setError("No puede quedar vacio");
-            retorno=false;
-        }
         else if(capins.getText().toString().isEmpty()){
             capins.setError("No puede quedar vacio");
             retorno=false;
@@ -167,6 +143,10 @@ public class Engorda extends AppCompatActivity {
         }
         else if(total.getText().toString().isEmpty()){
             total.setError("No puede quedar vacio");
+            retorno=false;
+        }
+        else if(periodo.getText().toString().isEmpty()){
+            periodo.setError("No puede quedar vacio");
             retorno=false;
         }
         else if(spi_raza.getSelectedItem().toString().equals("Cruza") && cruza.getText().toString().isEmpty()){

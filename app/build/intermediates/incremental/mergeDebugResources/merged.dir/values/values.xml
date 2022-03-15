@@ -4262,6 +4262,10 @@
         <item>Engorda</item>
         <item>Producción de becerro</item>
     </string-array>
+    <string-array name="infra_catalogoaves">
+        <item>Pollo de engorda</item>
+        <item>Huevo para plato</item>
+    </string-array>
     <string-array name="infra_estatus">
         <item>Activo</item>
         <item>Inactivo</item>
@@ -4873,6 +4877,7 @@
     <item>Corrales de Engorda</item>
     <item>Granjas de Porcino</item>
     <item>Establos Lecheros</item>
+    <item>Granjas de Ave</item>
     </string-array>
     <string-array name="semillas_cultivo">
         <item>Especifique el tipo de semilla</item>

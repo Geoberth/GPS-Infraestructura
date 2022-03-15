@@ -183,6 +183,9 @@ public class GpsEnableb extends AppCompatActivity {
                     case 3:
                         textid.setText("INFRA_LE"+folioo);
                         break;
+                    case 4:
+                        textid.setText("INFRA_AV"+folioo);
+                        break;
                 }
             }
             @Override

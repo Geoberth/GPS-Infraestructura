@@ -1,583 +1,494 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:context=".Infra_Engorda.Engorda">
-
-<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="25dp">
+    tools:context=".Infra_Engorda.Engorda">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginBottom="16dp"
-        android:orientation="vertical">
-
-
-        <TextView
-            android:id="@+id/pasl_o_tvTitulo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
-            android:text="CORRALES DE ENGORDA"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/pasl_o_tvTitulo2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
-            android:text="LINEAMIENTO: registrar las unidades de producción dónde se engorda ganado bovino cuya capacidad instalada sea de 50 cabezas o más."
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="15sp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="25dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:orientation="horizontal">
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
+
 
             <TextView
-                android:id="@+id/pasl_o_tvFech"
-                android:layout_width="178dp"
-                android:layout_height="wrap_content"
-                android:text="Fecha:"
-                android:textColor="#000000"
-                android:textSize="15sp" />
-
-            <TextView
-                android:id="@+id/ce_txtFecha"
+                android:id="@+id/pasl_o_tvTitulo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="right"
+                android:layout_marginBottom="15dp"
+                android:text="CORRALES DE ENGORDA"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pasl_o_tvTitulo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="LINEAMIENTO: registrar las unidades de producción dónde se engorda ganado bovino cuya capacidad instalada sea de 50 cabezas o más."
+                android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="15sp" />
 
-        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/ce_txtEstado"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:text="Estado:"
-            android:textColor="#000000"
-            android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/pasl_o_tvFech"
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fecha:"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
 
-        <Spinner
-            android:id="@+id/ce_spiEstado"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/borde"
-            android:entries="@array/Estados2021"
-            android:spinnerMode="dropdown"
-            android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/ce_txtFecha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
 
-        <TextView
-            android:id="@+id/ce_txtRepresentacion"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:text="Nombre de la Representación:"
-            android:textColor="#000000"
-            android:textSize="15sp" />
-
-        <Spinner
-            android:id="@+id/ce_spiRepresentacion"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/borde"
-            android:entries="@array/Aguascalientes2021"
-            android:spinnerMode="dropdown"
-            android:textSize="15sp" />
-
-        <TextView
-            android:id="@+id/ce_txtDdr"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:text="Nombre del DDR:"
-            android:textColor="#000000"
-            android:textSize="15sp" />
-
-        <Spinner
-            android:id="@+id/ce_spiDdr"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/borde"
-            android:entries="@array/Aguascalientes2021"
-            android:spinnerMode="dropdown"
-            android:textSize="15sp" />
-
-        <TextView
-            android:id="@+id/ce_txtCader"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:text="Nombre del CADER:"
-            android:textColor="#000000"
-            android:textSize="15sp" />
-
-        <Spinner
-            android:id="@+id/ce_spiCader"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/borde"
-            android:entries="@array/Aguascalientes2021"
-            android:spinnerMode="dropdown"
-            android:textSize="15sp" />
-
-        <TextView
-            android:id="@+id/ce_txtMunicipio"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:text="Municipio:"
-            android:textColor="#000000"
-            android:textSize="15sp" />
-
-        <Spinner
-            android:id="@+id/ce_spiMunicipio"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/borde"
-            android:entries="@array/Aguascalientes2021"
-            android:spinnerMode="dropdown"
-            android:textSize="15sp" />
-
-        <TextView
-            android:id="@+id/ce_txtLocalidad"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:text="Localidad:"
-            android:textColor="#000000"
-            android:textSize="15sp" />
-
-        <EditText
-            android:id="@+id/ce_spiLocalidad"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textCapWords|textAutoCorrect" />
-
-        <TextView
-            android:id="@+id/ce_tvupp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:text="Domicilio de la UPP:"
-            android:textColor="#000000"
-            android:textSize="15sp" />
-
-        <EditText
-            android:id="@+id/ce_txtupp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textCapWords|textAutoCorrect" />
-
-        <TextView
-            android:id="@+id/ce_tvuppnom"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:text="Nombre de la UPP:"
-            android:textColor="#000000"
-            android:textSize="15sp" />
-
-        <EditText
-            android:id="@+id/ce_txtuppnom"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textCapWords|textAutoCorrect" />
-
-        <TextView
-            android:id="@+id/ce_txtestatus"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:text="Estatus:"
-            android:textColor="#000000"
-            android:textSize="15sp" />
-
-        <Spinner
-            android:id="@+id/ce_spiestatus"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/borde"
-            android:entries="@array/infra_estatus"
-            android:spinnerMode="dropdown"
-            android:textSize="15sp" />
-
-        <TextView
-            android:id="@+id/ce_txtsistema"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:text="Sistema productivo:"
-            android:textColor="#000000"
-            android:textSize="15sp" />
-
-        <Spinner
-            android:id="@+id/ce_spisistema"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/borde"
-            android:entries="@array/infra_sistemacorrales"
-            android:spinnerMode="dropdown"
-            android:textSize="15sp" />
-
-        <TextView
-            android:id="@+id/ce_txtactividad"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:text="Actividad productiva:"
-            android:textColor="#000000"
-            android:textSize="15sp" />
-
-        <Spinner
-            android:id="@+id/ce_spiactividad"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/borde"
-            android:entries="@array/infra_actividadcorrales"
-            android:spinnerMode="dropdown"
-            android:textSize="15sp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:orientation="horizontal">
+            </LinearLayout>
 
             <TextView
-                android:id="@+id/ce_tvvientres"
-                android:layout_width="178dp"
+                android:id="@+id/ce_txtEstado"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="No. de Vientres:"
+                android:layout_marginTop="25dp"
+                android:text="Estado:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/ce_spiEstado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:entries="@array/Estados2021"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ce_txtRepresentacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Nombre de la Representación:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/ce_spiRepresentacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:entries="@array/Aguascalientes2021"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ce_txtDdr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Nombre del DDR:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/ce_spiDdr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:entries="@array/Aguascalientes2021"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ce_txtCader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Nombre del CADER:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/ce_spiCader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:entries="@array/Aguascalientes2021"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ce_txtMunicipio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Municipio:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/ce_spiMunicipio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:entries="@array/Aguascalientes2021"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ce_txtLocalidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Localidad:"
                 android:textColor="#000000"
                 android:textSize="15sp" />
 
             <EditText
-                android:id="@+id/ce_txtvientres"
+                android:id="@+id/ce_spiLocalidad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:maxLength="5"
-                android:inputType="number" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:orientation="horizontal">
+                android:inputType="textCapWords|textAutoCorrect" />
 
             <TextView
-                android:id="@+id/ce_tvlechones"
-                android:layout_width="178dp"
+                android:id="@+id/ce_tvupp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="No. de Lechones:"
+                android:layout_marginTop="25dp"
+                android:text="Domicilio de la UPP:"
                 android:textColor="#000000"
                 android:textSize="15sp" />
 
             <EditText
-                android:id="@+id/ce_txtlechones"
+                android:id="@+id/ce_txtupp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:maxLength="6"
-                android:inputType="number" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:orientation="horizontal">
+                android:inputType="textCapWords|textAutoCorrect" />
 
             <TextView
-                android:id="@+id/ce_tvcrecimiento"
-                android:layout_width="220dp"
+                android:id="@+id/ce_tvuppnom"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="No. de Cerdos en crecimiento:"
+                android:layout_marginTop="25dp"
+                android:text="Nombre de la UPP:"
                 android:textColor="#000000"
                 android:textSize="15sp" />
 
             <EditText
-                android:id="@+id/ce_txtcrecimiento"
+                android:id="@+id/ce_txtuppnom"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:maxLength="6"
-                android:inputType="number" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:orientation="horizontal">
+                android:inputType="textCapWords|textAutoCorrect" />
 
             <TextView
-                android:id="@+id/ce_tvfinalización"
-                android:layout_width="220dp"
+                android:id="@+id/ce_txtestatus"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="No. de Cerdos en finalización:"
+                android:layout_marginTop="25dp"
+                android:text="Estatus:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/ce_spiestatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:entries="@array/infra_estatus"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ce_txtsistema"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Sistema productivo:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/ce_spisistema"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:entries="@array/infra_sistemacorrales"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ce_txtactividad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Actividad productiva:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/ce_spiactividad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:entries="@array/infra_actividadcorrales"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/ce_txtraza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Raza:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/ce_spiraza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:entries="@array/infra_razaengorda"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ce_tvCruza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Cruza:"
                 android:textColor="#000000"
                 android:textSize="15sp" />
 
             <EditText
-                android:id="@+id/ce_txtfinalización"
+                android:id="@+id/ce_txtcruza"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:maxLength="6"
-                android:inputType="number" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:orientation="horizontal">
+                android:inputType="textCapWords|textAutoCorrect" />
 
             <TextView
-                android:id="@+id/ce_tvSementales"
-                android:layout_width="178dp"
+                android:id="@+id/ce_tvOtra"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="No. de Sementales:"
+                android:layout_marginTop="25dp"
+                android:text="Otra raza:"
                 android:textColor="#000000"
                 android:textSize="15sp" />
 
             <EditText
-                android:id="@+id/ce_txtSementales"
+                android:id="@+id/ce_txtOtra"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:maxLength="4"
-                android:inputType="number" />
+                android:inputType="textCapWords|textAutoCorrect" />
 
-        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/ce_tvinstalada"
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:text="Capacidad instalada:"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/ce_txtinstalada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:maxLength="7"
+                    android:hint="cabezas"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ce_tvutilizada"
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:text="Capacidad utilizada:"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/ce_txtutilizada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:maxLength="5"
+                    android:hint="%"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ce_tvanimales"
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:text="Total de animales:"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/ce_txtanimales"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:maxLength="7"
+                    android:hint="cabezas"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ce_tvperiodo"
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:text="Período de engorda:"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/ce_txtperiodo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:maxLength="7"
+                    android:hint="meses"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ce_tvSuperficie"
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:text="Superficie:"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/ce_txtSuperficie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:maxLength="9"
+                    android:hint="m2"
+                    android:inputType="number" />
+
+            </LinearLayout>
 
             <TextView
-                android:id="@+id/ce_tvinstalada"
-                android:layout_width="178dp"
+                android:id="@+id/ce_txtObservaciones"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Capacidad instalada:"
+                android:layout_marginTop="25dp"
+                android:text="Observaciones:"
                 android:textColor="#000000"
                 android:textSize="15sp" />
 
             <EditText
-                android:id="@+id/ce_txtinstalada"
+                android:id="@+id/ce_spiObservaciones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:maxLength="7"
-                android:inputType="number" />
+                android:inputType="textCapWords|textAutoCorrect" />
+
+
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+
+                android:id="@+id/btn_Avanzar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/mtrl_on_primary_emphasis_high_type"
+                android:text="Siguiente"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:icon="@android:drawable/ic_input_add"
+                app:iconPadding="20dp" />
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/ce_tvutilizada"
-                android:layout_width="178dp"
-                android:layout_height="wrap_content"
-                android:text="Capacidad utilizada:"
-                android:textColor="#000000"
-                android:textSize="15sp" />
-
-            <EditText
-                android:id="@+id/ce_txtutilizada"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:maxLength="5"
-                android:inputType="number" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/ce_tvanimales"
-                android:layout_width="178dp"
-                android:layout_height="wrap_content"
-                android:text="Total de animales:"
-                android:textColor="#000000"
-                android:textSize="15sp" />
-
-            <EditText
-                android:id="@+id/ce_txtanimales"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:maxLength="7"
-                android:inputType="number" />
-
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/ce_txtraza"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:text="Raza:"
-            android:textColor="#000000"
-            android:textSize="15sp" />
-
-        <Spinner
-            android:id="@+id/ce_spiraza"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/borde"
-            android:entries="@array/infra_razaengorda"
-            android:spinnerMode="dropdown"
-            android:textSize="15sp" />
-
-        <TextView
-            android:id="@+id/ce_tvCruza"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:text="Cruza:"
-            android:textColor="#000000"
-            android:textSize="15sp" />
-
-        <EditText
-            android:id="@+id/ce_txtcruza"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textCapWords|textAutoCorrect" />
-
-        <TextView
-            android:id="@+id/ce_tvOtra"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:text="Otra raza:"
-            android:textColor="#000000"
-            android:textSize="15sp" />
-
-        <EditText
-            android:id="@+id/ce_txtOtra"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textCapWords|textAutoCorrect" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/ce_tvSuperficie"
-                android:layout_width="178dp"
-                android:layout_height="wrap_content"
-                android:text="Superficie:"
-                android:textColor="#000000"
-                android:textSize="15sp" />
-
-            <EditText
-                android:id="@+id/ce_txtSuperficie"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:maxLength="9"
-                android:inputType="number" />
-
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/ce_txtObservaciones"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:text="Observaciones:"
-            android:textColor="#000000"
-            android:textSize="15sp" />
-
-        <EditText
-            android:id="@+id/ce_spiObservaciones"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textCapWords|textAutoCorrect" />
-
-
-        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-
-            android:id="@+id/btn_Avanzar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center_horizontal"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="30dp"
-            android:backgroundTint="@color/mtrl_on_primary_emphasis_high_type"
-            android:text="Siguiente"
-            android:theme="@style/Theme.MaterialComponents.Light"
-            app:icon="@android:drawable/ic_input_add"
-            app:iconPadding="20dp" />
-
-    </LinearLayout>
-
-
-</ScrollView>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

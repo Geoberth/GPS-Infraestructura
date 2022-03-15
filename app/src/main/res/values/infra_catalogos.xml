@@ -86,4 +86,10 @@
         <item>Otra</item>
     </string-array>
 
+    <string-array name="infra_catalogoaves">
+        <item>Pollo de engorda</item>
+        <item>Huevo para plato</item>
+    </string-array>
+
+
 </resources>

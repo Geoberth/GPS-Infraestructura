@@ -24,6 +24,9 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".Infra_Ave.Ave"
+            android:exported="false" />
+        <activity
             android:name=".Infra_Lecheros.lecheros1"
             android:exported="false" />
         <activity
