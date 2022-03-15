@@ -63,4 +63,27 @@
         <item>Pardo Suizo Americano</item>
     </string-array>
 
+    <string-array name="infra_sistemagranjas">
+        <item>Tecnificado</item>
+        <item>Semi-tecnificado</item>
+    </string-array>
+
+    <string-array name="infra_actividadporcino">
+        <item>Ciclo completo</item>
+        <item>Engorda</item>
+        <item>Producción de becerro</item>
+    </string-array>
+
+    <string-array name="infra_razaporcina">
+        <item>Chester white</item>
+        <item>Duroc</item>
+        <item>Hampshire</item>
+        <item>Landrace</item>
+        <item>Large White</item>
+        <item>Pietrain</item>
+        <item>Yorkshire</item>
+        <item>Cruza</item>
+        <item>Otra</item>
+    </string-array>
+
 </resources>

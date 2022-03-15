@@ -3,6 +3,7 @@
     <string-array name="selectproyect">
     <item>Centros de Sacrificio</item>
     <item>Corrales de Engorda</item>
+    <item>Granjas de Porcino</item>
     </string-array>
 
     <string name="relacion_proyecto">relaproyect</string>

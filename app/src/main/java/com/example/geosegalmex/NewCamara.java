@@ -23,6 +23,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.geosegalmex.Infra_Engorda.Engorda;
+import com.example.geosegalmex.Infra_Porcino.Porcino;
 import com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1;
 import com.example.geosegalmex.Liconsa.Liconsa;
 import com.example.geosegalmex.Liconsa2.LiconsaVerificacion;
@@ -275,6 +276,9 @@ public class NewCamara extends AppCompatActivity {
                                     }
                                     else if (General.Proyecto.equals("Corrales de Engorda")){
                                         startActivity(new Intent(getApplication(), Engorda.class));
+                                    }
+                                    else if (General.Proyecto.equals("Granjas de Porcino")){
+                                        startActivity(new Intent(getApplication(), Porcino.class));
                                     }
                                     else{
                                         startActivity(new Intent(getApplication(), IdentificacionCuestionario.class));

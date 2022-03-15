@@ -9399,6 +9399,23 @@
         <item>Pardo Suizo Europeo</item>
         <item>Brahman Rojo</item>
         <item>Pardo Suizo Americano</item>
+    </string-array><string-array name="infra_razaporcina">
+        <item>Chester white</item>
+        <item>Duroc</item>
+        <item>Hampshire</item>
+        <item>Landrace</item>
+        <item>Large White</item>
+        <item>Pietrain</item>
+        <item>Yorkshire</item>
+        <item>Cruza</item>
+        <item>Otra</item>
+    </string-array><string-array name="infra_sistemagranjas">
+        <item>Tecnificado</item>
+        <item>Semi-tecnificado</item>
+    </string-array><string-array name="infra_actividadporcino">
+        <item>Ciclo completo</item>
+        <item>Engorda</item>
+        <item>Producción de becerro</item>
     </string-array></file><file path="C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\res\values\lenguaoriginaria.xml" qualifiers=""><string-array name="combo_lengua">
          <item>Akateko</item>
          <item>amuzgo</item>
@@ -9842,6 +9859,7 @@
     </string-array></file><file path="C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\res\values\selectproyect.xml" qualifiers=""><string-array name="selectproyect">
     <item>Centros de Sacrificio</item>
     <item>Corrales de Engorda</item>
+    <item>Granjas de Porcino</item>
     </string-array><string name="relacion_proyecto">relaproyect</string></file><file path="C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\res\values\semillas_cultivo.xml" qualifiers=""><string-array name="semillas_cultivo">
         <item>Especifique el tipo de semilla</item>
         <item>Criolla propia</item>
@@ -10296,7 +10314,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
-    </style></file><file name="file_paths" path="C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\res\xml\file_paths.xml" qualifiers="" type="xml"/></source><source path="C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\build\generated\res\rs\debug"/><source path="C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
+    </style></file><file name="file_paths" path="C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\res\xml\file_paths.xml" qualifiers="" type="xml"/><file name="activity_porcino" path="C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\res\layout\activity_porcino.xml" qualifiers="" type="layout"/></source><source path="C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\build\generated\res\rs\debug"/><source path="C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
         <attr format="reference" name="buttonPanelSideLayout"/>
         <attr format="reference" name="listLayout"/>

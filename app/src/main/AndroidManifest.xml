@@ -24,6 +24,9 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".Infra_Porcino.Porcino"
+            android:exported="false" />
+        <activity
             android:name=".Infra_Sacrificio.Sacrificio_1"
             android:exported="false" />
         <activity
