@@ -1,19 +1,21 @@
-com/example/geosegalmex/PGBeneficiarioLeche/PGBeneficiarioLecheBD.java
- com.example.geosegalmex.PGBeneficiarioLeche.PGBeneficiarioLecheBD
-com/example/geosegalmex/Liconsa/Liconsa_bd.java
- com.example.geosegalmex.Liconsa.Liconsa_bd
+com/example/geosegalmex/PGBeneficiarioLeche/PGBeneficiarioLeche_bd.java
+ com.example.geosegalmex.PGBeneficiarioLeche.PGBeneficiarioLeche_bd
+com/example/geosegalmex/unidadcaracterizacionhortalizas/variables/VariblesGlobalesHortalizas.java
+ com.example.geosegalmex.unidadcaracterizacionhortalizas.variables.VariblesGlobalesHortalizas
 com/example/geosegalmex/drawer/fragment_drawer/bdusers/UtilidadesUsuarios.java
  com.example.geosegalmex.drawer.fragment_drawer.bdusers.UtilidadesUsuarios
 com/example/geosegalmex/caracterizacion/variables_caracterizacion/DatePickerFragment.java
  com.example.geosegalmex.caracterizacion.variables_caracterizacion.DatePickerFragment
+com/example/geosegalmex/Liconsa/Liconsa_bd.java
+ com.example.geosegalmex.Liconsa.Liconsa_bd
 com/example/geosegalmex/PGOperativoEstimulos/PGOperativoEstimulosBD.java
  com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulosBD
-com/example/geosegalmex/PARBeneficiario/PARBeneficiario_Model.java
- com.example.geosegalmex.PARBeneficiario.PARBeneficiario_Model
 com/example/geosegalmex/Pecuario/UtilidadesPecuario/UtilidadesPecuario.java
  com.example.geosegalmex.Pecuario.UtilidadesPecuario.UtilidadesPecuario
 com/example/geosegalmex/caracterizacion/variables_caracterizacion/VariablesModuloCuatro.java
  com.example.geosegalmex.caracterizacion.variables_caracterizacion.VariablesModuloCuatro
+com/example/geosegalmex/dbstorage/Georreferencia.java
+ com.example.geosegalmex.dbstorage.Georreferencia
 com/example/geosegalmex/unidadcaracterizacionhortalizas/db/DatabaseHelper.java
  com.example.geosegalmex.unidadcaracterizacionhortalizas.db.DatabaseHelper
 com/example/geosegalmex/frutales/dbfrutales/UtilidadesModuloSeis.java
@@ -26,8 +28,8 @@ com/example/geosegalmex/apicola/variables_apicola/UtilidadesModuloSiete.java
  com.example.geosegalmex.apicola.variables_apicola.UtilidadesModuloSiete
 com/example/geosegalmex/LiconsaBeneficiario/Pasl_b_Model.java
  com.example.geosegalmex.LiconsaBeneficiario.Pasl_b_Model
-com/example/geosegalmex/dbstorage/Georreferencia.java
- com.example.geosegalmex.dbstorage.Georreferencia
+com/example/geosegalmex/PGOperativoEstimulos/PGOperativoEstimulos_Model.java
+ com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos_Model
 com/example/geosegalmex/PGBeneficiariosGranosIncentivos/PGBeneficiariosGranosIncentivos_Model.java
  com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos_Model
 com/example/geosegalmex/drawer/fragment_drawer/bdusers/ModelUsuarios.java
@@ -36,106 +38,104 @@ com/example/geosegalmex/Productor/bd_prod/UtilidadesProductor.java
  com.example.geosegalmex.Productor.bd_prod.UtilidadesProductor
 com/example/geosegalmex/LiconsaBeneficiario/pasl_beneficiario_bd.java
  com.example.geosegalmex.LiconsaBeneficiario.pasl_beneficiario_bd
-com/example/geosegalmex/unidadcomercializacion/bdcomercializacion/VariablesGlobalesCmrz.java
- com.example.geosegalmex.unidadcomercializacion.bdcomercializacion.VariablesGlobalesCmrz
+com/example/geosegalmex/PAROperativo/PARoperativoBD.java
+ com.example.geosegalmex.PAROperativo.PARoperativoBD
 com/example/geosegalmex/drawer/fragment_drawer/bdmunicipios/ModelMunicipios.java
  com.example.geosegalmex.drawer.fragment_drawer.bdmunicipios.ModelMunicipios
 com/example/geosegalmex/unidadcaracterizacionhortalizas/model/MlTiempoRiego.java
  com.example.geosegalmex.unidadcaracterizacionhortalizas.model.MlTiempoRiego
-com/example/geosegalmex/apicola/variables_apicola/VariablesModuloSiete.java
- com.example.geosegalmex.apicola.variables_apicola.VariablesModuloSiete
-com/example/geosegalmex/PGBeneficiariosGranosIncentivos/PGBeneficiariosGranosIncentivos_bd.java
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos_bd
 com/example/geosegalmex/PAROperativo/PAR_operativo_model.java
  com.example.geosegalmex.PAROperativo.PAR_operativo_model
+com/example/geosegalmex/PGBeneficiariosGranosIncentivos/PGBeneficiariosGranosIncentivos_bd.java
+ com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos_bd
 com/example/geosegalmex/Pecuario/GlobalPecuario/GlobalPecuario.java
  com.example.geosegalmex.Pecuario.GlobalPecuario.GlobalPecuario
-com/example/geosegalmex/unidadcaracterizacionhortalizas/variables/VariblesGlobalesHortalizas.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.variables.VariblesGlobalesHortalizas
-com/example/geosegalmex/unidadproduccion/variables/UtilidadesModuloTres.java
- com.example.geosegalmex.unidadproduccion.variables.UtilidadesModuloTres
+com/example/geosegalmex/PGOperativoLeche/PGOperativoLecheBD.java
+ com.example.geosegalmex.PGOperativoLeche.PGOperativoLecheBD
+com/example/geosegalmex/BuildConfig.java
+ com.example.geosegalmex.BuildConfig
 com/example/geosegalmex/PGOperativoEstimulos/PGOperativoEstimulos_bd.java
  com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos_bd
+com/example/geosegalmex/LiconsaVentanilla/Pasl_o_Model.java
+ com.example.geosegalmex.LiconsaVentanilla.Pasl_o_Model
 com/example/geosegalmex/PGOperativoLeche/PGOperativoLeche_Model.java
  com.example.geosegalmex.PGOperativoLeche.PGOperativoLeche_Model
-com/example/geosegalmex/PGBeneficiarioLeche/PGBeneficiarioLeche_bd.java
- com.example.geosegalmex.PGBeneficiarioLeche.PGBeneficiarioLeche_bd
-com/example/geosegalmex/Gps/Trayectoria.java
- com.example.geosegalmex.Gps.Trayectoria
-com/example/geosegalmex/PGBeneficiarioLeche/PGBeneficiarioLeche_Model.java
- com.example.geosegalmex.PGBeneficiarioLeche.PGBeneficiarioLeche_Model
+com/example/geosegalmex/PGBeneficiarioLeche/PGBeneficiarioLecheBD.java
+ com.example.geosegalmex.PGBeneficiarioLeche.PGBeneficiarioLecheBD
+com/example/geosegalmex/PGBeneficiarioGranos/PGB_granos_bd.java
+ com.example.geosegalmex.PGBeneficiarioGranos.PGB_granos_bd
 com/example/geosegalmex/dbstorage/Coordenadas.java
  com.example.geosegalmex.dbstorage.Coordenadas
+com/example/geosegalmex/LiconsaVentanilla/pasl_operativo_bd.java
+ com.example.geosegalmex.LiconsaVentanilla.pasl_operativo_bd
 com/example/geosegalmex/General.java
  com.example.geosegalmex.General
-com/example/geosegalmex/PGOperativoGranos/PGOperativoGranosBD.java
- com.example.geosegalmex.PGOperativoGranos.PGOperativoGranosBD
+com/example/geosegalmex/unidadproduccion/variables/UtilidadesModuloTres.java
+ com.example.geosegalmex.unidadproduccion.variables.UtilidadesModuloTres
 com/example/geosegalmex/Liconsa2/LiconsaVerificacion_Model.java
  com.example.geosegalmex.Liconsa2.LiconsaVerificacion_Model
 com/example/geosegalmex/unidadcaracterizacionhortalizas/db/UtilidadesModuloCinco.java
  com.example.geosegalmex.unidadcaracterizacionhortalizas.db.UtilidadesModuloCinco
-com/example/geosegalmex/unidadproduccion/variables/VariablesGlobalesUpf.java
- com.example.geosegalmex.unidadproduccion.variables.VariablesGlobalesUpf
+com/example/geosegalmex/PGBeneficiarioGranos/PGB_granos_model.java
+ com.example.geosegalmex.PGBeneficiarioGranos.PGB_granos_model
 com/example/geosegalmex/Liconsa/Liconsa_Model.java
  com.example.geosegalmex.Liconsa.Liconsa_Model
-com/example/geosegalmex/PGBeneficiarioGranos/PGB_granos_bd.java
- com.example.geosegalmex.PGBeneficiarioGranos.PGB_granos_bd
+com/example/geosegalmex/Georeferencia/Utilidades.java
+ com.example.geosegalmex.Georeferencia.Utilidades
 com/example/geosegalmex/LiconsaVentanilla/PASLoperativoBD.java
  com.example.geosegalmex.LiconsaVentanilla.PASLoperativoBD
 com/example/geosegalmex/PARBeneficiario/PARBeneficiarioBD.java
  com.example.geosegalmex.PARBeneficiario.PARBeneficiarioBD
 com/example/geosegalmex/PGOperativoLeche/PGOperativoLeche_bd.java
  com.example.geosegalmex.PGOperativoLeche.PGOperativoLeche_bd
-com/example/geosegalmex/Georeferencia/Utilidades.java
- com.example.geosegalmex.Georeferencia.Utilidades
+com/example/geosegalmex/drawer/fragment_drawer/bdmunicipios/UtilidadesEdoMunicipios.java
+ com.example.geosegalmex.drawer.fragment_drawer.bdmunicipios.UtilidadesEdoMunicipios
 com/example/geosegalmex/frutales/dbfrutales/VariablesFrutales.java
  com.example.geosegalmex.frutales.dbfrutales.VariablesFrutales
 com/example/geosegalmex/PGOperativoGranos/PGOperativoGranos_bd.java
  com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos_bd
-com/example/geosegalmex/drawer/fragment_drawer/bdmunicipios/UtilidadesEdoMunicipios.java
- com.example.geosegalmex.drawer.fragment_drawer.bdmunicipios.UtilidadesEdoMunicipios
+com/example/geosegalmex/Gps/Trayectoria.java
+ com.example.geosegalmex.Gps.Trayectoria
 com/example/geosegalmex/PGBeneficiariosGranosIncentivos/PGBeneficiariosGranosIncentivosBD.java
  com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivosBD
 com/example/geosegalmex/PAROperativo/PAR_operativo_bd.java
  com.example.geosegalmex.PAROperativo.PAR_operativo_bd
-com/example/geosegalmex/PGBeneficiarioGranos/PGB_granos_model.java
- com.example.geosegalmex.PGBeneficiarioGranos.PGB_granos_model
+com/example/geosegalmex/PGBeneficiarioLeche/PGBeneficiarioLeche_Model.java
+ com.example.geosegalmex.PGBeneficiarioLeche.PGBeneficiarioLeche_Model
 com/example/geosegalmex/caracterizacion/variables_caracterizacion/ConservaGranos.java
  com.example.geosegalmex.caracterizacion.variables_caracterizacion.ConservaGranos
-com/example/geosegalmex/BuildConfig.java
- com.example.geosegalmex.BuildConfig
-com/example/geosegalmex/PARBeneficiario/PARBeneficiario_bd.java
- com.example.geosegalmex.PARBeneficiario.PARBeneficiario_bd
+com/example/geosegalmex/apicola/variables_apicola/VariablesModuloSiete.java
+ com.example.geosegalmex.apicola.variables_apicola.VariablesModuloSiete
+com/example/geosegalmex/PGOperativoGranos/PGOperativoGranos_Model.java
+ com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos_Model
 com/example/geosegalmex/Gps/UtilidadesTrayectoria.java
  com.example.geosegalmex.Gps.UtilidadesTrayectoria
-com/example/geosegalmex/PAROperativo/PARoperativoBD.java
- com.example.geosegalmex.PAROperativo.PARoperativoBD
 com/example/geosegalmex/Liconsa2/LiconsaVerificacion_bd.java
  com.example.geosegalmex.Liconsa2.LiconsaVerificacion_bd
+com/example/geosegalmex/unidadcomercializacion/bdcomercializacion/VariablesGlobalesCmrz.java
+ com.example.geosegalmex.unidadcomercializacion.bdcomercializacion.VariablesGlobalesCmrz
 com/example/geosegalmex/caracterizacion/variables_caracterizacion/ActividadesCosecha.java
  com.example.geosegalmex.caracterizacion.variables_caracterizacion.ActividadesCosecha
-com/example/geosegalmex/LiconsaVentanilla/Pasl_o_Model.java
- com.example.geosegalmex.LiconsaVentanilla.Pasl_o_Model
 com/example/geosegalmex/PGBeneficiarioGranos/PGBgranosBD.java
  com.example.geosegalmex.PGBeneficiarioGranos.PGBgranosBD
 com/example/geosegalmex/caracterizacion/variables_caracterizacion/UtilidadesModuloCuatro.java
  com.example.geosegalmex.caracterizacion.variables_caracterizacion.UtilidadesModuloCuatro
-com/example/geosegalmex/PGOperativoEstimulos/PGOperativoEstimulos_Model.java
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos_Model
-com/example/geosegalmex/LiconsaVentanilla/pasl_operativo_bd.java
- com.example.geosegalmex.LiconsaVentanilla.pasl_operativo_bd
+com/example/geosegalmex/PARBeneficiario/PARBeneficiario_Model.java
+ com.example.geosegalmex.PARBeneficiario.PARBeneficiario_Model
+com/example/geosegalmex/PGOperativoGranos/PGOperativoGranosBD.java
+ com.example.geosegalmex.PGOperativoGranos.PGOperativoGranosBD
+com/example/geosegalmex/PARBeneficiario/PARBeneficiario_bd.java
+ com.example.geosegalmex.PARBeneficiario.PARBeneficiario_bd
 com/example/geosegalmex/unidadcomercializacion/bdcomercializacion/UtilidadesModuloDiez.java
  com.example.geosegalmex.unidadcomercializacion.bdcomercializacion.UtilidadesModuloDiez
-com/example/geosegalmex/PGOperativoLeche/PGOperativoLecheBD.java
- com.example.geosegalmex.PGOperativoLeche.PGOperativoLecheBD
+com/example/geosegalmex/unidadproduccion/variables/VariablesGlobalesUpf.java
+ com.example.geosegalmex.unidadproduccion.variables.VariablesGlobalesUpf
 com/example/geosegalmex/unidadproduccion/model/ActividadAgricola.java
  com.example.geosegalmex.unidadproduccion.model.ActividadAgricola
 com/example/geosegalmex/Liconsa2/LiconsaVerificacionBD.java
  com.example.geosegalmex.Liconsa2.LiconsaVerificacionBD
 com/example/geosegalmex/drawer/fragment_drawer/bdmunicipios/VolleySingleton.java
  com.example.geosegalmex.drawer.fragment_drawer.bdmunicipios.VolleySingleton
-com/example/geosegalmex/PGOperativoGranos/PGOperativoGranos_Model.java
- com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos_Model
 com/example/geosegalmex/unidadcaracterizacionhortalizas/CosechaB.java
  com.example.geosegalmex.unidadcaracterizacionhortalizas.CosechaB
  com.example.geosegalmex.unidadcaracterizacionhortalizas.CosechaB$1
@@ -213,6 +213,8 @@ com/example/geosegalmex/Infra_Porcino/Porcino.java
 com/example/geosegalmex/Principal.java
  com.example.geosegalmex.Principal
  com.example.geosegalmex.Principal$1
+com/example/geosegalmex/Infra_Lecheros/lecheros1.java
+ com.example.geosegalmex.Infra_Lecheros.lecheros1
 com/example/geosegalmex/caracterizacion/ciclo_caracterizacion9.java
  com.example.geosegalmex.caracterizacion.ciclo_caracterizacion9
  com.example.geosegalmex.caracterizacion.ciclo_caracterizacion9$1
@@ -626,16 +628,11 @@ com/example/geosegalmex/unidadcaracterizacionhortalizas/ControlPlagasEnfermB.jav
  com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnfermB
  com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnfermB$1
  com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnfermB$2
-com/example/geosegalmex/NewCamara.java
- com.example.geosegalmex.NewCamara
- com.example.geosegalmex.NewCamara$1
- com.example.geosegalmex.NewCamara$1$1
- com.example.geosegalmex.NewCamara$2
- com.example.geosegalmex.NewCamara$2$1
- com.example.geosegalmex.NewCamara$3
- com.example.geosegalmex.NewCamara$3$1
- com.example.geosegalmex.NewCamara$4
- com.example.geosegalmex.NewCamara$4$1
+com/example/geosegalmex/PGOperativoEstimulos/PGOperativoEstimulos.java
+ com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos
+ com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$1
+ com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$2
+ com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$3
 com/example/geosegalmex/frutales/frutales_2.java
  com.example.geosegalmex.frutales.frutales_2
  com.example.geosegalmex.frutales.frutales_2$1
@@ -672,20 +669,9 @@ com/example/geosegalmex/Pecuario/PecuarioInicio.java
  com.example.geosegalmex.Pecuario.PecuarioInicio$3
  com.example.geosegalmex.Pecuario.PecuarioInicio$4
  com.example.geosegalmex.Pecuario.PecuarioInicio$5
-com/example/geosegalmex/Gps/GpsEnableb.java
- com.example.geosegalmex.Gps.GpsEnableb
- com.example.geosegalmex.Gps.GpsEnableb$1
- com.example.geosegalmex.Gps.GpsEnableb$2
- com.example.geosegalmex.Gps.GpsEnableb$3
- com.example.geosegalmex.Gps.GpsEnableb$4
- com.example.geosegalmex.Gps.GpsEnableb$4$1
- com.example.geosegalmex.Gps.GpsEnableb$4$1$1
- com.example.geosegalmex.Gps.GpsEnableb$4$1$1$1
- com.example.geosegalmex.Gps.GpsEnableb$4$1$1$1$1
- com.example.geosegalmex.Gps.GpsEnableb$5
- com.example.geosegalmex.Gps.GpsEnableb$6
- com.example.geosegalmex.Gps.GpsEnableb$7
- com.example.geosegalmex.Gps.GpsEnableb$7$1
+com/example/geosegalmex/unidadcomercializacion/Apicultura_3.java
+ com.example.geosegalmex.unidadcomercializacion.Apicultura_3
+ com.example.geosegalmex.unidadcomercializacion.Apicultura_3$1
 com/example/geosegalmex/unidadcaracterizacionhortalizas/FertilizanteSi.java
  com.example.geosegalmex.unidadcaracterizacionhortalizas.FertilizanteSi
  com.example.geosegalmex.unidadcaracterizacionhortalizas.FertilizanteSi$1
@@ -832,11 +818,27 @@ com/example/geosegalmex/Pecuario/PecuarioReproduccionGenetica.java
 com/example/geosegalmex/Pecuario/PecuarioAlimentacionGanado.java
  com.example.geosegalmex.Pecuario.PecuarioAlimentacionGanado
  com.example.geosegalmex.Pecuario.PecuarioAlimentacionGanado$1
-com/example/geosegalmex/unidadcomercializacion/Apicultura_3.java
- com.example.geosegalmex.unidadcomercializacion.Apicultura_3
- com.example.geosegalmex.unidadcomercializacion.Apicultura_3$1
-com/example/geosegalmex/PGOperativoEstimulos/PGOperativoEstimulos.java
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$1
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$2
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$3
+com/example/geosegalmex/NewCamara.java
+ com.example.geosegalmex.NewCamara
+ com.example.geosegalmex.NewCamara$1
+ com.example.geosegalmex.NewCamara$1$1
+ com.example.geosegalmex.NewCamara$2
+ com.example.geosegalmex.NewCamara$2$1
+ com.example.geosegalmex.NewCamara$3
+ com.example.geosegalmex.NewCamara$3$1
+ com.example.geosegalmex.NewCamara$4
+ com.example.geosegalmex.NewCamara$4$1
+com/example/geosegalmex/Gps/GpsEnableb.java
+ com.example.geosegalmex.Gps.GpsEnableb
+ com.example.geosegalmex.Gps.GpsEnableb$1
+ com.example.geosegalmex.Gps.GpsEnableb$2
+ com.example.geosegalmex.Gps.GpsEnableb$3
+ com.example.geosegalmex.Gps.GpsEnableb$4
+ com.example.geosegalmex.Gps.GpsEnableb$4$1
+ com.example.geosegalmex.Gps.GpsEnableb$4$1$1
+ com.example.geosegalmex.Gps.GpsEnableb$4$1$1$1
+ com.example.geosegalmex.Gps.GpsEnableb$4$1$1$1$1
+ com.example.geosegalmex.Gps.GpsEnableb$5
+ com.example.geosegalmex.Gps.GpsEnableb$6
+ com.example.geosegalmex.Gps.GpsEnableb$7
+ com.example.geosegalmex.Gps.GpsEnableb$7$1

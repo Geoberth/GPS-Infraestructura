@@ -13,4 +13,24 @@
     </string-array>
 
 
+    <string-array name="razas_leche">
+        <item>Girolando</item>
+        <item>Gyr</item>
+        <item>Holstein Friesian</item>
+        <item>Jersey</item>
+        <item>Montbeliarde</item>
+        <item>Pardo suizo</item>
+        <item>Sardo Negro</item>
+        <item>Simmental</item>
+        <item>Cruza</item>
+        <item>Otra</item>
+    </string-array>
+
+
+    <string-array name="ordeña_leche">
+        <item>Manual</item>
+        <item>Mecanizada</item>
+    </string-array>
+
+
 </resources>

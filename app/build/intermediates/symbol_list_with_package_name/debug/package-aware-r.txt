@@ -188,6 +188,7 @@ array min
 array mod_uso
 array modalidad
 array modalidad_esti
+array ordeña_leche
 array ovino_raza
 array predio_esti
 array preparacion_suelo
@@ -201,6 +202,7 @@ array producto_apicola
 array productos
 array proteccion_apicola
 array pueblo_originario
+array razas_leche
 array responde
 array sacri_estatus
 array selectproyect
@@ -3986,6 +3988,14 @@ id latitudeValueGPS
 id layout
 id layout1
 id layoutApOrgan
+id lech1
+id lech10
+id lech2
+id lech4
+id lech5
+id lech6o
+id lech7
+id lech9
 id leche
 id leche_bovino_no
 id leche_bovino_rg_tresdos
@@ -6138,6 +6148,9 @@ id spdia2
 id sphora
 id sphora2
 id spi_edo
+id spi_lech3
+id spi_lech6
+id spi_lech8
 id spi_mun
 id spicobertura
 id spicobertura2
@@ -6707,6 +6720,7 @@ layout activity_integrante_familia
 layout activity_inventario_gan_bovino_leche
 layout activity_inventario_gan_caprino
 layout activity_inventario_ganado_ovino
+layout activity_lecheros1
 layout activity_liconsa
 layout activity_liconsa_verificacion
 layout activity_manejo_apicola

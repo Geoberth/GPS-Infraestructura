@@ -29,13 +29,16 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/icononor2"
-        android:label="GEOSEGALMEX"
+        android:label="INFRAESTRUCTURA"
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/icononor2"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.example.geosegalmex.Infra_Lecheros.lecheros1"
+            android:exported="false" />
         <activity
             android:name="com.example.geosegalmex.Infra_Porcino.Porcino"
             android:exported="false" />
