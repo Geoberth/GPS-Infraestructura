@@ -16,6 +16,8 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.geosegalmex.General;
+import com.example.geosegalmex.Infra_Engorda.EngordaBD;
+import com.example.geosegalmex.Infra_Engorda.Engorda_Model;
 import com.example.geosegalmex.Liconsa.LiconsaBD;
 import com.example.geosegalmex.Liconsa.Liconsa_Model;
 import com.example.geosegalmex.Liconsa2.LiconsaVerificacionBD;
@@ -74,18 +76,7 @@ public class GeoreferenciaActivity extends AppCompatActivity  implements OnMapRe
     private com.example.geosegalmex.unidadcaracterizacionhortalizas.db.DatabaseHelper db;
     private List<Georreferencia> georreferenciaList;
 
-    Pasl_o_Model model;
-    Pasl_b_Model model2;
-    PGOperativoEstimulos_Model model3;
-    PGOperativoGranos_Model model4;
-    PGOperativoLeche_Model model5;
-    PGB_granos_model model6;
-    PGBeneficiarioLeche_Model model7;
-    PARBeneficiario_Model model8;
-    Liconsa_Model model9;
-    PAR_operativo_model model10;
-    LiconsaVerificacion_Model model11;
-    PGBeneficiariosGranosIncentivos_Model model12;
+    Engorda_Model model;
 
     String longitudGeo="";
     String latitudGeo="";
@@ -116,41 +107,11 @@ public class GeoreferenciaActivity extends AppCompatActivity  implements OnMapRe
         fabGeoMapa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(General.Proyecto.equals("PASL Operativo")){
-                    agregarPASLoperativo();
+                if(General.Proyecto.equals("Corrales de Engorda")){
+                    agregarEngorda();
                 }
                 else if(General.Proyecto.equals("PASL Beneficiario")){
-                    agregarPASLbeneficiario();
-                }
-                else if(General.Proyecto.equals("PG Operativo Estimulos")){
-                    agregarPGOperativoEstimulos();
-                }
-                else if(General.Proyecto.equals("PG Operativo Granos")){
-                    agregarPGOperativoGranos();
-                }
-                else if(General.Proyecto.equals("PG Operativo Leche")){
-                    agregarPGOperativoLeche();
-                }
-                else if(General.Proyecto.equals("PG Beneficiario Granos")){
-                    agregarPGBeneficiarioGranos();
-                }
-                else if(General.Proyecto.equals("PG Beneficiario Estimulos")){
-                    agregarPGBeneficiarioGranosIncentivos();
-                }
-                else if(General.Proyecto.equals("PG Beneficiario Leche")){
-                    agregarPGBeneficiarioLeche();
-                }
-                else if(General.Proyecto.equals("PAR Beneficiario")){
-                    agregarPARBeneficiario();
-                }
-                else if(General.Proyecto.equals("RNPL Productor")){
-                    agregarRNPLProductor();
-                }
-                else if(General.Proyecto.equals("PAR Operativo")){
-                    agregarPAROperativo();
-                }
-                else if(General.Proyecto.equals("RNPL Expediente")){
-                    agregarRNPLExpediente();
+                    agregarEngorda();
                 }
 
                 finish();
@@ -262,7 +223,7 @@ public class GeoreferenciaActivity extends AppCompatActivity  implements OnMapRe
 
     }
 
-    private void agregarPASLoperativo() {
+    private void agregarEngorda() {
         if(bandera == 2){
             longitudGeo = General.Lonini;
             latitudGeo = General.Latini;
@@ -272,326 +233,21 @@ public class GeoreferenciaActivity extends AppCompatActivity  implements OnMapRe
             latitudGeo = General.Latini;
         }
 
-        model = new Pasl_o_Model();
-        model = (Pasl_o_Model)getIntent().getSerializableExtra("model");
-        model.setLongitudGeo(longitudGeo);
-        model.setLatitudGeo(latitudGeo);
+        model = new Engorda_Model();
+        model = (Engorda_Model)getIntent().getSerializableExtra("model");
+        model.setLongitud(longitudGeo);
+        model.setLatitud(latitudGeo);
 
-        PASLoperativoBD baseBD;
-        baseBD = new PASLoperativoBD(this);
+        EngordaBD baseBD;
+        baseBD = new EngordaBD(this);
 
-        boolean insertarData = baseBD.addPASLoperativo(model);
-        if(insertarData == true) {
-            Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
-        }else{
-            Toast.makeText(this, "Error al guardar", Toast.LENGTH_LONG).show();
-        }
-
-        /* Toast.makeText(getApplicationContext(), "Folio: " + model.getFolio() + "\n Fecha: " + model.getFecha() + "\n Nombre: " + model.getNombre() + "\n Apaterno: " + model.getApaterno()
-                + "\n Amaterno: " + model.getAmaterno() + "\n Sexo: " + model.getSexo()  + "\n Edad: " + model.getEdad()  + "\n Tiempo: " + model.getTiempo()
-                + "\n Uno: " + model.getUno() + "\n Dos: " + model.getDos() + "\n Tres: " + model.getTres() + "\n Cuatro: " + model.getCuatro() + "\n Cinco: " + model.getCinco()
-                + "\n Seis: " + model.getSeis() + "\n Siete: " + model.getSiete() + "\n Ocho: " + model.getOcho() + "\n Nueve: " + model.getNueve()
-                + "\n Diez: " + model.getDiez() + "\n Once: " + model.getOnce() + "\n Doce: " + model.getDoce() + "\n Doce_Obs: " + model.getDoce_bservaciones() + "\n Trece: " + model.getTrece()
-                + "\n Longitud: " + model.getLongitudGeo() + "\n Latitud: " + model.getLatitudGeo(),Toast.LENGTH_SHORT).show();*/
-
-    }
-
-    private void agregarPASLbeneficiario() {
-        if(bandera == 2){
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-        else{
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-
-        model2 = new Pasl_b_Model();
-        model2 = (Pasl_b_Model)getIntent().getSerializableExtra("model");
-        model2.setLongitudGeo(longitudGeo);
-        model2.setLatitudGeo(latitudGeo);
-
-        PASLbeneficiarioBD baseBD;
-        baseBD = new PASLbeneficiarioBD(this);
-
-        boolean insertarData = baseBD.addPASLbeneficiario(model2);
-        if(insertarData == true) {
-            Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
-        }else{
-            Toast.makeText(this, "Error al guardar", Toast.LENGTH_LONG).show();
-        }
-
-        /*Toast.makeText(getApplicationContext(), "" + model.getResponde() + "\n" + model.getBeneficiarios() + "\n" + model.getUno() + "\n" + model.getDos() + "\n" + model.getTres()
-                            + "\n" + model.getCuatro() + "\n" + model.getCinco() + "\n" + model.getSeis() + "\n" + model.getSiete() + "\n" + model.getOcho() + "\n" + model.getNueve()
-                            + "\n" + model.getDiez() + "\n" + model.getOnce() + "\n" + model.getDoce() + "\n" + model.getTrece() + "\n" + model.getCatorce() + "\n" + model.getCatorceotrasespecificacion()
-                            + "\n" + model.getQuince() + "\n" + model.getDieciseis(), Toast.LENGTH_SHORT).show();*/
-
-
-    }
-
-    private void agregarPGOperativoEstimulos() {
-        if(bandera == 2){
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-        else{
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-
-        model3 = new PGOperativoEstimulos_Model();
-        model3 = (PGOperativoEstimulos_Model)getIntent().getSerializableExtra("model");
-        model3.setLongitudGeo(longitudGeo);
-        model3.setLatitudGeo(latitudGeo);
-
-        PGOperativoEstimulosBD baseBD;
-        baseBD = new PGOperativoEstimulosBD(this);
-
-        boolean insertarData = baseBD.addPGOperativoEstimulos(model3);
+        boolean insertarData = baseBD.addEngorda(model);
         if(insertarData == true) {
             Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
         }else{
             Toast.makeText(this, "Error al guardar", Toast.LENGTH_LONG).show();
         }
     }
-
-    private void agregarPGOperativoGranos() {
-        if(bandera == 2){
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-        else{
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-
-        model4 = new PGOperativoGranos_Model();
-        model4 = (PGOperativoGranos_Model)getIntent().getSerializableExtra("model");
-        model4.setLongitudGeo(longitudGeo);
-        model4.setLatitudGeo(latitudGeo);
-
-        PGOperativoGranosBD baseBD;
-        baseBD = new PGOperativoGranosBD(this);
-
-        boolean insertarData = baseBD.addPGOperativoGranos(model4);
-        if(insertarData == true) {
-            Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
-        }else{
-            Toast.makeText(this, "Error al guardar", Toast.LENGTH_LONG).show();
-        }
-    }
-
-    private void agregarPGOperativoLeche() {
-        if(bandera == 2){
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-        else{
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-
-        model5 = new PGOperativoLeche_Model();
-        model5 = (PGOperativoLeche_Model)getIntent().getSerializableExtra("model");
-        model5.setLongitudGeo(longitudGeo);
-        model5.setLatitudGeo(latitudGeo);
-
-        PGOperativoLecheBD baseBD;
-        baseBD = new PGOperativoLecheBD(this);
-
-        boolean insertarData = baseBD.addPGOperativoLeche(model5);
-        if(insertarData == true) {
-            Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
-        }else{
-            Toast.makeText(this, "Error al guardar", Toast.LENGTH_LONG).show();
-        }
-    }
-
-    private void agregarPGBeneficiarioGranos() {
-        if(bandera == 2){
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-        else{
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-
-        model6 = new PGB_granos_model();
-        model6 = (PGB_granos_model)getIntent().getSerializableExtra("model");
-        model6.setLongitudGeo(longitudGeo);
-        model6.setLatitudGeo(latitudGeo);
-
-        PGBgranosBD baseBD;
-        baseBD = new PGBgranosBD(this);
-
-        boolean insertarData = baseBD.addPGBeneficiarioGranos(model6);
-        if(insertarData == true) {
-            Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
-        }else{
-            Toast.makeText(this, "Error al guardar", Toast.LENGTH_LONG).show();
-        }
-    }
-
-    private void agregarPGBeneficiarioLeche() {
-        if(bandera == 2){
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-        else{
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-
-        model7 = new PGBeneficiarioLeche_Model();
-        model7 = (PGBeneficiarioLeche_Model)getIntent().getSerializableExtra("model");
-        model7.setLongitudGeo(longitudGeo);
-        model7.setLatitudGeo(latitudGeo);
-
-        PGBeneficiarioLecheBD baseBD;
-        baseBD = new PGBeneficiarioLecheBD(this);
-
-        boolean insertarData = baseBD.addPGBeneficiarioLeche(model7);
-        if(insertarData == true) {
-            Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
-        }else{
-            Toast.makeText(this, "Error al guardar", Toast.LENGTH_LONG).show();
-        }
-    }
-
-    private void agregarPARBeneficiario() {
-        if(bandera == 2){
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-        else{
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-
-        model8 = new PARBeneficiario_Model();
-        model8 = (PARBeneficiario_Model)getIntent().getSerializableExtra("model");
-        model8.setLongitudGeo(longitudGeo);
-        model8.setLatitudGeo(latitudGeo);
-
-        PARBeneficiarioBD baseBD;
-        baseBD = new PARBeneficiarioBD(this);
-
-        boolean insertarData = baseBD.addPARBeneficiario(model8);
-        if(insertarData == true) {
-            Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
-        }else{
-            Toast.makeText(this, "Error al guardar", Toast.LENGTH_LONG).show();
-        }
-    }
-
-    private void agregarRNPLProductor() {
-        if(bandera == 2){
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-        else{
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-
-        model9 = new Liconsa_Model();
-        model9 = (Liconsa_Model)getIntent().getSerializableExtra("model");
-        model9.setLongitudGeo(longitudGeo);
-        model9.setLatitudGeo(latitudGeo);
-
-        LiconsaBD baseBD;
-        baseBD = new LiconsaBD(this);
-
-        boolean insertarData = baseBD.addRNPLProductor(model9);
-        if(insertarData == true) {
-            Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
-        }else{
-            Toast.makeText(this, "Error al guardar", Toast.LENGTH_LONG).show();
-        }
-    }
-
-    private void agregarPAROperativo() {
-        if(bandera == 2){
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-        else{
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-
-        model10 = new PAR_operativo_model();
-        model10 = (PAR_operativo_model)getIntent().getSerializableExtra("model");
-        model10.setLongitudGeo(longitudGeo);
-        model10.setLatitudGeo(latitudGeo);
-
-        PARoperativoBD baseBD;
-        baseBD = new PARoperativoBD(this);
-
-        boolean insertarData = baseBD.addPAR_Operativo(model10);
-        if(insertarData == true) {
-            Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
-        }else{
-            Toast.makeText(this, "Error al guardar", Toast.LENGTH_LONG).show();
-        }
-    }
-
-    private void agregarRNPLExpediente() {
-        if(bandera == 2){
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-        else{
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-
-        model11 = new LiconsaVerificacion_Model();
-        model11 = (LiconsaVerificacion_Model)getIntent().getSerializableExtra("model");
-        model11.setLongitudGeo(longitudGeo);
-        model11.setLatitudGeo(latitudGeo);
-
-        LiconsaVerificacionBD baseBD;
-        baseBD = new LiconsaVerificacionBD(this);
-
-        boolean insertarData = baseBD.addRNPLExpediente(model11);
-        if(insertarData == true) {
-            Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
-        }else{
-            Toast.makeText(this, "Error al guardar", Toast.LENGTH_LONG).show();
-        }
-    }
-
-    private void agregarPGBeneficiarioGranosIncentivos() {
-        if(bandera == 2){
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-        else{
-            longitudGeo = General.Lonini;
-            latitudGeo = General.Latini;
-        }
-
-        model12 = new PGBeneficiariosGranosIncentivos_Model();
-        model12 = (PGBeneficiariosGranosIncentivos_Model)getIntent().getSerializableExtra("model");
-        model12.setLongitudGeo(longitudGeo);
-        model12.setLatitudGeo(latitudGeo);
-
-        PGBeneficiariosGranosIncentivosBD baseBD;
-        baseBD = new PGBeneficiariosGranosIncentivosBD(this);
-
-        boolean insertarData = baseBD.addPGBeneficiarioGranosIncentivos(model12);
-        if(insertarData == true) {
-            Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
-        }else{
-            Toast.makeText(this, "Error al guardar", Toast.LENGTH_LONG).show();
-        }
-    }
-
-
-
-
 
     private void agregarGoerreferencia(String brigadistaGeo, String productorGeo, String longitudGeoGeo, String latitudGeoGeo, String horaActual, String fechaActual, int status) {
 

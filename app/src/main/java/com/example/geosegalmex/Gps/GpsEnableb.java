@@ -30,6 +30,7 @@ import android.widget.Toast;
 import com.example.geosegalmex.Firma;
 import com.example.geosegalmex.General;
 import com.example.geosegalmex.IdentificacionCuestionario;
+import com.example.geosegalmex.Infra_Engorda.EngordaBD;
 import com.example.geosegalmex.Liconsa.LiconsaBD;
 import com.example.geosegalmex.Liconsa2.LiconsaVerificacion;
 import com.example.geosegalmex.Liconsa2.LiconsaVerificacionBD;
@@ -377,9 +378,9 @@ public class GpsEnableb extends AppCompatActivity {
     private void aggTrayectoriaGpsSave(String folioPro, String folioBrig, String longGpsSave, String latiGpsSave, String horaActl, String fechaActl) {
         String proy = proyecto.getSelectedItem().toString();
 
-        if(proy.equals("PASL Operativo")){
-            PASLoperativoBD db;
-            db = new PASLoperativoBD(this);
+        if(proy.equals("Corrales de Engorda")){
+            EngordaBD db;
+            db = new EngordaBD(this);
             boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
             db.close();
             if(insertarData == true) {
@@ -389,99 +390,6 @@ public class GpsEnableb extends AppCompatActivity {
         else if(proy.equals("PASL Beneficiario")){
             PASLbeneficiarioBD db;
             db = new PASLbeneficiarioBD(this);
-            boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
-            db.close();
-            if(insertarData == true) {
-            }else{
-            }
-        }
-        else if(proy.equals("PG Operativo Estimulos")){
-            PGOperativoEstimulosBD db;
-            db = new PGOperativoEstimulosBD(this);
-            boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
-            db.close();
-            if(insertarData == true) {
-            }else{
-            }
-        }
-        else if(proy.equals("PG Operativo Granos")){
-            PGOperativoGranosBD db;
-            db = new PGOperativoGranosBD(this);
-            boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
-            db.close();
-            if(insertarData == true) {
-            }else{
-            }
-        }
-        else if(proy.equals("PG Beneficiario Granos")){
-            PGBgranosBD db;
-            db = new PGBgranosBD(this);
-            boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
-            db.close();
-            if(insertarData == true) {
-            }else{
-            }
-        }
-        else if(proy.equals("PG Operativo Leche")){
-            PGOperativoLecheBD db;
-            db = new PGOperativoLecheBD(this);
-            boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
-            db.close();
-            if(insertarData == true) {
-            }else{
-            }
-        }
-        else if(proy.equals("PG Beneficiario Leche")){
-            PGBeneficiarioLecheBD db;
-            db = new PGBeneficiarioLecheBD(this);
-            boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
-            db.close();
-            if(insertarData == true) {
-            }else{
-            }
-        }
-        else if(proy.equals("PAR Beneficiario")){
-            PARBeneficiarioBD db;
-            db = new PARBeneficiarioBD(this);
-            boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
-            db.close();
-            if(insertarData == true) {
-            }else{
-            }
-        }
-        else if(proy.equals("RNPL Productor")){
-            LiconsaBD db;
-            db = new LiconsaBD(this);
-            boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
-            db.close();
-            if(insertarData == true) {
-            }else{
-            }
-        }
-
-        else if(proy.equals("PAR Operativo")){
-            PARoperativoBD db;
-            db = new PARoperativoBD(this);
-            boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
-            db.close();
-            if(insertarData == true) {
-            }else{
-            }
-        }
-
-        else if(proy.equals("RNPL Expediente")){
-            LiconsaVerificacionBD db;
-            db = new LiconsaVerificacionBD(this);
-            boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
-            db.close();
-            if(insertarData == true) {
-            }else{
-            }
-        }
-
-        else if(proy.equals("PG Beneficiario Estimulos")){
-            PGBeneficiariosGranosIncentivosBD db;
-            db = new PGBeneficiariosGranosIncentivosBD(this);
             boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
             db.close();
             if(insertarData == true) {
