@@ -12,7 +12,6 @@ import android.widget.TextView;
 
 import com.example.geosegalmex.General;
 import com.example.geosegalmex.Georeferencia.GeoreferenciaActivity;
-import com.example.geosegalmex.Infra_Engorda.Engorda;
 import com.example.geosegalmex.R;
 
 import java.util.Calendar;
@@ -123,6 +122,10 @@ public class Sacrificio_1 extends AppCompatActivity {
     }
 
 
+
+
+
+
     public void muestrafecha(){
         Calendar fecha = Calendar.getInstance();
         dia = fecha.get(Calendar.DAY_OF_MONTH);
@@ -131,13 +134,81 @@ public class Sacrificio_1 extends AppCompatActivity {
         sacri_fecha.setText(""+dia+"/"+(mes+1)+"/"+anio);
     }
 
-    public void validacion(){
+    public boolean validacion(){
         boolean retorno = true;
+
+        if(loca.getText().toString().isEmpty()){
+            loca.setError("Debe especificar la localidad");
+            retorno=false;
+        }
+        else if(sacri5.getText().toString().isEmpty()){
+            sacri5.setError("no puede quedar vacío");
+            retorno=false;
+        }
+
+        else if(sacri6.getText().toString().isEmpty()){
+            sacri6.setError("no puede quedar vacío");
+            retorno=false;
+        }
+        else if(sacri7.getText().toString().isEmpty()){
+            sacri7.setError("no puede quedar vacío");
+            retorno=false;
+        }
+        else if(sacri8.getText().toString().isEmpty()){
+            sacri8.setError("no puede quedar vacío");
+            retorno=false;
+        }
+        else if(sacri9.getText().toString().isEmpty()){
+            sacri9.setError("no puede quedar vacío");
+            retorno=false;
+        }
+        else if(sacri10.getText().toString().isEmpty()){
+            sacri10.setError("no puede quedar vacío");
+            retorno=false;
+        }
+        else if(sacri11.getText().toString().isEmpty()){
+            sacri11.setError("no puede quedar vacío");
+            retorno=false;
+        }
+        else if(sacri12.getText().toString().isEmpty()){
+            sacri12.setError("no puede quedar vacío");
+            retorno=false;
+        }
+        else if(sacri13.getText().toString().isEmpty()){
+            sacri13.setError("no puede quedar vacío");
+            retorno=false;
+        }
+        else if(sacri14.getText().toString().isEmpty()){
+            sacri14.setError("no puede quedar vacío");
+            retorno=false;
+        }
+        else if(sacri15.getText().toString().isEmpty()){
+            sacri15.setError("no puede quedar vacío");
+            retorno=false;
+        }
+        else if(sacri15.getText().toString().isEmpty()){
+            sacri15.setError("no puede quedar vacío");
+            retorno=false;
+        }
+
+        else if(sacri16.getText().toString().isEmpty()){
+            sacri16.setError("no puede quedar vacío");
+            retorno=false;
+        }
+
+        else if(sacri17.getText().toString().isEmpty()){
+            sacri17.setError("no puede quedar vacío");
+            retorno=false;
+        }
+
+        return retorno;
 
 
     }
 
 
+    @Override
+    public void onBackPressed() {
 
-
+    }
 }

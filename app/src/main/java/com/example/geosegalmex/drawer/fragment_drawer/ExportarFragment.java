@@ -27,6 +27,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.geosegalmex.Infra_Ave.AveBD;
 import com.example.geosegalmex.Infra_Engorda.EngordaBD;
 import com.example.geosegalmex.Infra_Porcino.PorcinoBD;
 import com.example.geosegalmex.Infra_Sacrificio.SacrificioBD;
@@ -123,6 +124,10 @@ public class ExportarFragment extends Fragment {
                                 baseBD3 = new PorcinoBD(getContext());
                                 baseBD3.deletePorcino();
 
+                                AveBD baseBD5;
+                                baseBD5 = new AveBD(getContext());
+                                baseBD5.deleteAve();
+
 
                                 ed1.setText("Bases de datos borradas.");
                                 ed1.setVisibility(View.VISIBLE);
@@ -188,6 +193,18 @@ public class ExportarFragment extends Fragment {
                         } catch (IOException e) {
                             try {
                                 deployDatabase("GranjasdePorcino");
+                            } catch (IOException ex) {
+                                ex.printStackTrace();
+                            }
+                            e.printStackTrace();
+
+                        }
+
+                        try {
+                            deployDatabase("GranjasdeAve");
+                        } catch (IOException e) {
+                            try {
+                                deployDatabase("GranjasdeAve");
                             } catch (IOException ex) {
                                 ex.printStackTrace();
                             }

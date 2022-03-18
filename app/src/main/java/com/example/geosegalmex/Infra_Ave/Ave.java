@@ -3,7 +3,12 @@ package com.example.geosegalmex.Infra_Ave;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.geosegalmex.General;
+import com.example.geosegalmex.Georeferencia.GeoreferenciaActivity;
+import com.example.geosegalmex.Infra_Engorda.Engorda;
+import com.example.geosegalmex.Infra_Engorda.Engorda_Model;
 import com.example.geosegalmex.R;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -16,6 +21,7 @@ import java.util.Calendar;
 
 public class Ave extends AppCompatActivity {
 
+    Ave_Model model;
     int dia, mes, anio;
     Button btnNext;
     TextView textFecha;
@@ -84,6 +90,11 @@ public class Ave extends AppCompatActivity {
                     String latitud = "";
                     String f1 = General.Foto1;
                     String f2 = General.Foto2;
+
+                    model = new Ave_Model(folio,cveEntidad,entidad,cveRepresentacion,representacion,cveDdr,ddr,cveCader,cader,cveMunicipio,municipio,cveLocalidad,loc,domUpp,nomUpp,estatus,sistema,especie,capInst,capUtil,totalAnim,numNaves,superf,observ,longitud,latitud,f1,f2);
+                    Intent in = new Intent(Ave.this, GeoreferenciaActivity.class);
+                    in.putExtra("model", model);
+                    startActivity(in);
 
                 }
                 else{

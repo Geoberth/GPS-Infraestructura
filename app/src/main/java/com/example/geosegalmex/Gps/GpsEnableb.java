@@ -30,6 +30,7 @@ import android.widget.Toast;
 import com.example.geosegalmex.Firma;
 import com.example.geosegalmex.General;
 import com.example.geosegalmex.IdentificacionCuestionario;
+import com.example.geosegalmex.Infra_Ave.AveBD;
 import com.example.geosegalmex.Infra_Engorda.EngordaBD;
 import com.example.geosegalmex.Infra_Porcino.PorcinoBD;
 import com.example.geosegalmex.Infra_Sacrificio.SacrificioBD;
@@ -401,6 +402,15 @@ public class GpsEnableb extends AppCompatActivity {
         else if(proy.equals("Granjas de Porcino")){
             PorcinoBD db;
             db = new PorcinoBD(this);
+            boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
+            db.close();
+            if(insertarData == true) {
+            }else{
+            }
+        }
+        else if(proy.equals("Granjas de Ave")){
+            AveBD db;
+            db = new AveBD(this);
             boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
             db.close();
             if(insertarData == true) {

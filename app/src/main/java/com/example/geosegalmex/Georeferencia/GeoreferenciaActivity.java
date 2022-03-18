@@ -16,6 +16,8 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.geosegalmex.General;
+import com.example.geosegalmex.Infra_Ave.AveBD;
+import com.example.geosegalmex.Infra_Ave.Ave_Model;
 import com.example.geosegalmex.Infra_Engorda.EngordaBD;
 import com.example.geosegalmex.Infra_Engorda.Engorda_Model;
 import com.example.geosegalmex.Infra_Porcino.PorcinoBD;
@@ -83,6 +85,7 @@ public class GeoreferenciaActivity extends AppCompatActivity  implements OnMapRe
     Sacrificio_model model;
     Engorda_Model model2;
     Porcino_Model model3;
+    Ave_Model model5;
 
     String longitudGeo="";
     String latitudGeo="";
@@ -121,6 +124,9 @@ public class GeoreferenciaActivity extends AppCompatActivity  implements OnMapRe
                 }
                 else if(General.Proyecto.equals("Granjas de Porcino")){
                     agregarPorcino();
+                }
+                else if(General.Proyecto.equals("Granjas de Ave")){
+                    agregarAve();
                 }
 
                 finish();
@@ -303,6 +309,32 @@ public class GeoreferenciaActivity extends AppCompatActivity  implements OnMapRe
         baseBD = new PorcinoBD(this);
 
         boolean insertarData = baseBD.addPorcino(model3);
+        if(insertarData == true) {
+            Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
+        }else{
+            Toast.makeText(this, "Error al guardar", Toast.LENGTH_LONG).show();
+        }
+    }
+
+    private void agregarAve() {
+        if(bandera == 2){
+            longitudGeo = General.Lonini;
+            latitudGeo = General.Latini;
+        }
+        else{
+            longitudGeo = General.Lonini;
+            latitudGeo = General.Latini;
+        }
+
+        model5 = new Ave_Model();
+        model5 = (Ave_Model)getIntent().getSerializableExtra("model");
+        model5.setLongitud(longitudGeo);
+        model5.setLatitud(latitudGeo);
+
+        AveBD baseBD;
+        baseBD = new AveBD(this);
+
+        boolean insertarData = baseBD.addAve(model5);
         if(insertarData == true) {
             Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
         }else{
