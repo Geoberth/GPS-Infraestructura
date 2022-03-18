@@ -1,8 +1,14 @@
 package com.example.geosegalmex.Infra_Porcino;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.geosegalmex.General;
+import com.example.geosegalmex.Georeferencia.GeoreferenciaActivity;
+import com.example.geosegalmex.Infra_Engorda.Engorda;
+import com.example.geosegalmex.Infra_Engorda.Engorda_Model;
 import com.example.geosegalmex.R;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -16,6 +22,7 @@ import java.util.Calendar;
 
 public class Porcino extends AppCompatActivity {
 
+    Porcino_Model model;
     int dia, mes, anio;
     Button btnNext;
     TextView textFecha, tvCruza, tvOtra;
@@ -95,6 +102,46 @@ public class Porcino extends AppCompatActivity {
             public void onClick(View view) {
 
                 if(validar()){
+                    String folio = General.Foliocuestion;
+                    String cveEntidad = "1";
+                    String entidad = spi_edo.getSelectedItem().toString();
+                    String cveRepresentacion = "1";
+                    String representacion = spi_representacion.getSelectedItem().toString();
+                    String cveDdr = "1";
+                    String ddr = spi_ddr.getSelectedItem().toString();
+                    String cveCader = "1";
+                    String cader = spi_cader.getSelectedItem().toString();
+                    String cveMunicipio = "1";
+                    String municipio = spi_mun.getSelectedItem().toString();
+                    String cveLocalidad = "1";
+                    String loc = localidad.getText().toString();
+                    String domUpp = domupp.getText().toString();
+                    String nomUpp = nomupp.getText().toString();
+                    String estatus = spi_estatus.getSelectedItem().toString();
+                    String sistema = spi_sistema.getSelectedItem().toString();
+                    String actividad = spi_actividad.getSelectedItem().toString();
+                    String numVientres = vientres.getText().toString();
+                    String numLechones = lechones.getText().toString();
+                    String numCrecimiento = crecimiento.getText().toString();
+                    String numFinalizacion = finalizacion.getText().toString();
+                    String numSementales = sementales.getText().toString();
+                    String capInst = capins.getText().toString();
+                    String capUtil = caputi.getText().toString();
+                    String totalAnim = total.getText().toString();
+                    String raza = spi_raza.getSelectedItem().toString();
+                    String razaCruza = (spi_raza.getSelectedItem().toString().equals("Cruza"))? cruza.getText().toString() : "";
+                    String razaOtra = (spi_raza.getSelectedItem().toString().equals("Otra"))? otra.getText().toString() : "";
+                    String superf = superficie.getText().toString();
+                    String observ = observaciones.getText().toString();
+                    String longitud = "";
+                    String latitud = "";
+                    String f1 = General.Foto1;
+                    String f2 = General.Foto2;
+
+                    model = new Porcino_Model(folio,cveEntidad,entidad,cveRepresentacion,representacion,cveDdr,ddr,cveCader,cader,cveMunicipio,municipio,cveLocalidad,loc,domUpp,nomUpp,estatus,sistema,actividad,numVientres,numLechones,numCrecimiento,numFinalizacion,numSementales,capInst,capUtil,totalAnim,raza,razaCruza,razaOtra,superf,observ,longitud,latitud,f1,f2);
+                    Intent in = new Intent(Porcino.this, GeoreferenciaActivity.class);
+                    in.putExtra("model", model);
+                    startActivity(in);
 
                 }
                 else{

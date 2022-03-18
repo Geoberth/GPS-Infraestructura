@@ -1,6 +1,8 @@
 package com.example.geosegalmex.Infra_Ave;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.geosegalmex.General;
 import com.example.geosegalmex.R;
 import android.os.Bundle;
 import android.view.View;
@@ -53,6 +55,35 @@ public class Ave extends AppCompatActivity {
             public void onClick(View view) {
 
                 if(validar()){
+
+                    String folio = General.Foliocuestion;
+                    String cveEntidad = "1";
+                    String entidad = spi_edo.getSelectedItem().toString();
+                    String cveRepresentacion = "1";
+                    String representacion = spi_representacion.getSelectedItem().toString();
+                    String cveDdr = "1";
+                    String ddr = spi_ddr.getSelectedItem().toString();
+                    String cveCader = "1";
+                    String cader = spi_cader.getSelectedItem().toString();
+                    String cveMunicipio = "1";
+                    String municipio = spi_mun.getSelectedItem().toString();
+                    String cveLocalidad = "1";
+                    String loc = localidad.getText().toString();
+                    String domUpp = domupp.getText().toString();
+                    String nomUpp = nomupp.getText().toString();
+                    String estatus = spi_estatus.getSelectedItem().toString();
+                    String sistema = spi_sistema.getSelectedItem().toString();
+                    String especie = spi_especie.getSelectedItem().toString();
+                    String capInst = capins.getText().toString();
+                    String capUtil = caputi.getText().toString();
+                    String totalAnim = total.getText().toString();
+                    String numNaves = naves.getText().toString();
+                    String superf = superficie.getText().toString();
+                    String observ = observaciones.getText().toString();
+                    String longitud = "";
+                    String latitud = "";
+                    String f1 = General.Foto1;
+                    String f2 = General.Foto2;
 
                 }
                 else{

@@ -31,6 +31,7 @@ import com.example.geosegalmex.Firma;
 import com.example.geosegalmex.General;
 import com.example.geosegalmex.IdentificacionCuestionario;
 import com.example.geosegalmex.Infra_Engorda.EngordaBD;
+import com.example.geosegalmex.Infra_Porcino.PorcinoBD;
 import com.example.geosegalmex.Liconsa.LiconsaBD;
 import com.example.geosegalmex.Liconsa2.LiconsaVerificacion;
 import com.example.geosegalmex.Liconsa2.LiconsaVerificacionBD;
@@ -387,9 +388,9 @@ public class GpsEnableb extends AppCompatActivity {
             }else{
             }
         }
-        else if(proy.equals("PASL Beneficiario")){
-            PASLbeneficiarioBD db;
-            db = new PASLbeneficiarioBD(this);
+        else if(proy.equals("Granjas de Porcino")){
+            PorcinoBD db;
+            db = new PorcinoBD(this);
             boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
             db.close();
             if(insertarData == true) {

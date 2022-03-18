@@ -452,6 +452,8 @@ com/example/geosegalmex/unidadcomercializacion/comercializacion_3_1.java
  com.example.geosegalmex.unidadcomercializacion.comercializacion_3_1$2
  com.example.geosegalmex.unidadcomercializacion.comercializacion_3_1$3
  com.example.geosegalmex.unidadcomercializacion.comercializacion_3_1$4
+com/example/geosegalmex/Infra_Porcino/PorcinoBD.java
+ com.example.geosegalmex.Infra_Porcino.PorcinoBD
 com/example/geosegalmex/unidadcomercializacion/bdcomercializacion/VariablesGlobalesCmrz.java
  com.example.geosegalmex.unidadcomercializacion.bdcomercializacion.VariablesGlobalesCmrz
 com/example/geosegalmex/unidadcomercializacion/comercializacion_1.java
@@ -459,6 +461,8 @@ com/example/geosegalmex/unidadcomercializacion/comercializacion_1.java
  com.example.geosegalmex.unidadcomercializacion.comercializacion_1$1
  com.example.geosegalmex.unidadcomercializacion.comercializacion_1$2
  com.example.geosegalmex.unidadcomercializacion.comercializacion_1$3
+com/example/geosegalmex/Infra_Porcino/Porcino_Model.java
+ com.example.geosegalmex.Infra_Porcino.Porcino_Model
 com/example/geosegalmex/frutales/frutales_7.java
  com.example.geosegalmex.frutales.frutales_7
  com.example.geosegalmex.frutales.frutales_7$1
@@ -492,6 +496,8 @@ com/example/geosegalmex/Liconsa2/LiconsaVerificacion.java
  com.example.geosegalmex.Liconsa2.LiconsaVerificacion$4
  com.example.geosegalmex.Liconsa2.LiconsaVerificacion$5
  com.example.geosegalmex.Liconsa2.LiconsaVerificacion$6
+com/example/geosegalmex/Infra_Porcino/Porcino_bd.java
+ com.example.geosegalmex.Infra_Porcino.Porcino_bd
 com/example/geosegalmex/unidadcomercializacion/Apicultura_4.java
  com.example.geosegalmex.unidadcomercializacion.Apicultura_4
  com.example.geosegalmex.unidadcomercializacion.Apicultura_4$1

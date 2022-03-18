@@ -28,6 +28,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.geosegalmex.Infra_Engorda.EngordaBD;
+import com.example.geosegalmex.Infra_Porcino.PorcinoBD;
 import com.example.geosegalmex.Liconsa.LiconsaBD;
 import com.example.geosegalmex.Liconsa2.LiconsaVerificacionBD;
 import com.example.geosegalmex.LiconsaBeneficiario.PASLbeneficiarioBD;
@@ -113,9 +114,9 @@ public class ExportarFragment extends Fragment {
                                 baseBD = new EngordaBD(getContext());
                                 baseBD.deleteEngorda();
 
-                                /*PASLbeneficiarioBD baseBD2;
-                                baseBD2 = new PASLbeneficiarioBD(getContext());
-                                baseBD2.deletePASLbeneficiario();*/
+                                PorcinoBD baseBD2;
+                                baseBD2 = new PorcinoBD(getContext());
+                                baseBD2.deletePorcino();
 
 
                                 ed1.setText("Bases de datos borradas.");
@@ -163,6 +164,19 @@ public class ExportarFragment extends Fragment {
                             e.printStackTrace();
 
                         }
+
+                        try {
+                            deployDatabase("GranjasdePorcino");
+                        } catch (IOException e) {
+                            try {
+                                deployDatabase("GranjasdePorcino");
+                            } catch (IOException ex) {
+                                ex.printStackTrace();
+                            }
+                            e.printStackTrace();
+
+                        }
+
 
                         ed1.setVisibility(View.VISIBLE);
                     }

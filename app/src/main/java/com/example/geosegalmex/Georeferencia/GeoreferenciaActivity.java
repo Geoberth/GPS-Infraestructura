@@ -18,6 +18,8 @@ import android.widget.Toast;
 import com.example.geosegalmex.General;
 import com.example.geosegalmex.Infra_Engorda.EngordaBD;
 import com.example.geosegalmex.Infra_Engorda.Engorda_Model;
+import com.example.geosegalmex.Infra_Porcino.PorcinoBD;
+import com.example.geosegalmex.Infra_Porcino.Porcino_Model;
 import com.example.geosegalmex.Liconsa.LiconsaBD;
 import com.example.geosegalmex.Liconsa.Liconsa_Model;
 import com.example.geosegalmex.Liconsa2.LiconsaVerificacionBD;
@@ -77,6 +79,7 @@ public class GeoreferenciaActivity extends AppCompatActivity  implements OnMapRe
     private List<Georreferencia> georreferenciaList;
 
     Engorda_Model model;
+    Porcino_Model model2;
 
     String longitudGeo="";
     String latitudGeo="";
@@ -110,8 +113,8 @@ public class GeoreferenciaActivity extends AppCompatActivity  implements OnMapRe
                 if(General.Proyecto.equals("Corrales de Engorda")){
                     agregarEngorda();
                 }
-                else if(General.Proyecto.equals("PASL Beneficiario")){
-                    agregarEngorda();
+                else if(General.Proyecto.equals("Granjas de Porcino")){
+                    agregarPorcino();
                 }
 
                 finish();
@@ -248,6 +251,33 @@ public class GeoreferenciaActivity extends AppCompatActivity  implements OnMapRe
             Toast.makeText(this, "Error al guardar", Toast.LENGTH_LONG).show();
         }
     }
+
+    private void agregarPorcino() {
+        if(bandera == 2){
+            longitudGeo = General.Lonini;
+            latitudGeo = General.Latini;
+        }
+        else{
+            longitudGeo = General.Lonini;
+            latitudGeo = General.Latini;
+        }
+
+        model2 = new Porcino_Model();
+        model2 = (Porcino_Model)getIntent().getSerializableExtra("model");
+        model2.setLongitud(longitudGeo);
+        model2.setLatitud(latitudGeo);
+
+        PorcinoBD baseBD;
+        baseBD = new PorcinoBD(this);
+
+        boolean insertarData = baseBD.addPorcino(model2);
+        if(insertarData == true) {
+            Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
+        }else{
+            Toast.makeText(this, "Error al guardar", Toast.LENGTH_LONG).show();
+        }
+    }
+
 
     private void agregarGoerreferencia(String brigadistaGeo, String productorGeo, String longitudGeoGeo, String latitudGeoGeo, String horaActual, String fechaActual, int status) {
 
