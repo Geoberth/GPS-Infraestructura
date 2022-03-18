@@ -147,6 +147,8 @@ com/example/geosegalmex/Liconsa/Liconsa_Model.java
 com/example/geosegalmex/Pecuario/InventarioGanadoOvino.java
  com.example.geosegalmex.Pecuario.InventarioGanadoOvino
  com.example.geosegalmex.Pecuario.InventarioGanadoOvino$1
+com/example/geosegalmex/Infra_Sacrificio/Sacrificio_model.java
+ com.example.geosegalmex.Infra_Sacrificio.Sacrificio_model
 com/example/geosegalmex/LiconsaVentanilla/PASLoperativoBD.java
  com.example.geosegalmex.LiconsaVentanilla.PASLoperativoBD
 com/example/geosegalmex/PARBeneficiario/PARBeneficiarioBD.java
@@ -304,6 +306,8 @@ com/example/geosegalmex/drawer/fragment_drawer/ExportarFragment.java
  com.example.geosegalmex.drawer.fragment_drawer.ExportarFragment$2
  com.example.geosegalmex.drawer.fragment_drawer.ExportarFragment$2$1
  com.example.geosegalmex.drawer.fragment_drawer.ExportarFragment$TareaAsyncTask
+com/example/geosegalmex/Infra_Sacrificio/Sacrificio_bd.java
+ com.example.geosegalmex.Infra_Sacrificio.Sacrificio_bd
 com/example/geosegalmex/frutales/frutales_13.java
  com.example.geosegalmex.frutales.frutales_13
  com.example.geosegalmex.frutales.frutales_13$1
@@ -418,6 +422,7 @@ com/example/geosegalmex/drawer/fragment_drawer/SyncMunFragment.java
  com.example.geosegalmex.drawer.fragment_drawer.SyncMunFragment$TareaAsyncTask
 com/example/geosegalmex/Infra_Sacrificio/Sacrificio_1.java
  com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1
+ com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1$1
 com/example/geosegalmex/unidadproduccion/variables/VariablesGlobalesUpf.java
  com.example.geosegalmex.unidadproduccion.variables.VariablesGlobalesUpf
 com/example/geosegalmex/PGOperativoLeche/PGOperativoLecheBD.java
@@ -441,6 +446,8 @@ com/example/geosegalmex/LiconsaVentanilla/Pasl_o_Model.java
 com/example/geosegalmex/unidadcomercializacion/Apicultura_3.java
  com.example.geosegalmex.unidadcomercializacion.Apicultura_3
  com.example.geosegalmex.unidadcomercializacion.Apicultura_3$1
+com/example/geosegalmex/Infra_Sacrificio/SacrificioBD.java
+ com.example.geosegalmex.Infra_Sacrificio.SacrificioBD
 com/example/geosegalmex/unidadcaracterizacionhortalizas/CosechaB.java
  com.example.geosegalmex.unidadcaracterizacionhortalizas.CosechaB
  com.example.geosegalmex.unidadcaracterizacionhortalizas.CosechaB$1

@@ -32,12 +32,12 @@
         "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\layout\\activity_hortalizas_pvunob.xml"
     },
     {
-        "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_iconoapp_lizz_round.png.flat",
-        "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\mipmap-hdpi\\iconoapp_lizz_round.png"
-    },
-    {
         "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_iconoapp_liz_round.png.flat",
         "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\mipmap-mdpi\\iconoapp_liz_round.png"
+    },
+    {
+        "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_iconoapp_lizz_round.png.flat",
+        "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\mipmap-hdpi\\iconoapp_lizz_round.png"
     },
     {
         "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_lista_agricola.xml.flat",
@@ -48,12 +48,12 @@
         "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\layout\\activity_control_plagas_enferm.xml"
     },
     {
-        "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_iconoliz2.png.flat",
-        "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\mipmap-xhdpi\\iconoliz2.png"
-    },
-    {
         "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\drawable_iconoapp_lizz_background.xml.flat",
         "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\drawable\\iconoapp_lizz_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_iconoliz2.png.flat",
+        "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\mipmap-xhdpi\\iconoliz2.png"
     },
     {
         "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_fertilizante_si.xml.flat",
@@ -64,12 +64,12 @@
         "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\drawable\\ic_menu_share.xml"
     },
     {
-        "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_ciclo_caracterizacion6.xml.flat",
-        "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\layout\\activity_ciclo_caracterizacion6.xml"
-    },
-    {
         "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cosecha_b.xml.flat",
         "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\layout\\activity_cosecha_b.xml"
+    },
+    {
+        "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_ciclo_caracterizacion6.xml.flat",
+        "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\layout\\activity_ciclo_caracterizacion6.xml"
     },
     {
         "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_apicola_inicio.xml.flat",
@@ -80,12 +80,12 @@
         "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\mipmap-xhdpi\\icononor2.png"
     },
     {
-        "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_iconoapp_lizz_foreground.png.flat",
-        "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\mipmap-mdpi\\iconoapp_lizz_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_iconoapp_lizz.png.flat",
         "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\mipmap-hdpi\\iconoapp_lizz.png"
+    },
+    {
+        "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_iconoapp_lizz_foreground.png.flat",
+        "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\mipmap-mdpi\\iconoapp_lizz_foreground.png"
     },
     {
         "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_control_malezas.xml.flat",
@@ -120,12 +120,12 @@
         "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\layout\\activity_liconsa_verificacion.xml"
     },
     {
-        "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_identificacion_cuestionario.xml.flat",
-        "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\layout\\activity_identificacion_cuestionario.xml"
-    },
-    {
         "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_inventario_ganado_ovino.xml.flat",
         "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\layout\\activity_inventario_ganado_ovino.xml"
+    },
+    {
+        "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_identificacion_cuestionario.xml.flat",
+        "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\layout\\activity_identificacion_cuestionario.xml"
     },
     {
         "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_apicultura_1.xml.flat",
@@ -196,12 +196,12 @@
         "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\mipmap-hdpi\\icononor2_round.png"
     },
     {
-        "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_parbeneficiario.xml.flat",
-        "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\layout\\activity_parbeneficiario.xml"
-    },
-    {
         "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_productor_econom.xml.flat",
         "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\layout\\activity_productor_econom.xml"
+    },
+    {
+        "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_parbeneficiario.xml.flat",
+        "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\layout\\activity_parbeneficiario.xml"
     },
     {
         "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\drawable_circular2.xml.flat",
@@ -260,12 +260,12 @@
         "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\layout\\activity_control_plagas_enferm_c.xml"
     },
     {
-        "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_pecuario_ovinos.xml.flat",
-        "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\layout\\activity_pecuario_ovinos.xml"
-    },
-    {
         "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_herramientas_proteccion.xml.flat",
         "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\layout\\activity_herramientas_proteccion.xml"
+    },
+    {
+        "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_pecuario_ovinos.xml.flat",
+        "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\layout\\activity_pecuario_ovinos.xml"
     },
     {
         "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\drawable_icono_siap_nov_background.xml.flat",

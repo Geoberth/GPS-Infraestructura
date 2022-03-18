@@ -29,6 +29,7 @@ import android.widget.Toast;
 
 import com.example.geosegalmex.Infra_Engorda.EngordaBD;
 import com.example.geosegalmex.Infra_Porcino.PorcinoBD;
+import com.example.geosegalmex.Infra_Sacrificio.SacrificioBD;
 import com.example.geosegalmex.Liconsa.LiconsaBD;
 import com.example.geosegalmex.Liconsa2.LiconsaVerificacionBD;
 import com.example.geosegalmex.LiconsaBeneficiario.PASLbeneficiarioBD;
@@ -110,13 +111,17 @@ public class ExportarFragment extends Fragment {
                         .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
                             @Override
                             public void onClick(SweetAlertDialog sDialog) {
-                                EngordaBD baseBD;
-                                baseBD = new EngordaBD(getContext());
-                                baseBD.deleteEngorda();
+                                SacrificioBD baseBD;
+                                baseBD = new SacrificioBD(getContext());
+                                baseBD.deleteSacrificio();
 
-                                PorcinoBD baseBD2;
-                                baseBD2 = new PorcinoBD(getContext());
-                                baseBD2.deletePorcino();
+                                EngordaBD baseBD2;
+                                baseBD2 = new EngordaBD(getContext());
+                                baseBD2.deleteEngorda();
+
+                                PorcinoBD baseBD3;
+                                baseBD3 = new PorcinoBD(getContext());
+                                baseBD3.deletePorcino();
 
 
                                 ed1.setText("Bases de datos borradas.");
@@ -153,6 +158,19 @@ public class ExportarFragment extends Fragment {
 
                 new Handler().postDelayed(new Runnable() {
                     public void run() {
+
+                        try {
+                            deployDatabase("CentrosdeSacrificio");
+                        } catch (IOException e) {
+                            try {
+                                deployDatabase("CentrosdeSacrificio");
+                            } catch (IOException ex) {
+                                ex.printStackTrace();
+                            }
+                            e.printStackTrace();
+
+                        }
+
                         try {
                             deployDatabase("CorralesdeEngorda");
                         } catch (IOException e) {

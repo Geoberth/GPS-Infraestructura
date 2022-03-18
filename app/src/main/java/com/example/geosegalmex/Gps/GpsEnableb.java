@@ -32,6 +32,7 @@ import com.example.geosegalmex.General;
 import com.example.geosegalmex.IdentificacionCuestionario;
 import com.example.geosegalmex.Infra_Engorda.EngordaBD;
 import com.example.geosegalmex.Infra_Porcino.PorcinoBD;
+import com.example.geosegalmex.Infra_Sacrificio.SacrificioBD;
 import com.example.geosegalmex.Liconsa.LiconsaBD;
 import com.example.geosegalmex.Liconsa2.LiconsaVerificacion;
 import com.example.geosegalmex.Liconsa2.LiconsaVerificacionBD;
@@ -379,7 +380,16 @@ public class GpsEnableb extends AppCompatActivity {
     private void aggTrayectoriaGpsSave(String folioPro, String folioBrig, String longGpsSave, String latiGpsSave, String horaActl, String fechaActl) {
         String proy = proyecto.getSelectedItem().toString();
 
-        if(proy.equals("Corrales de Engorda")){
+        if(proy.equals("Centros de Sacrificio")){
+            SacrificioBD db;
+            db = new SacrificioBD(this);
+            boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
+            db.close();
+            if(insertarData == true) {
+            }else{
+            }
+        }
+        else if(proy.equals("Corrales de Engorda")){
             EngordaBD db;
             db = new EngordaBD(this);
             boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);

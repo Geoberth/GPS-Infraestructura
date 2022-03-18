@@ -20,6 +20,8 @@ import com.example.geosegalmex.Infra_Engorda.EngordaBD;
 import com.example.geosegalmex.Infra_Engorda.Engorda_Model;
 import com.example.geosegalmex.Infra_Porcino.PorcinoBD;
 import com.example.geosegalmex.Infra_Porcino.Porcino_Model;
+import com.example.geosegalmex.Infra_Sacrificio.SacrificioBD;
+import com.example.geosegalmex.Infra_Sacrificio.Sacrificio_model;
 import com.example.geosegalmex.Liconsa.LiconsaBD;
 import com.example.geosegalmex.Liconsa.Liconsa_Model;
 import com.example.geosegalmex.Liconsa2.LiconsaVerificacionBD;
@@ -78,8 +80,9 @@ public class GeoreferenciaActivity extends AppCompatActivity  implements OnMapRe
     private com.example.geosegalmex.unidadcaracterizacionhortalizas.db.DatabaseHelper db;
     private List<Georreferencia> georreferenciaList;
 
-    Engorda_Model model;
-    Porcino_Model model2;
+    Sacrificio_model model;
+    Engorda_Model model2;
+    Porcino_Model model3;
 
     String longitudGeo="";
     String latitudGeo="";
@@ -110,7 +113,10 @@ public class GeoreferenciaActivity extends AppCompatActivity  implements OnMapRe
         fabGeoMapa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(General.Proyecto.equals("Corrales de Engorda")){
+                if(General.Proyecto.equals("Centros de Sacrificio")){
+                    agregarSacrificio();
+                }
+                else if(General.Proyecto.equals("Corrales de Engorda")){
                     agregarEngorda();
                 }
                 else if(General.Proyecto.equals("Granjas de Porcino")){
@@ -226,6 +232,32 @@ public class GeoreferenciaActivity extends AppCompatActivity  implements OnMapRe
 
     }
 
+    private void agregarSacrificio() {
+        if(bandera == 2){
+            longitudGeo = General.Lonini;
+            latitudGeo = General.Latini;
+        }
+        else{
+            longitudGeo = General.Lonini;
+            latitudGeo = General.Latini;
+        }
+
+        model = new Sacrificio_model();
+        model = (Sacrificio_model)getIntent().getSerializableExtra("model");
+        model.setLongitud(longitudGeo);
+        model.setLatitud(latitudGeo);
+
+        SacrificioBD baseBD;
+        baseBD = new SacrificioBD(this);
+
+        boolean insertarData = baseBD.addSacrificio(model);
+        if(insertarData == true) {
+            Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
+        }else{
+            Toast.makeText(this, "Error al guardar", Toast.LENGTH_LONG).show();
+        }
+    }
+
     private void agregarEngorda() {
         if(bandera == 2){
             longitudGeo = General.Lonini;
@@ -236,15 +268,15 @@ public class GeoreferenciaActivity extends AppCompatActivity  implements OnMapRe
             latitudGeo = General.Latini;
         }
 
-        model = new Engorda_Model();
-        model = (Engorda_Model)getIntent().getSerializableExtra("model");
-        model.setLongitud(longitudGeo);
-        model.setLatitud(latitudGeo);
+        model2 = new Engorda_Model();
+        model2 = (Engorda_Model)getIntent().getSerializableExtra("model");
+        model2.setLongitud(longitudGeo);
+        model2.setLatitud(latitudGeo);
 
         EngordaBD baseBD;
         baseBD = new EngordaBD(this);
 
-        boolean insertarData = baseBD.addEngorda(model);
+        boolean insertarData = baseBD.addEngorda(model2);
         if(insertarData == true) {
             Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
         }else{
@@ -262,15 +294,15 @@ public class GeoreferenciaActivity extends AppCompatActivity  implements OnMapRe
             latitudGeo = General.Latini;
         }
 
-        model2 = new Porcino_Model();
-        model2 = (Porcino_Model)getIntent().getSerializableExtra("model");
-        model2.setLongitud(longitudGeo);
-        model2.setLatitud(latitudGeo);
+        model3 = new Porcino_Model();
+        model3 = (Porcino_Model)getIntent().getSerializableExtra("model");
+        model3.setLongitud(longitudGeo);
+        model3.setLatitud(latitudGeo);
 
         PorcinoBD baseBD;
         baseBD = new PorcinoBD(this);
 
-        boolean insertarData = baseBD.addPorcino(model2);
+        boolean insertarData = baseBD.addPorcino(model3);
         if(insertarData == true) {
             Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
         }else{
