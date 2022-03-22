@@ -2,9 +2,10 @@
 <resources>
 
     <string-array name="type_censacri">
-        <item>Intensivo</item>
-        <item>Semi-intensivo</item>
-        <item>Extensivo</item>
+        <item>Tif</item>
+        <item>Municipal</item>
+        <item>Privado</item>
+        <item>Otros</item>
     </string-array>
 
     <string-array name="sacri_estatus">
