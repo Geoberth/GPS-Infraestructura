@@ -4032,6 +4032,7 @@ int id leche_caprino_no 0x7f090936
 int id leche_caprino_rg_tresdos 0x7f090937
 int id leche_caprino_si 0x7f090938
 int id leche_caprino_tresdos 0x7f090939
+int id leche_txtFecha 0x7f09134f
 int id lechon_porcino_no 0x7f09093a
 int id lechon_porcino_rg_tresdos 0x7f09093b
 int id lechon_porcino_si 0x7f09093c

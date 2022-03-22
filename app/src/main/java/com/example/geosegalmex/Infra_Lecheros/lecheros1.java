@@ -32,7 +32,7 @@ public class lecheros1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lecheros1);
 
-        leche_fecha = findViewById(R.id.sacri_fecha);
+        leche_fecha = findViewById(R.id.leche_txtFecha);
         spi_edo = findViewById(R.id.sacri_Estado1);
         spi_del = findViewById(R.id.sacri_del);
         spi_ddr = findViewById(R.id.sacri_ddr);
@@ -57,7 +57,7 @@ public class lecheros1 extends AppCompatActivity {
 
         btnnext.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 String folio = General.Foliocuestion;
                 String fecha = leche_fecha.getText().toString();
 
@@ -109,6 +109,11 @@ public class lecheros1 extends AppCompatActivity {
         mes = fecha.get(Calendar.MONTH);
         anio = fecha.get(Calendar.YEAR);
         leche_fecha.setText(""+dia+"/"+(mes+1)+"/"+anio);
+    }
+
+    @Override
+    public void onBackPressed() {
+
     }
 
 }
