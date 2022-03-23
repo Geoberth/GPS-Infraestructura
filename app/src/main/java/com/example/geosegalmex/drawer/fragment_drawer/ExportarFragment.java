@@ -29,6 +29,8 @@ import android.widget.Toast;
 
 import com.example.geosegalmex.Infra_Ave.AveBD;
 import com.example.geosegalmex.Infra_Engorda.EngordaBD;
+import com.example.geosegalmex.Infra_Lecheros.LecherosBD;
+import com.example.geosegalmex.Infra_Lecheros.Lecheros_bd;
 import com.example.geosegalmex.Infra_Porcino.PorcinoBD;
 import com.example.geosegalmex.Infra_Sacrificio.SacrificioBD;
 import com.example.geosegalmex.Liconsa.LiconsaBD;
@@ -124,6 +126,10 @@ public class ExportarFragment extends Fragment {
                                 baseBD3 = new PorcinoBD(getContext());
                                 baseBD3.deletePorcino();
 
+                                LecherosBD baseBD4;
+                                baseBD4 = new LecherosBD(getContext());
+                                baseBD4.deleteLecheros();
+
                                 AveBD baseBD5;
                                 baseBD5 = new AveBD(getContext());
                                 baseBD5.deleteAve();
@@ -193,6 +199,18 @@ public class ExportarFragment extends Fragment {
                         } catch (IOException e) {
                             try {
                                 deployDatabase("GranjasdePorcino");
+                            } catch (IOException ex) {
+                                ex.printStackTrace();
+                            }
+                            e.printStackTrace();
+
+                        }
+
+                        try {
+                            deployDatabase("EstablosLecheros");
+                        } catch (IOException e) {
+                            try {
+                                deployDatabase("EstablosLecheros");
                             } catch (IOException ex) {
                                 ex.printStackTrace();
                             }
