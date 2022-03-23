@@ -4033,6 +4033,7 @@ id leche_caprino_no
 id leche_caprino_rg_tresdos
 id leche_caprino_si
 id leche_caprino_tresdos
+id leche_txtFecha
 id lechon_porcino_no
 id lechon_porcino_rg_tresdos
 id lechon_porcino_si

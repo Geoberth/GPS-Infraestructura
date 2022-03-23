@@ -32,6 +32,7 @@ import com.example.geosegalmex.General;
 import com.example.geosegalmex.IdentificacionCuestionario;
 import com.example.geosegalmex.Infra_Ave.AveBD;
 import com.example.geosegalmex.Infra_Engorda.EngordaBD;
+import com.example.geosegalmex.Infra_Lecheros.LecherosBD;
 import com.example.geosegalmex.Infra_Porcino.PorcinoBD;
 import com.example.geosegalmex.Infra_Sacrificio.SacrificioBD;
 import com.example.geosegalmex.Liconsa.LiconsaBD;
@@ -399,14 +400,23 @@ public class GpsEnableb extends AppCompatActivity {
             }else{
             }
         }
-        else if(proy.equals("Granjas de Porcino")){
+        else if(proy.equals("Granjas de Porcino")) {
             PorcinoBD db;
             db = new PorcinoBD(this);
             boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
             db.close();
-            if(insertarData == true) {
-            }else{
+            if (insertarData == true) {
+            } else {
             }
+        }
+            else if(proy.equals("Establos Lecheros")){
+                LecherosBD db;
+                db = new LecherosBD(this);
+                boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
+                db.close();
+                if(insertarData == true) {
+                }else{
+                }
         }
         else if(proy.equals("Granjas de Ave")){
             AveBD db;
@@ -636,7 +646,6 @@ public class GpsEnableb extends AppCompatActivity {
                     Log.d("debug", "LocationProvider.TEMPORARILY_UNAVAILABLE");
                     break;
             }
-
              */
         }
 
