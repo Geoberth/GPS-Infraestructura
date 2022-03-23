@@ -300,6 +300,8 @@ com/example/geosegalmex/Liconsa/Liconsa_bd.java
  com.example.geosegalmex.Liconsa.Liconsa_bd
 com/example/geosegalmex/PGOperativoEstimulos/PGOperativoEstimulosBD.java
  com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulosBD
+com/example/geosegalmex/Catalogos/entidades/Delegacion.java
+ com.example.geosegalmex.Catalogos.entidades.Delegacion
 com/example/geosegalmex/drawer/fragment_drawer/ExportarFragment.java
  com.example.geosegalmex.drawer.fragment_drawer.ExportarFragment
  com.example.geosegalmex.drawer.fragment_drawer.ExportarFragment$1
@@ -328,6 +330,9 @@ com/example/geosegalmex/drawer/fragment_drawer/SyncUserFragment.java
  com.example.geosegalmex.drawer.fragment_drawer.SyncUserFragment$3
  com.example.geosegalmex.drawer.fragment_drawer.SyncUserFragment$4
  com.example.geosegalmex.drawer.fragment_drawer.SyncUserFragment$TareaAsyncTask
+com/example/geosegalmex/Pecuario/PecuarioReproduccionGenetica.java
+ com.example.geosegalmex.Pecuario.PecuarioReproduccionGenetica
+ com.example.geosegalmex.Pecuario.PecuarioReproduccionGenetica$1
 com/example/geosegalmex/frutales/frutales_2.java
  com.example.geosegalmex.frutales.frutales_2
  com.example.geosegalmex.frutales.frutales_2$1
@@ -426,9 +431,9 @@ com/example/geosegalmex/drawer/fragment_drawer/SyncMunFragment.java
  com.example.geosegalmex.drawer.fragment_drawer.SyncMunFragment$3
  com.example.geosegalmex.drawer.fragment_drawer.SyncMunFragment$4
  com.example.geosegalmex.drawer.fragment_drawer.SyncMunFragment$TareaAsyncTask
-com/example/geosegalmex/Pecuario/PecuarioAlimentacionGanado.java
- com.example.geosegalmex.Pecuario.PecuarioAlimentacionGanado
- com.example.geosegalmex.Pecuario.PecuarioAlimentacionGanado$1
+com/example/geosegalmex/Infra_Sacrificio/Sacrificio_1.java
+ com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1
+ com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1$1
 com/example/geosegalmex/unidadproduccion/variables/VariablesGlobalesUpf.java
  com.example.geosegalmex.unidadproduccion.variables.VariablesGlobalesUpf
 com/example/geosegalmex/PGOperativoLeche/PGOperativoLecheBD.java
@@ -442,6 +447,8 @@ com/example/geosegalmex/caracterizacion/ciclo_carac.java
  com.example.geosegalmex.caracterizacion.ciclo_carac$3
 com/example/geosegalmex/LiconsaVentanilla/pasl_operativo_bd.java
  com.example.geosegalmex.LiconsaVentanilla.pasl_operativo_bd
+com/example/geosegalmex/Catalogos/entidades/Estados.java
+ com.example.geosegalmex.Catalogos.entidades.Estados
 com/example/geosegalmex/caracterizacion/ciclo_caracterizacion7.java
  com.example.geosegalmex.caracterizacion.ciclo_caracterizacion7
  com.example.geosegalmex.caracterizacion.ciclo_caracterizacion7$1
@@ -479,6 +486,8 @@ com/example/geosegalmex/Infra_Porcino/Porcino_Model.java
 com/example/geosegalmex/frutales/frutales_7.java
  com.example.geosegalmex.frutales.frutales_7
  com.example.geosegalmex.frutales.frutales_7$1
+com/example/geosegalmex/Catalogos/entidades/Ddr.java
+ com.example.geosegalmex.Catalogos.entidades.Ddr
 com/example/geosegalmex/Geo/FotoActivityDos.java
  com.example.geosegalmex.Geo.FotoActivityDos
  com.example.geosegalmex.Geo.FotoActivityDos$1
@@ -573,10 +582,9 @@ com/example/geosegalmex/apicola/HerramientasProteccion.java
  com.example.geosegalmex.apicola.HerramientasProteccion$1
  com.example.geosegalmex.apicola.HerramientasProteccion$2
  com.example.geosegalmex.apicola.HerramientasProteccion$3
-com/example/geosegalmex/Infra_Engorda/Engorda.java
- com.example.geosegalmex.Infra_Engorda.Engorda
- com.example.geosegalmex.Infra_Engorda.Engorda$1
- com.example.geosegalmex.Infra_Engorda.Engorda$2
+com/example/geosegalmex/Pecuario/PecuarioAlimentacionGanado.java
+ com.example.geosegalmex.Pecuario.PecuarioAlimentacionGanado
+ com.example.geosegalmex.Pecuario.PecuarioAlimentacionGanado$1
 com/example/geosegalmex/drawer/fragment_drawer/LiconsaPrecios.java
  com.example.geosegalmex.drawer.fragment_drawer.LiconsaPrecios
  com.example.geosegalmex.drawer.fragment_drawer.LiconsaPrecios$1
@@ -616,6 +624,8 @@ com/example/geosegalmex/caracterizacion/ciclo_caracterizacion8.java
  com.example.geosegalmex.caracterizacion.ciclo_caracterizacion8$1
  com.example.geosegalmex.caracterizacion.ciclo_caracterizacion8$2
  com.example.geosegalmex.caracterizacion.ciclo_caracterizacion8$3
+com/example/geosegalmex/Catalogos/entidades/Cader.java
+ com.example.geosegalmex.Catalogos.entidades.Cader
 com/example/geosegalmex/drawer/fragment_drawer/bdmunicipios/UtilidadesEdoMunicipios.java
  com.example.geosegalmex.drawer.fragment_drawer.bdmunicipios.UtilidadesEdoMunicipios
 com/example/geosegalmex/PGOperativoLeche/PGOperativoLeche.java
@@ -706,6 +716,8 @@ com/example/geosegalmex/BuildConfig.java
 com/example/geosegalmex/unidadcaracterizacionhortalizas/date/CalendarioActivity.java
  com.example.geosegalmex.unidadcaracterizacionhortalizas.date.CalendarioActivity
  com.example.geosegalmex.unidadcaracterizacionhortalizas.date.CalendarioActivity$1
+com/example/geosegalmex/Catalogos/db/DbHelper.java
+ com.example.geosegalmex.Catalogos.db.DbHelper
 com/example/geosegalmex/Pecuario/GlobalPecuario/GlobalPecuario.java
  com.example.geosegalmex.Pecuario.GlobalPecuario.GlobalPecuario
 com/example/geosegalmex/PAROperativo/PAR_operativo_model.java
@@ -854,9 +866,10 @@ com/example/geosegalmex/caracterizacion/variables_caracterizacion/DatePickerFrag
  com.example.geosegalmex.caracterizacion.variables_caracterizacion.DatePickerFragment
 com/example/geosegalmex/Gps/Trayectoria.java
  com.example.geosegalmex.Gps.Trayectoria
-com/example/geosegalmex/Pecuario/PecuarioReproduccionGenetica.java
- com.example.geosegalmex.Pecuario.PecuarioReproduccionGenetica
- com.example.geosegalmex.Pecuario.PecuarioReproduccionGenetica$1
+com/example/geosegalmex/Catalogos/db/DbCatalogos.java
+ com.example.geosegalmex.Catalogos.db.DbCatalogos
+com/example/geosegalmex/Catalogos/entidades/Municipio.java
+ com.example.geosegalmex.Catalogos.entidades.Municipio
 com/example/geosegalmex/NewCamara.java
  com.example.geosegalmex.NewCamara
  com.example.geosegalmex.NewCamara$1
@@ -867,6 +880,12 @@ com/example/geosegalmex/NewCamara.java
  com.example.geosegalmex.NewCamara$3$1
  com.example.geosegalmex.NewCamara$4
  com.example.geosegalmex.NewCamara$4$1
-com/example/geosegalmex/Infra_Sacrificio/Sacrificio_1.java
- com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1
- com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1$1
+com/example/geosegalmex/Infra_Engorda/Engorda.java
+ com.example.geosegalmex.Infra_Engorda.Engorda
+ com.example.geosegalmex.Infra_Engorda.Engorda$1
+ com.example.geosegalmex.Infra_Engorda.Engorda$2
+ com.example.geosegalmex.Infra_Engorda.Engorda$3
+ com.example.geosegalmex.Infra_Engorda.Engorda$4
+ com.example.geosegalmex.Infra_Engorda.Engorda$5
+ com.example.geosegalmex.Infra_Engorda.Engorda$6
+ com.example.geosegalmex.Infra_Engorda.Engorda$7
