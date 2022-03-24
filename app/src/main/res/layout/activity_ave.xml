@@ -84,7 +84,6 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/borde"
-                android:entries="@array/Estados2021"
                 android:spinnerMode="dropdown"
                 android:textSize="15sp" />
 
@@ -104,7 +103,6 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/borde"
-                android:entries="@array/Aguascalientes2021"
                 android:spinnerMode="dropdown"
                 android:textSize="15sp" />
 
@@ -124,7 +122,6 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/borde"
-                android:entries="@array/Aguascalientes2021"
                 android:spinnerMode="dropdown"
                 android:textSize="15sp" />
 
@@ -144,7 +141,6 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/borde"
-                android:entries="@array/Aguascalientes2021"
                 android:spinnerMode="dropdown"
                 android:textSize="15sp" />
 
@@ -164,7 +160,6 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/borde"
-                android:entries="@array/Aguascalientes2021"
                 android:spinnerMode="dropdown"
                 android:textSize="15sp" />
 
