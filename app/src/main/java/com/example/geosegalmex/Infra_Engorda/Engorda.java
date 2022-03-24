@@ -151,14 +151,12 @@ public class Engorda extends AppCompatActivity {
                     Intent in = new Intent(Engorda.this, GeoreferenciaActivity.class);
                     in.putExtra("model", model);
                     startActivity(in);
-
                 }
                 else{
                     Toast.makeText(getApplicationContext(), "Faltan respuestas",Toast.LENGTH_SHORT).show();
                 }
             }
         });
-
     }
 
     //Metodo para extraer la fecha actual

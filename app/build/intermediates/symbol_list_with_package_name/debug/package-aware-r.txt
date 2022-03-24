@@ -4022,7 +4022,9 @@ id lech2
 id lech4
 id lech5
 id lech6o
+id lech6oo
 id lech7
+id lech7o
 id lech9
 id leche
 id leche_bovino_no
@@ -4033,6 +4035,12 @@ id leche_caprino_no
 id leche_caprino_rg_tresdos
 id leche_caprino_si
 id leche_caprino_tresdos
+id leche_loca
+id leche_spiEstado01
+id leche_spiEstado1
+id leche_spicader
+id leche_spiddr
+id leche_spimun
 id leche_txtFecha
 id lechon_porcino_no
 id lechon_porcino_rg_tresdos
@@ -5240,13 +5248,11 @@ id pg_vent_txt8
 id pg_vent_txt9
 id pg_vent_txtLocalidad
 id pgb_o_spiEstado
-id pgb_o_spiEstado01
 id pgb_o_spiEstado1
 id pgb_o_spiEstado2
 id pgb_o_spiMunicipio
 id pgb_o_spiMunicipio1
 id pgb_o_spiMunicipio2
-id pgb_o_spiMunicipio3
 id piecria_ave_no
 id piecria_ave_rg_tresdos
 id piecria_ave_si

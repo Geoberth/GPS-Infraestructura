@@ -5,10 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.geosegalmex.General;
 import com.example.geosegalmex.Georeferencia.GeoreferenciaActivity;
@@ -23,7 +25,7 @@ public class lecheros1 extends AppCompatActivity {
     Lecheros_Model model;
     int dia, mes, anio;
     Button btnnext;
-    TextView leche_fecha;
+    TextView leche_fecha, lech6oo, lech7o;
     Spinner spi_edo, spi_del, spi_ddr, spi_cader, spi_mun, lestatus, lraza, ltipoo;
     EditText loca, ldomi, lnomupp, lnvacas, lnvaqui, lcruza, loraza, lsuper, lobserv;
 
@@ -33,12 +35,12 @@ public class lecheros1 extends AppCompatActivity {
         setContentView(R.layout.activity_lecheros1);
 
         leche_fecha = findViewById(R.id.leche_txtFecha);
-        spi_edo = findViewById(R.id.sacri_Estado1);
-        spi_del = findViewById(R.id.sacri_del);
-        spi_ddr = findViewById(R.id.sacri_ddr);
-        spi_cader = findViewById(R.id.sacri_cader);
-        spi_mun = findViewById(R.id.sacri_mun);
-        loca = findViewById(R.id.sacri_loca);
+        spi_edo = findViewById(R.id.leche_spiEstado1);
+        spi_del = findViewById(R.id.leche_spiEstado01);
+        spi_ddr = findViewById(R.id.leche_spiddr);
+        spi_cader = findViewById(R.id.leche_spicader);
+        spi_mun = findViewById(R.id.leche_spimun);
+        loca = findViewById(R.id.leche_loca);
 
         ldomi = findViewById(R.id.lech1);
         lnomupp = findViewById(R.id.lech2);
@@ -52,12 +54,54 @@ public class lecheros1 extends AppCompatActivity {
         lsuper = findViewById(R.id.lech9);
         lobserv = findViewById(R.id.lech10);
 
+        lech6oo = findViewById(R.id.lech6oo);
+        lech7o = findViewById(R.id.lech7o);
+
         btnnext = findViewById(R.id.btn_Avanzar);
         muestrafecha();
+
+        lcruza.setVisibility(View.GONE);
+        loraza.setVisibility(View.GONE);
+        lech7o.setVisibility(View.GONE);
+        lech6oo.setVisibility(View.GONE);
+
+        lraza.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                if(position == 8){
+                    lcruza.setVisibility(View.VISIBLE);
+                    loraza.setVisibility(View.GONE);
+                    loraza.setText("");
+                    lech6oo.setVisibility(View.VISIBLE);
+                    lech7o.setVisibility(View.GONE);
+                }
+                else if(position == 9) {
+                    lcruza.setVisibility(View.GONE);
+                    lcruza.setText("");
+                    loraza.setVisibility(View.VISIBLE);
+                    lech7o.setVisibility(View.VISIBLE);
+                    lech6oo.setVisibility(View.GONE);
+                }
+                else{
+                    lcruza.setVisibility(View.GONE);
+                    lcruza.setText("");
+                    loraza.setText("");
+                    loraza.setVisibility(View.GONE);
+                    lech7o.setVisibility(View.GONE);
+                    lech6oo.setVisibility(View.GONE);
+                }
+            }
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
 
         btnnext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                if(validar()){
                 String folio = General.Foliocuestion;
                 String fecha = leche_fecha.getText().toString();
 
@@ -95,13 +139,13 @@ public class lecheros1 extends AppCompatActivity {
                 Intent in = new Intent(lecheros1.this, GeoreferenciaActivity.class);
                 in.putExtra("model", model);
                 startActivity(in);
+                }
+                else{
+                    Toast.makeText(getApplicationContext(), "Faltan respuestas",Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }
-
-
-
-
 
     public void muestrafecha(){
         Calendar fecha = Calendar.getInstance();
@@ -110,6 +154,49 @@ public class lecheros1 extends AppCompatActivity {
         anio = fecha.get(Calendar.YEAR);
         leche_fecha.setText(""+dia+"/"+(mes+1)+"/"+anio);
     }
+
+    public boolean validar(){
+        boolean retorno = true;
+
+        if (loca.getText().toString().isEmpty()){
+            loca.setError("No puede quedar vacio");
+            retorno=false;
+        }
+        if (ldomi.getText().toString().isEmpty()){
+            ldomi.setError("No puede quedar vacio");
+            retorno=false;
+        }
+        if (lnomupp.getText().toString().isEmpty()){
+            lnomupp.setError("No puede quedar vacío");
+            retorno=false;
+        }
+        if (lnvaqui.getText().toString().isEmpty()){
+            lnvaqui.setError("No puede quedar vacío");
+            retorno=false;
+        }
+        if (lnvacas.getText().toString().isEmpty()){
+            lnvacas.setError("No puede quedar vacío");
+            retorno=false;
+        }
+        if (lsuper.getText().toString().isEmpty()){
+            loraza.setError("No puede quedar vacío");
+            retorno=false;
+        }
+        if (lobserv.getText().toString().isEmpty()){
+            loraza.setError("No puede quedar vacío");
+            retorno=false;
+        }
+        else if(lraza.getSelectedItem().toString().equals("Cruza") && lcruza.getText().toString().isEmpty()){
+            lcruza.setError("No puede quedar vacio");
+            retorno=false;
+        }
+        else if(lraza.getSelectedItem().toString().equals("Otra") && lcruza.getText().toString().isEmpty()){
+            lcruza.setError("No puede quedar vacio");
+            retorno=false;
+        }
+        return retorno;
+    }
+
 
     @Override
     public void onBackPressed() {

@@ -70,7 +70,7 @@
             android:textColor="#000000" />
 
         <Spinner
-            android:id="@+id/pgb_o_spiEstado1"
+            android:id="@+id/leche_spiEstado1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
@@ -88,7 +88,7 @@
             android:textColor="#000000" />
 
         <Spinner
-            android:id="@+id/pgb_o_spiEstado01"
+            android:id="@+id/leche_spiEstado01"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
@@ -101,12 +101,31 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Municipio:"
+            android:text="DDR:"
             android:layout_marginTop="20dp"
             android:textColor="#000000" />
 
         <Spinner
-            android:id="@+id/pgb_o_spiMunicipio1"
+            android:id="@+id/leche_spiddr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/borde"
+            android:enabled="false"
+            android:entries="@array/Aguascalientes2021"
+            android:spinnerMode="dropdown"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CADER:"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/leche_spicader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
@@ -125,26 +144,7 @@
             android:textColor="#000000" />
 
         <Spinner
-            android:id="@+id/pgb_o_spiMunicipio2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/borde"
-            android:enabled="false"
-            android:entries="@array/Aguascalientes2021"
-            android:spinnerMode="dropdown"
-            android:textSize="15sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Municipio:"
-            android:layout_marginTop="20dp"
-            android:textColor="#000000" />
-
-        <Spinner
-            android:id="@+id/pgb_o_spiMunicipio3"
+            android:id="@+id/leche_spimun"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
@@ -163,7 +163,7 @@
             android:textColor="#000000" />
 
         <EditText
-            android:id="@+id/localidadpar"
+            android:id="@+id/leche_loca"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:maxLines="1" />
@@ -250,6 +250,13 @@
             android:entries="@array/razas_leche"
             android:spinnerMode="dialog" />
 
+        <TextView
+            android:id="@+id/lech6oo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuando la raza predominante es una cruza, especificar:"
+            android:textColor="#000000" />
+
         <EditText
             android:id="@+id/lech6o"
             android:layout_width="match_parent"
@@ -257,9 +264,10 @@
             android:maxLines="1" />
 
         <TextView
+            android:id="@+id/lech7o"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cuando la raza predominante es una cruza, especificar:"
+            android:text="Cuando la raza utilizada es otra, especificar:"
             android:textColor="#000000" />
 
         <EditText
