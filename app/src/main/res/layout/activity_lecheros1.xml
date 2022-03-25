@@ -9,327 +9,330 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="25dp">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginBottom="16dp"
-        android:orientation="vertical">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ESTABLOS LECHEROS"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="20dp"
-        android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="Lineamiento: Registrar los establos lecheros de ganado bovino cuya capacidad instalada sea de 25 vientres o más."
-            android:textColor="#000000"
-            android:textStyle="bold" />
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="-246dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:orientation="horizontal">
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/pg_leche_tvFech"
-                android:layout_width="178dp"
-                android:layout_height="wrap_content"
-                android:text="Fecha:"
-                android:textColor="#000000"
-                android:textSize="15sp" />
-
-            <TextView
-                android:id="@+id/leche_txtFecha"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="right"
+                android:text="ESTABLOS LECHEROS"
+                android:textAlignment="center"
                 android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Lineamiento: Registrar los establos lecheros de ganado bovino cuya capacidad instalada sea de 25 vientres o más."
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pg_leche_tvFech"
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fecha:"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/leche_txtFecha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Entidad:"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/leche_spiEstado1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:entries="@array/Estados2021"
+                android:spinnerMode="dropdown"
                 android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Delegación:"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/leche_spiEstado01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:entries="@array/Estados2021"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="DDR:"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/leche_spiddr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:enabled="false"
+                android:entries="@array/Aguascalientes2021"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="CADER:"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/leche_spicader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:enabled="false"
+                android:entries="@array/Aguascalientes2021"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Municipio:"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/leche_spimun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:enabled="false"
+                android:entries="@array/Aguascalientes2021"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Colonia/Localidad:"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/leche_loca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Domicilio de la unidad de Producción:"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/lech1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre de la unidad de Producción:"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/lech2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estatus en la que se encuentra el centro de sacrificio:"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/spi_lech3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/borde"
+                android:entries="@array/sacri_estatus"
+                android:spinnerMode="dialog" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="Número de vacas (hemnras que han tenido por lo menos un parto) con que cuenta la unidad de producción:"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/lech4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="Número de vaquillas con que cuenta la unidad de producción (hembras que alcanzaron su madurez reproductiva pero no han tenido partos):"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/lech5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Raza predominante en la unidad de producción:"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/spi_lech6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/borde"
+                android:entries="@array/razas_leche"
+                android:spinnerMode="dialog" />
+
+            <TextView
+                android:id="@+id/lech6oo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cuando la raza predominante es una cruza, especificar:"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/lech6o"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1" />
+
+            <TextView
+                android:id="@+id/lech7o"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cuando la raza utilizada es otra, especificar:"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/lech7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipo de ordeña en la unidad de producción:"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/spi_lech8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/borde"
+                android:entries="@array/ordeña_leche"
+                android:spinnerMode="dialog" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Superficie total de la UPP destinada a la produción de leche de bovino:"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/lech9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:maxLines="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comentarios relacionados con la variable de estatus o con la obtención de información:"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/lech10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1" />
+
+
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+
+                android:id="@+id/btn_Avanzar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/mtrl_on_primary_emphasis_high_type"
+                android:text="Siguiente"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:icon="@android:drawable/ic_input_add"
+                app:iconPadding="20dp" />
+
         </LinearLayout>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:text="Entidad:"
-            android:textColor="#000000" />
-
-        <Spinner
-            android:id="@+id/leche_spiEstado1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/borde"
-            android:spinnerMode="dropdown"
-            android:textSize="15sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:text="Delegación:"
-            android:textColor="#000000" />
-
-        <Spinner
-            android:id="@+id/leche_spiEstado01"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/borde"
-            android:spinnerMode="dropdown"
-            android:textSize="15sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="DDR:"
-            android:layout_marginTop="20dp"
-            android:textColor="#000000" />
-
-        <Spinner
-            android:id="@+id/leche_spiddr"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/borde"
-            android:enabled="false"
-            android:spinnerMode="dropdown"
-            android:textSize="15sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="CADER:"
-            android:layout_marginTop="20dp"
-            android:textColor="#000000" />
-
-        <Spinner
-            android:id="@+id/leche_spicader"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/borde"
-            android:enabled="false"
-            android:spinnerMode="dropdown"
-            android:textSize="15sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Municipio:"
-            android:layout_marginTop="20dp"
-            android:textColor="#000000" />
-
-        <Spinner
-            android:id="@+id/leche_spimun"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/borde"
-            android:enabled="false"
-            android:spinnerMode="dropdown"
-            android:textSize="15sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Colonia/Localidad:"
-            android:layout_marginTop="15dp"
-            android:textColor="#000000" />
-
-        <EditText
-            android:id="@+id/leche_loca"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:maxLines="1" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Domicilio de la unidad de Producción:"
-            android:textColor="#000000" />
-
-        <EditText
-            android:id="@+id/lech1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:maxLines="1" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Nombre de la unidad de Producción:"
-            android:textColor="#000000" />
-
-        <EditText
-            android:id="@+id/lech2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:maxLines="1" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Estatus en la que se encuentra el centro de sacrificio:"
-            android:textColor="#000000" />
-
-        <Spinner
-            android:id="@+id/spi_lech3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/borde"
-            android:entries="@array/sacri_estatus"
-            android:spinnerMode="dialog" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Número de vacas (hemnras que han tenido por lo menos un parto) con que cuenta la unidad de producción:"
-            android:inputType="number"
-            android:textColor="#000000" />
-
-        <EditText
-            android:id="@+id/lech4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:maxLines="1" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Número de vaquillas con que cuenta la unidad de producción (hembras que alcanzaron su madurez reproductiva pero no han tenido partos):"
-            android:inputType="number"
-            android:textColor="#000000" />
-
-        <EditText
-            android:id="@+id/lech5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:maxLines="1" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Raza predominante en la unidad de producción:"
-            android:textColor="#000000" />
-
-        <Spinner
-            android:id="@+id/spi_lech6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/borde"
-            android:entries="@array/razas_leche"
-            android:spinnerMode="dialog" />
-
-        <TextView
-            android:id="@+id/lech6oo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Cuando la raza predominante es una cruza, especificar:"
-            android:textColor="#000000" />
-
-        <EditText
-            android:id="@+id/lech6o"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:maxLines="1" />
-
-        <TextView
-            android:id="@+id/lech7o"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Cuando la raza utilizada es otra, especificar:"
-            android:textColor="#000000" />
-
-        <EditText
-            android:id="@+id/lech7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:maxLines="1" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Tipo de ordeña en la unidad de producción:"
-            android:textColor="#000000" />
-
-        <Spinner
-            android:id="@+id/spi_lech8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/borde"
-            android:entries="@array/ordeña_leche"
-            android:spinnerMode="dialog" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Superficie total de la UPP destinada a la produción de leche de bovino:"
-            android:textColor="#000000" />
-
-        <EditText
-            android:id="@+id/lech9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
-            android:maxLines="1" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Comentarios relacionados con la variable de estatus o con la obtención de información:"
-            android:textColor="#000000" />
-
-        <EditText
-            android:id="@+id/lech10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
-            android:maxLines="1" />
-
-
-
-        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-
-            android:id="@+id/btn_Avanzar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center_horizontal"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="30dp"
-            android:backgroundTint="@color/mtrl_on_primary_emphasis_high_type"
-            android:text="Siguiente"
-            android:theme="@style/Theme.MaterialComponents.Light"
-            app:icon="@android:drawable/ic_input_add"
-            app:iconPadding="20dp" />
-
-    </LinearLayout>
 
 
     </ScrollView>

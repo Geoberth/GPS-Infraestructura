@@ -196,19 +196,19 @@ public class lecheros1 extends AppCompatActivity {
             retorno=false;
         }
         if (lsuper.getText().toString().isEmpty()){
-            loraza.setError("No puede quedar vacío");
+            lsuper.setError("No puede quedar vacío");
             retorno=false;
         }
         if (lobserv.getText().toString().isEmpty()){
-            loraza.setError("No puede quedar vacío");
+            lobserv.setError("No puede quedar vacío");
             retorno=false;
         }
         else if(lraza.getSelectedItem().toString().equals("Cruza") && lcruza.getText().toString().isEmpty()){
             lcruza.setError("No puede quedar vacio");
             retorno=false;
         }
-        else if(lraza.getSelectedItem().toString().equals("Otra") && lcruza.getText().toString().isEmpty()){
-            lcruza.setError("No puede quedar vacio");
+        else if(lraza.getSelectedItem().toString().equals("Otra") && loraza.getText().toString().isEmpty()){
+            loraza.setError("No puede quedar vacio");
             retorno=false;
         }
         return retorno;

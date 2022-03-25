@@ -23,9 +23,15 @@ com/example/geosegalmex/caracterizacion/variables_caracterizacion/VariablesModul
  com.example.geosegalmex.caracterizacion.variables_caracterizacion.VariablesModuloCuatro
 com/example/geosegalmex/Infra_Ave/Ave_bd.java
  com.example.geosegalmex.Infra_Ave.Ave_bd
-com/example/geosegalmex/Pecuario/PecuarioReproduccionGenetica.java
- com.example.geosegalmex.Pecuario.PecuarioReproduccionGenetica
- com.example.geosegalmex.Pecuario.PecuarioReproduccionGenetica$1
+com/example/geosegalmex/Infra_Porcino/Porcino.java
+ com.example.geosegalmex.Infra_Porcino.Porcino
+ com.example.geosegalmex.Infra_Porcino.Porcino$1
+ com.example.geosegalmex.Infra_Porcino.Porcino$2
+ com.example.geosegalmex.Infra_Porcino.Porcino$3
+ com.example.geosegalmex.Infra_Porcino.Porcino$4
+ com.example.geosegalmex.Infra_Porcino.Porcino$5
+ com.example.geosegalmex.Infra_Porcino.Porcino$6
+ com.example.geosegalmex.Infra_Porcino.Porcino$7
 com/example/geosegalmex/unidadcaracterizacionhortalizas/db/DatabaseHelper.java
  com.example.geosegalmex.unidadcaracterizacionhortalizas.db.DatabaseHelper
 com/example/geosegalmex/Principal.java
@@ -33,8 +39,15 @@ com/example/geosegalmex/Principal.java
  com.example.geosegalmex.Principal$1
 com/example/geosegalmex/LiconsaBeneficiario/PASLbeneficiarioBD.java
  com.example.geosegalmex.LiconsaBeneficiario.PASLbeneficiarioBD
-com/example/geosegalmex/caracterizacion/variables_caracterizacion/DatePickerFragment.java
- com.example.geosegalmex.caracterizacion.variables_caracterizacion.DatePickerFragment
+com/example/geosegalmex/Infra_Lecheros/lecheros1.java
+ com.example.geosegalmex.Infra_Lecheros.lecheros1
+ com.example.geosegalmex.Infra_Lecheros.lecheros1$1
+ com.example.geosegalmex.Infra_Lecheros.lecheros1$2
+ com.example.geosegalmex.Infra_Lecheros.lecheros1$3
+ com.example.geosegalmex.Infra_Lecheros.lecheros1$4
+ com.example.geosegalmex.Infra_Lecheros.lecheros1$5
+ com.example.geosegalmex.Infra_Lecheros.lecheros1$6
+ com.example.geosegalmex.Infra_Lecheros.lecheros1$7
 com/example/geosegalmex/caracterizacion/ciclo_caracterizacion9.java
  com.example.geosegalmex.caracterizacion.ciclo_caracterizacion9
  com.example.geosegalmex.caracterizacion.ciclo_caracterizacion9$1
@@ -433,8 +446,9 @@ com/example/geosegalmex/drawer/fragment_drawer/SyncMunFragment.java
  com.example.geosegalmex.drawer.fragment_drawer.SyncMunFragment$3
  com.example.geosegalmex.drawer.fragment_drawer.SyncMunFragment$4
  com.example.geosegalmex.drawer.fragment_drawer.SyncMunFragment$TareaAsyncTask
-com/example/geosegalmex/Gps/Trayectoria.java
- com.example.geosegalmex.Gps.Trayectoria
+com/example/geosegalmex/Pecuario/PecuarioAlimentacionGanado.java
+ com.example.geosegalmex.Pecuario.PecuarioAlimentacionGanado
+ com.example.geosegalmex.Pecuario.PecuarioAlimentacionGanado$1
 com/example/geosegalmex/unidadproduccion/variables/VariablesGlobalesUpf.java
  com.example.geosegalmex.unidadproduccion.variables.VariablesGlobalesUpf
 com/example/geosegalmex/PGOperativoLeche/PGOperativoLecheBD.java
@@ -759,9 +773,11 @@ com/example/geosegalmex/unidadcaracterizacionhortalizas/ControlPlagasEnfermB.jav
  com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnfermB
  com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnfermB$1
  com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnfermB$2
-com/example/geosegalmex/Pecuario/PecuarioAlimentacionGanado.java
- com.example.geosegalmex.Pecuario.PecuarioAlimentacionGanado
- com.example.geosegalmex.Pecuario.PecuarioAlimentacionGanado$1
+com/example/geosegalmex/PGOperativoEstimulos/PGOperativoEstimulos.java
+ com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos
+ com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$1
+ com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$2
+ com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$3
 com/example/geosegalmex/unidadcomercializacion/comercializacion_6.java
  com.example.geosegalmex.unidadcomercializacion.comercializacion_6
  com.example.geosegalmex.unidadcomercializacion.comercializacion_6$1
@@ -834,11 +850,14 @@ com/example/geosegalmex/unidadcaracterizacionhortalizas/HortalizasPvunoD.java
 com/example/geosegalmex/Pecuario/InventarioGanCaprino.java
  com.example.geosegalmex.Pecuario.InventarioGanCaprino
  com.example.geosegalmex.Pecuario.InventarioGanCaprino$1
-com/example/geosegalmex/PGOperativoEstimulos/PGOperativoEstimulos.java
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$1
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$2
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$3
+com/example/geosegalmex/Infra_Ave/Ave.java
+ com.example.geosegalmex.Infra_Ave.Ave
+ com.example.geosegalmex.Infra_Ave.Ave$1
+ com.example.geosegalmex.Infra_Ave.Ave$2
+ com.example.geosegalmex.Infra_Ave.Ave$3
+ com.example.geosegalmex.Infra_Ave.Ave$4
+ com.example.geosegalmex.Infra_Ave.Ave$5
+ com.example.geosegalmex.Infra_Ave.Ave$6
 com/example/geosegalmex/frutales/frutales_6.java
  com.example.geosegalmex.frutales.frutales_6
  com.example.geosegalmex.frutales.frutales_6$1
@@ -873,14 +892,13 @@ com/example/geosegalmex/PGOperativoGranos/PGOperativoGranos.java
  com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos$7
  com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos$8
  com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos$9
-com/example/geosegalmex/Infra_Ave/Ave.java
- com.example.geosegalmex.Infra_Ave.Ave
- com.example.geosegalmex.Infra_Ave.Ave$1
- com.example.geosegalmex.Infra_Ave.Ave$2
- com.example.geosegalmex.Infra_Ave.Ave$3
- com.example.geosegalmex.Infra_Ave.Ave$4
- com.example.geosegalmex.Infra_Ave.Ave$5
- com.example.geosegalmex.Infra_Ave.Ave$6
+com/example/geosegalmex/caracterizacion/variables_caracterizacion/DatePickerFragment.java
+ com.example.geosegalmex.caracterizacion.variables_caracterizacion.DatePickerFragment
+com/example/geosegalmex/Gps/Trayectoria.java
+ com.example.geosegalmex.Gps.Trayectoria
+com/example/geosegalmex/Pecuario/PecuarioReproduccionGenetica.java
+ com.example.geosegalmex.Pecuario.PecuarioReproduccionGenetica
+ com.example.geosegalmex.Pecuario.PecuarioReproduccionGenetica$1
 com/example/geosegalmex/NewCamara.java
  com.example.geosegalmex.NewCamara
  com.example.geosegalmex.NewCamara$1
@@ -891,15 +909,6 @@ com/example/geosegalmex/NewCamara.java
  com.example.geosegalmex.NewCamara$3$1
  com.example.geosegalmex.NewCamara$4
  com.example.geosegalmex.NewCamara$4$1
-com/example/geosegalmex/Infra_Porcino/Porcino.java
- com.example.geosegalmex.Infra_Porcino.Porcino
- com.example.geosegalmex.Infra_Porcino.Porcino$1
- com.example.geosegalmex.Infra_Porcino.Porcino$2
- com.example.geosegalmex.Infra_Porcino.Porcino$3
- com.example.geosegalmex.Infra_Porcino.Porcino$4
- com.example.geosegalmex.Infra_Porcino.Porcino$5
- com.example.geosegalmex.Infra_Porcino.Porcino$6
- com.example.geosegalmex.Infra_Porcino.Porcino$7
 com/example/geosegalmex/Infra_Sacrificio/Sacrificio_1.java
  com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1
  com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1$1
@@ -908,12 +917,3 @@ com/example/geosegalmex/Infra_Sacrificio/Sacrificio_1.java
  com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1$4
  com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1$5
  com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1$6
-com/example/geosegalmex/Infra_Lecheros/lecheros1.java
- com.example.geosegalmex.Infra_Lecheros.lecheros1
- com.example.geosegalmex.Infra_Lecheros.lecheros1$1
- com.example.geosegalmex.Infra_Lecheros.lecheros1$2
- com.example.geosegalmex.Infra_Lecheros.lecheros1$3
- com.example.geosegalmex.Infra_Lecheros.lecheros1$4
- com.example.geosegalmex.Infra_Lecheros.lecheros1$5
- com.example.geosegalmex.Infra_Lecheros.lecheros1$6
- com.example.geosegalmex.Infra_Lecheros.lecheros1$7

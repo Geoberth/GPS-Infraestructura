@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.geosegalmex.Catalogos.db.DbCatalogos;
 import com.example.geosegalmex.Catalogos.entidades.Cader;
@@ -82,7 +83,7 @@ public class Sacrificio_1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                validacion();
+                if(validacion()){
                 String folio = General.Foliocuestion;
                 String fecha = sacri_fecha.getText().toString();
 
@@ -128,8 +129,10 @@ public class Sacrificio_1 extends AppCompatActivity {
                 Intent in = new Intent(Sacrificio_1.this, GeoreferenciaActivity.class);
                 in.putExtra("model", model);
                 startActivity(in);
-
-
+                }
+                else{
+                    Toast.makeText(getApplicationContext(), "Faltan respuestas",Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
