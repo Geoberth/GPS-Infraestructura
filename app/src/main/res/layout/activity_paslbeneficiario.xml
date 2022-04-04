@@ -62,8 +62,8 @@
                 android:id="@+id/tv3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
                 android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
                 android:textColor="#000000"
                 android:textSize="15sp" />
 
@@ -87,10 +87,10 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/borde"
-                android:textSize="12dp"
-                android:visibility="gone"
                 android:entries="@array/responde"
-                android:spinnerMode="dialog" />
+                android:spinnerMode="dialog"
+                android:textSize="12dp"
+                android:visibility="gone" />
 
 
             <RadioGroup
@@ -125,9 +125,9 @@
                 android:id="@+id/paslb_txtbene"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="gone"
                 android:hint="Especifique:"
-                android:maxLines="1" />
+                android:maxLines="1"
+                android:visibility="gone" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -350,16 +350,16 @@
                     android:id="@+id/paslb_ra12"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:visibility="gone"
-                    android:text="Malo" />
+                    android:text="Malo"
+                    android:visibility="gone" />
             </RadioGroup>
 
             <EditText
                 android:id="@+id/paslb_txt4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="gone"
-                android:maxLines="1" />
+                android:maxLines="1"
+                android:visibility="gone" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -393,16 +393,16 @@
                     android:id="@+id/paslb_ra15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:visibility="gone"
-                    android:text="Malo" />
+                    android:text="Malo"
+                    android:visibility="gone" />
             </RadioGroup>
 
             <EditText
                 android:id="@+id/paslb_txt5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="gone"
-                android:maxLines="1" />
+                android:maxLines="1"
+                android:visibility="gone" />
 
             <TextView
 
@@ -437,16 +437,16 @@
                     android:id="@+id/paslb_ra18"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:visibility="gone"
-                    android:text="Malo" />
+                    android:text="Malo"
+                    android:visibility="gone" />
             </RadioGroup>
 
             <EditText
                 android:id="@+id/paslb_txt6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="gone"
-                android:maxLines="1" />
+                android:maxLines="1"
+                android:visibility="gone" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -480,16 +480,16 @@
                     android:id="@+id/paslb_ra21"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:visibility="gone"
-                    android:text="Malo" />
+                    android:text="Malo"
+                    android:visibility="gone" />
             </RadioGroup>
 
             <EditText
                 android:id="@+id/paslb_txt7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="gone"
-                android:maxLines="1" />
+                android:maxLines="1"
+                android:visibility="gone" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -522,9 +522,9 @@
             <EditText
                 android:id="@+id/paslb_txt8"
                 android:layout_width="match_parent"
-                android:visibility="gone"
                 android:layout_height="wrap_content"
-                android:maxLines="1" />
+                android:maxLines="1"
+                android:visibility="gone" />
 
 
             <TextView
@@ -559,16 +559,16 @@
                     android:id="@+id/paslb_ra24"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:visibility="gone"
-                    android:text="Malo" />
+                    android:text="Malo"
+                    android:visibility="gone" />
             </RadioGroup>
 
             <EditText
                 android:id="@+id/paslb_txt9"
                 android:layout_width="match_parent"
-                android:visibility="gone"
                 android:layout_height="wrap_content"
-                android:maxLines="1" />
+                android:maxLines="1"
+                android:visibility="gone" />
 
 
             <TextView
@@ -603,16 +603,16 @@
                     android:id="@+id/paslb_ra27"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:visibility="gone"
-                    android:text="Malo" />
+                    android:text="Malo"
+                    android:visibility="gone" />
             </RadioGroup>
 
             <EditText
                 android:id="@+id/paslb_txt10"
                 android:layout_width="match_parent"
-                android:visibility="gone"
                 android:layout_height="wrap_content"
-                android:maxLines="1" />
+                android:maxLines="1"
+                android:visibility="gone" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -646,16 +646,16 @@
                     android:id="@+id/paslb_ra30"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:visibility="gone"
-                    android:text="Malo" />
+                    android:text="Malo"
+                    android:visibility="gone" />
             </RadioGroup>
 
             <EditText
                 android:id="@+id/paslb_txt11"
                 android:layout_width="match_parent"
-                android:visibility="gone"
                 android:layout_height="wrap_content"
-                android:maxLines="1" />
+                android:maxLines="1"
+                android:visibility="gone" />
 
 
             <TextView
@@ -690,16 +690,16 @@
                     android:id="@+id/paslb_ra33"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:visibility="gone"
-                    android:text="Malo" />
+                    android:text="Malo"
+                    android:visibility="gone" />
             </RadioGroup>
 
             <EditText
                 android:id="@+id/paslb_txt12"
                 android:layout_width="match_parent"
-                android:visibility="gone"
                 android:layout_height="wrap_content"
-                android:maxLines="1" />
+                android:maxLines="1"
+                android:visibility="gone" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -732,17 +732,17 @@
 
                     android:id="@+id/paslb_ra36"
                     android:layout_width="wrap_content"
-                    android:visibility="gone"
                     android:layout_height="wrap_content"
-                    android:text="Malo" />
+                    android:text="Malo"
+                    android:visibility="gone" />
             </RadioGroup>
 
             <EditText
                 android:id="@+id/paslb_txt13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="gone"
-                android:maxLines="1" />
+                android:maxLines="1"
+                android:visibility="gone" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -783,10 +783,10 @@
             <EditText
                 android:id="@+id/paslb_txt14"
                 android:layout_width="match_parent"
-                android:visibility="gone"
-                android:hint="¿Porque?"
                 android:layout_height="wrap_content"
-                android:maxLines="1" />
+                android:hint="¿Porque?"
+                android:maxLines="1"
+                android:visibility="gone" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -836,8 +836,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Explique: "
-                android:visibility="gone"
-                android:maxLines="1" />
+                android:maxLines="1"
+                android:visibility="gone" />
 
             <TextView
                 android:layout_width="match_parent"
