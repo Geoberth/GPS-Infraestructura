@@ -35,5 +35,10 @@
     android:label="Diconsa Precios"
     tools:layout="@layout/fragment_tools" />
 
+    <activity
+        android:id="@+id/nav_enviar"
+        android:name="com.example.geosegalmex.Enviar.Enviar"
+        android:label="Enviar"
+        tools:layout="@layout/fragment_tools" />
 
 </navigation>

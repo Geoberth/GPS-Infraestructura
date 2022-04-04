@@ -81,6 +81,7 @@ public class Ave extends AppCompatActivity {
                 if(validar()){
 
                     String folio = General.Foliocuestion;
+                    String fecha = textFecha.getText().toString();
                     String cveEntidad = cveEdo;
                     String entidad = nombreEdo;
                     String cveRepresentacion = cveDelegacion;
@@ -109,7 +110,7 @@ public class Ave extends AppCompatActivity {
                     String f1 = General.Foto1;
                     String f2 = General.Foto2;
 
-                    model = new Ave_Model(folio,cveEntidad,entidad,cveRepresentacion,representacion,cveDdr2,ddr,cveCader2,cader,cveMunicipio2,municipio,cveLocalidad,loc,domUpp,nomUpp,estatus,sistema,especie,capInst,capUtil,totalAnim,numNaves,superf,observ,longitud,latitud,f1,f2);
+                    model = new Ave_Model(folio,fecha,cveEntidad,entidad,cveRepresentacion,representacion,cveDdr2,ddr,cveCader2,cader,cveMunicipio2,municipio,cveLocalidad,loc,domUpp,nomUpp,estatus,sistema,especie,capInst,capUtil,totalAnim,numNaves,superf,observ,longitud,latitud,f1,f2,"0");
                     Intent in = new Intent(Ave.this, GeoreferenciaActivity.class);
                     in.putExtra("model", model);
                     startActivity(in);

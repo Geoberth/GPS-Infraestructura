@@ -37,6 +37,15 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.geosegalmex.Enviar.Enviar"
+            android:exported="false"
+            android:parentActivityName="com.example.geosegalmex.Gps.GpsEnableb"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Gps.GpsEnableb" />
+        </activity>
+        <activity
             android:name="com.example.geosegalmex.Infra_Ave.Ave"
             android:exported="false" />
         <activity

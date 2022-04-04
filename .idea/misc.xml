@@ -3,12 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/drawable/ic_menu_manage.xml" value="0.2935" />
+        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/drawable/ic_menu_send.xml" value="0.2935" />
+        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/drawable/progress.xml" value="0.339" />
+        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/drawable/redondo.xml" value="0.339" />
+        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/drawable/redondo2.xml" value="0.339" />
+        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/drawable/redondo3.xml" value="0.339" />
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_ave.xml" value="0.25" />
+        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_drawer.xml" value="0.5022644927536232" />
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_engorda.xml" value="0.25" />
+        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_enviar.xml" value="0.5" />
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_gps_enableb.xml" value="0.17532795156407668" />
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_lecheros1.xml" value="0.28532608695652173" />
+        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_lista_bd.xml" value="0.37916666666666665" />
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_porcino.xml" value="0.17532795156407668" />
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_sacrificio1.xml" value="0.17532795156407668" />
+        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/app_bar_drawer.xml" value="0.5022644927536232" />
+        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/content_drawer.xml" value="0.5022644927536232" />
+        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/fragment_exportar.xml" value="0.37916666666666665" />
+        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/fragment_tools.xml" value="0.5022644927536232" />
+        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/nav_header_drawer.xml" value="0.5022644927536232" />
+        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/menu/activity_drawer_drawer.xml" value="0.5244791666666667" />
+        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/menu/drawer.xml" value="0.5244791666666667" />
         <entry key="..\:/Users/norberto.rojas/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_engorda.xml" value="0.20555555555555555" />
         <entry key="..\:/Users/norberto.rojas/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_lecheros1.xml" value="0.24435318275154005" />
         <entry key="..\:/Users/norberto.rojas/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_liconsa.xml" value="0.25" />

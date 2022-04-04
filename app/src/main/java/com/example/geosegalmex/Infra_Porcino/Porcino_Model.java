@@ -4,14 +4,15 @@ import java.io.Serializable;
 
 public class Porcino_Model implements Serializable {
 
-    private String folio,cveEntidad,entidad,cveRepresentacion,representacion,cveDdr,ddr,cveCader,cader,cveMunicipio,municipio,cveLocalidad,loc,domUpp,nomUpp,estatus,sistema,actividad,numVientres,numLechones,numCrecimiento,numFinalizacion,numSementales,capInst,capUtil,totalAnim,raza,razaCruza,razaOtra,superf,observ,longitud,latitud,f1,f2;
+    private String folio,fecha,cveEntidad,entidad,cveRepresentacion,representacion,cveDdr,ddr,cveCader,cader,cveMunicipio,municipio,cveLocalidad,loc,domUpp,nomUpp,estatus,sistema,actividad,numVientres,numLechones,numCrecimiento,numFinalizacion,numSementales,capInst,capUtil,totalAnim,raza,razaCruza,razaOtra,superf,observ,longitud,latitud,f1,f2,bandera;
 
     public Porcino_Model() {
 
     }
 
-    public Porcino_Model(String folio, String cveEntidad, String entidad, String cveRepresentacion, String representacion, String cveDdr, String ddr, String cveCader, String cader, String cveMunicipio, String municipio, String cveLocalidad, String loc, String domUpp, String nomUpp, String estatus, String sistema, String actividad, String numVientres, String numLechones, String numCrecimiento, String numFinalizacion, String numSementales, String capInst, String capUtil, String totalAnim, String raza, String razaCruza, String razaOtra, String superf, String observ, String longitud, String latitud, String f1, String f2) {
+    public Porcino_Model(String folio, String fecha, String cveEntidad, String entidad, String cveRepresentacion, String representacion, String cveDdr, String ddr, String cveCader, String cader, String cveMunicipio, String municipio, String cveLocalidad, String loc, String domUpp, String nomUpp, String estatus, String sistema, String actividad, String numVientres, String numLechones, String numCrecimiento, String numFinalizacion, String numSementales, String capInst, String capUtil, String totalAnim, String raza, String razaCruza, String razaOtra, String superf, String observ, String longitud, String latitud, String f1, String f2, String bandera) {
         this.folio = folio;
+        this.fecha = fecha;
         this.cveEntidad = cveEntidad;
         this.entidad = entidad;
         this.cveRepresentacion = cveRepresentacion;
@@ -46,6 +47,7 @@ public class Porcino_Model implements Serializable {
         this.latitud = latitud;
         this.f1 = f1;
         this.f2 = f2;
+        this.bandera = bandera;
     }
 
     public String getFolio() {
@@ -326,5 +328,21 @@ public class Porcino_Model implements Serializable {
 
     public void setF2(String f2) {
         this.f2 = f2;
+    }
+
+    public String getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
+    }
+
+    public String getBandera() {
+        return bandera;
+    }
+
+    public void setBandera(String bandera) {
+        this.bandera = bandera;
     }
 }

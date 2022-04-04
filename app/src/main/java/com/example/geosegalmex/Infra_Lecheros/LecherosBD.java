@@ -78,7 +78,7 @@ public class LecherosBD extends SQLiteOpenHelper {
     }
     public void deleteLecheros(){
         SQLiteDatabase db = this.getWritableDatabase();
-        db.execSQL("DROP TABLE IF EXISTS "+ Sacrificio_bd.TABLA_BD);
+        db.execSQL("DROP TABLE IF EXISTS "+ Lecheros_bd.TABLA_BD);
         db.execSQL("DROP TABLE IF EXISTS "+ UtilidadesTrayectoria.TABLA_TRAYECTORIA);
         onCreate(db);
         if (android.os.Build.VERSION.SDK_INT == Build.VERSION_CODES.P){

@@ -4,6 +4,7 @@ public class Porcino_bd {
 
     public static final String TABLA_BD                 = "TB_PORCINO";
     public static final String COLUMN_FOLIO             = "FOLIO";
+    public static final String COLUMN_FECHA = "FECHA";
     public static final String COLUMN_CVEENTIDAD        = "CVEENTIDAD";
     public static final String COLUMN_ENTIDAD           = "ENTIDAD";
     public static final String COLUMN_CVEREPRESENTACION = "CVEREPRESENTACION";
@@ -38,9 +39,11 @@ public class Porcino_bd {
     public static final String COLUMN_LATITUD           = "LATITUD";
     public static final String COLUMN_F1                = "F1";
     public static final String COLUMN_F2                = "F2";
+    public static final String COLUMN_BANDERA = "BANDERA";
 
     public static final String CREAR_TABLA_PORCINO= "CREATE TABLE " + TABLA_BD + "("
             + COLUMN_FOLIO + " VARCHAR PRIMARY KEY, "
+            + COLUMN_FECHA + " VARCHAR, "
             + COLUMN_CVEENTIDAD + " VARCHAR, "
             + COLUMN_ENTIDAD + " VARCHAR, "
             + COLUMN_CVEREPRESENTACION + " VARCHAR, "
@@ -74,6 +77,7 @@ public class Porcino_bd {
             + COLUMN_LONGITUD + " VARCHAR, "
             + COLUMN_LATITUD + " VARCHAR, "
             + COLUMN_F1 + " VARCHAR, "
-            + COLUMN_F2 + " VARCHAR); ";
+            + COLUMN_F2 + " VARCHAR, "
+            + COLUMN_BANDERA + " VARCHAR); ";
 
 }

@@ -213,6 +213,10 @@ array suelo_esti
 array type_censacri
 array typeide
 array vialidad
+attr DialogSpotColor
+attr DialogSpotCount
+attr DialogTitleAppearance
+attr DialogTitleText
 attr action
 attr actionBarDivider
 attr actionBarItemBackground
@@ -1159,6 +1163,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color spots_dialog_color
 color success_stroke_color
 color sweet_dialog_bg_color
 color sweet_dialog_bg_color_dark
@@ -1467,10 +1472,15 @@ dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
 dimen progress_circle_radius
+dimen progress_margin
+dimen progress_width
+dimen spot_size
 dimen subtitle_corner_radius
 dimen subtitle_outline_width
 dimen subtitle_shadow_offset
 dimen subtitle_shadow_radius
+dimen title_margin
+dimen title_padding
 dimen titulo
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
@@ -1608,6 +1618,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable dialog_background
 drawable dialog_background_dark
+drawable dmax_spots_spot
 drawable error_center_x
 drawable error_circle
 drawable frontera
@@ -1662,6 +1673,9 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable red_button_background
+drawable redondo
+drawable redondo2
+drawable redondo3
 drawable siap
 drawable side_nav_bar
 drawable success_bow
@@ -1904,6 +1918,7 @@ id btn_sig9
 id btn_uni_pro
 id button1
 id button2
+id button3
 id buttonPanel
 id button_activity_captureDos
 id button_captureUno
@@ -3040,6 +3055,8 @@ id din_rms
 id direct
 id directo_productor
 id disableHome
+id dmax_spots_progress
+id dmax_spots_title
 id doble_h
 id docespecifique
 id dospg_leche_tvFech
@@ -3716,11 +3733,20 @@ id edtpPecalimotro
 id ejidal
 id end
 id end_padder
+id ennviar1
+id ennviar4
+id ennviar7
 id ent_fed_tres
 id ent_localidad_tres
 id ent_municipio_tres
 id enterAlways
 id enterAlwaysCollapsed
+id enviar2
+id enviar3
+id enviar5
+id enviar6
+id enviar8
+id enviar9
 id ernpl_1001
 id ernpl_1002
 id ernpl_1003
@@ -4123,6 +4149,7 @@ id mtrl_picker_header_text
 id mtrl_picker_title_text
 id multiply
 id nav_controller_view_tag
+id nav_enviar
 id nav_exportar
 id nav_home
 id nav_host_fragment
@@ -6725,6 +6752,7 @@ layout activity_cosecha_b
 layout activity_drawer
 layout activity_enfermedades_cambio_panales
 layout activity_engorda
+layout activity_enviar
 layout activity_estructura_del_hato
 layout activity_fertilizante_si
 layout activity_firma
@@ -6767,6 +6795,7 @@ layout activity_inventario_ganado_ovino
 layout activity_lecheros1
 layout activity_liconsa
 layout activity_liconsa_verificacion
+layout activity_lista_bd
 layout activity_manejo_apicola
 layout activity_manejo_sanitario_ordenia
 layout activity_modalidad_hidrica
@@ -6833,6 +6862,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout dmax_spots_dialog
 layout fragment_exportar
 layout fragment_liconsa_precios
 layout fragment_mapa
@@ -7341,6 +7371,7 @@ style ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar
 style ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox
 style ShapeAppearanceOverlay_TopLeftCut
 style ShapeAppearanceOverlay_TopRightDifferentCornerSize
+style SpotsDialogDefault
 style TextAppearance_AppCompat
 style TextAppearance_AppCompat_Body1
 style TextAppearance_AppCompat_Body2
@@ -7750,6 +7781,7 @@ styleable ConstraintLayout_placeholder content emptyVisibility
 styleable ConstraintSet android_orientation android_id android_visibility android_layout_width android_layout_height android_layout_marginLeft android_layout_marginTop android_layout_marginRight android_layout_marginBottom android_maxWidth android_maxHeight android_minWidth android_minHeight android_alpha android_transformPivotX android_transformPivotY android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_layout_marginStart android_layout_marginEnd android_translationZ android_elevation barrierAllowsGoneWidgets barrierDirection chainUseRtl constraint_referenced_ids layout_constrainedHeight layout_constrainedWidth layout_constraintBaseline_creator layout_constraintBaseline_toBaselineOf layout_constraintBottom_creator layout_constraintBottom_toBottomOf layout_constraintBottom_toTopOf layout_constraintCircle layout_constraintCircleAngle layout_constraintCircleRadius layout_constraintDimensionRatio layout_constraintEnd_toEndOf layout_constraintEnd_toStartOf layout_constraintGuide_begin layout_constraintGuide_end layout_constraintGuide_percent layout_constraintHeight_default layout_constraintHeight_max layout_constraintHeight_min layout_constraintHeight_percent layout_constraintHorizontal_bias layout_constraintHorizontal_chainStyle layout_constraintHorizontal_weight layout_constraintLeft_creator layout_constraintLeft_toLeftOf layout_constraintLeft_toRightOf layout_constraintRight_creator layout_constraintRight_toLeftOf layout_constraintRight_toRightOf layout_constraintStart_toEndOf layout_constraintStart_toStartOf layout_constraintTop_creator layout_constraintTop_toBottomOf layout_constraintTop_toTopOf layout_constraintVertical_bias layout_constraintVertical_chainStyle layout_constraintVertical_weight layout_constraintWidth_default layout_constraintWidth_max layout_constraintWidth_min layout_constraintWidth_percent layout_editor_absoluteX layout_editor_absoluteY layout_goneMarginBottom layout_goneMarginEnd layout_goneMarginLeft layout_goneMarginRight layout_goneMarginStart layout_goneMarginTop
 styleable CoordinatorLayout keylines statusBarBackground
 styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline
+styleable Dialog DialogSpotColor DialogSpotCount DialogTitleAppearance DialogTitleText
 styleable DialogFragmentNavigator android_name
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
 styleable ExtendedFloatingActionButton elevation extendMotionSpec hideMotionSpec showMotionSpec shrinkMotionSpec

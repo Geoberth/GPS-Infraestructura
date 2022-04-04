@@ -2,6 +2,7 @@ package com.example.geosegalmex.Infra_Engorda;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Build;
@@ -9,10 +10,12 @@ import android.os.Build;
 import com.example.geosegalmex.General;
 import com.example.geosegalmex.Gps.UtilidadesTrayectoria;
 
+import java.util.ArrayList;
+
 public class EngordaBD extends SQLiteOpenHelper  {
 
     public static final String DB_NAME  = "CorralesdeEngorda";
-    public static final int DB_VERSION = 2;
+    public static final int DB_VERSION = 4;
 
     public EngordaBD(Context context) {
         super(context, DB_NAME, null, DB_VERSION);
@@ -37,6 +40,7 @@ public class EngordaBD extends SQLiteOpenHelper  {
         ContentValues contentValues = new ContentValues();
 
         contentValues.put(Engorda_bd.COLUMN_FOLIO, model.getFolio());
+        contentValues.put(Engorda_bd.COLUMN_FECHA, model.getFecha());
         contentValues.put(Engorda_bd.COLUMN_CVEENTIDAD, model.getCveEntidad());
         contentValues.put(Engorda_bd.COLUMN_ENTIDAD, model.getEntidad());
         contentValues.put(Engorda_bd.COLUMN_CVEREPRESENTACION, model.getCveRepresentacion());
@@ -67,6 +71,7 @@ public class EngordaBD extends SQLiteOpenHelper  {
         contentValues.put(Engorda_bd.COLUMN_LATITUD, model.getLatitud());
         contentValues.put(Engorda_bd.COLUMN_F1, model.getF1());
         contentValues.put(Engorda_bd.COLUMN_F2, model.getF2());
+        contentValues.put(Engorda_bd.COLUMN_BANDERA, model.getBandera());
 
         long result = db.insert(Engorda_bd.TABLA_BD, null, contentValues);
         db.close();
@@ -107,6 +112,77 @@ public class EngordaBD extends SQLiteOpenHelper  {
         }else{
             return true;
         }
+    }
+
+    public ArrayList<Engorda_Model> mostrarEngorda() {
+        try {
+            SQLiteDatabase bd = this.getReadableDatabase();
+            ArrayList<Engorda_Model> lista = new ArrayList<>();
+
+            Cursor filas = bd.rawQuery("SELECT DISTINCT * FROM " + Engorda_bd.TABLA_BD + " WHERE " + Engorda_bd.COLUMN_BANDERA + " = 0 ORDER BY " + Engorda_bd.COLUMN_FOLIO + " ASC", null);
+            if (filas.moveToFirst()) {
+
+                do{
+                    Engorda_Model cat = new Engorda_Model();
+                    cat.setFolio(filas.getString(0));
+                    cat.setFecha(filas.getString(1));
+                    cat.setCveEntidad(filas.getString(2));
+                    cat.setEntidad(filas.getString(3));
+                    cat.setCveRepresentacion(filas.getString(4));
+                    cat.setRepresentacion(filas.getString(5));
+                    cat.setCveDdr(filas.getString(6));
+                    cat.setDdr(filas.getString(7));
+                    cat.setCveCader(filas.getString(8));
+                    cat.setCader(filas.getString(9));
+                    cat.setCveMunicipio(filas.getString(10));
+                    cat.setMunicipio(filas.getString(11));
+                    cat.setCveLocalidad(filas.getString(12));
+                    cat.setLoc(filas.getString(13));
+                    cat.setDomUpp(filas.getString(14));
+                    cat.setNomUpp(filas.getString(15));
+                    cat.setEstatus(filas.getString(16));
+                    cat.setSistema(filas.getString(17));
+                    cat.setActividad(filas.getString(18));
+                    cat.setRaza(filas.getString(19));
+                    cat.setRazaCruza(filas.getString(20));
+                    cat.setRazaOtra(filas.getString(21));
+                    cat.setCapInst(filas.getString(22));
+                    cat.setCapUtil(filas.getString(23));
+                    cat.setTotalAnim(filas.getString(24));
+                    cat.setEngorda(filas.getString(25));
+                    cat.setSuperf(filas.getString(26));
+                    cat.setObserv(filas.getString(27));
+                    cat.setLongitud(filas.getString(28));
+                    cat.setLatitud(filas.getString(29));
+                    cat.setF1(filas.getString(30));
+                    cat.setF2(filas.getString(31));
+                    cat.setBandera(filas.getString(32));
+                    lista.add(cat);
+                } while (filas.moveToNext());
+                filas.close();
+                return lista;
+            } else {
+                return null;
+            }
+        } catch (Exception ex) {
+            return null;
+        }
+    }
+
+    public boolean editarEngorda(String Folio, String bandera){
+        boolean correcto = false;
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        try{
+            db.execSQL("UPDATE " + Engorda_bd.TABLA_BD + " SET " + Engorda_bd.COLUMN_BANDERA + " = '" + bandera + "' WHERE " + Engorda_bd.COLUMN_FOLIO + " = '" + Folio + "'");
+            correcto = true;
+        } catch (Exception ex){
+            ex.toString();
+            correcto = false;
+        } finally{
+            db.close();
+        }
+        return correcto;
     }
 
 }
