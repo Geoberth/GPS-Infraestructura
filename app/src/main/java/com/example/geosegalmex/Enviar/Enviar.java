@@ -14,8 +14,12 @@ import com.example.geosegalmex.Infra_Ave.AveBD;
 import com.example.geosegalmex.Infra_Ave.Ave_Model;
 import com.example.geosegalmex.Infra_Engorda.EngordaBD;
 import com.example.geosegalmex.Infra_Engorda.Engorda_Model;
+import com.example.geosegalmex.Infra_Lecheros.LecherosBD;
+import com.example.geosegalmex.Infra_Lecheros.Lecheros_Model;
 import com.example.geosegalmex.Infra_Porcino.PorcinoBD;
 import com.example.geosegalmex.Infra_Porcino.Porcino_Model;
+import com.example.geosegalmex.Infra_Sacrificio.SacrificioBD;
+import com.example.geosegalmex.Infra_Sacrificio.Sacrificio_model;
 import com.example.geosegalmex.R;
 import com.google.gson.Gson;
 
@@ -32,8 +36,8 @@ import java.util.Map;
 
 public class Enviar extends AppCompatActivity {
 
-    TextView ids, tvengorda, tvporcino, tvaves;
-    Button btnEngorda, btnPorcino, btnaves;
+    TextView ids, tvengorda, tvporcino, tvaves, tvsacrificio, tvLechero;
+    Button btnEngorda, btnPorcino, btnaves, btnsacrificio, btnLechero;
 
     boolean correctoEngorda = false;
     ArrayList<Engorda_Model> ArrayEngorda = new ArrayList<>();
@@ -43,6 +47,12 @@ public class Enviar extends AppCompatActivity {
 
     boolean correctoAve = false;
     ArrayList<Ave_Model> ArrayAve= new ArrayList<>();
+
+    boolean correctoSacrificio = false;
+    ArrayList<Sacrificio_model> ArraySacrificio= new ArrayList<>();
+
+    boolean correctoLechero = false;
+    ArrayList<Lecheros_Model> ArrayLechero= new ArrayList<>();
 
     RequestQueue requestQueue;
 
@@ -58,6 +68,10 @@ public class Enviar extends AppCompatActivity {
         btnPorcino = (Button)findViewById(R.id.button2);
         tvaves = (TextView)findViewById(R.id.enviar8);
         btnaves = (Button)findViewById(R.id.button3);
+        tvsacrificio = (TextView)findViewById(R.id.enviar11);
+        btnsacrificio = (Button)findViewById(R.id.button4);
+        tvLechero = (TextView)findViewById(R.id.enviar14);
+        btnLechero = (Button)findViewById(R.id.button5);
 
         //╔═══════════════════╗
         //║ Variables Engorda ║
@@ -113,6 +127,44 @@ public class Enviar extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 insertDataAve(ArrayAve);
+            }
+        });
+
+        //╔══════════════════════╗
+        //║ Variables Sacrificio ║
+        //╚══════════════════════╝
+        //Contador de registro nuevos por enviar Engorda
+        SacrificioBD dbsacrificio = new SacrificioBD(Enviar.this);
+        ArraySacrificio = dbsacrificio.mostrarSacrificio();
+        tvsacrificio.setText((ArraySacrificio == null)?"0":"" + ArraySacrificio.size());
+        if(tvsacrificio.getText().equals("0")){
+            btnsacrificio.setEnabled(false);
+            btnsacrificio.setBackground(ContextCompat.getDrawable(this, R.drawable.redondo3));
+        }
+        //Evento click enviar Engorda
+        btnsacrificio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                insertDataSacrificio(ArraySacrificio);
+            }
+        });
+
+        //╔══════════════════════╗
+        //║  Variables Lecheros  ║
+        //╚══════════════════════╝
+        //Contador de registro nuevos por enviar Engorda
+        LecherosBD dblecheros = new LecherosBD(Enviar.this);
+        ArrayLechero = dblecheros.mostrarLecheros();
+        tvLechero.setText((ArrayLechero == null)?"0":"" + ArrayLechero.size());
+        if(tvLechero.getText().equals("0")){
+            btnLechero.setEnabled(false);
+            btnLechero.setBackground(ContextCompat.getDrawable(this, R.drawable.redondo3));
+        }
+        //Evento click enviar Engorda
+        btnLechero.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                insertDataLecheros(ArrayLechero);
             }
         });
 
@@ -230,7 +282,7 @@ public class Enviar extends AppCompatActivity {
         progressDialog.show();
         progressDialog.setCanceledOnTouchOutside(false);
         Gson gson = new Gson();
-        String inputString= gson.toJson(ArrayAve);
+        String inputString= gson.toJson(ArrayAve2);
         StringRequest request = new StringRequest(Request.Method.POST, "https://erickburg98.000webhostapp.com/Infra/saveAve.php",
                 //StringRequest request = new StringRequest(Request.Method.POST, "http://10.11.6.61/Infra/saveAve.php",
                 new Response.Listener<String>() {
@@ -239,10 +291,112 @@ public class Enviar extends AppCompatActivity {
                         if(response.contains("Data Inserted")){
                             String Folios = "";
                             AveBD dbave2 = new AveBD(Enviar.this);
-                            for(int i=0; i< ArrayAve.size(); i++){
-                                Folios = ArrayAve.get(i).getFolio();
+                            for(int i=0; i< ArrayAve2.size(); i++){
+                                Folios = ArrayAve2.get(i).getFolio();
                                 correctoAve = dbave2.editarAve(Folios, "1");
                                 if(!correctoAve){
+                                    Toast.makeText(Enviar.this, "Error al actualizar bandera! " + Folios, Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                            Toast.makeText(Enviar.this, "Datos enviados correctamente! ", Toast.LENGTH_LONG).show();
+                            progressDialog.dismiss();
+                            startActivity(new Intent(getApplicationContext(),Enviar.class));
+                            finish();
+                        }
+                        else{
+                            Toast.makeText(Enviar.this, "Los datos no pudieron ser guardados! \n" + response.toString(), Toast.LENGTH_SHORT).show();
+                            progressDialog.dismiss();
+                        }
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(Enviar.this, "Error en la conexion", Toast.LENGTH_SHORT).show();
+                progressDialog.dismiss();
+            }
+        }
+        ){
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String,String> params = new HashMap<String,String>();
+                params.put("data1",inputString);
+                return params;
+            }
+        };
+        requestQueue = Volley.newRequestQueue(Enviar.this);
+        requestQueue.add(request);
+    }
+
+    private void insertDataSacrificio(ArrayList<Sacrificio_model> ArraySacrificio2) {
+        final ProgressDialog progressDialog = new ProgressDialog(this);
+        progressDialog.setMessage("cargando...");
+        progressDialog.show();
+        progressDialog.setCanceledOnTouchOutside(false);
+        Gson gson = new Gson();
+        String inputString= gson.toJson(ArraySacrificio2);
+        StringRequest request = new StringRequest(Request.Method.POST, "https://erickburg98.000webhostapp.com/Infra/saveSacrificio.php",
+                //StringRequest request = new StringRequest(Request.Method.POST, "http://10.11.6.61/Infra/saveSacrificio.php",
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        if(response.contains("Data Inserted")){
+                            String Folios = "";
+                            SacrificioBD dbsacrificio2 = new SacrificioBD(Enviar.this);
+                            for(int i=0; i< ArraySacrificio2.size(); i++){
+                                Folios = ArraySacrificio2.get(i).getFolio();
+                                correctoSacrificio = dbsacrificio2.editarSacrificio(Folios, "1");
+                                if(!correctoSacrificio){
+                                    Toast.makeText(Enviar.this, "Error al actualizar bandera! " + Folios, Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                            Toast.makeText(Enviar.this, "Datos enviados correctamente! ", Toast.LENGTH_LONG).show();
+                            progressDialog.dismiss();
+                            startActivity(new Intent(getApplicationContext(),Enviar.class));
+                            finish();
+                        }
+                        else{
+                            Toast.makeText(Enviar.this, "Los datos no pudieron ser guardados! \n" + response.toString(), Toast.LENGTH_SHORT).show();
+                            progressDialog.dismiss();
+                        }
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(Enviar.this, "Error en la conexion", Toast.LENGTH_SHORT).show();
+                progressDialog.dismiss();
+            }
+        }
+        ){
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String,String> params = new HashMap<String,String>();
+                params.put("data1",inputString);
+                return params;
+            }
+        };
+        requestQueue = Volley.newRequestQueue(Enviar.this);
+        requestQueue.add(request);
+    }
+
+    private void insertDataLecheros(ArrayList<Lecheros_Model> ArrayLechero2) {
+        final ProgressDialog progressDialog = new ProgressDialog(this);
+        progressDialog.setMessage("cargando...");
+        progressDialog.show();
+        progressDialog.setCanceledOnTouchOutside(false);
+        Gson gson = new Gson();
+        String inputString= gson.toJson(ArrayLechero2);
+        StringRequest request = new StringRequest(Request.Method.POST, "https://erickburg98.000webhostapp.com/Infra/saveLecheros.php",
+                //StringRequest request = new StringRequest(Request.Method.POST, "http://10.11.6.61/Infra/saveLecheros.php",
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        if(response.contains("Data Inserted")){
+                            String Folios = "";
+                            LecherosBD dblecheros2 = new LecherosBD(Enviar.this);
+                            for(int i=0; i< ArrayLechero2.size(); i++){
+                                Folios = ArrayLechero2.get(i).getFolio();
+                                correctoLechero = dblecheros2.editarLecheros(Folios, "1");
+                                if(!correctoLechero){
                                     Toast.makeText(Enviar.this, "Error al actualizar bandera! " + Folios, Toast.LENGTH_SHORT).show();
                                 }
                             }

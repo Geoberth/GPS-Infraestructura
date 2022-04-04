@@ -299,12 +299,12 @@ com/example/geosegalmex/unidadcaracterizacionhortalizas/model/MlTiempoRiegoAdapt
 com/example/geosegalmex/Pecuario/PecuarioManejoSanGanado.java
  com.example.geosegalmex.Pecuario.PecuarioManejoSanGanado
  com.example.geosegalmex.Pecuario.PecuarioManejoSanGanado$1
-com/example/geosegalmex/Infra_Lecheros/Lecheros_Model.java
- com.example.geosegalmex.Infra_Lecheros.Lecheros_Model
 com/example/geosegalmex/Firma.java
  com.example.geosegalmex.Firma
  com.example.geosegalmex.Firma$1
  com.example.geosegalmex.Firma$2
+com/example/geosegalmex/Infra_Lecheros/Lecheros_Model.java
+ com.example.geosegalmex.Infra_Lecheros.Lecheros_Model
 com/example/geosegalmex/PGBeneficiarioLeche/PGBeneficiarioLeche_bd.java
  com.example.geosegalmex.PGBeneficiarioLeche.PGBeneficiarioLeche_bd
 com/example/geosegalmex/caracterizacion/variables_caracterizacion/CalendarioDate.java
@@ -561,7 +561,15 @@ com/example/geosegalmex/Enviar/Enviar.java
  com.example.geosegalmex.Enviar.Enviar$10
  com.example.geosegalmex.Enviar.Enviar$11
  com.example.geosegalmex.Enviar.Enviar$12
+ com.example.geosegalmex.Enviar.Enviar$13
+ com.example.geosegalmex.Enviar.Enviar$14
+ com.example.geosegalmex.Enviar.Enviar$15
+ com.example.geosegalmex.Enviar.Enviar$16
+ com.example.geosegalmex.Enviar.Enviar$17
+ com.example.geosegalmex.Enviar.Enviar$18
+ com.example.geosegalmex.Enviar.Enviar$19
  com.example.geosegalmex.Enviar.Enviar$2
+ com.example.geosegalmex.Enviar.Enviar$20
  com.example.geosegalmex.Enviar.Enviar$3
  com.example.geosegalmex.Enviar.Enviar$4
  com.example.geosegalmex.Enviar.Enviar$5

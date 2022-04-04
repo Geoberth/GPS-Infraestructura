@@ -1918,6 +1918,8 @@ int id btn_uni_pro 0x7f0900e6
 int id button1 0x7f0900e7
 int id button2 0x7f0900e8
 int id button3 0x7f0900e9
+int id button4 0x7f091363
+int id button5 0x7f091367
 int id buttonPanel 0x7f0900ea
 int id button_activity_captureDos 0x7f0900eb
 int id button_captureUno 0x7f0900ec
@@ -3733,6 +3735,8 @@ int id ejidal 0x7f0907fd
 int id end 0x7f0907fe
 int id end_padder 0x7f0907ff
 int id ennviar1 0x7f090800
+int id ennviar10 0x7f091364
+int id ennviar13 0x7f091368
 int id ennviar4 0x7f090801
 int id ennviar7 0x7f090802
 int id ent_fed_tres 0x7f090803
@@ -3740,6 +3744,10 @@ int id ent_localidad_tres 0x7f090804
 int id ent_municipio_tres 0x7f090805
 int id enterAlways 0x7f090806
 int id enterAlwaysCollapsed 0x7f090807
+int id enviar11 0x7f091365
+int id enviar12 0x7f091366
+int id enviar14 0x7f091369
+int id enviar15 0x7f09136a
 int id enviar2 0x7f090808
 int id enviar3 0x7f090809
 int id enviar5 0x7f09080a

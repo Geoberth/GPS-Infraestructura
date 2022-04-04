@@ -38,6 +38,7 @@ public class Sacrificio_bd {
     public static final String COLUMN_LATITUD = "LATITUD";
     public static final String COLUMN_FOTO1 = "FOTO1";
     public static final String COLUMN_FOTO2 = "FOTO2";
+    public static final String COLUMN_BANDERA = "BANDERA";
 
     public static final String CREAR_TABLA_SACRIFICO= "CREATE TABLE " + TABLA_BD + "("
             + COLUMN_FOLIO + " VARCHAR PRIMARY KEY, "
@@ -74,5 +75,6 @@ public class Sacrificio_bd {
             + COLUMN_LONGITUD + " VARCHAR, "
             + COLUMN_LATITUD + " VARCHAR, "
             + COLUMN_FOTO1 + " VARCHAR, "
-            + COLUMN_FOTO2 + " VARCHAR); ";
+            + COLUMN_FOTO2 + " VARCHAR, "
+            + COLUMN_BANDERA + " VARCHAR); ";
 }

@@ -3,13 +3,13 @@ import java.io.Serializable;
 
 public class Sacrificio_model implements Serializable {
 
-    private String folio, fecha, cveEntidad, entidad, cvedelegacion, delegacion, cveDdr, ddr, cveCader, cader, cveMunicipio, municipio, cveLocalidad, localidad, tiporastro, rastro, estatus_rastro, turno, CIMequino, CIMbovino, CIMporcino, CIMovino, CIMcaprino, CIMave, CUMequino, CUMbovino, CUMporcino, CUMovino, CUMcaprino, CUMave, observaciones, longitud, latitud, foto1, foto2;
+    private String folio, fecha, cveEntidad, entidad, cvedelegacion, delegacion, cveDdr, ddr, cveCader, cader, cveMunicipio, municipio, cveLocalidad, localidad, tiporastro, rastro, estatus_rastro, turno, CIMequino, CIMbovino, CIMporcino, CIMovino, CIMcaprino, CIMave, CUMequino, CUMbovino, CUMporcino, CUMovino, CUMcaprino, CUMave, observaciones, longitud, latitud, foto1, foto2, bandera;
 
     public Sacrificio_model() {
 
     }
 
-    public Sacrificio_model(String folio, String fecha, String cveEntidad, String entidad, String cvedelegacion, String delegacion, String cveDdr, String ddr, String cveCader, String cader, String cveMunicipio, String municipio, String cveLocalidad, String localidad, String tiporastro, String rastro, String estatus_rastro, String turno, String CIMequino, String CIMbovino, String CIMporcino, String CIMovino, String CIMcaprino, String CIMave, String CUMequino, String CUMbovino, String CUMporcino, String CUMovino, String CUMcaprino, String CUMave, String observaciones, String longitud, String latitud, String foto1, String foto2) {
+    public Sacrificio_model(String folio, String fecha, String cveEntidad, String entidad, String cvedelegacion, String delegacion, String cveDdr, String ddr, String cveCader, String cader, String cveMunicipio, String municipio, String cveLocalidad, String localidad, String tiporastro, String rastro, String estatus_rastro, String turno, String CIMequino, String CIMbovino, String CIMporcino, String CIMovino, String CIMcaprino, String CIMave, String CUMequino, String CUMbovino, String CUMporcino, String CUMovino, String CUMcaprino, String CUMave, String observaciones, String longitud, String latitud, String foto1, String foto2, String bandera) {
         this.folio = folio;
         this.fecha = fecha;
         this.cveEntidad = cveEntidad;
@@ -45,6 +45,7 @@ public class Sacrificio_model implements Serializable {
         this.latitud = latitud;
         this.foto1 = foto1;
         this.foto2 = foto2;
+        this.bandera = bandera;
     }
 
 
@@ -326,5 +327,13 @@ public class Sacrificio_model implements Serializable {
 
     public void setFoto2(String foto2) {
         this.foto2 = foto2;
+    }
+
+    public String getBandera() {
+        return bandera;
+    }
+
+    public void setBandera(String bandera) {
+        this.bandera = bandera;
     }
 }

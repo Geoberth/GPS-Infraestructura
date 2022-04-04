@@ -1919,6 +1919,8 @@ id btn_uni_pro
 id button1
 id button2
 id button3
+id button4
+id button5
 id buttonPanel
 id button_activity_captureDos
 id button_captureUno
@@ -3734,6 +3736,8 @@ id ejidal
 id end
 id end_padder
 id ennviar1
+id ennviar10
+id ennviar13
 id ennviar4
 id ennviar7
 id ent_fed_tres
@@ -3741,6 +3745,10 @@ id ent_localidad_tres
 id ent_municipio_tres
 id enterAlways
 id enterAlwaysCollapsed
+id enviar11
+id enviar12
+id enviar14
+id enviar15
 id enviar2
 id enviar3
 id enviar5

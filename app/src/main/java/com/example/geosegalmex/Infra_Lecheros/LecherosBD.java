@@ -2,19 +2,20 @@ package com.example.geosegalmex.Infra_Lecheros;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Build;
 
 import com.example.geosegalmex.General;
 import com.example.geosegalmex.Gps.UtilidadesTrayectoria;
-import com.example.geosegalmex.Infra_Sacrificio.Sacrificio_bd;
-import com.example.geosegalmex.Infra_Sacrificio.Sacrificio_model;
+
+import java.util.ArrayList;
 
 public class LecherosBD extends SQLiteOpenHelper {
 
     public static final String DB_NAME = "EstablosLecheros";
-    public static final int DB_VERSION = 2;
+    public static final int DB_VERSION = 3;
 
     public LecherosBD(Context context) {super(context, DB_NAME, null, DB_VERSION);}
 
@@ -28,7 +29,7 @@ public class LecherosBD extends SQLiteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
-        db.execSQL("DROP TABLE IF EXISTS "+ Sacrificio_bd.TABLA_BD);
+        db.execSQL("DROP TABLE IF EXISTS "+ Lecheros_bd.TABLA_BD);
         db.execSQL("DROP TABLE IF EXISTS "+ UtilidadesTrayectoria.TABLA_TRAYECTORIA);
         onCreate(db);
 
@@ -65,9 +66,10 @@ public class LecherosBD extends SQLiteOpenHelper {
         contentValues.put(Lecheros_bd.COLUMN_OBSERVACIONES, model.getObservaciones());
         contentValues.put(Lecheros_bd.COLUMN_LONGITUD, model.getLongitud());
         contentValues.put(Lecheros_bd.COLUMN_LATITUD, model.getLatitud());
-        contentValues.put(Lecheros_bd.COLUMN_FOTO1, model.getLatitud());
+        contentValues.put(Lecheros_bd.COLUMN_FOTO1, model.getFoto1());
         contentValues.put(Lecheros_bd.COLUMN_FOTO2, model.getFoto2());
-        long result = db.insert(Sacrificio_bd.TABLA_BD, null, contentValues);
+        contentValues.put(Lecheros_bd.COLUMN_BANDERA, model.getBandera());
+        long result = db.insert(Lecheros_bd.TABLA_BD, null, contentValues);
         db.close();
 
         if(result == -1) {
@@ -104,5 +106,74 @@ public class LecherosBD extends SQLiteOpenHelper {
             return true;
         }
     }
+
+    public ArrayList<Lecheros_Model> mostrarLecheros() {
+        try {
+            SQLiteDatabase bd = this.getReadableDatabase();
+            ArrayList<Lecheros_Model> lista = new ArrayList<>();
+
+            Cursor filas = bd.rawQuery("SELECT DISTINCT * FROM " + Lecheros_bd.TABLA_BD + " WHERE " + Lecheros_bd.COLUMN_BANDERA + " = 0 ORDER BY " + Lecheros_bd.COLUMN_FOLIO + " ASC", null);
+            if (filas.moveToFirst()) {
+
+                do{
+                    Lecheros_Model cat = new Lecheros_Model();
+                    cat.setFolio(filas.getString(0));
+                    cat.setFecha(filas.getString(1));
+                    cat.setCveEntidad(filas.getString(2));
+                    cat.setEntidad(filas.getString(3));
+                    cat.setCvedelegacion(filas.getString(4));
+                    cat.setDelegacion(filas.getString(5));
+                    cat.setCveDdr(filas.getString(6));
+                    cat.setDdr(filas.getString(7));
+                    cat.setCveCader(filas.getString(8));
+                    cat.setCader(filas.getString(9));
+                    cat.setCveMunicipio(filas.getString(10));
+                    cat.setMunicipio(filas.getString(11));
+                    cat.setCveLocalidad(filas.getString(12));
+                    cat.setLocalidad(filas.getString(13));
+                    cat.setDomiupp(filas.getString(14));
+                    cat.setNombreupp(filas.getString(15));
+                    cat.setEstatus(filas.getString(16));
+                    cat.setNumerovacas(filas.getString(17));
+                    cat.setNumerovaqui(filas.getString(18));
+                    cat.setRaza(filas.getString(19));
+                    cat.setCruza(filas.getString(20));
+                    cat.setOtraraza(filas.getString(21));
+                    cat.setTipoordena(filas.getString(22));
+                    cat.setSuperficie(filas.getString(23));
+                    cat.setObservaciones(filas.getString(24));
+                    cat.setLongitud(filas.getString(25));
+                    cat.setLatitud(filas.getString(26));
+                    cat.setFoto1(filas.getString(27));
+                    cat.setFoto2(filas.getString(28));
+                    cat.setBandera(filas.getString(29));
+                    lista.add(cat);
+                } while (filas.moveToNext());
+                filas.close();
+                return lista;
+            } else {
+                return null;
+            }
+        } catch (Exception ex) {
+            return null;
+        }
+    }
+
+    public boolean editarLecheros(String Folio, String bandera){
+        boolean correcto = false;
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        try{
+            db.execSQL("UPDATE " + Lecheros_bd.TABLA_BD + " SET " + Lecheros_bd.COLUMN_BANDERA + " = '" + bandera + "' WHERE " + Lecheros_bd.COLUMN_FOLIO + " = '" + Folio + "'");
+            correcto = true;
+        } catch (Exception ex){
+            ex.toString();
+            correcto = false;
+        } finally{
+            db.close();
+        }
+        return correcto;
+    }
+
 
 }
