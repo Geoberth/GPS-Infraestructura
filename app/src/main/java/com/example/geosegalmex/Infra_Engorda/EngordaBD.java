@@ -15,7 +15,7 @@ import java.util.ArrayList;
 public class EngordaBD extends SQLiteOpenHelper  {
 
     public static final String DB_NAME  = "CorralesdeEngorda";
-    public static final int DB_VERSION = 4;
+    public static final int DB_VERSION = 5;
 
     public EngordaBD(Context context) {
         super(context, DB_NAME, null, DB_VERSION);
@@ -72,6 +72,7 @@ public class EngordaBD extends SQLiteOpenHelper  {
         contentValues.put(Engorda_bd.COLUMN_F1, model.getF1());
         contentValues.put(Engorda_bd.COLUMN_F2, model.getF2());
         contentValues.put(Engorda_bd.COLUMN_BANDERA, model.getBandera());
+        contentValues.put(Engorda_bd.COLUMN_BANDERAFOTOS, model.getBanderaFoto());
 
         long result = db.insert(Engorda_bd.TABLA_BD, null, contentValues);
         db.close();
@@ -157,9 +158,11 @@ public class EngordaBD extends SQLiteOpenHelper  {
                     cat.setF1(filas.getString(30));
                     cat.setF2(filas.getString(31));
                     cat.setBandera(filas.getString(32));
+                    cat.setBanderaFoto(filas.getString(33));
                     lista.add(cat);
                 } while (filas.moveToNext());
                 filas.close();
+                bd.close();
                 return lista;
             } else {
                 return null;
@@ -169,12 +172,47 @@ public class EngordaBD extends SQLiteOpenHelper  {
         }
     }
 
-    public boolean editarEngorda(String Folio, String bandera){
+    public ArrayList<Engorda_Model> mostrarFotosEngorda() {
+        try {
+            SQLiteDatabase bd = this.getReadableDatabase();
+            ArrayList<Engorda_Model> lista = new ArrayList<>();
+
+            Cursor filas = bd.rawQuery("SELECT DISTINCT * FROM " + Engorda_bd.TABLA_BD + " WHERE " + Engorda_bd.COLUMN_BANDERA + " = 1 AND " + Engorda_bd.COLUMN_BANDERAFOTOS + " = 0 ORDER BY " + Engorda_bd.COLUMN_FOLIO + " LIMIT 5", null);
+            if (filas.moveToFirst()) {
+
+                do{
+                    Engorda_Model cat = new Engorda_Model();
+                    cat.setFolio(filas.getString(0));
+                    cat.setF1(filas.getString(30));
+                    cat.setF2(filas.getString(31));
+                    lista.add(cat);
+                } while (filas.moveToNext());
+                filas.close();
+                bd.close();
+                return lista;
+            } else {
+                return null;
+            }
+        } catch (Exception ex) {
+            return null;
+        }
+    }
+
+    public int  contarFotosEngorda() {
+        String countQuery = "SELECT DISTINCT * FROM " + Engorda_bd.TABLA_BD + " WHERE " + Engorda_bd.COLUMN_BANDERA + " = 1 AND " + Engorda_bd.COLUMN_BANDERAFOTOS + " = 0";
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.rawQuery(countQuery, null);
+        int count = cursor.getCount();
+        cursor.close();
+        return count;
+    }
+
+    public boolean editarEngorda(String Folio, String bandera, String columna){
         boolean correcto = false;
         SQLiteDatabase db = this.getWritableDatabase();
 
         try{
-            db.execSQL("UPDATE " + Engorda_bd.TABLA_BD + " SET " + Engorda_bd.COLUMN_BANDERA + " = '" + bandera + "' WHERE " + Engorda_bd.COLUMN_FOLIO + " = '" + Folio + "'");
+            db.execSQL("UPDATE " + Engorda_bd.TABLA_BD + " SET " + columna + " = '" + bandera + "' WHERE " + Engorda_bd.COLUMN_FOLIO + " = '" + Folio + "'");
             correcto = true;
         } catch (Exception ex){
             ex.toString();

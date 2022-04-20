@@ -4,13 +4,13 @@ import java.io.Serializable;
 
 public class Ave_Model implements Serializable {
 
-    private String folio,fecha,cveEntidad,entidad,cveRepresentacion,representacion,cveDdr,ddr,cveCader,cader,cveMunicipio,municipio,cveLocalidad,loc,domUpp,nomUpp,estatus,sistema,especie,capInst,capUtil,totalAnim,numNaves,superf,observ,longitud,latitud,f1,f2,bandera;
+    private String folio,fecha,cveEntidad,entidad,cveRepresentacion,representacion,cveDdr,ddr,cveCader,cader,cveMunicipio,municipio,cveLocalidad,loc,domUpp,nomUpp,estatus,sistema,especie,capInst,capUtil,totalAnim,numNaves,superf,observ,longitud,latitud,f1,f2,bandera,banderaFoto;
 
     public Ave_Model() {
 
     }
 
-    public Ave_Model(String folio, String fecha, String cveEntidad, String entidad, String cveRepresentacion, String representacion, String cveDdr, String ddr, String cveCader, String cader, String cveMunicipio, String municipio, String cveLocalidad, String loc, String domUpp, String nomUpp, String estatus, String sistema, String especie, String capInst, String capUtil, String totalAnim, String numNaves, String superf, String observ, String longitud, String latitud, String f1, String f2, String bandera) {
+    public Ave_Model(String folio, String fecha, String cveEntidad, String entidad, String cveRepresentacion, String representacion, String cveDdr, String ddr, String cveCader, String cader, String cveMunicipio, String municipio, String cveLocalidad, String loc, String domUpp, String nomUpp, String estatus, String sistema, String especie, String capInst, String capUtil, String totalAnim, String numNaves, String superf, String observ, String longitud, String latitud, String f1, String f2, String bandera, String banderaFoto) {
         this.folio = folio;
         this.fecha = fecha;
         this.cveEntidad = cveEntidad;
@@ -41,6 +41,7 @@ public class Ave_Model implements Serializable {
         this.f1 = f1;
         this.f2 = f2;
         this.bandera = bandera;
+        this.banderaFoto = banderaFoto;
     }
 
     public String getFolio() {
@@ -281,5 +282,13 @@ public class Ave_Model implements Serializable {
 
     public void setBandera(String bandera) {
         this.bandera = bandera;
+    }
+
+    public String getBanderaFoto() {
+        return banderaFoto;
+    }
+
+    public void setBanderaFoto(String banderaFoto) {
+        this.banderaFoto = banderaFoto;
     }
 }

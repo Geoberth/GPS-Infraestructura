@@ -15,7 +15,7 @@ import java.util.ArrayList;
 public class LecherosBD extends SQLiteOpenHelper {
 
     public static final String DB_NAME = "EstablosLecheros";
-    public static final int DB_VERSION = 3;
+    public static final int DB_VERSION = 4;
 
     public LecherosBD(Context context) {super(context, DB_NAME, null, DB_VERSION);}
 
@@ -69,6 +69,7 @@ public class LecherosBD extends SQLiteOpenHelper {
         contentValues.put(Lecheros_bd.COLUMN_FOTO1, model.getFoto1());
         contentValues.put(Lecheros_bd.COLUMN_FOTO2, model.getFoto2());
         contentValues.put(Lecheros_bd.COLUMN_BANDERA, model.getBandera());
+        contentValues.put(Lecheros_bd.COLUMN_BANDERAFOTOS, model.getBanderaFoto());
         long result = db.insert(Lecheros_bd.TABLA_BD, null, contentValues);
         db.close();
 
@@ -147,9 +148,11 @@ public class LecherosBD extends SQLiteOpenHelper {
                     cat.setFoto1(filas.getString(27));
                     cat.setFoto2(filas.getString(28));
                     cat.setBandera(filas.getString(29));
+                    cat.setBanderaFoto(filas.getString(30));
                     lista.add(cat);
                 } while (filas.moveToNext());
                 filas.close();
+                bd.close();
                 return lista;
             } else {
                 return null;
@@ -159,12 +162,47 @@ public class LecherosBD extends SQLiteOpenHelper {
         }
     }
 
-    public boolean editarLecheros(String Folio, String bandera){
+    public ArrayList<Lecheros_Model> mostrarFotosLecheros() {
+        try {
+            SQLiteDatabase bd = this.getReadableDatabase();
+            ArrayList<Lecheros_Model> lista = new ArrayList<>();
+
+            Cursor filas = bd.rawQuery("SELECT DISTINCT * FROM " + Lecheros_bd.TABLA_BD + " WHERE " + Lecheros_bd.COLUMN_BANDERA + " = 1 AND " + Lecheros_bd.COLUMN_BANDERAFOTOS + " = 0 ORDER BY " + Lecheros_bd.COLUMN_FOLIO + " LIMIT 5", null);
+            if (filas.moveToFirst()) {
+
+                do{
+                    Lecheros_Model cat = new Lecheros_Model();
+                    cat.setFolio(filas.getString(0));
+                    cat.setFoto1(filas.getString(27));
+                    cat.setFoto2(filas.getString(28));
+                    lista.add(cat);
+                } while (filas.moveToNext());
+                filas.close();
+                bd.close();
+                return lista;
+            } else {
+                return null;
+            }
+        } catch (Exception ex) {
+            return null;
+        }
+    }
+
+    public int  contarFotosLecheros() {
+        String countQuery = "SELECT DISTINCT * FROM " + Lecheros_bd.TABLA_BD + " WHERE " + Lecheros_bd.COLUMN_BANDERA + " = 1 AND " + Lecheros_bd.COLUMN_BANDERAFOTOS + " = 0";
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.rawQuery(countQuery, null);
+        int count = cursor.getCount();
+        cursor.close();
+        return count;
+    }
+
+    public boolean editarLecheros(String Folio, String bandera, String columna){
         boolean correcto = false;
         SQLiteDatabase db = this.getWritableDatabase();
 
         try{
-            db.execSQL("UPDATE " + Lecheros_bd.TABLA_BD + " SET " + Lecheros_bd.COLUMN_BANDERA + " = '" + bandera + "' WHERE " + Lecheros_bd.COLUMN_FOLIO + " = '" + Folio + "'");
+            db.execSQL("UPDATE " + Lecheros_bd.TABLA_BD + " SET " + columna + " = '" + bandera + "' WHERE " + Lecheros_bd.COLUMN_FOLIO + " = '" + Folio + "'");
             correcto = true;
         } catch (Exception ex){
             ex.toString();

@@ -152,7 +152,7 @@ public class lecheros1 extends AppCompatActivity {
                 String foto1 = General.Foto1;
                 String foto2 = General.Foto2;
 
-                model = new Lecheros_Model(folio, fecha, cveEntidad, entidad, cveRepresentacion, representacion, cveDdr2, ddr, cveCader2, cader, cveMunicipio2, municipio, cveLocalidad, localidad, domiupp, nombreupp, estatus, numerovacas, numerovaqui, raza, cruza, otraraza, tipoordena, superficie, observaciones, longitud, latitud, foto1, foto2, "0");
+                model = new Lecheros_Model(folio, fecha, cveEntidad, entidad, cveRepresentacion, representacion, cveDdr2, ddr, cveCader2, cader, cveMunicipio2, municipio, cveLocalidad, localidad, domiupp, nombreupp, estatus, numerovacas, numerovaqui, raza, cruza, otraraza, tipoordena, superficie, observaciones, longitud, latitud, foto1, foto2, "0", "0");
                 Intent in = new Intent(lecheros1.this, GeoreferenciaActivity.class);
                 in.putExtra("model", model);
                 startActivity(in);

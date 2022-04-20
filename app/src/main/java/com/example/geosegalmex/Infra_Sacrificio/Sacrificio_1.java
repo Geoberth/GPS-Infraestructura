@@ -125,7 +125,7 @@ public class Sacrificio_1 extends AppCompatActivity {
                 String foto2 = General.Foto2;
 
 
-                model = new Sacrificio_model(folio, fecha, cveEntidad, entidad, cveRepresentacion, representacion, cveDdr2, ddr, cveCader2, cader, cveMunicipio2, municipio, cveLocalidad, localidad, tiporastro, rastro, estatus_rastro, turno, CIMequino, CIMbovino, CIMporcino, CIMovino, CIMcaprino, CIMave, CUMequino, CUMbovino, CUMporcino, CUMovino, CUMcaprino, CUMave, observaciones, longitud, latitud, foto1, foto2, "0");
+                model = new Sacrificio_model(folio, fecha, cveEntidad, entidad, cveRepresentacion, representacion, cveDdr2, ddr, cveCader2, cader, cveMunicipio2, municipio, cveLocalidad, localidad, tiporastro, rastro, estatus_rastro, turno, CIMequino, CIMbovino, CIMporcino, CIMovino, CIMcaprino, CIMave, CUMequino, CUMbovino, CUMporcino, CUMovino, CUMcaprino, CUMave, observaciones, longitud, latitud, foto1, foto2, "0", "0");
                 Intent in = new Intent(Sacrificio_1.this, GeoreferenciaActivity.class);
                 in.putExtra("model", model);
                 startActivity(in);

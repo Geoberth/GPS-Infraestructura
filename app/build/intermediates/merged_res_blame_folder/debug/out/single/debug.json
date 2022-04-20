@@ -392,6 +392,10 @@
         "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\mipmap-xhdpi\\iconoapp_liz.png"
     },
     {
+        "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\drawable_redondo4.xml.flat",
+        "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\drawable\\redondo4.xml"
+    },
+    {
         "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_pecuario_alimentacion_ganado.xml.flat",
         "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\layout\\activity_pecuario_alimentacion_ganado.xml"
     },

@@ -34,6 +34,7 @@ public class Lecheros_bd {
     public static final String COLUMN_FOTO1 = "FOTO1";
     public static final String COLUMN_FOTO2 = "FOTO2";
     public static final String COLUMN_BANDERA = "BANDERA";
+    public static final String COLUMN_BANDERAFOTOS = "BANDERAFOTOS";
 
 
     public static final String CREAR_TABLA_LECHEROS= "CREATE TABLE " + TABLA_BD + "("
@@ -66,7 +67,8 @@ public class Lecheros_bd {
             + COLUMN_LATITUD + " VARCHAR, "
             + COLUMN_FOTO1 + " VARCHAR, "
             + COLUMN_FOTO2 + " VARCHAR, "
-            + COLUMN_BANDERA + " VARCHAR); ";
+            + COLUMN_BANDERA + " VARCHAR, "
+            + COLUMN_BANDERAFOTOS + " VARCHAR); ";
 
 
 }

@@ -4,13 +4,13 @@ import java.io.Serializable;
 
 public class Engorda_Model implements Serializable {
 
-    private String folio, fecha, cveEntidad,entidad,cveRepresentacion,representacion,cveDdr,ddr,cveCader,cader,cveMunicipio,municipio,cveLocalidad,loc,domUpp,nomUpp,estatus,sistema,actividad,raza,razaCruza,razaOtra,capInst,capUtil,totalAnim,engorda,superf,observ,longitud,latitud,f1,f2,bandera;
+    private String folio, fecha, cveEntidad,entidad,cveRepresentacion,representacion,cveDdr,ddr,cveCader,cader,cveMunicipio,municipio,cveLocalidad,loc,domUpp,nomUpp,estatus,sistema,actividad,raza,razaCruza,razaOtra,capInst,capUtil,totalAnim,engorda,superf,observ,longitud,latitud,f1,f2,bandera,banderaFoto;
 
     public Engorda_Model() {
 
     }
 
-    public Engorda_Model(String folio, String fecha, String cveEntidad, String entidad, String cveRepresentacion, String representacion, String cveDdr, String ddr, String cveCader, String cader, String cveMunicipio, String municipio, String cveLocalidad, String loc, String domUpp, String nomUpp, String estatus, String sistema, String actividad, String raza, String razaCruza, String razaOtra, String capInst, String capUtil, String totalAnim, String engorda, String superf, String observ, String longitud, String latitud, String f1, String f2, String bandera) {
+    public Engorda_Model(String folio, String fecha, String cveEntidad, String entidad, String cveRepresentacion, String representacion, String cveDdr, String ddr, String cveCader, String cader, String cveMunicipio, String municipio, String cveLocalidad, String loc, String domUpp, String nomUpp, String estatus, String sistema, String actividad, String raza, String razaCruza, String razaOtra, String capInst, String capUtil, String totalAnim, String engorda, String superf, String observ, String longitud, String latitud, String f1, String f2, String bandera, String banderaFoto) {
         this.folio = folio;
         this.fecha = fecha;
         this.cveEntidad = cveEntidad;
@@ -44,6 +44,7 @@ public class Engorda_Model implements Serializable {
         this.f1 = f1;
         this.f2 = f2;
         this.bandera = bandera;
+        this.banderaFoto = banderaFoto;
     }
 
     public String getFolio() {
@@ -308,5 +309,13 @@ public class Engorda_Model implements Serializable {
 
     public void setBandera(String bandera) {
         this.bandera = bandera;
+    }
+
+    public String getBanderaFoto() {
+        return banderaFoto;
+    }
+
+    public void setBanderaFoto(String banderaFoto) {
+        this.banderaFoto = banderaFoto;
     }
 }

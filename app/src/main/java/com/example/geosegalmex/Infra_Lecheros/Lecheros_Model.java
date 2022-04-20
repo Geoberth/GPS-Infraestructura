@@ -4,13 +4,13 @@ import java.io.Serializable;
 
 public class Lecheros_Model implements Serializable {
 
-    private String folio, fecha, cveEntidad, entidad, cvedelegacion, delegacion, cveDdr, ddr, cveCader, cader, cveMunicipio, municipio, cveLocalidad, localidad, domiupp, nombreupp, estatus, numerovacas, numerovaqui, raza, cruza, otraraza, tipoordena, superficie, observaciones, longitud, latitud, foto1, foto2, bandera;
+    private String folio, fecha, cveEntidad, entidad, cvedelegacion, delegacion, cveDdr, ddr, cveCader, cader, cveMunicipio, municipio, cveLocalidad, localidad, domiupp, nombreupp, estatus, numerovacas, numerovaqui, raza, cruza, otraraza, tipoordena, superficie, observaciones, longitud, latitud, foto1, foto2, bandera, banderaFoto;
 
     public Lecheros_Model() {
 
     }
 
-    public Lecheros_Model(String folio, String fecha, String cveEntidad, String entidad, String cvedelegacion, String delegacion, String cveDdr, String ddr, String cveCader, String cader, String cveMunicipio, String municipio, String cveLocalidad, String localidad, String domiupp, String nombreupp, String estatus, String numerovacas, String numerovaqui, String raza, String cruza, String otraraza, String tipoordena, String superficie, String observaciones, String longitud, String latitud, String foto1, String foto2, String bandera) {
+    public Lecheros_Model(String folio, String fecha, String cveEntidad, String entidad, String cvedelegacion, String delegacion, String cveDdr, String ddr, String cveCader, String cader, String cveMunicipio, String municipio, String cveLocalidad, String localidad, String domiupp, String nombreupp, String estatus, String numerovacas, String numerovaqui, String raza, String cruza, String otraraza, String tipoordena, String superficie, String observaciones, String longitud, String latitud, String foto1, String foto2, String bandera, String banderaFoto) {
         this.folio = folio;
         this.fecha = fecha;
         this.cveEntidad = cveEntidad;
@@ -42,6 +42,7 @@ public class Lecheros_Model implements Serializable {
         this.foto1 = foto1;
         this.foto2 = foto2;
         this.bandera = bandera;
+        this.banderaFoto = banderaFoto;
     }
 
     public String getFolio() {
@@ -282,6 +283,14 @@ public class Lecheros_Model implements Serializable {
 
     public void setBandera(String bandera) {
         this.bandera = bandera;
+    }
+
+    public String getBanderaFoto() {
+        return banderaFoto;
+    }
+
+    public void setBanderaFoto(String banderaFoto) {
+        this.banderaFoto = banderaFoto;
     }
 }
 

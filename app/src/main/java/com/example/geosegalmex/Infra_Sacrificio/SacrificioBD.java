@@ -16,7 +16,7 @@ import java.util.ArrayList;
 public class SacrificioBD extends SQLiteOpenHelper {
 
     public static final String DB_NAME = "CentrosdeSacrificio";
-    public static final int DB_VERSION = 3;
+    public static final int DB_VERSION = 4;
 
     public SacrificioBD(Context context) {super(context, DB_NAME, null, DB_VERSION);}
 
@@ -77,6 +77,7 @@ public class SacrificioBD extends SQLiteOpenHelper {
         contentValues.put(Sacrificio_bd.COLUMN_FOTO1, model.getFoto1());
         contentValues.put(Sacrificio_bd.COLUMN_FOTO2, model.getFoto2());
         contentValues.put(Sacrificio_bd.COLUMN_BANDERA, model.getBandera());
+        contentValues.put(Sacrificio_bd.COLUMN_BANDERAFOTOS, model.getBanderaFoto());
         long result = db.insert(Sacrificio_bd.TABLA_BD, null, contentValues);
         db.close();
 
@@ -161,9 +162,11 @@ public class SacrificioBD extends SQLiteOpenHelper {
                     cat.setFoto1(filas.getString(33));
                     cat.setFoto2(filas.getString(34));
                     cat.setBandera(filas.getString(35));
+                    cat.setBanderaFoto(filas.getString(36));
                     lista.add(cat);
                 } while (filas.moveToNext());
                 filas.close();
+                bd.close();
                 return lista;
             } else {
                 return null;
@@ -173,12 +176,48 @@ public class SacrificioBD extends SQLiteOpenHelper {
         }
     }
 
-    public boolean editarSacrificio(String Folio, String bandera){
+    public ArrayList<Sacrificio_model> mostrarFotosSacrificio() {
+        try {
+            SQLiteDatabase bd = this.getReadableDatabase();
+            ArrayList<Sacrificio_model> lista = new ArrayList<>();
+
+            Cursor filas = bd.rawQuery("SELECT DISTINCT * FROM " + Sacrificio_bd.TABLA_BD + " WHERE " + Sacrificio_bd.COLUMN_BANDERA + " = 1 AND " + Sacrificio_bd.COLUMN_BANDERAFOTOS + " = 0 ORDER BY " + Sacrificio_bd.COLUMN_FOLIO + " LIMIT 5", null);
+            if (filas.moveToFirst()) {
+
+                do{
+                    Sacrificio_model cat = new Sacrificio_model();
+                    cat.setFolio(filas.getString(0));
+                    cat.setFoto1(filas.getString(33));
+                    cat.setFoto2(filas.getString(34));
+                    lista.add(cat);
+                } while (filas.moveToNext());
+                filas.close();
+                bd.close();
+                return lista;
+            } else {
+                return null;
+            }
+        } catch (Exception ex) {
+            return null;
+        }
+    }
+
+    public int  contarFotosSacrificio() {
+        String countQuery = "SELECT DISTINCT * FROM " + Sacrificio_bd.TABLA_BD + " WHERE " + Sacrificio_bd.COLUMN_BANDERA + " = 1 AND " + Sacrificio_bd.COLUMN_BANDERAFOTOS + " = 0";
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.rawQuery(countQuery, null);
+        int count = cursor.getCount();
+        cursor.close();
+        return count;
+    }
+
+
+    public boolean editarSacrificio(String Folio, String bandera, String columna){
         boolean correcto = false;
         SQLiteDatabase db = this.getWritableDatabase();
 
         try{
-            db.execSQL("UPDATE " + Sacrificio_bd.TABLA_BD + " SET " + Sacrificio_bd.COLUMN_BANDERA + " = '" + bandera + "' WHERE " + Sacrificio_bd.COLUMN_FOLIO + " = '" + Folio + "'");
+            db.execSQL("UPDATE " + Sacrificio_bd.TABLA_BD + " SET " + columna + " = '" + bandera + "' WHERE " + Sacrificio_bd.COLUMN_FOLIO + " = '" + Folio + "'");
             correcto = true;
         } catch (Exception ex){
             ex.toString();

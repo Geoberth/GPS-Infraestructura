@@ -36,6 +36,7 @@ public class Engorda_bd {
     public static final String COLUMN_F1 = "FOTO1";
     public static final String COLUMN_F2 = "FOTO2";
     public static final String COLUMN_BANDERA = "BANDERA";
+    public static final String COLUMN_BANDERAFOTOS = "BANDERAFOTOS";
 
     public static final String CREAR_TABLA_ENGORDA= "CREATE TABLE " + TABLA_BD + "("
         + COLUMN_FOLIO + " VARCHAR PRIMARY KEY, "
@@ -70,6 +71,7 @@ public class Engorda_bd {
         + COLUMN_LATITUD + " VARCHAR, "
         + COLUMN_F1 + " VARCHAR, "
         + COLUMN_F2 + " VARCHAR, "
-        + COLUMN_BANDERA + " VARCHAR); ";
+        + COLUMN_BANDERA + " VARCHAR, "
+        + COLUMN_BANDERAFOTOS + " VARCHAR); ";
 
 }

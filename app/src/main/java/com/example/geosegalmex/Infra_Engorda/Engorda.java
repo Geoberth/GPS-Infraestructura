@@ -148,7 +148,7 @@ public class Engorda extends AppCompatActivity {
 
                     //Toast.makeText(getApplicationContext(), cveEntidad + "-" + entidad + "/" + cveRepresentacion + "-" + representacion + "/" + cveDdr2 + "-" + ddr + "/" + cveCader2 + "-" + cader + "/" + cveMunicipio2 + "-" + municipio,Toast.LENGTH_LONG).show();
 
-                    model = new Engorda_Model(folio, fecha, cveEntidad,entidad,cveRepresentacion,representacion,cveDdr2,ddr,cveCader2,cader,cveMunicipio2,municipio,cveLocalidad,loc,domUpp,nomUpp,estatus,sistema,actividad,raza,razaCruza,razaOtra,capInst,capUtil,totalAnim,engorda,superf,observ,longitud,latitud,f1,f2,"0");
+                    model = new Engorda_Model(folio, fecha, cveEntidad,entidad,cveRepresentacion,representacion,cveDdr2,ddr,cveCader2,cader,cveMunicipio2,municipio,cveLocalidad,loc,domUpp,nomUpp,estatus,sistema,actividad,raza,razaCruza,razaOtra,capInst,capUtil,totalAnim,engorda,superf,observ,longitud,latitud,f1,f2,"0","0");
                     Intent in = new Intent(Engorda.this, GeoreferenciaActivity.class);
                     in.putExtra("model", model);
                     startActivity(in);

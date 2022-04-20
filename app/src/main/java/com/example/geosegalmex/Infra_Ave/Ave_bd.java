@@ -33,6 +33,7 @@ public class Ave_bd {
     public static final String COLUMN_F1                   = "F1";
     public static final String COLUMN_F2                   = "F2";
     public static final String COLUMN_BANDERA = "BANDERA";
+    public static final String COLUMN_BANDERAFOTOS = "BANDERAFOTOS";
 
     public static final String CREAR_TABLA_AVE= "CREATE TABLE " + TABLA_BD + "("
             + COLUMN_FOLIO + " VARCHAR PRIMARY KEY, "
@@ -64,6 +65,7 @@ public class Ave_bd {
             + COLUMN_LATITUD + " VARCHAR, "
             + COLUMN_F1 + " VARCHAR, "
             + COLUMN_F2 + " VARCHAR, "
-            + COLUMN_BANDERA + " VARCHAR); ";
+            + COLUMN_BANDERA + " VARCHAR, "
+            + COLUMN_BANDERAFOTOS + " VARCHAR); ";
 
 }

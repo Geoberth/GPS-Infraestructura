@@ -555,28 +555,11 @@ com/example/geosegalmex/drawer/fragment_drawer/bdusers/ModelUsuarios.java
 com/example/geosegalmex/apicola/AlimentacionApicola.java
  com.example.geosegalmex.apicola.AlimentacionApicola
  com.example.geosegalmex.apicola.AlimentacionApicola$1
-com/example/geosegalmex/Enviar/Enviar.java
- com.example.geosegalmex.Enviar.Enviar
- com.example.geosegalmex.Enviar.Enviar$1
- com.example.geosegalmex.Enviar.Enviar$10
- com.example.geosegalmex.Enviar.Enviar$11
- com.example.geosegalmex.Enviar.Enviar$12
- com.example.geosegalmex.Enviar.Enviar$13
- com.example.geosegalmex.Enviar.Enviar$14
- com.example.geosegalmex.Enviar.Enviar$15
- com.example.geosegalmex.Enviar.Enviar$16
- com.example.geosegalmex.Enviar.Enviar$17
- com.example.geosegalmex.Enviar.Enviar$18
- com.example.geosegalmex.Enviar.Enviar$19
- com.example.geosegalmex.Enviar.Enviar$2
- com.example.geosegalmex.Enviar.Enviar$20
- com.example.geosegalmex.Enviar.Enviar$3
- com.example.geosegalmex.Enviar.Enviar$4
- com.example.geosegalmex.Enviar.Enviar$5
- com.example.geosegalmex.Enviar.Enviar$6
- com.example.geosegalmex.Enviar.Enviar$7
- com.example.geosegalmex.Enviar.Enviar$8
- com.example.geosegalmex.Enviar.Enviar$9
+com/example/geosegalmex/PGOperativoEstimulos/PGOperativoEstimulos.java
+ com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos
+ com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$1
+ com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$2
+ com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$3
 com/example/geosegalmex/unidadproduccion/model/ActividadAgricolaAdapter.java
  com.example.geosegalmex.unidadproduccion.model.ActividadAgricolaAdapter
 com/example/geosegalmex/unidadcaracterizacionhortalizas/HortalizasPvunob.java
@@ -934,8 +917,55 @@ com/example/geosegalmex/Pecuario/PecuarioReproduccionGenetica.java
 com/example/geosegalmex/Pecuario/PecuarioAlimentacionGanado.java
  com.example.geosegalmex.Pecuario.PecuarioAlimentacionGanado
  com.example.geosegalmex.Pecuario.PecuarioAlimentacionGanado$1
-com/example/geosegalmex/PGOperativoEstimulos/PGOperativoEstimulos.java
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$1
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$2
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$3
+com/example/geosegalmex/Enviar/Enviar.java
+ com.example.geosegalmex.Enviar.Enviar
+ com.example.geosegalmex.Enviar.Enviar$1
+ com.example.geosegalmex.Enviar.Enviar$10
+ com.example.geosegalmex.Enviar.Enviar$10$1
+ com.example.geosegalmex.Enviar.Enviar$11
+ com.example.geosegalmex.Enviar.Enviar$12
+ com.example.geosegalmex.Enviar.Enviar$13
+ com.example.geosegalmex.Enviar.Enviar$14
+ com.example.geosegalmex.Enviar.Enviar$15
+ com.example.geosegalmex.Enviar.Enviar$16
+ com.example.geosegalmex.Enviar.Enviar$17
+ com.example.geosegalmex.Enviar.Enviar$18
+ com.example.geosegalmex.Enviar.Enviar$19
+ com.example.geosegalmex.Enviar.Enviar$2
+ com.example.geosegalmex.Enviar.Enviar$2$1
+ com.example.geosegalmex.Enviar.Enviar$20
+ com.example.geosegalmex.Enviar.Enviar$21
+ com.example.geosegalmex.Enviar.Enviar$22
+ com.example.geosegalmex.Enviar.Enviar$23
+ com.example.geosegalmex.Enviar.Enviar$24
+ com.example.geosegalmex.Enviar.Enviar$25
+ com.example.geosegalmex.Enviar.Enviar$26
+ com.example.geosegalmex.Enviar.Enviar$26$1
+ com.example.geosegalmex.Enviar.Enviar$27
+ com.example.geosegalmex.Enviar.Enviar$28
+ com.example.geosegalmex.Enviar.Enviar$29
+ com.example.geosegalmex.Enviar.Enviar$29$1
+ com.example.geosegalmex.Enviar.Enviar$3
+ com.example.geosegalmex.Enviar.Enviar$30
+ com.example.geosegalmex.Enviar.Enviar$31
+ com.example.geosegalmex.Enviar.Enviar$32
+ com.example.geosegalmex.Enviar.Enviar$32$1
+ com.example.geosegalmex.Enviar.Enviar$33
+ com.example.geosegalmex.Enviar.Enviar$34
+ com.example.geosegalmex.Enviar.Enviar$35
+ com.example.geosegalmex.Enviar.Enviar$35$1
+ com.example.geosegalmex.Enviar.Enviar$36
+ com.example.geosegalmex.Enviar.Enviar$37
+ com.example.geosegalmex.Enviar.Enviar$38
+ com.example.geosegalmex.Enviar.Enviar$38$1
+ com.example.geosegalmex.Enviar.Enviar$39
+ com.example.geosegalmex.Enviar.Enviar$4
+ com.example.geosegalmex.Enviar.Enviar$4$1
+ com.example.geosegalmex.Enviar.Enviar$40
+ com.example.geosegalmex.Enviar.Enviar$5
+ com.example.geosegalmex.Enviar.Enviar$6
+ com.example.geosegalmex.Enviar.Enviar$6$1
+ com.example.geosegalmex.Enviar.Enviar$7
+ com.example.geosegalmex.Enviar.Enviar$8
+ com.example.geosegalmex.Enviar.Enviar$8$1
+ com.example.geosegalmex.Enviar.Enviar$9
