@@ -6,6 +6,7 @@
     <item>Granjas de Porcino</item>
     <item>Establos Lecheros</item>
     <item>Granjas de Ave</item>
+    <item>Almacenes de Granos</item>
     </string-array>
 
     <string name="relacion_proyecto">relaproyect</string>

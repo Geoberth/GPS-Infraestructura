@@ -24,16 +24,17 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".Infra_Granos.Granos"
+            android:exported="false" />
+        <activity
             android:name=".Enviar.Enviar"
             android:exported="false"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".Gps.GpsEnableb">
-
+            android:parentActivityName=".Gps.GpsEnableb"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Gps.GpsEnableb" />
         </activity>
-
         <activity
             android:name=".Infra_Ave.Ave"
             android:exported="false" />

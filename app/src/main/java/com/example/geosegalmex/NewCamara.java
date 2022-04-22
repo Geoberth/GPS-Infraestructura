@@ -24,6 +24,7 @@ import android.widget.Toast;
 
 import com.example.geosegalmex.Infra_Ave.Ave;
 import com.example.geosegalmex.Infra_Engorda.Engorda;
+import com.example.geosegalmex.Infra_Granos.Granos;
 import com.example.geosegalmex.Infra_Porcino.Porcino;
 import com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1;
 import com.example.geosegalmex.Infra_Lecheros.lecheros1;
@@ -287,6 +288,9 @@ public class NewCamara extends AppCompatActivity {
                                     }
                                     else if (General.Proyecto.equals("Granjas de Ave")){
                                         startActivity(new Intent(getApplication(), Ave.class));
+                                    }
+                                    else if (General.Proyecto.equals("Almacenes de Granos")){
+                                        startActivity(new Intent(getApplication(), Granos.class));
                                     }
                                     else{
                                         startActivity(new Intent(getApplication(), IdentificacionCuestionario.class));

@@ -20,6 +20,8 @@ import com.example.geosegalmex.Infra_Ave.AveBD;
 import com.example.geosegalmex.Infra_Ave.Ave_Model;
 import com.example.geosegalmex.Infra_Engorda.EngordaBD;
 import com.example.geosegalmex.Infra_Engorda.Engorda_Model;
+import com.example.geosegalmex.Infra_Granos.GranosBD;
+import com.example.geosegalmex.Infra_Granos.Granos_Model;
 import com.example.geosegalmex.Infra_Lecheros.LecherosBD;
 import com.example.geosegalmex.Infra_Lecheros.Lecheros_Model;
 import com.example.geosegalmex.Infra_Porcino.PorcinoBD;
@@ -89,6 +91,7 @@ public class GeoreferenciaActivity extends AppCompatActivity  implements OnMapRe
     Porcino_Model model3;
     Lecheros_Model model4;
     Ave_Model model5;
+    Granos_Model model6;
 
     String longitudGeo="";
     String latitudGeo="";
@@ -133,6 +136,9 @@ public class GeoreferenciaActivity extends AppCompatActivity  implements OnMapRe
                 }
                 else if(General.Proyecto.equals("Granjas de Ave")){
                     agregarAve();
+                }
+                else if(General.Proyecto.equals("Almacenes de Granos")){
+                    agregarGranos();
                 }
 
                 finish();
@@ -367,6 +373,32 @@ public class GeoreferenciaActivity extends AppCompatActivity  implements OnMapRe
         baseBD = new AveBD(this);
 
         boolean insertarData = baseBD.addAve(model5);
+        if(insertarData == true) {
+            Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
+        }else{
+            Toast.makeText(this, "Error al guardar", Toast.LENGTH_LONG).show();
+        }
+    }
+
+    private void agregarGranos() {
+        if(bandera == 2){
+            longitudGeo = General.Lonini;
+            latitudGeo = General.Latini;
+        }
+        else{
+            longitudGeo = General.Lonini;
+            latitudGeo = General.Latini;
+        }
+
+        model6 = new Granos_Model();
+        model6 = (Granos_Model)getIntent().getSerializableExtra("model");
+        model6.setLongitud(longitudGeo);
+        model6.setLatitud(latitudGeo);
+
+        GranosBD baseBD;
+        baseBD = new GranosBD(this);
+
+        boolean insertarData = baseBD.addGranos(model6);
         if(insertarData == true) {
             Toast.makeText(this, "Encuesta guardada correctamente", Toast.LENGTH_SHORT).show();
         }else{

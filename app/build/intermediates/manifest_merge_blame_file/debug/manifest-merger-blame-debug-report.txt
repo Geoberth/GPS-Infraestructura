@@ -45,7 +45,7 @@
 25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\erick.burgos\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 26
 27    <application
-27-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:17:5-256:19
+27-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:17:5-257:19
 28        android:allowBackup="true"
 28-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:18:9-35
 29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -67,592 +67,598 @@
 38        android:usesCleartextTraffic="true" >
 38-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:25:9-44
 39        <activity
-39-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:26:9-35:20
-40            android:name="com.example.geosegalmex.Enviar.Enviar"
-40-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:27:13-42
-41            android:exported="false"
+39-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:26:9-28:40
+40            android:name="com.example.geosegalmex.Infra_Granos.Granos"
+40-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:27:13-48
+41            android:exported="false" />
 41-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:28:13-37
-42            android:parentActivityName="com.example.geosegalmex.Gps.GpsEnableb"
-42-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:30:13-57
-43            android:screenOrientation="portrait" >
-43-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:29:13-49
-44            <meta-data
-44-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:32:13-34:51
-45                android:name="android.support.PARENT_ACTIVITY"
-45-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:33:17-63
-46                android:value=".Gps.GpsEnableb" />
-46-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:34:17-48
-47        </activity>
-48        <activity
-48-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:37:9-39:40
-49            android:name="com.example.geosegalmex.Infra_Ave.Ave"
-49-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:38:13-42
-50            android:exported="false" />
-50-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:39:13-37
+42        <activity
+42-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:29:9-37:20
+43            android:name="com.example.geosegalmex.Enviar.Enviar"
+43-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:30:13-42
+44            android:exported="false"
+44-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:31:13-37
+45            android:parentActivityName="com.example.geosegalmex.Gps.GpsEnableb"
+45-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:32:13-57
+46            android:screenOrientation="portrait" >
+46-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:33:13-49
+47            <meta-data
+47-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:34:13-36:51
+48                android:name="android.support.PARENT_ACTIVITY"
+48-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:35:17-63
+49                android:value=".Gps.GpsEnableb" />
+49-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:36:17-48
+50        </activity>
 51        <activity
-51-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:40:9-42:40
-52            android:name="com.example.geosegalmex.Infra_Lecheros.lecheros1"
-52-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:41:13-53
+51-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:38:9-40:40
+52            android:name="com.example.geosegalmex.Infra_Ave.Ave"
+52-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:39:13-42
 53            android:exported="false" />
-53-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:42:13-37
+53-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:40:13-37
 54        <activity
-54-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:43:9-45:40
-55            android:name="com.example.geosegalmex.Infra_Porcino.Porcino"
-55-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:44:13-50
+54-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:41:9-43:40
+55            android:name="com.example.geosegalmex.Infra_Lecheros.lecheros1"
+55-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:42:13-53
 56            android:exported="false" />
-56-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:45:13-37
+56-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:43:13-37
 57        <activity
-57-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:46:9-48:40
-58            android:name="com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1"
-58-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:47:13-58
+57-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:44:9-46:40
+58            android:name="com.example.geosegalmex.Infra_Porcino.Porcino"
+58-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:45:13-50
 59            android:exported="false" />
-59-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:48:13-37
+59-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:46:13-37
 60        <activity
-60-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:49:9-51:40
-61            android:name="com.example.geosegalmex.Infra_Engorda.Engorda"
-61-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:50:13-50
+60-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:47:9-49:40
+61            android:name="com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1"
+61-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:48:13-58
 62            android:exported="false" />
-62-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:51:13-37
+62-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:49:13-37
 63        <activity
-63-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:52:9-55:52
-64            android:name="com.example.geosegalmex.Firma"
-64-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:53:13-34
-65            android:exported="false"
-65-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:54:13-37
-66            android:screenOrientation="portrait" />
-66-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:55:13-49
-67        <activity
-67-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:56:9-58:40
-68            android:name="com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos"
-68-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:57:13-92
-69            android:exported="false" />
-69-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:58:13-37
+63-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:50:9-52:40
+64            android:name="com.example.geosegalmex.Infra_Engorda.Engorda"
+64-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:51:13-50
+65            android:exported="false" />
+65-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:52:13-37
+66        <activity
+66-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:53:9-56:52
+67            android:name="com.example.geosegalmex.Firma"
+67-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:54:13-34
+68            android:exported="false"
+68-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:55:13-37
+69            android:screenOrientation="portrait" />
+69-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:56:13-49
 70        <activity
-70-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:59:9-62:52
-71            android:name="com.example.geosegalmex.Liconsa2.LiconsaVerificacion"
-71-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:60:13-57
-72            android:exported="false"
-72-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:61:13-37
-73            android:screenOrientation="portrait" />
-73-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:62:13-49
-74        <activity
-74-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:63:9-66:52
-75            android:name="com.example.geosegalmex.PGBeneficiarioLeche.PGBeneficiarioLeche"
-75-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:64:13-68
-76            android:exported="false"
-76-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:65:13-37
-77            android:screenOrientation="portrait" />
-77-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:66:13-49
-78        <activity
-78-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:67:9-70:52
-79            android:name="com.example.geosegalmex.PGOperativoLeche.PGOperativoLeche"
-79-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:68:13-62
-80            android:exported="false"
-80-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:69:13-37
-81            android:screenOrientation="portrait" />
-81-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:70:13-49
-82        <activity
-82-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:71:9-74:52
-83            android:name="com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos"
-83-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:72:13-64
-84            android:exported="false"
-84-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:73:13-37
-85            android:screenOrientation="portrait" />
-85-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:74:13-49
-86        <activity
-86-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:75:9-78:52
-87            android:name="com.example.geosegalmex.Liconsa.Liconsa"
-87-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:76:13-44
-88            android:exported="true"
-88-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:77:13-36
-89            android:screenOrientation="portrait" />
-89-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:78:13-49
-90        <activity
-90-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:79:9-82:52
-91            android:name="com.example.geosegalmex.PAROperativo.PAR_Operativo"
-91-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:80:13-55
-92            android:exported="true"
-92-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:81:13-36
-93            android:screenOrientation="portrait" />
-93-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:82:13-49
-94        <activity
-94-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:83:9-86:52
-95            android:name="com.example.geosegalmex.PGBeneficiarioGranos.PGBeneficiariosGranos"
-95-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:84:13-71
-96            android:exported="true"
-96-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:85:13-36
-97            android:screenOrientation="portrait" />
-97-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:86:13-49
-98        <activity
-98-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:87:9-90:52
-99            android:name="com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos"
-99-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:88:13-70
-100            android:exported="true"
-100-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:89:13-36
-101            android:screenOrientation="portrait" />
-101-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:90:13-49
-102        <activity
-102-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:91:9-94:52
-103            android:name="com.example.geosegalmex.PARBeneficiario.PARBeneficiario"
-103-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:92:13-60
-104            android:exported="true"
-104-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:93:13-36
-105            android:screenOrientation="portrait" />
-105-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:94:13-49
-106        <activity
-106-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:95:9-98:52
-107            android:name="com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario"
-107-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:96:13-65
-108            android:exported="true"
-108-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:97:13-36
-109            android:screenOrientation="portrait" />
-109-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:98:13-49
-110        <activity
-110-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:99:9-102:52
-111            android:name="com.example.geosegalmex.LiconsaVentanilla.PASLOperativo"
-111-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:100:13-60
-112            android:exported="true"
-112-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:101:13-36
-113            android:screenOrientation="portrait" />
-113-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:102:13-49
-114        <activity
-114-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:103:9-105:52
-115            android:name="com.example.geosegalmex.NewCamara"
-115-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:104:13-38
+70-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:57:9-59:40
+71            android:name="com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos"
+71-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:58:13-92
+72            android:exported="false" />
+72-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:59:13-37
+73        <activity
+73-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:60:9-63:52
+74            android:name="com.example.geosegalmex.Liconsa2.LiconsaVerificacion"
+74-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:61:13-57
+75            android:exported="false"
+75-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:62:13-37
+76            android:screenOrientation="portrait" />
+76-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:63:13-49
+77        <activity
+77-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:64:9-67:52
+78            android:name="com.example.geosegalmex.PGBeneficiarioLeche.PGBeneficiarioLeche"
+78-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:65:13-68
+79            android:exported="false"
+79-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:66:13-37
+80            android:screenOrientation="portrait" />
+80-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:67:13-49
+81        <activity
+81-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:68:9-71:52
+82            android:name="com.example.geosegalmex.PGOperativoLeche.PGOperativoLeche"
+82-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:69:13-62
+83            android:exported="false"
+83-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:70:13-37
+84            android:screenOrientation="portrait" />
+84-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:71:13-49
+85        <activity
+85-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:72:9-75:52
+86            android:name="com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos"
+86-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:73:13-64
+87            android:exported="false"
+87-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:74:13-37
+88            android:screenOrientation="portrait" />
+88-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:75:13-49
+89        <activity
+89-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:76:9-79:52
+90            android:name="com.example.geosegalmex.Liconsa.Liconsa"
+90-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:77:13-44
+91            android:exported="true"
+91-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:78:13-36
+92            android:screenOrientation="portrait" />
+92-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:79:13-49
+93        <activity
+93-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:80:9-83:52
+94            android:name="com.example.geosegalmex.PAROperativo.PAR_Operativo"
+94-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:81:13-55
+95            android:exported="true"
+95-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:82:13-36
+96            android:screenOrientation="portrait" />
+96-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:83:13-49
+97        <activity
+97-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:84:9-87:52
+98            android:name="com.example.geosegalmex.PGBeneficiarioGranos.PGBeneficiariosGranos"
+98-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:85:13-71
+99            android:exported="true"
+99-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:86:13-36
+100            android:screenOrientation="portrait" />
+100-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:87:13-49
+101        <activity
+101-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:88:9-91:52
+102            android:name="com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos"
+102-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:89:13-70
+103            android:exported="true"
+103-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:90:13-36
+104            android:screenOrientation="portrait" />
+104-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:91:13-49
+105        <activity
+105-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:92:9-95:52
+106            android:name="com.example.geosegalmex.PARBeneficiario.PARBeneficiario"
+106-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:93:13-60
+107            android:exported="true"
+107-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:94:13-36
+108            android:screenOrientation="portrait" />
+108-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:95:13-49
+109        <activity
+109-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:96:9-99:52
+110            android:name="com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario"
+110-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:97:13-65
+111            android:exported="true"
+111-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:98:13-36
+112            android:screenOrientation="portrait" />
+112-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:99:13-49
+113        <activity
+113-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:100:9-103:52
+114            android:name="com.example.geosegalmex.LiconsaVentanilla.PASLOperativo"
+114-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:101:13-60
+115            android:exported="true"
+115-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:102:13-36
 116            android:screenOrientation="portrait" />
-116-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:105:13-49
-117        <activity android:name="com.example.geosegalmex.apicola.HerramientasProteccion" />
-117-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:106:9-68
-117-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:106:19-65
-118        <activity android:name="com.example.geosegalmex.unidadcomercializacion.Apicultura_4" />
-118-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:107:9-73
-118-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:107:19-70
-119        <activity android:name="com.example.geosegalmex.unidadcomercializacion.Apicultura_3" />
-119-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:108:9-73
-119-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:108:19-70
-120        <activity android:name="com.example.geosegalmex.unidadcomercializacion.Apicultura_2" />
-120-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:109:9-73
-120-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:109:19-70
-121        <activity android:name="com.example.geosegalmex.unidadcomercializacion.Apicultura_1" />
-121-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:110:9-73
-121-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:110:19-70
-122        <activity android:name="com.example.geosegalmex.frutales.frutales_4_0" />
-122-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:111:9-59
-122-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:111:19-56
-123        <activity android:name="com.example.geosegalmex.unidadcomercializacion.comercializacion_3_1" />
-123-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:112:9-81
-123-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:112:19-78
-124        <activity android:name="com.example.geosegalmex.caracterizacion.variables_caracterizacion.CalendarioDate" />
-124-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:113:9-94
-124-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:113:19-91
-125        <activity android:name="com.example.geosegalmex.unidadproduccion.FuenteAgua" />
-125-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:114:9-65
-125-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:114:19-62
-126        <activity
-126-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:115:9-117:52
-127            android:name="com.example.geosegalmex.Gps.GpsEnableb"
-127-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:116:13-43
-128            android:screenOrientation="portrait" />
-128-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:117:13-49
-129        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.FertilizanteSi" />
-129-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:118:9-84
-129-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:118:19-81
-130        <activity android:name="com.example.geosegalmex.apicola.SanidadApicola" />
-130-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:119:9-60
-130-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:119:19-57
-131        <activity android:name="com.example.geosegalmex.apicola.ReproduccionApicola" />
-131-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:120:9-65
-131-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:120:19-62
-132        <activity android:name="com.example.geosegalmex.apicola.ManejoApicola" />
-132-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:121:9-59
-132-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:121:19-56
-133        <activity android:name="com.example.geosegalmex.apicola.EnfermedadesCambioPanales" />
-133-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:122:9-71
-133-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:122:19-68
-134        <activity android:name="com.example.geosegalmex.apicola.CosechaApicola" />
-134-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:123:9-60
-134-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:123:19-57
-135        <activity android:name="com.example.geosegalmex.apicola.CapacitacionAsistenciaApicola" />
-135-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:124:9-75
-135-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:124:19-72
-136        <activity android:name="com.example.geosegalmex.apicola.AspectosProductivosApicola" />
-136-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:125:9-72
-136-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:125:19-69
-137        <activity android:name="com.example.geosegalmex.apicola.AlimentacionApicola" />
-137-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:126:9-65
-137-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:126:19-62
-138        <activity android:name="com.example.geosegalmex.apicola.ApicolaInicio" />
-138-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:127:9-59
-138-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:127:19-56
-139        <activity android:name="com.example.geosegalmex.unidadcomercializacion.comercializacion_8" />
-139-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:128:9-79
-139-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:128:19-76
-140        <activity android:name="com.example.geosegalmex.unidadcomercializacion.comercializacion_7" />
-140-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:129:9-79
-140-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:129:19-76
-141        <activity android:name="com.example.geosegalmex.unidadcomercializacion.comercializacion_6" />
-141-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:130:9-79
-141-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:130:19-76
-142        <activity android:name="com.example.geosegalmex.unidadcomercializacion.comercializacion_5" />
-142-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:131:9-79
-142-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:131:19-76
-143        <activity android:name="com.example.geosegalmex.unidadcomercializacion.comercializacion_4" />
-143-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:132:9-79
-143-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:132:19-76
-144        <activity android:name="com.example.geosegalmex.unidadcomercializacion.comercializacion_3" />
-144-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:133:9-79
-144-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:133:19-76
-145        <activity android:name="com.example.geosegalmex.unidadcomercializacion.comercializacion_2" />
-145-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:134:9-79
-145-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:134:19-76
-146        <activity android:name="com.example.geosegalmex.unidadcomercializacion.comercializacion_1" />
-146-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:135:9-79
-146-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:135:19-76
-147        <activity android:name="com.example.geosegalmex.Productor.ProductorInfo" />
-147-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:136:9-61
-147-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:136:19-58
-148        <activity android:name="com.example.geosegalmex.Productor.ProductorEconom" />
-148-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:137:9-63
-148-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:137:19-60
-149        <activity android:name="com.example.geosegalmex.Productor.IntegranteFamilia" />
-149-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:138:9-65
-149-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:138:19-62
-150        <activity android:name="com.example.geosegalmex.Productor.ProductorFamilia" />
-150-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:139:9-64
-150-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:139:19-61
-151        <activity android:name="com.example.geosegalmex.infraestructura_1" />
-151-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:140:9-55
-151-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:140:19-52
-152        <activity android:name="com.example.geosegalmex.frutales.frutales_14" />
-152-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:141:9-58
-152-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:141:19-55
-153        <activity android:name="com.example.geosegalmex.frutales.frutales_13" />
-153-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:142:9-58
-153-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:142:19-55
-154        <activity android:name="com.example.geosegalmex.frutales.frutales_12" />
-154-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:143:9-58
-154-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:143:19-55
-155        <activity android:name="com.example.geosegalmex.frutales.frutales_11" />
-155-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:144:9-58
-155-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:144:19-55
-156        <activity android:name="com.example.geosegalmex.frutales.frutales_10" />
-156-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:145:9-58
-156-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:145:19-55
-157        <activity android:name="com.example.geosegalmex.frutales.frutales_9" />
-157-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:146:9-57
-157-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:146:19-54
-158        <activity android:name="com.example.geosegalmex.frutales.frutales_8" />
-158-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:147:9-57
-158-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:147:19-54
-159        <activity android:name="com.example.geosegalmex.frutales.frutales_7" />
-159-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:148:9-57
-159-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:148:19-54
-160        <activity android:name="com.example.geosegalmex.frutales.frutales_6" />
-160-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:149:9-57
-160-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:149:19-54
-161        <activity android:name="com.example.geosegalmex.frutales.frutales_5" />
-161-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:150:9-57
-161-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:150:19-54
-162        <activity android:name="com.example.geosegalmex.frutales.frutales_4" />
-162-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:151:9-57
-162-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:151:19-54
-163        <activity android:name="com.example.geosegalmex.frutales.frutales_3" />
-163-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:152:9-57
-163-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:152:19-54
-164        <activity android:name="com.example.geosegalmex.frutales.frutales_2" />
-164-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:153:9-57
-164-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:153:19-54
-165        <activity android:name="com.example.geosegalmex.frutales.frutales_1" />
-165-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:154:9-57
-165-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:154:19-54
-166        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.date.CalendarioActivity" />
-166-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:155:9-93
-166-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:155:19-90
-167        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.TiempoRiego" />
-167-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:156:9-81
-167-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:156:19-78
-168        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.PostCosecha" />
-168-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:157:9-81
-168-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:157:19-78
-169        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.Nutricion" />
-169-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:158:9-79
-169-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:158:19-76
-170        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPvunoD" />
-170-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:159:9-86
-170-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:159:19-83
-171        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPvunoC" />
-171-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:160:9-86
-171-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:160:19-83
-172        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPvunob" />
-172-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:161:9-86
-172-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:161:19-83
-173        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPVuno" />
-173-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:162:9-85
-173-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:162:19-82
-174        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.FoliarRiego" />
-174-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:163:9-81
-174-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:163:19-78
-175        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.CosechaB" />
-175-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:164:9-78
-175-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:164:19-75
-176        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.Cosecha" />
-176-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:165:9-77
-176-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:165:19-74
-177        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnfermC" />
-177-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:166:9-90
-177-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:166:19-87
-178        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnfermB" />
-178-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:167:9-90
-178-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:167:19-87
-179        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnferm" />
-179-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:168:9-89
-179-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:168:19-86
-180        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlMalezas" />
-180-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:169:9-84
-180-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:169:19-81
-181        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.hortalizas" />
-181-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:170:9-80
-181-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:170:19-77
-182        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion12" />
-182-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:171:9-77
-182-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:171:19-74
-183        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion11" />
-183-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:172:9-77
-183-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:172:19-74
-184        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion10" />
-184-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:173:9-77
-184-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:173:19-74
-185        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion9" />
-185-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:174:9-76
-185-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:174:19-73
-186        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion8" />
-186-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:175:9-76
-186-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:175:19-73
-187        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion7" />
-187-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:176:9-76
-187-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:176:19-73
-188        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion6" />
-188-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:177:9-76
-188-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:177:19-73
-189        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion_tabla" />
-189-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:178:9-81
-189-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:178:19-78
-190        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion5" />
-190-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:179:9-76
-190-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:179:19-73
-191        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion4" />
-191-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:180:9-76
-191-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:180:19-73
-192        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion2" />
-192-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:181:9-76
-192-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:181:19-73
-193        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion" />
-193-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:182:9-75
-193-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:182:19-72
-194        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_carac" />
-194-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:183:9-65
-194-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:183:19-62
-195        <activity android:name="com.example.geosegalmex.unidadproduccion.ModalidadHidrica" />
-195-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:184:9-71
-195-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:184:19-68
-196        <activity android:name="com.example.geosegalmex.unidadproduccion.TenenciaTierra" />
-196-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:185:9-69
-196-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:185:19-66
-197        <activity android:name="com.example.geosegalmex.unidadproduccion.TiposAlimentosTres" />
-197-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:186:9-73
-197-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:186:19-70
-198        <activity android:name="com.example.geosegalmex.unidadproduccion.TiposAlimentosDos" />
-198-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:187:9-72
-198-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:187:19-69
-199        <activity android:name="com.example.geosegalmex.unidadproduccion.TiposAlimentos" />
-199-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:188:9-69
-199-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:188:19-66
-200        <activity android:name="com.example.geosegalmex.unidadproduccion.ProduccionAcuicola" />
-200-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:189:9-73
-200-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:189:19-70
-201        <activity android:name="com.example.geosegalmex.unidadproduccion.ProduccionForestal" />
-201-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:190:9-73
-201-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:190:19-70
-202        <activity android:name="com.example.geosegalmex.unidadproduccion.ProduccionPecuaria" />
-202-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:191:9-73
-202-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:191:19-70
-203        <activity android:name="com.example.geosegalmex.unidadproduccion.ProduccionAgricola" />
-203-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:192:9-73
-203-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:192:19-70
-204        <activity android:name="com.example.geosegalmex.unidadproduccion.UnidadProduccion" />
-204-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:193:9-71
-204-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:193:19-68
-205        <activity android:name="com.example.geosegalmex.Pecuario.EstructuraDelHato" />
-205-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:194:9-64
-205-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:194:19-61
-206        <activity android:name="com.example.geosegalmex.Pecuario.InventarioGanadoOvino" />
-206-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:195:9-68
-206-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:195:19-65
-207        <activity android:name="com.example.geosegalmex.Pecuario.InventarioGanBovinoLeche" />
-207-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:196:9-71
-207-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:196:19-68
-208        <activity android:name="com.example.geosegalmex.Pecuario.InventarioGanCaprino" />
-208-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:197:9-67
-208-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:197:19-64
-209        <activity android:name="com.example.geosegalmex.Pecuario.ManejoSanitarioOrdenia" />
-209-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:198:9-69
-209-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:198:19-66
-210        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioAgregarAlimentos" />
-210-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:199:9-71
-210-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:199:19-68
-211        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioAlimentacionGanado" />
-211-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:200:9-73
-211-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:200:19-70
-212        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioCaprinos" />
-212-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:201:9-63
-212-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:201:19-60
-213        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioComposicDietaOvinosCaprinos" />
-213-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:202:9-82
-213-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:202:19-79
-214        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioDietaOvinosCaprinosAlimentos" />
-214-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:203:9-83
-214-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:203:19-80
-215        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioEventosUnidadProduccion" />
-215-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:204:9-78
-215-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:204:19-75
-216        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioInicio" />
-216-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:205:9-61
-216-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:205:19-58
-217        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioManejoAgostadero" />
-217-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:206:9-71
-217-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:206:19-68
-218        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioManejoSanGanado" />
-218-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:207:9-70
-218-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:207:19-67
-219        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioOvinos" />
-219-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:208:9-61
-219-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:208:19-58
-220        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioParamProdReproductivos" />
-220-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:209:9-77
-220-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:209:19-74
-221        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioReproduccionGenetica" />
-221-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:210:9-75
-221-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:210:19-72
-222        <activity android:name="com.example.geosegalmex.Gps.GpsTrayectoria" />
-222-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:211:9-56
-222-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:211:19-53
-223        <activity android:name="com.example.geosegalmex.Gps.GpsActivity" />
-223-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:212:9-53
-223-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:212:19-50
-224        <activity
-224-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:213:9-218:59
-225            android:name="com.example.geosegalmex.drawer.DrawerActivity"
-225-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:214:13-50
-226            android:exported="true"
-226-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:215:13-36
-227            android:label="Drawer"
-227-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:216:13-35
-228            android:screenOrientation="portrait"
-228-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:217:13-49
-229            android:theme="@style/AppTheme.NoActionBar" />
-229-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:218:13-56
-230        <activity android:name="com.example.geosegalmex.Georeferencia.GeoreferenciaActivity" />
-230-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:219:9-73
-230-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:219:19-70
-231        <activity android:name="com.example.geosegalmex.Geo.GeoFotos" />
-231-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:220:9-50
-231-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:220:19-47
-232        <activity android:name="com.example.geosegalmex.Geo.FotoActivityDos" />
-232-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:221:9-57
-232-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:221:19-54
-233        <activity android:name="com.example.geosegalmex.Geo.FotoActivityUno" />
-233-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:222:9-57
-233-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:222:19-54
-234        <activity android:name="com.example.geosegalmex.IdentificacionCuestionario" />
-234-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:223:9-64
-234-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:223:19-61
-235        <activity
-235-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:224:9-226:52
-236            android:name="com.example.geosegalmex.Segunda"
-236-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:225:13-36
-237            android:screenOrientation="portrait" />
-237-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:226:13-49
+116-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:103:13-49
+117        <activity
+117-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:104:9-106:52
+118            android:name="com.example.geosegalmex.NewCamara"
+118-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:105:13-38
+119            android:screenOrientation="portrait" />
+119-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:106:13-49
+120        <activity android:name="com.example.geosegalmex.apicola.HerramientasProteccion" />
+120-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:107:9-68
+120-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:107:19-65
+121        <activity android:name="com.example.geosegalmex.unidadcomercializacion.Apicultura_4" />
+121-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:108:9-73
+121-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:108:19-70
+122        <activity android:name="com.example.geosegalmex.unidadcomercializacion.Apicultura_3" />
+122-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:109:9-73
+122-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:109:19-70
+123        <activity android:name="com.example.geosegalmex.unidadcomercializacion.Apicultura_2" />
+123-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:110:9-73
+123-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:110:19-70
+124        <activity android:name="com.example.geosegalmex.unidadcomercializacion.Apicultura_1" />
+124-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:111:9-73
+124-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:111:19-70
+125        <activity android:name="com.example.geosegalmex.frutales.frutales_4_0" />
+125-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:112:9-59
+125-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:112:19-56
+126        <activity android:name="com.example.geosegalmex.unidadcomercializacion.comercializacion_3_1" />
+126-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:113:9-81
+126-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:113:19-78
+127        <activity android:name="com.example.geosegalmex.caracterizacion.variables_caracterizacion.CalendarioDate" />
+127-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:114:9-94
+127-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:114:19-91
+128        <activity android:name="com.example.geosegalmex.unidadproduccion.FuenteAgua" />
+128-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:115:9-65
+128-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:115:19-62
+129        <activity
+129-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:116:9-118:52
+130            android:name="com.example.geosegalmex.Gps.GpsEnableb"
+130-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:117:13-43
+131            android:screenOrientation="portrait" />
+131-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:118:13-49
+132        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.FertilizanteSi" />
+132-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:119:9-84
+132-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:119:19-81
+133        <activity android:name="com.example.geosegalmex.apicola.SanidadApicola" />
+133-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:120:9-60
+133-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:120:19-57
+134        <activity android:name="com.example.geosegalmex.apicola.ReproduccionApicola" />
+134-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:121:9-65
+134-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:121:19-62
+135        <activity android:name="com.example.geosegalmex.apicola.ManejoApicola" />
+135-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:122:9-59
+135-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:122:19-56
+136        <activity android:name="com.example.geosegalmex.apicola.EnfermedadesCambioPanales" />
+136-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:123:9-71
+136-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:123:19-68
+137        <activity android:name="com.example.geosegalmex.apicola.CosechaApicola" />
+137-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:124:9-60
+137-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:124:19-57
+138        <activity android:name="com.example.geosegalmex.apicola.CapacitacionAsistenciaApicola" />
+138-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:125:9-75
+138-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:125:19-72
+139        <activity android:name="com.example.geosegalmex.apicola.AspectosProductivosApicola" />
+139-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:126:9-72
+139-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:126:19-69
+140        <activity android:name="com.example.geosegalmex.apicola.AlimentacionApicola" />
+140-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:127:9-65
+140-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:127:19-62
+141        <activity android:name="com.example.geosegalmex.apicola.ApicolaInicio" />
+141-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:128:9-59
+141-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:128:19-56
+142        <activity android:name="com.example.geosegalmex.unidadcomercializacion.comercializacion_8" />
+142-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:129:9-79
+142-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:129:19-76
+143        <activity android:name="com.example.geosegalmex.unidadcomercializacion.comercializacion_7" />
+143-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:130:9-79
+143-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:130:19-76
+144        <activity android:name="com.example.geosegalmex.unidadcomercializacion.comercializacion_6" />
+144-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:131:9-79
+144-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:131:19-76
+145        <activity android:name="com.example.geosegalmex.unidadcomercializacion.comercializacion_5" />
+145-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:132:9-79
+145-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:132:19-76
+146        <activity android:name="com.example.geosegalmex.unidadcomercializacion.comercializacion_4" />
+146-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:133:9-79
+146-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:133:19-76
+147        <activity android:name="com.example.geosegalmex.unidadcomercializacion.comercializacion_3" />
+147-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:134:9-79
+147-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:134:19-76
+148        <activity android:name="com.example.geosegalmex.unidadcomercializacion.comercializacion_2" />
+148-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:135:9-79
+148-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:135:19-76
+149        <activity android:name="com.example.geosegalmex.unidadcomercializacion.comercializacion_1" />
+149-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:136:9-79
+149-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:136:19-76
+150        <activity android:name="com.example.geosegalmex.Productor.ProductorInfo" />
+150-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:137:9-61
+150-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:137:19-58
+151        <activity android:name="com.example.geosegalmex.Productor.ProductorEconom" />
+151-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:138:9-63
+151-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:138:19-60
+152        <activity android:name="com.example.geosegalmex.Productor.IntegranteFamilia" />
+152-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:139:9-65
+152-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:139:19-62
+153        <activity android:name="com.example.geosegalmex.Productor.ProductorFamilia" />
+153-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:140:9-64
+153-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:140:19-61
+154        <activity android:name="com.example.geosegalmex.infraestructura_1" />
+154-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:141:9-55
+154-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:141:19-52
+155        <activity android:name="com.example.geosegalmex.frutales.frutales_14" />
+155-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:142:9-58
+155-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:142:19-55
+156        <activity android:name="com.example.geosegalmex.frutales.frutales_13" />
+156-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:143:9-58
+156-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:143:19-55
+157        <activity android:name="com.example.geosegalmex.frutales.frutales_12" />
+157-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:144:9-58
+157-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:144:19-55
+158        <activity android:name="com.example.geosegalmex.frutales.frutales_11" />
+158-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:145:9-58
+158-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:145:19-55
+159        <activity android:name="com.example.geosegalmex.frutales.frutales_10" />
+159-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:146:9-58
+159-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:146:19-55
+160        <activity android:name="com.example.geosegalmex.frutales.frutales_9" />
+160-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:147:9-57
+160-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:147:19-54
+161        <activity android:name="com.example.geosegalmex.frutales.frutales_8" />
+161-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:148:9-57
+161-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:148:19-54
+162        <activity android:name="com.example.geosegalmex.frutales.frutales_7" />
+162-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:149:9-57
+162-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:149:19-54
+163        <activity android:name="com.example.geosegalmex.frutales.frutales_6" />
+163-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:150:9-57
+163-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:150:19-54
+164        <activity android:name="com.example.geosegalmex.frutales.frutales_5" />
+164-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:151:9-57
+164-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:151:19-54
+165        <activity android:name="com.example.geosegalmex.frutales.frutales_4" />
+165-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:152:9-57
+165-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:152:19-54
+166        <activity android:name="com.example.geosegalmex.frutales.frutales_3" />
+166-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:153:9-57
+166-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:153:19-54
+167        <activity android:name="com.example.geosegalmex.frutales.frutales_2" />
+167-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:154:9-57
+167-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:154:19-54
+168        <activity android:name="com.example.geosegalmex.frutales.frutales_1" />
+168-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:155:9-57
+168-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:155:19-54
+169        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.date.CalendarioActivity" />
+169-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:156:9-93
+169-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:156:19-90
+170        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.TiempoRiego" />
+170-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:157:9-81
+170-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:157:19-78
+171        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.PostCosecha" />
+171-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:158:9-81
+171-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:158:19-78
+172        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.Nutricion" />
+172-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:159:9-79
+172-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:159:19-76
+173        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPvunoD" />
+173-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:160:9-86
+173-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:160:19-83
+174        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPvunoC" />
+174-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:161:9-86
+174-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:161:19-83
+175        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPvunob" />
+175-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:162:9-86
+175-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:162:19-83
+176        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPVuno" />
+176-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:163:9-85
+176-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:163:19-82
+177        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.FoliarRiego" />
+177-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:164:9-81
+177-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:164:19-78
+178        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.CosechaB" />
+178-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:165:9-78
+178-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:165:19-75
+179        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.Cosecha" />
+179-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:166:9-77
+179-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:166:19-74
+180        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnfermC" />
+180-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:167:9-90
+180-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:167:19-87
+181        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnfermB" />
+181-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:168:9-90
+181-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:168:19-87
+182        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnferm" />
+182-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:169:9-89
+182-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:169:19-86
+183        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlMalezas" />
+183-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:170:9-84
+183-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:170:19-81
+184        <activity android:name="com.example.geosegalmex.unidadcaracterizacionhortalizas.hortalizas" />
+184-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:171:9-80
+184-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:171:19-77
+185        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion12" />
+185-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:172:9-77
+185-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:172:19-74
+186        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion11" />
+186-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:173:9-77
+186-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:173:19-74
+187        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion10" />
+187-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:174:9-77
+187-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:174:19-74
+188        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion9" />
+188-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:175:9-76
+188-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:175:19-73
+189        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion8" />
+189-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:176:9-76
+189-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:176:19-73
+190        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion7" />
+190-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:177:9-76
+190-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:177:19-73
+191        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion6" />
+191-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:178:9-76
+191-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:178:19-73
+192        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion_tabla" />
+192-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:179:9-81
+192-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:179:19-78
+193        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion5" />
+193-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:180:9-76
+193-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:180:19-73
+194        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion4" />
+194-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:181:9-76
+194-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:181:19-73
+195        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion2" />
+195-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:182:9-76
+195-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:182:19-73
+196        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_caracterizacion" />
+196-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:183:9-75
+196-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:183:19-72
+197        <activity android:name="com.example.geosegalmex.caracterizacion.ciclo_carac" />
+197-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:184:9-65
+197-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:184:19-62
+198        <activity android:name="com.example.geosegalmex.unidadproduccion.ModalidadHidrica" />
+198-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:185:9-71
+198-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:185:19-68
+199        <activity android:name="com.example.geosegalmex.unidadproduccion.TenenciaTierra" />
+199-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:186:9-69
+199-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:186:19-66
+200        <activity android:name="com.example.geosegalmex.unidadproduccion.TiposAlimentosTres" />
+200-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:187:9-73
+200-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:187:19-70
+201        <activity android:name="com.example.geosegalmex.unidadproduccion.TiposAlimentosDos" />
+201-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:188:9-72
+201-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:188:19-69
+202        <activity android:name="com.example.geosegalmex.unidadproduccion.TiposAlimentos" />
+202-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:189:9-69
+202-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:189:19-66
+203        <activity android:name="com.example.geosegalmex.unidadproduccion.ProduccionAcuicola" />
+203-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:190:9-73
+203-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:190:19-70
+204        <activity android:name="com.example.geosegalmex.unidadproduccion.ProduccionForestal" />
+204-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:191:9-73
+204-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:191:19-70
+205        <activity android:name="com.example.geosegalmex.unidadproduccion.ProduccionPecuaria" />
+205-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:192:9-73
+205-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:192:19-70
+206        <activity android:name="com.example.geosegalmex.unidadproduccion.ProduccionAgricola" />
+206-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:193:9-73
+206-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:193:19-70
+207        <activity android:name="com.example.geosegalmex.unidadproduccion.UnidadProduccion" />
+207-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:194:9-71
+207-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:194:19-68
+208        <activity android:name="com.example.geosegalmex.Pecuario.EstructuraDelHato" />
+208-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:195:9-64
+208-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:195:19-61
+209        <activity android:name="com.example.geosegalmex.Pecuario.InventarioGanadoOvino" />
+209-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:196:9-68
+209-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:196:19-65
+210        <activity android:name="com.example.geosegalmex.Pecuario.InventarioGanBovinoLeche" />
+210-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:197:9-71
+210-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:197:19-68
+211        <activity android:name="com.example.geosegalmex.Pecuario.InventarioGanCaprino" />
+211-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:198:9-67
+211-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:198:19-64
+212        <activity android:name="com.example.geosegalmex.Pecuario.ManejoSanitarioOrdenia" />
+212-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:199:9-69
+212-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:199:19-66
+213        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioAgregarAlimentos" />
+213-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:200:9-71
+213-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:200:19-68
+214        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioAlimentacionGanado" />
+214-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:201:9-73
+214-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:201:19-70
+215        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioCaprinos" />
+215-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:202:9-63
+215-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:202:19-60
+216        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioComposicDietaOvinosCaprinos" />
+216-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:203:9-82
+216-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:203:19-79
+217        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioDietaOvinosCaprinosAlimentos" />
+217-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:204:9-83
+217-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:204:19-80
+218        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioEventosUnidadProduccion" />
+218-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:205:9-78
+218-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:205:19-75
+219        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioInicio" />
+219-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:206:9-61
+219-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:206:19-58
+220        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioManejoAgostadero" />
+220-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:207:9-71
+220-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:207:19-68
+221        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioManejoSanGanado" />
+221-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:208:9-70
+221-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:208:19-67
+222        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioOvinos" />
+222-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:209:9-61
+222-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:209:19-58
+223        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioParamProdReproductivos" />
+223-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:210:9-77
+223-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:210:19-74
+224        <activity android:name="com.example.geosegalmex.Pecuario.PecuarioReproduccionGenetica" />
+224-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:211:9-75
+224-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:211:19-72
+225        <activity android:name="com.example.geosegalmex.Gps.GpsTrayectoria" />
+225-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:212:9-56
+225-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:212:19-53
+226        <activity android:name="com.example.geosegalmex.Gps.GpsActivity" />
+226-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:213:9-53
+226-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:213:19-50
+227        <activity
+227-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:214:9-219:59
+228            android:name="com.example.geosegalmex.drawer.DrawerActivity"
+228-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:215:13-50
+229            android:exported="true"
+229-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:216:13-36
+230            android:label="Drawer"
+230-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:217:13-35
+231            android:screenOrientation="portrait"
+231-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:218:13-49
+232            android:theme="@style/AppTheme.NoActionBar" />
+232-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:219:13-56
+233        <activity android:name="com.example.geosegalmex.Georeferencia.GeoreferenciaActivity" />
+233-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:220:9-73
+233-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:220:19-70
+234        <activity android:name="com.example.geosegalmex.Geo.GeoFotos" />
+234-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:221:9-50
+234-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:221:19-47
+235        <activity android:name="com.example.geosegalmex.Geo.FotoActivityDos" />
+235-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:222:9-57
+235-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:222:19-54
+236        <activity android:name="com.example.geosegalmex.Geo.FotoActivityUno" />
+236-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:223:9-57
+236-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:223:19-54
+237        <activity android:name="com.example.geosegalmex.IdentificacionCuestionario" />
+237-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:224:9-64
+237-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:224:19-61
 238        <activity
-238-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:227:9-235:20
-239            android:name="com.example.geosegalmex.Principal"
-239-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:228:13-38
-240            android:screenOrientation="portrait" >
-240-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:229:13-49
-241            <intent-filter>
-241-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:230:13-234:29
-242                <action android:name="android.intent.action.MAIN" />
-242-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:231:17-69
-242-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:231:25-66
-243
-244                <category android:name="android.intent.category.LAUNCHER" />
-244-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:233:17-77
-244-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:233:27-74
-245            </intent-filter>
-246        </activity>
-247
-248        <meta-data
-248-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:237:9-239:50
-249            android:name="com.google.android.actions"
-249-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:238:13-54
-250            android:resource="@xml/file_paths" />
-250-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:239:13-47
+238-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:225:9-227:52
+239            android:name="com.example.geosegalmex.Segunda"
+239-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:226:13-36
+240            android:screenOrientation="portrait" />
+240-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:227:13-49
+241        <activity
+241-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:228:9-236:20
+242            android:name="com.example.geosegalmex.Principal"
+242-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:229:13-38
+243            android:screenOrientation="portrait" >
+243-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:230:13-49
+244            <intent-filter>
+244-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:231:13-235:29
+245                <action android:name="android.intent.action.MAIN" />
+245-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:232:17-69
+245-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:232:25-66
+246
+247                <category android:name="android.intent.category.LAUNCHER" />
+247-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:234:17-77
+247-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:234:27-74
+248            </intent-filter>
+249        </activity>
+250
 251        <meta-data
-251-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:240:9-242:69
-252            android:name="com.google.android.gms.version"
-252-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:241:13-58
-253            android:value="@integer/google_play_services_version" />
-253-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:242:13-66
+251-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:238:9-240:50
+252            android:name="com.google.android.actions"
+252-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:239:13-54
+253            android:resource="@xml/file_paths" />
+253-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:240:13-47
 254        <meta-data
-254-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:243:9-245:71
-255            android:name="com.google.android.geo.API_KEY"
-255-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:244:13-58
-256            android:value="AIzaSyBWRIUBSVY-2SKcteFyw4SaXTfGD9L_UQY" />
-256-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:245:13-68
-257
-258        <provider
-258-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:247:9-255:20
-259            android:name="androidx.core.content.FileProvider"
-259-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:248:13-62
-260            android:authorities="com.example.geosegalmex.fileprovider"
-260-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:249:13-71
-261            android:exported="false"
-261-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:250:13-37
-262            android:grantUriPermissions="true" >
-262-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:251:13-47
-263            <meta-data
-263-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:252:13-254:54
-264                android:name="android.support.FILE_PROVIDER_PATHS"
-264-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:253:17-67
-265                android:resource="@xml/file_paths" />
-265-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:254:17-51
-266        </provider>
-267        <!-- Needs to be explicitly declared on P+ -->
-268        <uses-library
-268-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\erick.burgos\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-269            android:name="org.apache.http.legacy"
-269-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\erick.burgos\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
-270            android:required="false" />
-270-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\erick.burgos\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
-271
-272        <activity
-272-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\erick.burgos\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-273            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-273-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\erick.burgos\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-274            android:exported="false"
-274-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\erick.burgos\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-275            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-275-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\erick.burgos\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-276
-277        <provider
-277-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\erick.burgos\caches\transforms-3\cd60021bf2f3983f31ba46e306c12503\transformed\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
-278            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-278-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\erick.burgos\caches\transforms-3\cd60021bf2f3983f31ba46e306c12503\transformed\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
-279            android:authorities="com.siap.GeoSegalmex.lifecycle-process"
-279-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\erick.burgos\caches\transforms-3\cd60021bf2f3983f31ba46e306c12503\transformed\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
-280            android:exported="false"
-280-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\erick.burgos\caches\transforms-3\cd60021bf2f3983f31ba46e306c12503\transformed\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
-281            android:multiprocess="true" />
-281-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\erick.burgos\caches\transforms-3\cd60021bf2f3983f31ba46e306c12503\transformed\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
-282    </application>
-283
-284</manifest>
+254-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:241:9-243:69
+255            android:name="com.google.android.gms.version"
+255-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:242:13-58
+256            android:value="@integer/google_play_services_version" />
+256-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:243:13-66
+257        <meta-data
+257-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:244:9-246:71
+258            android:name="com.google.android.geo.API_KEY"
+258-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:245:13-58
+259            android:value="AIzaSyBWRIUBSVY-2SKcteFyw4SaXTfGD9L_UQY" />
+259-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:246:13-68
+260
+261        <provider
+261-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:248:9-256:20
+262            android:name="androidx.core.content.FileProvider"
+262-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:249:13-62
+263            android:authorities="com.example.geosegalmex.fileprovider"
+263-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:250:13-71
+264            android:exported="false"
+264-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:251:13-37
+265            android:grantUriPermissions="true" >
+265-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:252:13-47
+266            <meta-data
+266-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:253:13-255:54
+267                android:name="android.support.FILE_PROVIDER_PATHS"
+267-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:254:17-67
+268                android:resource="@xml/file_paths" />
+268-->C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:255:17-51
+269        </provider>
+270        <!-- Needs to be explicitly declared on P+ -->
+271        <uses-library
+271-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\erick.burgos\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+272            android:name="org.apache.http.legacy"
+272-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\erick.burgos\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+273            android:required="false" />
+273-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\erick.burgos\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+274
+275        <activity
+275-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\erick.burgos\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+276            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+276-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\erick.burgos\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+277            android:exported="false"
+277-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\erick.burgos\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+278            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+278-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\erick.burgos\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+279
+280        <provider
+280-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\erick.burgos\caches\transforms-3\cd60021bf2f3983f31ba46e306c12503\transformed\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+281            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+281-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\erick.burgos\caches\transforms-3\cd60021bf2f3983f31ba46e306c12503\transformed\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+282            android:authorities="com.siap.GeoSegalmex.lifecycle-process"
+282-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\erick.burgos\caches\transforms-3\cd60021bf2f3983f31ba46e306c12503\transformed\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+283            android:exported="false"
+283-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\erick.burgos\caches\transforms-3\cd60021bf2f3983f31ba46e306c12503\transformed\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+284            android:multiprocess="true" />
+284-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\erick.burgos\caches\transforms-3\cd60021bf2f3983f31ba46e306c12503\transformed\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+285    </application>
+286
+287</manifest>

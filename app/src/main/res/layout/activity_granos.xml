@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Infra_Granos.Granos">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/pasl_o_tvTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="ALMACENES DE GRANOS"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pasl_o_tvFech"
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fecha:"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/ce_txtFecha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ce_txtEstado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Estado:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/ce_spiEstado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ce_txtRepresentacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Nombre de la Representación:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/ce_spiRepresentacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ce_txtDdr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Nombre del DDR:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/ce_spiDdr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ce_txtCader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Nombre del CADER:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/ce_spiCader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ce_txtMunicipio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Municipio:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/ce_spiMunicipio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ce_txtLocalidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Localidad:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/ce_spiLocalidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textCapWords|textAutoCorrect" />
+
+            <TextView
+                android:id="@+id/ce_tvupp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Domicilio: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/ce_txtupp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textCapWords|textAutoCorrect" />
+
+            <TextView
+                android:id="@+id/ce_tvuppnom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="C.P.: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/ce_txtuppnom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textCapWords|textAutoCorrect" />
+
+            <TextView
+                android:id="@+id/ce_tvuppnomalm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Nombre almacén: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/ce_txtuppnomalm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textCapWords|textAutoCorrect" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ce_tvinstalada"
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:text="Capacidad instalada:"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/ce_txtinstalada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:maxLength="7"
+                    android:hint="ton"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ce_tvgrano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Tipo de grano principal: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/ce_txtgrano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textCapWords|textAutoCorrect" />
+
+            <TextView
+                android:id="@+id/ce_tvgranosec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Tipo de grano secundario: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/ce_txtgranosec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textCapWords|textAutoCorrect" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ce_tvutilizada"
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:text="Volumen almacenado: "
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/ce_txtutilizada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:maxLength="5"
+                    android:hint="ton"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ce_tvSuperficie"
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:text="Superficie:"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/ce_txtSuperficie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:maxLength="9"
+                    android:hint="ha"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ce_tvestadoins"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Estado de la instalación: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/ce_txtestadoins"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textCapWords|textAutoCorrect" />
+
+
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+
+                android:id="@+id/btn_Avanzar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/mtrl_on_primary_emphasis_high_type"
+                android:text="Siguiente"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:icon="@android:drawable/ic_input_add"
+                app:iconPadding="20dp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

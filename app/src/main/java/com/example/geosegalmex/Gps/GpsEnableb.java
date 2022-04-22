@@ -32,6 +32,8 @@ import com.example.geosegalmex.General;
 import com.example.geosegalmex.IdentificacionCuestionario;
 import com.example.geosegalmex.Infra_Ave.AveBD;
 import com.example.geosegalmex.Infra_Engorda.EngordaBD;
+import com.example.geosegalmex.Infra_Granos.GranosBD;
+import com.example.geosegalmex.Infra_Granos.Granos_Model;
 import com.example.geosegalmex.Infra_Lecheros.LecherosBD;
 import com.example.geosegalmex.Infra_Porcino.PorcinoBD;
 import com.example.geosegalmex.Infra_Sacrificio.SacrificioBD;
@@ -190,6 +192,9 @@ public class GpsEnableb extends AppCompatActivity {
                         break;
                     case 4:
                         textid.setText("INFRA_AV"+folioo);
+                        break;
+                    case 5:
+                        textid.setText("INFRA_AG"+folioo);
                         break;
                 }
             }
@@ -409,18 +414,27 @@ public class GpsEnableb extends AppCompatActivity {
             } else {
             }
         }
-            else if(proy.equals("Establos Lecheros")){
-                LecherosBD db;
-                db = new LecherosBD(this);
-                boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
-                db.close();
-                if(insertarData == true) {
-                }else{
-                }
+        else if(proy.equals("Establos Lecheros")){
+            LecherosBD db;
+            db = new LecherosBD(this);
+            boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
+            db.close();
+            if(insertarData == true) {
+            }else{
+            }
         }
         else if(proy.equals("Granjas de Ave")){
             AveBD db;
             db = new AveBD(this);
+            boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
+            db.close();
+            if(insertarData == true) {
+            }else{
+            }
+        }
+        else if(proy.equals("Almacenes de Granos")){
+            GranosBD db;
+            db = new GranosBD(this);
             boolean insertarData = db.addTrayectoriaS(folioPro, folioBrig, longGpsSave, latiGpsSave, horaActl, fechaActl);
             db.close();
             if(insertarData == true) {

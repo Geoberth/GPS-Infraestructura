@@ -14,6 +14,8 @@ import com.example.geosegalmex.Infra_Ave.AveBD;
 import com.example.geosegalmex.Infra_Ave.Ave_Model;
 import com.example.geosegalmex.Infra_Engorda.EngordaBD;
 import com.example.geosegalmex.Infra_Engorda.Engorda_Model;
+import com.example.geosegalmex.Infra_Granos.GranosBD;
+import com.example.geosegalmex.Infra_Granos.Granos_Model;
 import com.example.geosegalmex.Infra_Lecheros.LecherosBD;
 import com.example.geosegalmex.Infra_Lecheros.Lecheros_Model;
 import com.example.geosegalmex.Infra_Porcino.PorcinoBD;
@@ -48,8 +50,8 @@ import java.util.Map;
 
 public class Enviar extends AppCompatActivity {
 
-    TextView tvengorda, tvengordafotos, tvporcino, tvporcinofotos, tvaves, tvavesfotos, tvsacrificio, tvsacrificiofotos, tvLechero, tvLecherofotos;
-    Button btnEngorda, btnEngordaFotos, btnPorcino, btnPorcinofotos, btnaves, btnavesfotos, btnsacrificio, btnsacrificiofotos, btnLechero, btnLecherofotos;
+    TextView tvengorda, tvengordafotos, tvporcino, tvporcinofotos, tvaves, tvavesfotos, tvsacrificio, tvsacrificiofotos, tvLechero, tvLecherofotos, tvGranos, tvGranosfotos;
+    Button btnEngorda, btnEngordaFotos, btnPorcino, btnPorcinofotos, btnaves, btnavesfotos, btnsacrificio, btnsacrificiofotos, btnLechero, btnLecherofotos, btnGranos, btnGranosfotos;
 
 
     boolean correctoEngorda = false;
@@ -76,6 +78,11 @@ public class Enviar extends AppCompatActivity {
     ArrayList<Lecheros_Model> ArrayLechero= new ArrayList<>();
     boolean correctoLecheroFotos = false;// ======>
     ArrayList<Lecheros_Model> ArrayLecheroFotos= new ArrayList<>();// ======>
+
+    boolean correctoGranos = false;
+    ArrayList<Granos_Model> ArrayGranos= new ArrayList<>();
+    boolean correctoGranosFotos = false;// ======>
+    ArrayList<Granos_Model> ArrayGranosFotos= new ArrayList<>();// ======>
 
     RequestQueue requestQueue;
 
@@ -106,8 +113,13 @@ public class Enviar extends AppCompatActivity {
 
         tvLechero = (TextView)findViewById(R.id.enviar14);
         btnLechero = (Button)findViewById(R.id.button5);
-        tvLecherofotos = (TextView)findViewById(R.id.enviar14_1);
-        btnLecherofotos = (Button)findViewById(R.id.button5_1);
+        tvLecherofotos = (TextView)findViewById(R.id.enviar14_1);// ======>
+        btnLecherofotos = (Button)findViewById(R.id.button5_1);// ======>
+
+        tvGranos = (TextView)findViewById(R.id.enviar17);
+        btnGranos = (Button)findViewById(R.id.button6);
+        tvGranosfotos = (TextView)findViewById(R.id.enviar17_1);// ======>
+        btnGranosfotos = (Button)findViewById(R.id.button6_1);// ======>
 
         //╔═══════════════════╗
         //║ Variables Engorda ║
@@ -343,6 +355,54 @@ public class Enviar extends AppCompatActivity {
                     @Override
                     public void run() {
                         insertPicturesLecheros(ArrayLecheroFotos, progressDialog);
+                    }
+                }, 1000);
+            }
+        });
+
+
+        //╔══════════════════════╗
+        //║   Variables Granos   ║
+        //╚══════════════════════╝
+        //Contador de registro nuevos por enviar Engorda
+        GranosBD dbgranos = new GranosBD(Enviar.this);
+        ArrayGranos = dbgranos.mostrarGranos();
+        tvGranos.setText((ArrayGranos == null)?"0":"" + ArrayGranos.size());
+        if(tvGranos.getText().equals("0")){
+            btnGranos.setEnabled(false);
+            btnGranos.setBackground(ContextCompat.getDrawable(this, R.drawable.redondo3));
+        }
+        //Evento click enviar Granos
+        btnGranos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                insertDataGranos(ArrayGranos);
+            }
+        });
+        //Contador de fotos nuevas por enviar Granos
+        ArrayGranosFotos = dbgranos.mostrarFotosGranos();
+        tvGranosfotos.setText((ArrayGranosFotos == null)?"0":"" + dbgranos.contarFotosGranos()*2);
+        if(tvGranosfotos.getText().equals("0")){
+            btnGranosfotos.setEnabled(false);
+            btnGranosfotos.setBackground(ContextCompat.getDrawable(this, R.drawable.redondo3));
+        }
+        //Evento click enviar Fotos  Granos
+        btnGranosfotos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                final ProgressDialog progressDialog = new ProgressDialog(Enviar.this);
+                progressDialog.setCanceledOnTouchOutside(false);
+                progressDialog.setMax(100); // Progress Dialog Max Value
+                progressDialog.setMessage("Loading..."); // Setting Message
+                progressDialog.setTitle("Enviando Fotos"); // Setting Title
+                progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL); // Progress Dialog Style Horizontal
+                progressDialog.show(); // Display Progress Dialog
+                progressDialog.setCancelable(false);
+                progressDialog.setProgress(10);
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        insertPicturesGranos(ArrayGranosFotos, progressDialog);
                     }
                 }, 1000);
             }
@@ -613,6 +673,58 @@ public class Enviar extends AppCompatActivity {
         requestQueue.add(request);
     }
 
+    private void insertDataGranos(ArrayList<Granos_Model> ArrayGranos2) {
+        final ProgressDialog progressDialog = new ProgressDialog(this);
+        progressDialog.setMessage("cargando...");
+        progressDialog.show();
+        progressDialog.setCanceledOnTouchOutside(false);
+        Gson gson = new Gson();
+        String inputString= gson.toJson(ArrayGranos2);
+        StringRequest request = new StringRequest(Request.Method.POST, "http://cmgs.gob.mx:86/Infra/saveGranos.php",
+                //StringRequest request = new StringRequest(Request.Method.POST, "https://erickburg98.000webhostapp.com/Infra/saveGranos.php",
+                //StringRequest request = new StringRequest(Request.Method.POST, "http://10.11.6.61/Infra/saveGranos.php",
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        if(response.contains("Data Inserted")){
+                            String Folios = "";
+                            GranosBD dbgranos2 = new GranosBD(Enviar.this);
+                            for(int i=0; i< ArrayGranos2.size(); i++){
+                                Folios = ArrayGranos2.get(i).getFolio();
+                                correctoGranos = dbgranos2.editarGranos(Folios, "1", "BANDERA");
+                                if(!correctoGranos){
+                                    Toast.makeText(Enviar.this, "Error al actualizar bandera! " + Folios, Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                            Toast.makeText(Enviar.this, "Datos enviados correctamente! ", Toast.LENGTH_LONG).show();
+                            progressDialog.dismiss();
+                            startActivity(new Intent(getApplicationContext(),Enviar.class));
+                            finish();
+                        }
+                        else{
+                            Toast.makeText(Enviar.this, "Los datos no pudieron ser guardados! \n" + response.toString(), Toast.LENGTH_SHORT).show();
+                            progressDialog.dismiss();
+                        }
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(Enviar.this, "Error en la conexion", Toast.LENGTH_SHORT).show();
+                progressDialog.dismiss();
+            }
+        }
+        ){
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String,String> params = new HashMap<String,String>();
+                params.put("data1",inputString);
+                return params;
+            }
+        };
+        requestQueue = Volley.newRequestQueue(Enviar.this);
+        requestQueue.add(request);
+    }
+
     //Funcion para convertir las fotos a Base64
     private String getStringImage(Bitmap bitmap){
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
@@ -624,7 +736,7 @@ public class Enviar extends AppCompatActivity {
     //Funcion para obtener fotos ya redimencionadas
     private Object setToImageView(Bitmap bitmap){
         ByteArrayOutputStream bytes = new ByteArrayOutputStream();
-        bitmap.compress(Bitmap.CompressFormat.JPEG,100,bytes);
+        bitmap.compress(Bitmap.CompressFormat.JPEG,30,bytes);
         Bitmap decoded = BitmapFactory.decodeStream(new ByteArrayInputStream(bytes.toByteArray()));
         return decoded;
     }
@@ -669,12 +781,8 @@ public class Enviar extends AppCompatActivity {
                     this.getContentResolver(),
                     uri
             );
-            if (android.os.Build.VERSION.SDK_INT == Build.VERSION_CODES.P || android.os.Build.VERSION.SDK_INT == Build.VERSION_CODES.Q || android.os.Build.VERSION.SDK_INT == Build.VERSION_CODES.S){
-                finalImage = (Bitmap) setToImageView(bitmap);
-            }else{
-                finalImage = (Bitmap) setToImageView((Bitmap) getResizeBitmap(bitmap, 1024));
-            }
 
+                finalImage = (Bitmap) setToImageView(bitmap);
 
         } catch (IOException e){
             e.printStackTrace();
@@ -984,6 +1092,74 @@ public class Enviar extends AppCompatActivity {
                                 Folios = ArrayLechero4.get(i).getFolio();
                                 correctoLecheroFotos = dblecheros2.editarLecheros(Folios, "1", "BANDERAFOTOS");
                                 if(!correctoLecheroFotos){
+                                    Toast.makeText(Enviar.this, "Error al actualizar bandera! " + Folios, Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                            progressDialog.setProgress(100);
+                            new Handler().postDelayed(new Runnable() {
+                                @Override
+                                public void run() {
+                                    Toast.makeText(Enviar.this, "Datos enviados correctamente! ", Toast.LENGTH_LONG).show();
+                                    progressDialog.dismiss();
+                                    startActivity(new Intent(getApplicationContext(),Enviar.class));
+                                    finish();
+                                }
+                            }, 1000);
+
+                        }
+                        else{
+                            Toast.makeText(Enviar.this, "Los datos no pudieron ser guardados! \n" + response.toString(), Toast.LENGTH_SHORT).show();
+                            progressDialog.dismiss();
+                        }
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(Enviar.this, "Error en la conexion", Toast.LENGTH_SHORT).show();
+                progressDialog.dismiss();
+            }
+        }
+        ){
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String,String> params = new HashMap<String,String>();
+                params.put("data1",inputString);
+                return params;
+            }
+        };
+        requestQueue = Volley.newRequestQueue(Enviar.this);
+        requestQueue.add(request);
+    }
+
+    private void insertPicturesGranos(ArrayList<Granos_Model> ArrayGranos3, ProgressDialog progressDialog) {
+        String foto1 = "";
+        String foto2 = "";
+        ArrayList<Granos_Model> ArrayGranos4 = ArrayGranos3;
+
+        for(int j=0; j< ArrayGranos3.size(); j++){
+            foto1 = getStringImage((Bitmap)getImages("AlmacenesdeGranos", ArrayGranos3.get(j).getF1()));
+            foto2 = getStringImage((Bitmap)getImages("AlmacenesdeGranos", ArrayGranos3.get(j).getF2()));
+            ArrayGranos4.get(j).setLongitud(foto1);
+            ArrayGranos4.get(j).setLatitud(foto2);
+        }
+
+        Gson gson = new Gson();
+        String inputString= gson.toJson(ArrayGranos4);
+        progressDialog.setProgress(80);
+        StringRequest request = new StringRequest(Request.Method.POST, "http://cmgs.gob.mx:86/Infra/savePicturesGranos.php",
+                //StringRequest request = new StringRequest(Request.Method.POST, "https://erickburg98.000webhostapp.com/Infra/savePicturesGranos.php",
+                //StringRequest request = new StringRequest(Request.Method.POST, "http://10.11.6.61/Infra/savePicturesGranos.php",
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        if(response.contains("Pictures Inserted")){
+                            String Folios = "";
+
+                            GranosBD dbgranos2 = new GranosBD(Enviar.this);
+                            for(int i=0; i< ArrayGranos4.size(); i++){
+                                Folios = ArrayGranos4.get(i).getFolio();
+                                correctoGranosFotos = dbgranos2.editarGranos(Folios, "1", "BANDERAFOTOS");
+                                if(!correctoGranosFotos){
                                     Toast.makeText(Enviar.this, "Error al actualizar bandera! " + Folios, Toast.LENGTH_SHORT).show();
                                 }
                             }

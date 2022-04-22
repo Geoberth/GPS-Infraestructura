@@ -37,6 +37,9 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.geosegalmex.Infra_Granos.Granos"
+            android:exported="false" />
+        <activity
             android:name="com.example.geosegalmex.Enviar.Enviar"
             android:exported="false"
             android:parentActivityName="com.example.geosegalmex.Gps.GpsEnableb"

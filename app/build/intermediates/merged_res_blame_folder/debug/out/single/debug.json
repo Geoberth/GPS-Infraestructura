@@ -196,6 +196,10 @@
         "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\mipmap-hdpi\\icononor2_round.png"
     },
     {
+        "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_granos.xml.flat",
+        "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\layout\\activity_granos.xml"
+    },
+    {
         "merged": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_productor_econom.xml.flat",
         "source": "C:\\Users\\erick.burgos\\AndroidStudioProjects\\GPS-Infraestructura\\app\\src\\main\\res\\layout\\activity_productor_econom.xml"
     },
