@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".NewCamara"
+    tools:context="com.example.infraestructura.NewCamara"
     android:layout_marginLeft="15dp"
     android:layout_marginTop="15dp"
     android:layout_marginRight="15dp"

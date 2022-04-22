@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".frutales.frutales_4_0">
+    tools:context="com.example.infraestructura.frutales.frutales_4_0">
     <LinearLayout
         android:paddingLeft="16dp"
         android:paddingRight="16dp"

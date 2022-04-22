@@ -7,37 +7,37 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.geosegalmex.drawer.fragment_drawer.MapaFragment"
+        android:name="com.example.infraestructura.drawer.fragment_drawer.MapaFragment"
         android:label="Encuesta"
         tools:layout="@layout/fragment_mapa" />
 
     <fragment
         android:id="@+id/nav_sync_municipio"
-        android:name="com.example.geosegalmex.drawer.fragment_drawer.SyncMunFragment"
+        android:name="com.example.infraestructura.drawer.fragment_drawer.SyncMunFragment"
         android:label="Municipios"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_sync_usuarios"
-        android:name="com.example.geosegalmex.drawer.fragment_drawer.SyncUserFragment"
+        android:name="com.example.infraestructura.drawer.fragment_drawer.SyncUserFragment"
         android:label="Usuarios"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
         android:id="@+id/nav_exportar"
-        android:name="com.example.geosegalmex.drawer.fragment_drawer.ExportarFragment"
+        android:name="com.example.infraestructura.drawer.fragment_drawer.ExportarFragment"
         android:label="Exportar"
         tools:layout="@layout/fragment_tools" />
 
     <fragment
     android:id="@+id/nav_liconsa"
-    android:name="com.example.geosegalmex.drawer.fragment_drawer.LiconsaPrecios"
+    android:name="com.example.infraestructura.drawer.fragment_drawer.LiconsaPrecios"
     android:label="Diconsa Precios"
     tools:layout="@layout/fragment_tools" />
 
     <activity
         android:id="@+id/nav_enviar"
-        android:name="com.example.geosegalmex.Enviar.Enviar"
+        android:name="com.example.infraestructura.Enviar.Enviar"
         android:label="Enviar"
         tools:layout="@layout/fragment_tools" />
 

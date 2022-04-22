@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".unidadcaracterizacionhortalizas.PostCosecha">
+    tools:context="com.example.infraestructura.unidadcaracterizacionhortalizas.PostCosecha">
 
     <LinearLayout
         android:paddingLeft="@dimen/margen_left"

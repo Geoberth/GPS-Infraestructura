@@ -63,7 +63,7 @@ INJECTED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\ap
 INJECTED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:2:1-259:12
 INJECTED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:2:1-259:12
 	package
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:3:5-38
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -162,589 +162,589 @@ MERGED from [com.github.d-max:spots-dialog:1.1] C:\Users\erick.burgos\caches\tra
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:24:9-40
 	android:usesCleartextTraffic
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:25:9-44
-activity#com.example.geosegalmex.Infra_Granos.Granos
+activity#com.example.infraestructura.Infra_Granos.Granos
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:26:9-28:40
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:27:13-48
-activity#com.example.geosegalmex.Enviar.Enviar
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:27:13-75
+activity#com.example.infraestructura.Enviar.Enviar
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:29:9-37:20
 	android:screenOrientation
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:33:13-49
 	android:parentActivityName
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:32:13-57
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:32:13-84
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:30:13-42
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:30:13-69
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:34:13-36:51
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:34:13-36:78
 	android:value
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:36:17-48
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:36:17-75
 	android:name
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:35:17-63
-activity#com.example.geosegalmex.Infra_Ave.Ave
+activity#com.example.infraestructura.Infra_Ave.Ave
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:38:9-40:40
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:39:13-42
-activity#com.example.geosegalmex.Infra_Lecheros.lecheros1
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:39:13-69
+activity#com.example.infraestructura.Infra_Lecheros.lecheros1
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:42:13-53
-activity#com.example.geosegalmex.Infra_Porcino.Porcino
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:42:13-80
+activity#com.example.infraestructura.Infra_Porcino.Porcino
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:45:13-50
-activity#com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:45:13-77
+activity#com.example.infraestructura.Infra_Sacrificio.Sacrificio_1
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:47:9-49:40
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:48:13-58
-activity#com.example.geosegalmex.Infra_Engorda.Engorda
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:48:13-85
+activity#com.example.infraestructura.Infra_Engorda.Engorda
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:50:9-52:40
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:51:13-50
-activity#com.example.geosegalmex.Firma
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:51:13-77
+activity#com.example.infraestructura.Firma
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:53:9-56:52
 	android:screenOrientation
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:56:13-49
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:54:13-34
-activity#com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:54:13-61
+activity#com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:57:9-59:40
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:59:13-37
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:58:13-92
-activity#com.example.geosegalmex.Liconsa2.LiconsaVerificacion
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:58:13-119
+activity#com.example.infraestructura.Liconsa2.LiconsaVerificacion
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:60:9-63:52
 	android:screenOrientation
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:63:13-49
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:62:13-37
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:61:13-57
-activity#com.example.geosegalmex.PGBeneficiarioLeche.PGBeneficiarioLeche
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:61:13-84
+activity#com.example.infraestructura.PGBeneficiarioLeche.PGBeneficiarioLeche
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:64:9-67:52
 	android:screenOrientation
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:67:13-49
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:66:13-37
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:65:13-68
-activity#com.example.geosegalmex.PGOperativoLeche.PGOperativoLeche
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:65:13-95
+activity#com.example.infraestructura.PGOperativoLeche.PGOperativoLeche
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:68:9-71:52
 	android:screenOrientation
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:71:13-49
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:70:13-37
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:69:13-62
-activity#com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:69:13-89
+activity#com.example.infraestructura.PGOperativoGranos.PGOperativoGranos
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:72:9-75:52
 	android:screenOrientation
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:75:13-49
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:74:13-37
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:73:13-64
-activity#com.example.geosegalmex.Liconsa.Liconsa
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:73:13-91
+activity#com.example.infraestructura.Liconsa.Liconsa
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:76:9-79:52
 	android:screenOrientation
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:79:13-49
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:78:13-36
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:77:13-44
-activity#com.example.geosegalmex.PAROperativo.PAR_Operativo
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:77:13-71
+activity#com.example.infraestructura.PAROperativo.PAR_Operativo
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:80:9-83:52
 	android:screenOrientation
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:83:13-49
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:82:13-36
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:81:13-55
-activity#com.example.geosegalmex.PGBeneficiarioGranos.PGBeneficiariosGranos
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:81:13-82
+activity#com.example.infraestructura.PGBeneficiarioGranos.PGBeneficiariosGranos
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:84:9-87:52
 	android:screenOrientation
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:87:13-49
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:86:13-36
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:85:13-71
-activity#com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:85:13-98
+activity#com.example.infraestructura.PGOperativoEstimulos.PGOperativoEstimulos
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:88:9-91:52
 	android:screenOrientation
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:91:13-49
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:90:13-36
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:89:13-70
-activity#com.example.geosegalmex.PARBeneficiario.PARBeneficiario
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:89:13-97
+activity#com.example.infraestructura.PARBeneficiario.PARBeneficiario
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:92:9-95:52
 	android:screenOrientation
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:95:13-49
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:94:13-36
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:93:13-60
-activity#com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:93:13-87
+activity#com.example.infraestructura.LiconsaBeneficiario.PASLBeneficiario
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:96:9-99:52
 	android:screenOrientation
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:99:13-49
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:98:13-36
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:97:13-65
-activity#com.example.geosegalmex.LiconsaVentanilla.PASLOperativo
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:97:13-92
+activity#com.example.infraestructura.LiconsaVentanilla.PASLOperativo
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:100:9-103:52
 	android:screenOrientation
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:103:13-49
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:102:13-36
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:101:13-60
-activity#com.example.geosegalmex.NewCamara
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:101:13-87
+activity#com.example.infraestructura.NewCamara
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:104:9-106:52
 	android:screenOrientation
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:106:13-49
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:105:13-38
-activity#com.example.geosegalmex.apicola.HerramientasProteccion
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:107:9-68
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:105:13-65
+activity#com.example.infraestructura.apicola.HerramientasProteccion
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:107:9-95
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:107:19-65
-activity#com.example.geosegalmex.unidadcomercializacion.Apicultura_4
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:108:9-73
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:107:19-92
+activity#com.example.infraestructura.unidadcomercializacion.Apicultura_4
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:108:9-100
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:108:19-70
-activity#com.example.geosegalmex.unidadcomercializacion.Apicultura_3
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:109:9-73
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:108:19-97
+activity#com.example.infraestructura.unidadcomercializacion.Apicultura_3
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:109:9-100
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:109:19-70
-activity#com.example.geosegalmex.unidadcomercializacion.Apicultura_2
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:110:9-73
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:109:19-97
+activity#com.example.infraestructura.unidadcomercializacion.Apicultura_2
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:110:9-100
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:110:19-70
-activity#com.example.geosegalmex.unidadcomercializacion.Apicultura_1
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:111:9-73
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:110:19-97
+activity#com.example.infraestructura.unidadcomercializacion.Apicultura_1
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:111:9-100
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:111:19-70
-activity#com.example.geosegalmex.frutales.frutales_4_0
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:112:9-59
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:111:19-97
+activity#com.example.infraestructura.frutales.frutales_4_0
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:112:9-86
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:112:19-56
-activity#com.example.geosegalmex.unidadcomercializacion.comercializacion_3_1
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:113:9-81
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:112:19-83
+activity#com.example.infraestructura.unidadcomercializacion.comercializacion_3_1
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:113:9-108
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:113:19-78
-activity#com.example.geosegalmex.caracterizacion.variables_caracterizacion.CalendarioDate
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:114:9-94
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:113:19-105
+activity#com.example.infraestructura.caracterizacion.variables_caracterizacion.CalendarioDate
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:114:9-121
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:114:19-91
-activity#com.example.geosegalmex.unidadproduccion.FuenteAgua
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:115:9-65
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:114:19-118
+activity#com.example.infraestructura.unidadproduccion.FuenteAgua
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:115:9-92
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:115:19-62
-activity#com.example.geosegalmex.Gps.GpsEnableb
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:115:19-89
+activity#com.example.infraestructura.Gps.GpsEnableb
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:116:9-118:52
 	android:screenOrientation
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:118:13-49
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:117:13-43
-activity#com.example.geosegalmex.unidadcaracterizacionhortalizas.FertilizanteSi
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:119:9-84
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:119:19-81
-activity#com.example.geosegalmex.apicola.SanidadApicola
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:120:9-60
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:120:19-57
-activity#com.example.geosegalmex.apicola.ReproduccionApicola
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:121:9-65
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:121:19-62
-activity#com.example.geosegalmex.apicola.ManejoApicola
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:122:9-59
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:122:19-56
-activity#com.example.geosegalmex.apicola.EnfermedadesCambioPanales
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:123:9-71
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:123:19-68
-activity#com.example.geosegalmex.apicola.CosechaApicola
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:124:9-60
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:124:19-57
-activity#com.example.geosegalmex.apicola.CapacitacionAsistenciaApicola
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:125:9-75
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:125:19-72
-activity#com.example.geosegalmex.apicola.AspectosProductivosApicola
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:126:9-72
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:126:19-69
-activity#com.example.geosegalmex.apicola.AlimentacionApicola
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:127:9-65
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:127:19-62
-activity#com.example.geosegalmex.apicola.ApicolaInicio
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:128:9-59
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:128:19-56
-activity#com.example.geosegalmex.unidadcomercializacion.comercializacion_8
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:129:9-79
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:129:19-76
-activity#com.example.geosegalmex.unidadcomercializacion.comercializacion_7
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:130:9-79
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:130:19-76
-activity#com.example.geosegalmex.unidadcomercializacion.comercializacion_6
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:131:9-79
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:131:19-76
-activity#com.example.geosegalmex.unidadcomercializacion.comercializacion_5
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:132:9-79
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:132:19-76
-activity#com.example.geosegalmex.unidadcomercializacion.comercializacion_4
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:133:9-79
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:133:19-76
-activity#com.example.geosegalmex.unidadcomercializacion.comercializacion_3
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:134:9-79
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:134:19-76
-activity#com.example.geosegalmex.unidadcomercializacion.comercializacion_2
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:135:9-79
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:135:19-76
-activity#com.example.geosegalmex.unidadcomercializacion.comercializacion_1
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:136:9-79
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:136:19-76
-activity#com.example.geosegalmex.Productor.ProductorInfo
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:137:9-61
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:137:19-58
-activity#com.example.geosegalmex.Productor.ProductorEconom
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:138:9-63
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:138:19-60
-activity#com.example.geosegalmex.Productor.IntegranteFamilia
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:139:9-65
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:139:19-62
-activity#com.example.geosegalmex.Productor.ProductorFamilia
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:140:9-64
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:140:19-61
-activity#com.example.geosegalmex.infraestructura_1
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:141:9-55
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:141:19-52
-activity#com.example.geosegalmex.frutales.frutales_14
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:142:9-58
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:142:19-55
-activity#com.example.geosegalmex.frutales.frutales_13
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:143:9-58
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:143:19-55
-activity#com.example.geosegalmex.frutales.frutales_12
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:144:9-58
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:144:19-55
-activity#com.example.geosegalmex.frutales.frutales_11
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:145:9-58
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:145:19-55
-activity#com.example.geosegalmex.frutales.frutales_10
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:146:9-58
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:146:19-55
-activity#com.example.geosegalmex.frutales.frutales_9
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:147:9-57
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:147:19-54
-activity#com.example.geosegalmex.frutales.frutales_8
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:148:9-57
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:148:19-54
-activity#com.example.geosegalmex.frutales.frutales_7
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:149:9-57
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:149:19-54
-activity#com.example.geosegalmex.frutales.frutales_6
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:150:9-57
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:150:19-54
-activity#com.example.geosegalmex.frutales.frutales_5
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:151:9-57
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:151:19-54
-activity#com.example.geosegalmex.frutales.frutales_4
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:152:9-57
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:152:19-54
-activity#com.example.geosegalmex.frutales.frutales_3
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:153:9-57
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:153:19-54
-activity#com.example.geosegalmex.frutales.frutales_2
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:154:9-57
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:154:19-54
-activity#com.example.geosegalmex.frutales.frutales_1
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:155:9-57
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:155:19-54
-activity#com.example.geosegalmex.unidadcaracterizacionhortalizas.date.CalendarioActivity
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:156:9-93
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:156:19-90
-activity#com.example.geosegalmex.unidadcaracterizacionhortalizas.TiempoRiego
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:157:9-81
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:157:19-78
-activity#com.example.geosegalmex.unidadcaracterizacionhortalizas.PostCosecha
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:158:9-81
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:158:19-78
-activity#com.example.geosegalmex.unidadcaracterizacionhortalizas.Nutricion
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:159:9-79
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:159:19-76
-activity#com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPvunoD
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:160:9-86
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:160:19-83
-activity#com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPvunoC
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:161:9-86
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:161:19-83
-activity#com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPvunob
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:162:9-86
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:162:19-83
-activity#com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPVuno
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:163:9-85
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:163:19-82
-activity#com.example.geosegalmex.unidadcaracterizacionhortalizas.FoliarRiego
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:164:9-81
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:164:19-78
-activity#com.example.geosegalmex.unidadcaracterizacionhortalizas.CosechaB
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:165:9-78
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:165:19-75
-activity#com.example.geosegalmex.unidadcaracterizacionhortalizas.Cosecha
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:166:9-77
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:166:19-74
-activity#com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnfermC
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:167:9-90
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:167:19-87
-activity#com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnfermB
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:168:9-90
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:168:19-87
-activity#com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnferm
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:169:9-89
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:169:19-86
-activity#com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlMalezas
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:170:9-84
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:170:19-81
-activity#com.example.geosegalmex.unidadcaracterizacionhortalizas.hortalizas
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:171:9-80
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:171:19-77
-activity#com.example.geosegalmex.caracterizacion.ciclo_caracterizacion12
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:172:9-77
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:172:19-74
-activity#com.example.geosegalmex.caracterizacion.ciclo_caracterizacion11
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:173:9-77
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:173:19-74
-activity#com.example.geosegalmex.caracterizacion.ciclo_caracterizacion10
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:174:9-77
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:174:19-74
-activity#com.example.geosegalmex.caracterizacion.ciclo_caracterizacion9
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:175:9-76
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:175:19-73
-activity#com.example.geosegalmex.caracterizacion.ciclo_caracterizacion8
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:176:9-76
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:176:19-73
-activity#com.example.geosegalmex.caracterizacion.ciclo_caracterizacion7
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:177:9-76
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:177:19-73
-activity#com.example.geosegalmex.caracterizacion.ciclo_caracterizacion6
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:178:9-76
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:178:19-73
-activity#com.example.geosegalmex.caracterizacion.ciclo_caracterizacion_tabla
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:179:9-81
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:179:19-78
-activity#com.example.geosegalmex.caracterizacion.ciclo_caracterizacion5
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:180:9-76
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:180:19-73
-activity#com.example.geosegalmex.caracterizacion.ciclo_caracterizacion4
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:181:9-76
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:181:19-73
-activity#com.example.geosegalmex.caracterizacion.ciclo_caracterizacion2
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:182:9-76
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:182:19-73
-activity#com.example.geosegalmex.caracterizacion.ciclo_caracterizacion
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:183:9-75
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:183:19-72
-activity#com.example.geosegalmex.caracterizacion.ciclo_carac
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:184:9-65
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:184:19-62
-activity#com.example.geosegalmex.unidadproduccion.ModalidadHidrica
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:185:9-71
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:185:19-68
-activity#com.example.geosegalmex.unidadproduccion.TenenciaTierra
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:186:9-69
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:186:19-66
-activity#com.example.geosegalmex.unidadproduccion.TiposAlimentosTres
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:187:9-73
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:187:19-70
-activity#com.example.geosegalmex.unidadproduccion.TiposAlimentosDos
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:188:9-72
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:188:19-69
-activity#com.example.geosegalmex.unidadproduccion.TiposAlimentos
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:189:9-69
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:189:19-66
-activity#com.example.geosegalmex.unidadproduccion.ProduccionAcuicola
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:190:9-73
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:190:19-70
-activity#com.example.geosegalmex.unidadproduccion.ProduccionForestal
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:191:9-73
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:191:19-70
-activity#com.example.geosegalmex.unidadproduccion.ProduccionPecuaria
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:192:9-73
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:192:19-70
-activity#com.example.geosegalmex.unidadproduccion.ProduccionAgricola
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:193:9-73
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:193:19-70
-activity#com.example.geosegalmex.unidadproduccion.UnidadProduccion
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:194:9-71
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:194:19-68
-activity#com.example.geosegalmex.Pecuario.EstructuraDelHato
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:195:9-64
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:195:19-61
-activity#com.example.geosegalmex.Pecuario.InventarioGanadoOvino
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:196:9-68
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:196:19-65
-activity#com.example.geosegalmex.Pecuario.InventarioGanBovinoLeche
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:197:9-71
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:197:19-68
-activity#com.example.geosegalmex.Pecuario.InventarioGanCaprino
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:198:9-67
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:198:19-64
-activity#com.example.geosegalmex.Pecuario.ManejoSanitarioOrdenia
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:199:9-69
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:199:19-66
-activity#com.example.geosegalmex.Pecuario.PecuarioAgregarAlimentos
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:200:9-71
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:200:19-68
-activity#com.example.geosegalmex.Pecuario.PecuarioAlimentacionGanado
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:201:9-73
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:201:19-70
-activity#com.example.geosegalmex.Pecuario.PecuarioCaprinos
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:202:9-63
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:202:19-60
-activity#com.example.geosegalmex.Pecuario.PecuarioComposicDietaOvinosCaprinos
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:203:9-82
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:203:19-79
-activity#com.example.geosegalmex.Pecuario.PecuarioDietaOvinosCaprinosAlimentos
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:204:9-83
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:204:19-80
-activity#com.example.geosegalmex.Pecuario.PecuarioEventosUnidadProduccion
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:205:9-78
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:205:19-75
-activity#com.example.geosegalmex.Pecuario.PecuarioInicio
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:206:9-61
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:206:19-58
-activity#com.example.geosegalmex.Pecuario.PecuarioManejoAgostadero
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:207:9-71
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:207:19-68
-activity#com.example.geosegalmex.Pecuario.PecuarioManejoSanGanado
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:208:9-70
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:208:19-67
-activity#com.example.geosegalmex.Pecuario.PecuarioOvinos
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:209:9-61
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:209:19-58
-activity#com.example.geosegalmex.Pecuario.PecuarioParamProdReproductivos
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:210:9-77
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:210:19-74
-activity#com.example.geosegalmex.Pecuario.PecuarioReproduccionGenetica
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:211:9-75
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:211:19-72
-activity#com.example.geosegalmex.Gps.GpsTrayectoria
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:212:9-56
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:212:19-53
-activity#com.example.geosegalmex.Gps.GpsActivity
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:213:9-53
-	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:213:19-50
-activity#com.example.geosegalmex.drawer.DrawerActivity
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:117:13-70
+activity#com.example.infraestructura.unidadcaracterizacionhortalizas.FertilizanteSi
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:119:9-111
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:119:19-108
+activity#com.example.infraestructura.apicola.SanidadApicola
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:120:9-87
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:120:19-84
+activity#com.example.infraestructura.apicola.ReproduccionApicola
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:121:9-92
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:121:19-89
+activity#com.example.infraestructura.apicola.ManejoApicola
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:122:9-86
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:122:19-83
+activity#com.example.infraestructura.apicola.EnfermedadesCambioPanales
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:123:9-98
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:123:19-95
+activity#com.example.infraestructura.apicola.CosechaApicola
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:124:9-87
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:124:19-84
+activity#com.example.infraestructura.apicola.CapacitacionAsistenciaApicola
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:125:9-102
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:125:19-99
+activity#com.example.infraestructura.apicola.AspectosProductivosApicola
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:126:9-99
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:126:19-96
+activity#com.example.infraestructura.apicola.AlimentacionApicola
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:127:9-92
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:127:19-89
+activity#com.example.infraestructura.apicola.ApicolaInicio
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:128:9-86
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:128:19-83
+activity#com.example.infraestructura.unidadcomercializacion.comercializacion_8
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:129:9-106
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:129:19-103
+activity#com.example.infraestructura.unidadcomercializacion.comercializacion_7
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:130:9-106
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:130:19-103
+activity#com.example.infraestructura.unidadcomercializacion.comercializacion_6
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:131:9-106
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:131:19-103
+activity#com.example.infraestructura.unidadcomercializacion.comercializacion_5
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:132:9-106
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:132:19-103
+activity#com.example.infraestructura.unidadcomercializacion.comercializacion_4
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:133:9-106
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:133:19-103
+activity#com.example.infraestructura.unidadcomercializacion.comercializacion_3
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:134:9-106
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:134:19-103
+activity#com.example.infraestructura.unidadcomercializacion.comercializacion_2
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:135:9-106
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:135:19-103
+activity#com.example.infraestructura.unidadcomercializacion.comercializacion_1
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:136:9-106
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:136:19-103
+activity#com.example.infraestructura.Productor.ProductorInfo
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:137:9-88
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:137:19-85
+activity#com.example.infraestructura.Productor.ProductorEconom
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:138:9-90
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:138:19-87
+activity#com.example.infraestructura.Productor.IntegranteFamilia
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:139:9-92
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:139:19-89
+activity#com.example.infraestructura.Productor.ProductorFamilia
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:140:9-91
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:140:19-88
+activity#com.example.infraestructura.infraestructura_1
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:141:9-82
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:141:19-79
+activity#com.example.infraestructura.frutales.frutales_14
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:142:9-85
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:142:19-82
+activity#com.example.infraestructura.frutales.frutales_13
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:143:9-85
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:143:19-82
+activity#com.example.infraestructura.frutales.frutales_12
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:144:9-85
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:144:19-82
+activity#com.example.infraestructura.frutales.frutales_11
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:145:9-85
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:145:19-82
+activity#com.example.infraestructura.frutales.frutales_10
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:146:9-85
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:146:19-82
+activity#com.example.infraestructura.frutales.frutales_9
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:147:9-84
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:147:19-81
+activity#com.example.infraestructura.frutales.frutales_8
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:148:9-84
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:148:19-81
+activity#com.example.infraestructura.frutales.frutales_7
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:149:9-84
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:149:19-81
+activity#com.example.infraestructura.frutales.frutales_6
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:150:9-84
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:150:19-81
+activity#com.example.infraestructura.frutales.frutales_5
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:151:9-84
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:151:19-81
+activity#com.example.infraestructura.frutales.frutales_4
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:152:9-84
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:152:19-81
+activity#com.example.infraestructura.frutales.frutales_3
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:153:9-84
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:153:19-81
+activity#com.example.infraestructura.frutales.frutales_2
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:154:9-84
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:154:19-81
+activity#com.example.infraestructura.frutales.frutales_1
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:155:9-84
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:155:19-81
+activity#com.example.infraestructura.unidadcaracterizacionhortalizas.date.CalendarioActivity
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:156:9-120
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:156:19-117
+activity#com.example.infraestructura.unidadcaracterizacionhortalizas.TiempoRiego
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:157:9-108
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:157:19-105
+activity#com.example.infraestructura.unidadcaracterizacionhortalizas.PostCosecha
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:158:9-108
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:158:19-105
+activity#com.example.infraestructura.unidadcaracterizacionhortalizas.Nutricion
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:159:9-106
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:159:19-103
+activity#com.example.infraestructura.unidadcaracterizacionhortalizas.HortalizasPvunoD
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:160:9-113
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:160:19-110
+activity#com.example.infraestructura.unidadcaracterizacionhortalizas.HortalizasPvunoC
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:161:9-113
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:161:19-110
+activity#com.example.infraestructura.unidadcaracterizacionhortalizas.HortalizasPvunob
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:162:9-113
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:162:19-110
+activity#com.example.infraestructura.unidadcaracterizacionhortalizas.HortalizasPVuno
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:163:9-112
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:163:19-109
+activity#com.example.infraestructura.unidadcaracterizacionhortalizas.FoliarRiego
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:164:9-108
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:164:19-105
+activity#com.example.infraestructura.unidadcaracterizacionhortalizas.CosechaB
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:165:9-105
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:165:19-102
+activity#com.example.infraestructura.unidadcaracterizacionhortalizas.Cosecha
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:166:9-104
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:166:19-101
+activity#com.example.infraestructura.unidadcaracterizacionhortalizas.ControlPlagasEnfermC
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:167:9-117
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:167:19-114
+activity#com.example.infraestructura.unidadcaracterizacionhortalizas.ControlPlagasEnfermB
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:168:9-117
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:168:19-114
+activity#com.example.infraestructura.unidadcaracterizacionhortalizas.ControlPlagasEnferm
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:169:9-116
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:169:19-113
+activity#com.example.infraestructura.unidadcaracterizacionhortalizas.ControlMalezas
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:170:9-111
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:170:19-108
+activity#com.example.infraestructura.unidadcaracterizacionhortalizas.hortalizas
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:171:9-107
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:171:19-104
+activity#com.example.infraestructura.caracterizacion.ciclo_caracterizacion12
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:172:9-104
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:172:19-101
+activity#com.example.infraestructura.caracterizacion.ciclo_caracterizacion11
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:173:9-104
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:173:19-101
+activity#com.example.infraestructura.caracterizacion.ciclo_caracterizacion10
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:174:9-104
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:174:19-101
+activity#com.example.infraestructura.caracterizacion.ciclo_caracterizacion9
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:175:9-103
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:175:19-100
+activity#com.example.infraestructura.caracterizacion.ciclo_caracterizacion8
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:176:9-103
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:176:19-100
+activity#com.example.infraestructura.caracterizacion.ciclo_caracterizacion7
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:177:9-103
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:177:19-100
+activity#com.example.infraestructura.caracterizacion.ciclo_caracterizacion6
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:178:9-103
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:178:19-100
+activity#com.example.infraestructura.caracterizacion.ciclo_caracterizacion_tabla
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:179:9-108
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:179:19-105
+activity#com.example.infraestructura.caracterizacion.ciclo_caracterizacion5
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:180:9-103
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:180:19-100
+activity#com.example.infraestructura.caracterizacion.ciclo_caracterizacion4
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:181:9-103
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:181:19-100
+activity#com.example.infraestructura.caracterizacion.ciclo_caracterizacion2
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:182:9-103
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:182:19-100
+activity#com.example.infraestructura.caracterizacion.ciclo_caracterizacion
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:183:9-102
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:183:19-99
+activity#com.example.infraestructura.caracterizacion.ciclo_carac
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:184:9-92
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:184:19-89
+activity#com.example.infraestructura.unidadproduccion.ModalidadHidrica
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:185:9-98
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:185:19-95
+activity#com.example.infraestructura.unidadproduccion.TenenciaTierra
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:186:9-96
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:186:19-93
+activity#com.example.infraestructura.unidadproduccion.TiposAlimentosTres
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:187:9-100
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:187:19-97
+activity#com.example.infraestructura.unidadproduccion.TiposAlimentosDos
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:188:9-99
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:188:19-96
+activity#com.example.infraestructura.unidadproduccion.TiposAlimentos
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:189:9-96
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:189:19-93
+activity#com.example.infraestructura.unidadproduccion.ProduccionAcuicola
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:190:9-100
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:190:19-97
+activity#com.example.infraestructura.unidadproduccion.ProduccionForestal
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:191:9-100
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:191:19-97
+activity#com.example.infraestructura.unidadproduccion.ProduccionPecuaria
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:192:9-100
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:192:19-97
+activity#com.example.infraestructura.unidadproduccion.ProduccionAgricola
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:193:9-100
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:193:19-97
+activity#com.example.infraestructura.unidadproduccion.UnidadProduccion
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:194:9-98
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:194:19-95
+activity#com.example.infraestructura.Pecuario.EstructuraDelHato
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:195:9-91
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:195:19-88
+activity#com.example.infraestructura.Pecuario.InventarioGanadoOvino
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:196:9-95
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:196:19-92
+activity#com.example.infraestructura.Pecuario.InventarioGanBovinoLeche
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:197:9-98
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:197:19-95
+activity#com.example.infraestructura.Pecuario.InventarioGanCaprino
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:198:9-94
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:198:19-91
+activity#com.example.infraestructura.Pecuario.ManejoSanitarioOrdenia
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:199:9-96
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:199:19-93
+activity#com.example.infraestructura.Pecuario.PecuarioAgregarAlimentos
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:200:9-98
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:200:19-95
+activity#com.example.infraestructura.Pecuario.PecuarioAlimentacionGanado
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:201:9-100
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:201:19-97
+activity#com.example.infraestructura.Pecuario.PecuarioCaprinos
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:202:9-90
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:202:19-87
+activity#com.example.infraestructura.Pecuario.PecuarioComposicDietaOvinosCaprinos
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:203:9-109
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:203:19-106
+activity#com.example.infraestructura.Pecuario.PecuarioDietaOvinosCaprinosAlimentos
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:204:9-110
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:204:19-107
+activity#com.example.infraestructura.Pecuario.PecuarioEventosUnidadProduccion
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:205:9-105
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:205:19-102
+activity#com.example.infraestructura.Pecuario.PecuarioInicio
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:206:9-88
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:206:19-85
+activity#com.example.infraestructura.Pecuario.PecuarioManejoAgostadero
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:207:9-98
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:207:19-95
+activity#com.example.infraestructura.Pecuario.PecuarioManejoSanGanado
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:208:9-97
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:208:19-94
+activity#com.example.infraestructura.Pecuario.PecuarioOvinos
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:209:9-88
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:209:19-85
+activity#com.example.infraestructura.Pecuario.PecuarioParamProdReproductivos
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:210:9-104
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:210:19-101
+activity#com.example.infraestructura.Pecuario.PecuarioReproduccionGenetica
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:211:9-102
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:211:19-99
+activity#com.example.infraestructura.Gps.GpsTrayectoria
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:212:9-83
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:212:19-80
+activity#com.example.infraestructura.Gps.GpsActivity
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:213:9-80
+	android:name
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:213:19-77
+activity#com.example.infraestructura.drawer.DrawerActivity
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:214:9-219:59
 	android:screenOrientation
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:218:13-49
@@ -755,39 +755,39 @@ ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\s
 	android:theme
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:219:13-56
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:215:13-50
-activity#com.example.geosegalmex.Georeferencia.GeoreferenciaActivity
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:220:9-73
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:215:13-77
+activity#com.example.infraestructura.Georeferencia.GeoreferenciaActivity
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:220:9-100
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:220:19-70
-activity#com.example.geosegalmex.Geo.GeoFotos
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:221:9-50
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:220:19-97
+activity#com.example.infraestructura.Geo.GeoFotos
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:221:9-77
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:221:19-47
-activity#com.example.geosegalmex.Geo.FotoActivityDos
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:222:9-57
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:221:19-74
+activity#com.example.infraestructura.Geo.FotoActivityDos
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:222:9-84
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:222:19-54
-activity#com.example.geosegalmex.Geo.FotoActivityUno
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:223:9-57
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:222:19-81
+activity#com.example.infraestructura.Geo.FotoActivityUno
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:223:9-84
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:223:19-54
-activity#com.example.geosegalmex.IdentificacionCuestionario
-ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:224:9-64
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:223:19-81
+activity#com.example.infraestructura.IdentificacionCuestionario
+ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:224:9-91
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:224:19-61
-activity#com.example.geosegalmex.Segunda
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:224:19-88
+activity#com.example.infraestructura.Segunda
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:225:9-227:52
 	android:screenOrientation
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:227:13-49
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:226:13-36
-activity#com.example.geosegalmex.Principal
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:226:13-63
+activity#com.example.infraestructura.Principal
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:228:9-236:20
 	android:screenOrientation
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:230:13-49
 	android:name
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:229:13-38
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:229:13-65
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:231:13-235:29
 action#android.intent.action.MAIN
@@ -823,7 +823,7 @@ ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\s
 	android:grantUriPermissions
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:252:13-47
 	android:authorities
-		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:250:13-71
+		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:250:13-75
 	android:exported
 		ADDED from C:\Users\erick.burgos\AndroidStudioProjects\GPS-Infraestructura\app\src\main\AndroidManifest.xml:251:13-37
 	android:name

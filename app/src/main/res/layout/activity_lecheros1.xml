@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Infra_Lecheros.lecheros1">
+    tools:context="com.example.infraestructura.Infra_Lecheros.lecheros1">
 
     <ScrollView
         android:layout_width="match_parent"

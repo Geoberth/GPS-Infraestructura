@@ -1,995 +1,995 @@
-com/example/geosegalmex/apicola/AspectosProductivosApicola.java
- com.example.geosegalmex.apicola.AspectosProductivosApicola
- com.example.geosegalmex.apicola.AspectosProductivosApicola$1
-com/example/geosegalmex/caracterizacion/ciclo_caracterizacion.java
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion$1
-com/example/geosegalmex/drawer/fragment_drawer/bdusers/UtilidadesUsuarios.java
- com.example.geosegalmex.drawer.fragment_drawer.bdusers.UtilidadesUsuarios
-com/example/geosegalmex/unidadcomercializacion/comercializacion_2.java
- com.example.geosegalmex.unidadcomercializacion.comercializacion_2
- com.example.geosegalmex.unidadcomercializacion.comercializacion_2$1
-com/example/geosegalmex/Infra_Granos/Granos.java
- com.example.geosegalmex.Infra_Granos.Granos
- com.example.geosegalmex.Infra_Granos.Granos$1
- com.example.geosegalmex.Infra_Granos.Granos$2
- com.example.geosegalmex.Infra_Granos.Granos$3
- com.example.geosegalmex.Infra_Granos.Granos$4
- com.example.geosegalmex.Infra_Granos.Granos$5
- com.example.geosegalmex.Infra_Granos.Granos$6
-com/example/geosegalmex/caracterizacion/ciclo_caracterizacion10.java
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion10
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion10$1
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion10$2
-com/example/geosegalmex/Productor/ProductorFamilia.java
- com.example.geosegalmex.Productor.ProductorFamilia
- com.example.geosegalmex.Productor.ProductorFamilia$1
- com.example.geosegalmex.Productor.ProductorFamilia$2
-com/example/geosegalmex/Pecuario/UtilidadesPecuario/UtilidadesPecuario.java
- com.example.geosegalmex.Pecuario.UtilidadesPecuario.UtilidadesPecuario
-com/example/geosegalmex/caracterizacion/variables_caracterizacion/VariablesModuloCuatro.java
- com.example.geosegalmex.caracterizacion.variables_caracterizacion.VariablesModuloCuatro
-com/example/geosegalmex/Infra_Ave/Ave_bd.java
- com.example.geosegalmex.Infra_Ave.Ave_bd
-com/example/geosegalmex/Infra_Porcino/Porcino.java
- com.example.geosegalmex.Infra_Porcino.Porcino
- com.example.geosegalmex.Infra_Porcino.Porcino$1
- com.example.geosegalmex.Infra_Porcino.Porcino$2
- com.example.geosegalmex.Infra_Porcino.Porcino$3
- com.example.geosegalmex.Infra_Porcino.Porcino$4
- com.example.geosegalmex.Infra_Porcino.Porcino$5
- com.example.geosegalmex.Infra_Porcino.Porcino$6
- com.example.geosegalmex.Infra_Porcino.Porcino$7
-com/example/geosegalmex/unidadcaracterizacionhortalizas/db/DatabaseHelper.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.db.DatabaseHelper
-com/example/geosegalmex/Principal.java
- com.example.geosegalmex.Principal
- com.example.geosegalmex.Principal$1
-com/example/geosegalmex/LiconsaBeneficiario/PASLbeneficiarioBD.java
- com.example.geosegalmex.LiconsaBeneficiario.PASLbeneficiarioBD
-com/example/geosegalmex/Infra_Lecheros/lecheros1.java
- com.example.geosegalmex.Infra_Lecheros.lecheros1
- com.example.geosegalmex.Infra_Lecheros.lecheros1$1
- com.example.geosegalmex.Infra_Lecheros.lecheros1$2
- com.example.geosegalmex.Infra_Lecheros.lecheros1$3
- com.example.geosegalmex.Infra_Lecheros.lecheros1$4
- com.example.geosegalmex.Infra_Lecheros.lecheros1$5
- com.example.geosegalmex.Infra_Lecheros.lecheros1$6
- com.example.geosegalmex.Infra_Lecheros.lecheros1$7
-com/example/geosegalmex/caracterizacion/ciclo_caracterizacion9.java
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion9
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion9$1
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion9$2
-com/example/geosegalmex/apicola/variables_apicola/UtilidadesModuloSiete.java
- com.example.geosegalmex.apicola.variables_apicola.UtilidadesModuloSiete
-com/example/geosegalmex/LiconsaBeneficiario/Pasl_b_Model.java
- com.example.geosegalmex.LiconsaBeneficiario.Pasl_b_Model
-com/example/geosegalmex/PGBeneficiarioLeche/PGBeneficiarioLeche.java
- com.example.geosegalmex.PGBeneficiarioLeche.PGBeneficiarioLeche
- com.example.geosegalmex.PGBeneficiarioLeche.PGBeneficiarioLeche$1
- com.example.geosegalmex.PGBeneficiarioLeche.PGBeneficiarioLeche$2
- com.example.geosegalmex.PGBeneficiarioLeche.PGBeneficiarioLeche$3
- com.example.geosegalmex.PGBeneficiarioLeche.PGBeneficiarioLeche$4
- com.example.geosegalmex.PGBeneficiarioLeche.PGBeneficiarioLeche$5
-com/example/geosegalmex/unidadproduccion/TiposAlimentosTres.java
- com.example.geosegalmex.unidadproduccion.TiposAlimentosTres
- com.example.geosegalmex.unidadproduccion.TiposAlimentosTres$1
-com/example/geosegalmex/frutales/frutales_8.java
- com.example.geosegalmex.frutales.frutales_8
- com.example.geosegalmex.frutales.frutales_8$1
- com.example.geosegalmex.frutales.frutales_8$2
-com/example/geosegalmex/apicola/EnfermedadesCambioPanales.java
- com.example.geosegalmex.apicola.EnfermedadesCambioPanales
- com.example.geosegalmex.apicola.EnfermedadesCambioPanales$1
- com.example.geosegalmex.apicola.EnfermedadesCambioPanales$2
-com/example/geosegalmex/LiconsaBeneficiario/pasl_beneficiario_bd.java
- com.example.geosegalmex.LiconsaBeneficiario.pasl_beneficiario_bd
-com/example/geosegalmex/Georeferencia/GeoreferenciaActivity.java
- com.example.geosegalmex.Georeferencia.GeoreferenciaActivity
- com.example.geosegalmex.Georeferencia.GeoreferenciaActivity$1
- com.example.geosegalmex.Georeferencia.GeoreferenciaActivity$2
-com/example/geosegalmex/drawer/fragment_drawer/bdmunicipios/ModelMunicipios.java
- com.example.geosegalmex.drawer.fragment_drawer.bdmunicipios.ModelMunicipios
-com/example/geosegalmex/unidadcaracterizacionhortalizas/model/MlTiempoRiego.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.model.MlTiempoRiego
-com/example/geosegalmex/Infra_Engorda/Engorda_Model.java
- com.example.geosegalmex.Infra_Engorda.Engorda_Model
-com/example/geosegalmex/unidadcaracterizacionhortalizas/ControlPlagasEnfermC.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnfermC
- com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnfermC$1
-com/example/geosegalmex/PGBeneficiariosGranosIncentivos/PGBeneficiariosGranosIncentivos_bd.java
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos_bd
-com/example/geosegalmex/caracterizacion/ciclo_caracterizacion2.java
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion2
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion2$1
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion2$2
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion2$3
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion2$4
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion2$5
-com/example/geosegalmex/unidadproduccion/ProduccionPecuaria.java
- com.example.geosegalmex.unidadproduccion.ProduccionPecuaria
- com.example.geosegalmex.unidadproduccion.ProduccionPecuaria$1
- com.example.geosegalmex.unidadproduccion.ProduccionPecuaria$2
- com.example.geosegalmex.unidadproduccion.ProduccionPecuaria$3
-com/example/geosegalmex/unidadproduccion/ModalidadHidrica.java
- com.example.geosegalmex.unidadproduccion.ModalidadHidrica
- com.example.geosegalmex.unidadproduccion.ModalidadHidrica$1
-com/example/geosegalmex/apicola/SanidadApicola.java
- com.example.geosegalmex.apicola.SanidadApicola
- com.example.geosegalmex.apicola.SanidadApicola$1
-com/example/geosegalmex/frutales/frutales_14.java
- com.example.geosegalmex.frutales.frutales_14
- com.example.geosegalmex.frutales.frutales_14$1
-com/example/geosegalmex/PGOperativoLeche/PGOperativoLeche_Model.java
- com.example.geosegalmex.PGOperativoLeche.PGOperativoLeche_Model
-com/example/geosegalmex/caracterizacion/ciclo_caracterizacion_tabla.java
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion_tabla
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion_tabla$1
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion_tabla$2
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion_tabla$3
-com/example/geosegalmex/frutales/frutales_4.java
- com.example.geosegalmex.frutales.frutales_4
- com.example.geosegalmex.frutales.frutales_4$1
-com/example/geosegalmex/unidadcaracterizacionhortalizas/FoliarRiego.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.FoliarRiego
- com.example.geosegalmex.unidadcaracterizacionhortalizas.FoliarRiego$1
-com/example/geosegalmex/PGBeneficiariosGranosIncentivos/PGBeneficiariosGranosIncentivos.java
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$1
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$10
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$11
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$12
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$13
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$14
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$15
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$16
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$2
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$3
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$4
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$5
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$6
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$7
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$8
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$9
-com/example/geosegalmex/General.java
- com.example.geosegalmex.General
-com/example/geosegalmex/drawer/DrawerActivity.java
- com.example.geosegalmex.drawer.DrawerActivity
-com/example/geosegalmex/Liconsa2/LiconsaVerificacion_Model.java
- com.example.geosegalmex.Liconsa2.LiconsaVerificacion_Model
-com/example/geosegalmex/Catalogos/entidades/Municipio.java
- com.example.geosegalmex.Catalogos.entidades.Municipio
-com/example/geosegalmex/unidadcaracterizacionhortalizas/db/UtilidadesModuloCinco.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.db.UtilidadesModuloCinco
-com/example/geosegalmex/frutales/frutales_4_0.java
- com.example.geosegalmex.frutales.frutales_4_0
- com.example.geosegalmex.frutales.frutales_4_0$1
- com.example.geosegalmex.frutales.frutales_4_0$2
- com.example.geosegalmex.frutales.frutales_4_0$3
-com/example/geosegalmex/Liconsa/Liconsa_Model.java
- com.example.geosegalmex.Liconsa.Liconsa_Model
-com/example/geosegalmex/Pecuario/InventarioGanadoOvino.java
- com.example.geosegalmex.Pecuario.InventarioGanadoOvino
- com.example.geosegalmex.Pecuario.InventarioGanadoOvino$1
-com/example/geosegalmex/Infra_Sacrificio/Sacrificio_model.java
- com.example.geosegalmex.Infra_Sacrificio.Sacrificio_model
-com/example/geosegalmex/LiconsaVentanilla/PASLoperativoBD.java
- com.example.geosegalmex.LiconsaVentanilla.PASLoperativoBD
-com/example/geosegalmex/PARBeneficiario/PARBeneficiarioBD.java
- com.example.geosegalmex.PARBeneficiario.PARBeneficiarioBD
-com/example/geosegalmex/PGOperativoLeche/PGOperativoLeche_bd.java
- com.example.geosegalmex.PGOperativoLeche.PGOperativoLeche_bd
-com/example/geosegalmex/Infra_Granos/Granos_bd.java
- com.example.geosegalmex.Infra_Granos.Granos_bd
-com/example/geosegalmex/unidadproduccion/ProduccionAcuicola.java
- com.example.geosegalmex.unidadproduccion.ProduccionAcuicola
- com.example.geosegalmex.unidadproduccion.ProduccionAcuicola$1
- com.example.geosegalmex.unidadproduccion.ProduccionAcuicola$2
- com.example.geosegalmex.unidadproduccion.ProduccionAcuicola$3
-com/example/geosegalmex/frutales/dbfrutales/VariablesFrutales.java
- com.example.geosegalmex.frutales.dbfrutales.VariablesFrutales
-com/example/geosegalmex/PGOperativoGranos/PGOperativoGranos_bd.java
- com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos_bd
-com/example/geosegalmex/Pecuario/PecuarioCaprinos.java
- com.example.geosegalmex.Pecuario.PecuarioCaprinos
- com.example.geosegalmex.Pecuario.PecuarioCaprinos$1
- com.example.geosegalmex.Pecuario.PecuarioCaprinos$2
-com/example/geosegalmex/caracterizacion/ciclo_caracterizacion12.java
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion12
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion12$1
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion12$2
-com/example/geosegalmex/PAROperativo/PAR_operativo_bd.java
- com.example.geosegalmex.PAROperativo.PAR_operativo_bd
-com/example/geosegalmex/frutales/frutales_1.java
- com.example.geosegalmex.frutales.frutales_1
- com.example.geosegalmex.frutales.frutales_1$1
- com.example.geosegalmex.frutales.frutales_1$2
- com.example.geosegalmex.frutales.frutales_1$3
- com.example.geosegalmex.frutales.frutales_1$4
- com.example.geosegalmex.frutales.frutales_1$5
- com.example.geosegalmex.frutales.frutales_1$6
- com.example.geosegalmex.frutales.frutales_1$7
-com/example/geosegalmex/caracterizacion/variables_caracterizacion/ConservaGranos.java
- com.example.geosegalmex.caracterizacion.variables_caracterizacion.ConservaGranos
-com/example/geosegalmex/apicola/CapacitacionAsistenciaApicola.java
- com.example.geosegalmex.apicola.CapacitacionAsistenciaApicola
- com.example.geosegalmex.apicola.CapacitacionAsistenciaApicola$1
- com.example.geosegalmex.apicola.CapacitacionAsistenciaApicola$2
-com/example/geosegalmex/LiconsaBeneficiario/PASLBeneficiario.java
- com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario
- com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario$1
- com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario$10
- com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario$11
- com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario$12
- com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario$13
- com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario$14
- com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario$15
- com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario$2
- com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario$3
- com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario$4
- com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario$5
- com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario$6
- com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario$7
- com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario$8
- com.example.geosegalmex.LiconsaBeneficiario.PASLBeneficiario$9
-com/example/geosegalmex/Gps/UtilidadesTrayectoria.java
- com.example.geosegalmex.Gps.UtilidadesTrayectoria
-com/example/geosegalmex/Gps/GpsTrayectoria.java
- com.example.geosegalmex.Gps.GpsTrayectoria
- com.example.geosegalmex.Gps.GpsTrayectoria$1
- com.example.geosegalmex.Gps.GpsTrayectoria$2
- com.example.geosegalmex.Gps.GpsTrayectoria$3
- com.example.geosegalmex.Gps.GpsTrayectoria$4
- com.example.geosegalmex.Gps.GpsTrayectoria$4$1
-com/example/geosegalmex/IdentificacionCuestionario.java
- com.example.geosegalmex.IdentificacionCuestionario
- com.example.geosegalmex.IdentificacionCuestionario$1
- com.example.geosegalmex.IdentificacionCuestionario$10
- com.example.geosegalmex.IdentificacionCuestionario$11
- com.example.geosegalmex.IdentificacionCuestionario$12
- com.example.geosegalmex.IdentificacionCuestionario$13
- com.example.geosegalmex.IdentificacionCuestionario$14
- com.example.geosegalmex.IdentificacionCuestionario$15
- com.example.geosegalmex.IdentificacionCuestionario$16
- com.example.geosegalmex.IdentificacionCuestionario$17
- com.example.geosegalmex.IdentificacionCuestionario$18
- com.example.geosegalmex.IdentificacionCuestionario$19
- com.example.geosegalmex.IdentificacionCuestionario$2
- com.example.geosegalmex.IdentificacionCuestionario$20
- com.example.geosegalmex.IdentificacionCuestionario$21
- com.example.geosegalmex.IdentificacionCuestionario$22
- com.example.geosegalmex.IdentificacionCuestionario$23
- com.example.geosegalmex.IdentificacionCuestionario$24
- com.example.geosegalmex.IdentificacionCuestionario$25
- com.example.geosegalmex.IdentificacionCuestionario$26
- com.example.geosegalmex.IdentificacionCuestionario$3
- com.example.geosegalmex.IdentificacionCuestionario$4
- com.example.geosegalmex.IdentificacionCuestionario$5
- com.example.geosegalmex.IdentificacionCuestionario$6
- com.example.geosegalmex.IdentificacionCuestionario$7
- com.example.geosegalmex.IdentificacionCuestionario$8
- com.example.geosegalmex.IdentificacionCuestionario$9
-com/example/geosegalmex/caracterizacion/variables_caracterizacion/ActividadesCosecha.java
- com.example.geosegalmex.caracterizacion.variables_caracterizacion.ActividadesCosecha
-com/example/geosegalmex/Pecuario/ManejoSanitarioOrdenia.java
- com.example.geosegalmex.Pecuario.ManejoSanitarioOrdenia
- com.example.geosegalmex.Pecuario.ManejoSanitarioOrdenia$1
-com/example/geosegalmex/PARBeneficiario/PARBeneficiario.java
- com.example.geosegalmex.PARBeneficiario.PARBeneficiario
- com.example.geosegalmex.PARBeneficiario.PARBeneficiario$1
- com.example.geosegalmex.PARBeneficiario.PARBeneficiario$10
- com.example.geosegalmex.PARBeneficiario.PARBeneficiario$11
- com.example.geosegalmex.PARBeneficiario.PARBeneficiario$12
- com.example.geosegalmex.PARBeneficiario.PARBeneficiario$2
- com.example.geosegalmex.PARBeneficiario.PARBeneficiario$3
- com.example.geosegalmex.PARBeneficiario.PARBeneficiario$4
- com.example.geosegalmex.PARBeneficiario.PARBeneficiario$5
- com.example.geosegalmex.PARBeneficiario.PARBeneficiario$6
- com.example.geosegalmex.PARBeneficiario.PARBeneficiario$7
- com.example.geosegalmex.PARBeneficiario.PARBeneficiario$8
- com.example.geosegalmex.PARBeneficiario.PARBeneficiario$9
-com/example/geosegalmex/Gps/GpsActivity.java
- com.example.geosegalmex.Gps.GpsActivity
-com/example/geosegalmex/frutales/frutales_11.java
- com.example.geosegalmex.frutales.frutales_11
- com.example.geosegalmex.frutales.frutales_11$1
-com/example/geosegalmex/Pecuario/PecuarioAgregarAlimentos.java
- com.example.geosegalmex.Pecuario.PecuarioAgregarAlimentos
- com.example.geosegalmex.Pecuario.PecuarioAgregarAlimentos$1
- com.example.geosegalmex.Pecuario.PecuarioAgregarAlimentos$2
-com/example/geosegalmex/unidadcomercializacion/bdcomercializacion/UtilidadesModuloDiez.java
- com.example.geosegalmex.unidadcomercializacion.bdcomercializacion.UtilidadesModuloDiez
-com/example/geosegalmex/frutales/frutales_12.java
- com.example.geosegalmex.frutales.frutales_12
- com.example.geosegalmex.frutales.frutales_12$1
-com/example/geosegalmex/unidadproduccion/model/ActividadAgricola.java
- com.example.geosegalmex.unidadproduccion.model.ActividadAgricola
-com/example/geosegalmex/unidadcaracterizacionhortalizas/model/MlTiempoRiegoAdapter.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.model.MlTiempoRiegoAdapter
-com/example/geosegalmex/Pecuario/PecuarioManejoSanGanado.java
- com.example.geosegalmex.Pecuario.PecuarioManejoSanGanado
- com.example.geosegalmex.Pecuario.PecuarioManejoSanGanado$1
-com/example/geosegalmex/Firma.java
- com.example.geosegalmex.Firma
- com.example.geosegalmex.Firma$1
- com.example.geosegalmex.Firma$2
-com/example/geosegalmex/Infra_Lecheros/Lecheros_Model.java
- com.example.geosegalmex.Infra_Lecheros.Lecheros_Model
-com/example/geosegalmex/PGBeneficiarioLeche/PGBeneficiarioLeche_bd.java
- com.example.geosegalmex.PGBeneficiarioLeche.PGBeneficiarioLeche_bd
-com/example/geosegalmex/caracterizacion/variables_caracterizacion/CalendarioDate.java
- com.example.geosegalmex.caracterizacion.variables_caracterizacion.CalendarioDate
- com.example.geosegalmex.caracterizacion.variables_caracterizacion.CalendarioDate$1
-com/example/geosegalmex/unidadcaracterizacionhortalizas/variables/VariblesGlobalesHortalizas.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.variables.VariblesGlobalesHortalizas
-com/example/geosegalmex/Liconsa/Liconsa_bd.java
- com.example.geosegalmex.Liconsa.Liconsa_bd
-com/example/geosegalmex/PGOperativoEstimulos/PGOperativoEstimulosBD.java
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulosBD
-com/example/geosegalmex/Catalogos/entidades/Delegacion.java
- com.example.geosegalmex.Catalogos.entidades.Delegacion
-com/example/geosegalmex/drawer/fragment_drawer/ExportarFragment.java
- com.example.geosegalmex.drawer.fragment_drawer.ExportarFragment
- com.example.geosegalmex.drawer.fragment_drawer.ExportarFragment$1
- com.example.geosegalmex.drawer.fragment_drawer.ExportarFragment$1$1
- com.example.geosegalmex.drawer.fragment_drawer.ExportarFragment$1$2
- com.example.geosegalmex.drawer.fragment_drawer.ExportarFragment$2
- com.example.geosegalmex.drawer.fragment_drawer.ExportarFragment$2$1
- com.example.geosegalmex.drawer.fragment_drawer.ExportarFragment$TareaAsyncTask
-com/example/geosegalmex/Infra_Sacrificio/Sacrificio_bd.java
- com.example.geosegalmex.Infra_Sacrificio.Sacrificio_bd
-com/example/geosegalmex/frutales/frutales_13.java
- com.example.geosegalmex.frutales.frutales_13
- com.example.geosegalmex.frutales.frutales_13$1
-com/example/geosegalmex/caracterizacion/ciclo_caracterizacion6.java
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion6
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion6$1
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion6$2
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion6$3
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion6$4
-com/example/geosegalmex/PAROperativo/PARoperativoBD.java
- com.example.geosegalmex.PAROperativo.PARoperativoBD
-com/example/geosegalmex/drawer/fragment_drawer/SyncUserFragment.java
- com.example.geosegalmex.drawer.fragment_drawer.SyncUserFragment
- com.example.geosegalmex.drawer.fragment_drawer.SyncUserFragment$1
- com.example.geosegalmex.drawer.fragment_drawer.SyncUserFragment$2
- com.example.geosegalmex.drawer.fragment_drawer.SyncUserFragment$3
- com.example.geosegalmex.drawer.fragment_drawer.SyncUserFragment$4
- com.example.geosegalmex.drawer.fragment_drawer.SyncUserFragment$TareaAsyncTask
-com/example/geosegalmex/Catalogos/db/DbCatalogos.java
- com.example.geosegalmex.Catalogos.db.DbCatalogos
-com/example/geosegalmex/frutales/frutales_2.java
- com.example.geosegalmex.frutales.frutales_2
- com.example.geosegalmex.frutales.frutales_2$1
- com.example.geosegalmex.frutales.frutales_2$2
- com.example.geosegalmex.frutales.frutales_2$3
- com.example.geosegalmex.frutales.frutales_2$4
- com.example.geosegalmex.frutales.frutales_2$5
- com.example.geosegalmex.frutales.frutales_2$6
-com/example/geosegalmex/PGOperativoGranos/PGOperativoGranos_Model.java
- com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos_Model
-com/example/geosegalmex/Pecuario/PecuarioInicio.java
- com.example.geosegalmex.Pecuario.PecuarioInicio
- com.example.geosegalmex.Pecuario.PecuarioInicio$1
- com.example.geosegalmex.Pecuario.PecuarioInicio$2
- com.example.geosegalmex.Pecuario.PecuarioInicio$3
- com.example.geosegalmex.Pecuario.PecuarioInicio$4
- com.example.geosegalmex.Pecuario.PecuarioInicio$5
-com/example/geosegalmex/Pecuario/PecuarioParamProdReproductivos.java
- com.example.geosegalmex.Pecuario.PecuarioParamProdReproductivos
- com.example.geosegalmex.Pecuario.PecuarioParamProdReproductivos$1
-com/example/geosegalmex/drawer/fragment_drawer/MapaFragment.java
- com.example.geosegalmex.drawer.fragment_drawer.MapaFragment
- com.example.geosegalmex.drawer.fragment_drawer.MapaFragment$1
-com/example/geosegalmex/unidadcomercializacion/comercializacion_4.java
- com.example.geosegalmex.unidadcomercializacion.comercializacion_4
- com.example.geosegalmex.unidadcomercializacion.comercializacion_4$1
- com.example.geosegalmex.unidadcomercializacion.comercializacion_4$2
- com.example.geosegalmex.unidadcomercializacion.comercializacion_4$3
-com/example/geosegalmex/Geo/FotoActivityUno.java
- com.example.geosegalmex.Geo.FotoActivityUno
- com.example.geosegalmex.Geo.FotoActivityUno$1
- com.example.geosegalmex.Geo.FotoActivityUno$2
- com.example.geosegalmex.Geo.FotoActivityUno$3
- com.example.geosegalmex.Geo.FotoActivityUno$4
- com.example.geosegalmex.Geo.FotoActivityUno$5
- com.example.geosegalmex.Geo.FotoActivityUno$6
- com.example.geosegalmex.Geo.FotoActivityUno$7
- com.example.geosegalmex.Geo.FotoActivityUno$8
- com.example.geosegalmex.Geo.FotoActivityUno$9
-com/example/geosegalmex/dbstorage/Georreferencia.java
- com.example.geosegalmex.dbstorage.Georreferencia
-com/example/geosegalmex/unidadcaracterizacionhortalizas/PostCosecha.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.PostCosecha
- com.example.geosegalmex.unidadcaracterizacionhortalizas.PostCosecha$1
- com.example.geosegalmex.unidadcaracterizacionhortalizas.PostCosecha$2
-com/example/geosegalmex/Infra_Granos/Granos_Model.java
- com.example.geosegalmex.Infra_Granos.Granos_Model
-com/example/geosegalmex/Pecuario/PecuarioManejoAgostadero.java
- com.example.geosegalmex.Pecuario.PecuarioManejoAgostadero
- com.example.geosegalmex.Pecuario.PecuarioManejoAgostadero$1
- com.example.geosegalmex.Pecuario.PecuarioManejoAgostadero$2
-com/example/geosegalmex/PAROperativo/PAR_Operativo.java
- com.example.geosegalmex.PAROperativo.PAR_Operativo
- com.example.geosegalmex.PAROperativo.PAR_Operativo$1
- com.example.geosegalmex.PAROperativo.PAR_Operativo$10
- com.example.geosegalmex.PAROperativo.PAR_Operativo$11
- com.example.geosegalmex.PAROperativo.PAR_Operativo$12
- com.example.geosegalmex.PAROperativo.PAR_Operativo$13
- com.example.geosegalmex.PAROperativo.PAR_Operativo$14
- com.example.geosegalmex.PAROperativo.PAR_Operativo$15
- com.example.geosegalmex.PAROperativo.PAR_Operativo$16
- com.example.geosegalmex.PAROperativo.PAR_Operativo$17
- com.example.geosegalmex.PAROperativo.PAR_Operativo$18
- com.example.geosegalmex.PAROperativo.PAR_Operativo$19
- com.example.geosegalmex.PAROperativo.PAR_Operativo$2
- com.example.geosegalmex.PAROperativo.PAR_Operativo$3
- com.example.geosegalmex.PAROperativo.PAR_Operativo$4
- com.example.geosegalmex.PAROperativo.PAR_Operativo$5
- com.example.geosegalmex.PAROperativo.PAR_Operativo$6
- com.example.geosegalmex.PAROperativo.PAR_Operativo$7
- com.example.geosegalmex.PAROperativo.PAR_Operativo$8
- com.example.geosegalmex.PAROperativo.PAR_Operativo$9
-com/example/geosegalmex/Infra_Ave/Ave_Model.java
- com.example.geosegalmex.Infra_Ave.Ave_Model
-com/example/geosegalmex/Productor/ProductorInfo.java
- com.example.geosegalmex.Productor.ProductorInfo
- com.example.geosegalmex.Productor.ProductorInfo$1
- com.example.geosegalmex.Productor.ProductorInfo$2
-com/example/geosegalmex/Infra_Ave/AveBD.java
- com.example.geosegalmex.Infra_Ave.AveBD
-com/example/geosegalmex/frutales/dbfrutales/UtilidadesModuloSeis.java
- com.example.geosegalmex.frutales.dbfrutales.UtilidadesModuloSeis
-com/example/geosegalmex/Liconsa/LiconsaBD.java
- com.example.geosegalmex.Liconsa.LiconsaBD
-com/example/geosegalmex/frutales/frutales_3.java
- com.example.geosegalmex.frutales.frutales_3
- com.example.geosegalmex.frutales.frutales_3$1
- com.example.geosegalmex.frutales.frutales_3$2
- com.example.geosegalmex.frutales.frutales_3$3
-com/example/geosegalmex/PARBeneficiario/PARBeneficiario_Model.java
- com.example.geosegalmex.PARBeneficiario.PARBeneficiario_Model
-com/example/geosegalmex/PARBeneficiario/PARBeneficiario_bd.java
- com.example.geosegalmex.PARBeneficiario.PARBeneficiario_bd
-com/example/geosegalmex/drawer/fragment_drawer/SyncMunFragment.java
- com.example.geosegalmex.drawer.fragment_drawer.SyncMunFragment
- com.example.geosegalmex.drawer.fragment_drawer.SyncMunFragment$1
- com.example.geosegalmex.drawer.fragment_drawer.SyncMunFragment$2
- com.example.geosegalmex.drawer.fragment_drawer.SyncMunFragment$3
- com.example.geosegalmex.drawer.fragment_drawer.SyncMunFragment$4
- com.example.geosegalmex.drawer.fragment_drawer.SyncMunFragment$TareaAsyncTask
-com/example/geosegalmex/Infra_Sacrificio/Sacrificio_1.java
- com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1
- com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1$1
- com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1$2
- com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1$3
- com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1$4
- com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1$5
- com.example.geosegalmex.Infra_Sacrificio.Sacrificio_1$6
-com/example/geosegalmex/unidadproduccion/variables/VariablesGlobalesUpf.java
- com.example.geosegalmex.unidadproduccion.variables.VariablesGlobalesUpf
-com/example/geosegalmex/PGOperativoLeche/PGOperativoLecheBD.java
- com.example.geosegalmex.PGOperativoLeche.PGOperativoLecheBD
-com/example/geosegalmex/frutales/frutales_9.java
- com.example.geosegalmex.frutales.frutales_9
-com/example/geosegalmex/caracterizacion/ciclo_carac.java
- com.example.geosegalmex.caracterizacion.ciclo_carac
- com.example.geosegalmex.caracterizacion.ciclo_carac$1
- com.example.geosegalmex.caracterizacion.ciclo_carac$2
- com.example.geosegalmex.caracterizacion.ciclo_carac$3
-com/example/geosegalmex/LiconsaVentanilla/pasl_operativo_bd.java
- com.example.geosegalmex.LiconsaVentanilla.pasl_operativo_bd
-com/example/geosegalmex/Catalogos/entidades/Estados.java
- com.example.geosegalmex.Catalogos.entidades.Estados
-com/example/geosegalmex/caracterizacion/ciclo_caracterizacion7.java
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion7
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion7$1
-com/example/geosegalmex/PGBeneficiariosGranosIncentivos/PGBeneficiariosGranosIncentivos_Model.java
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos_Model
-com/example/geosegalmex/LiconsaVentanilla/Pasl_o_Model.java
- com.example.geosegalmex.LiconsaVentanilla.Pasl_o_Model
-com/example/geosegalmex/unidadcomercializacion/Apicultura_3.java
- com.example.geosegalmex.unidadcomercializacion.Apicultura_3
- com.example.geosegalmex.unidadcomercializacion.Apicultura_3$1
-com/example/geosegalmex/Infra_Sacrificio/SacrificioBD.java
- com.example.geosegalmex.Infra_Sacrificio.SacrificioBD
-com/example/geosegalmex/unidadcaracterizacionhortalizas/CosechaB.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.CosechaB
- com.example.geosegalmex.unidadcaracterizacionhortalizas.CosechaB$1
-com/example/geosegalmex/PGBeneficiarioLeche/PGBeneficiarioLecheBD.java
- com.example.geosegalmex.PGBeneficiarioLeche.PGBeneficiarioLecheBD
-com/example/geosegalmex/unidadcomercializacion/comercializacion_3_1.java
- com.example.geosegalmex.unidadcomercializacion.comercializacion_3_1
- com.example.geosegalmex.unidadcomercializacion.comercializacion_3_1$1
- com.example.geosegalmex.unidadcomercializacion.comercializacion_3_1$2
- com.example.geosegalmex.unidadcomercializacion.comercializacion_3_1$3
- com.example.geosegalmex.unidadcomercializacion.comercializacion_3_1$4
-com/example/geosegalmex/Infra_Porcino/PorcinoBD.java
- com.example.geosegalmex.Infra_Porcino.PorcinoBD
-com/example/geosegalmex/unidadcomercializacion/bdcomercializacion/VariablesGlobalesCmrz.java
- com.example.geosegalmex.unidadcomercializacion.bdcomercializacion.VariablesGlobalesCmrz
-com/example/geosegalmex/unidadcomercializacion/comercializacion_1.java
- com.example.geosegalmex.unidadcomercializacion.comercializacion_1
- com.example.geosegalmex.unidadcomercializacion.comercializacion_1$1
- com.example.geosegalmex.unidadcomercializacion.comercializacion_1$2
- com.example.geosegalmex.unidadcomercializacion.comercializacion_1$3
-com/example/geosegalmex/Infra_Lecheros/Lecheros_bd.java
- com.example.geosegalmex.Infra_Lecheros.Lecheros_bd
-com/example/geosegalmex/Infra_Porcino/Porcino_Model.java
- com.example.geosegalmex.Infra_Porcino.Porcino_Model
-com/example/geosegalmex/frutales/frutales_7.java
- com.example.geosegalmex.frutales.frutales_7
- com.example.geosegalmex.frutales.frutales_7$1
-com/example/geosegalmex/Catalogos/entidades/Ddr.java
- com.example.geosegalmex.Catalogos.entidades.Ddr
-com/example/geosegalmex/Geo/FotoActivityDos.java
- com.example.geosegalmex.Geo.FotoActivityDos
- com.example.geosegalmex.Geo.FotoActivityDos$1
- com.example.geosegalmex.Geo.FotoActivityDos$2
- com.example.geosegalmex.Geo.FotoActivityDos$3
- com.example.geosegalmex.Geo.FotoActivityDos$4
- com.example.geosegalmex.Geo.FotoActivityDos$5
- com.example.geosegalmex.Geo.FotoActivityDos$6
- com.example.geosegalmex.Geo.FotoActivityDos$7
- com.example.geosegalmex.Geo.FotoActivityDos$8
-com/example/geosegalmex/unidadcaracterizacionhortalizas/HortalizasPVuno.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPVuno
- com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPVuno$1
-com/example/geosegalmex/PGBeneficiarioGranos/PGBeneficiariosGranos.java
- com.example.geosegalmex.PGBeneficiarioGranos.PGBeneficiariosGranos
- com.example.geosegalmex.PGBeneficiarioGranos.PGBeneficiariosGranos$1
- com.example.geosegalmex.PGBeneficiarioGranos.PGBeneficiariosGranos$2
- com.example.geosegalmex.PGBeneficiarioGranos.PGBeneficiariosGranos$3
- com.example.geosegalmex.PGBeneficiarioGranos.PGBeneficiariosGranos$4
- com.example.geosegalmex.PGBeneficiarioGranos.PGBeneficiariosGranos$5
- com.example.geosegalmex.PGBeneficiarioGranos.PGBeneficiariosGranos$6
- com.example.geosegalmex.PGBeneficiarioGranos.PGBeneficiariosGranos$7
-com/example/geosegalmex/Liconsa2/LiconsaVerificacion.java
- com.example.geosegalmex.Liconsa2.LiconsaVerificacion
- com.example.geosegalmex.Liconsa2.LiconsaVerificacion$1
- com.example.geosegalmex.Liconsa2.LiconsaVerificacion$2
- com.example.geosegalmex.Liconsa2.LiconsaVerificacion$3
- com.example.geosegalmex.Liconsa2.LiconsaVerificacion$4
- com.example.geosegalmex.Liconsa2.LiconsaVerificacion$5
- com.example.geosegalmex.Liconsa2.LiconsaVerificacion$6
-com/example/geosegalmex/Infra_Porcino/Porcino_bd.java
- com.example.geosegalmex.Infra_Porcino.Porcino_bd
-com/example/geosegalmex/unidadcomercializacion/Apicultura_4.java
- com.example.geosegalmex.unidadcomercializacion.Apicultura_4
- com.example.geosegalmex.unidadcomercializacion.Apicultura_4$1
-com/example/geosegalmex/unidadcomercializacion/comercializacion_3.java
- com.example.geosegalmex.unidadcomercializacion.comercializacion_3
- com.example.geosegalmex.unidadcomercializacion.comercializacion_3$1
-com/example/geosegalmex/Infra_Lecheros/LecherosBD.java
- com.example.geosegalmex.Infra_Lecheros.LecherosBD
-com/example/geosegalmex/drawer/fragment_drawer/bdusers/ModelUsuarios.java
- com.example.geosegalmex.drawer.fragment_drawer.bdusers.ModelUsuarios
-com/example/geosegalmex/apicola/AlimentacionApicola.java
- com.example.geosegalmex.apicola.AlimentacionApicola
- com.example.geosegalmex.apicola.AlimentacionApicola$1
-com/example/geosegalmex/PGOperativoEstimulos/PGOperativoEstimulos.java
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$1
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$2
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos$3
-com/example/geosegalmex/unidadproduccion/model/ActividadAgricolaAdapter.java
- com.example.geosegalmex.unidadproduccion.model.ActividadAgricolaAdapter
-com/example/geosegalmex/unidadcaracterizacionhortalizas/HortalizasPvunob.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPvunob
- com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPvunob$1
- com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPvunob$2
- com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPvunob$3
-com/example/geosegalmex/unidadproduccion/UnidadProduccion.java
- com.example.geosegalmex.unidadproduccion.UnidadProduccion
- com.example.geosegalmex.unidadproduccion.UnidadProduccion$1
- com.example.geosegalmex.unidadproduccion.UnidadProduccion$2
- com.example.geosegalmex.unidadproduccion.UnidadProduccion$3
-com/example/geosegalmex/Productor/ProductorEconom.java
- com.example.geosegalmex.Productor.ProductorEconom
- com.example.geosegalmex.Productor.ProductorEconom$1
- com.example.geosegalmex.Productor.ProductorEconom$2
- com.example.geosegalmex.Productor.ProductorEconom$3
-com/example/geosegalmex/unidadcaracterizacionhortalizas/ControlPlagasEnferm.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnferm
- com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnferm$1
-com/example/geosegalmex/PGOperativoGranos/PGOperativoGranosBD.java
- com.example.geosegalmex.PGOperativoGranos.PGOperativoGranosBD
-com/example/geosegalmex/frutales/frutales_5.java
- com.example.geosegalmex.frutales.frutales_5
- com.example.geosegalmex.frutales.frutales_5$1
- com.example.geosegalmex.frutales.frutales_5$2
- com.example.geosegalmex.frutales.frutales_5$3
- com.example.geosegalmex.frutales.frutales_5$4
-com/example/geosegalmex/caracterizacion/variables_caracterizacion/UtilidadesModuloCuatro.java
- com.example.geosegalmex.caracterizacion.variables_caracterizacion.UtilidadesModuloCuatro
-com/example/geosegalmex/PGBeneficiarioGranos/PGBgranosBD.java
- com.example.geosegalmex.PGBeneficiarioGranos.PGBgranosBD
-com/example/geosegalmex/Segunda.java
- com.example.geosegalmex.Segunda
- com.example.geosegalmex.Segunda$1
-com/example/geosegalmex/caracterizacion/ciclo_caracterizacion11.java
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion11
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion11$1
-com/example/geosegalmex/Geo/GeoFotos.java
- com.example.geosegalmex.Geo.GeoFotos
- com.example.geosegalmex.Geo.GeoFotos$1
- com.example.geosegalmex.Geo.GeoFotos$2
- com.example.geosegalmex.Geo.GeoFotos$2$1
- com.example.geosegalmex.Geo.GeoFotos$Localizacion
-com/example/geosegalmex/Liconsa2/LiconsaVerificacion_bd.java
- com.example.geosegalmex.Liconsa2.LiconsaVerificacion_bd
-com/example/geosegalmex/apicola/HerramientasProteccion.java
- com.example.geosegalmex.apicola.HerramientasProteccion
- com.example.geosegalmex.apicola.HerramientasProteccion$1
- com.example.geosegalmex.apicola.HerramientasProteccion$2
- com.example.geosegalmex.apicola.HerramientasProteccion$3
-com/example/geosegalmex/Infra_Engorda/Engorda.java
- com.example.geosegalmex.Infra_Engorda.Engorda
- com.example.geosegalmex.Infra_Engorda.Engorda$1
- com.example.geosegalmex.Infra_Engorda.Engorda$2
- com.example.geosegalmex.Infra_Engorda.Engorda$3
- com.example.geosegalmex.Infra_Engorda.Engorda$4
- com.example.geosegalmex.Infra_Engorda.Engorda$5
- com.example.geosegalmex.Infra_Engorda.Engorda$6
- com.example.geosegalmex.Infra_Engorda.Engorda$7
-com/example/geosegalmex/drawer/fragment_drawer/LiconsaPrecios.java
- com.example.geosegalmex.drawer.fragment_drawer.LiconsaPrecios
- com.example.geosegalmex.drawer.fragment_drawer.LiconsaPrecios$1
- com.example.geosegalmex.drawer.fragment_drawer.LiconsaPrecios$2
- com.example.geosegalmex.drawer.fragment_drawer.LiconsaPrecios$2$1
- com.example.geosegalmex.drawer.fragment_drawer.LiconsaPrecios$3
- com.example.geosegalmex.drawer.fragment_drawer.LiconsaPrecios$3$1
-com/example/geosegalmex/apicola/ManejoApicola.java
- com.example.geosegalmex.apicola.ManejoApicola
- com.example.geosegalmex.apicola.ManejoApicola$1
- com.example.geosegalmex.apicola.ManejoApicola$2
-com/example/geosegalmex/unidadcomercializacion/comercializacion_5.java
- com.example.geosegalmex.unidadcomercializacion.comercializacion_5
- com.example.geosegalmex.unidadcomercializacion.comercializacion_5$1
- com.example.geosegalmex.unidadcomercializacion.comercializacion_5$2
- com.example.geosegalmex.unidadcomercializacion.comercializacion_5$3
-com/example/geosegalmex/LiconsaVentanilla/PASLOperativo.java
- com.example.geosegalmex.LiconsaVentanilla.PASLOperativo
- com.example.geosegalmex.LiconsaVentanilla.PASLOperativo$1
- com.example.geosegalmex.LiconsaVentanilla.PASLOperativo$2
- com.example.geosegalmex.LiconsaVentanilla.PASLOperativo$3
- com.example.geosegalmex.LiconsaVentanilla.PASLOperativo$4
- com.example.geosegalmex.LiconsaVentanilla.PASLOperativo$5
-com/example/geosegalmex/unidadcomercializacion/Apicultura_2.java
- com.example.geosegalmex.unidadcomercializacion.Apicultura_2
- com.example.geosegalmex.unidadcomercializacion.Apicultura_2$1
-com/example/geosegalmex/unidadcaracterizacionhortalizas/Nutricion.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.Nutricion
- com.example.geosegalmex.unidadcaracterizacionhortalizas.Nutricion$1
-com/example/geosegalmex/PGBeneficiarioGranos/PGB_granos_model.java
- com.example.geosegalmex.PGBeneficiarioGranos.PGB_granos_model
-com/example/geosegalmex/apicola/ApicolaInicio.java
- com.example.geosegalmex.apicola.ApicolaInicio
- com.example.geosegalmex.apicola.ApicolaInicio$1
-com/example/geosegalmex/caracterizacion/ciclo_caracterizacion8.java
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion8
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion8$1
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion8$2
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion8$3
-com/example/geosegalmex/Catalogos/entidades/Cader.java
- com.example.geosegalmex.Catalogos.entidades.Cader
-com/example/geosegalmex/Infra_Granos/GranosBD.java
- com.example.geosegalmex.Infra_Granos.GranosBD
-com/example/geosegalmex/drawer/fragment_drawer/bdmunicipios/UtilidadesEdoMunicipios.java
- com.example.geosegalmex.drawer.fragment_drawer.bdmunicipios.UtilidadesEdoMunicipios
-com/example/geosegalmex/PGOperativoLeche/PGOperativoLeche.java
- com.example.geosegalmex.PGOperativoLeche.PGOperativoLeche
- com.example.geosegalmex.PGOperativoLeche.PGOperativoLeche$1
- com.example.geosegalmex.PGOperativoLeche.PGOperativoLeche$2
- com.example.geosegalmex.PGOperativoLeche.PGOperativoLeche$3
-com/example/geosegalmex/unidadcaracterizacionhortalizas/hortalizas.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.hortalizas
- com.example.geosegalmex.unidadcaracterizacionhortalizas.hortalizas$1
- com.example.geosegalmex.unidadcaracterizacionhortalizas.hortalizas$2
- com.example.geosegalmex.unidadcaracterizacionhortalizas.hortalizas$3
-com/example/geosegalmex/unidadcaracterizacionhortalizas/HortalizasPvunoC.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPvunoC
- com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPvunoC$1
-com/example/geosegalmex/Georeferencia/Utilidades.java
- com.example.geosegalmex.Georeferencia.Utilidades
-com/example/geosegalmex/Pecuario/PecuarioDietaOvinosCaprinosAlimentos.java
- com.example.geosegalmex.Pecuario.PecuarioDietaOvinosCaprinosAlimentos
- com.example.geosegalmex.Pecuario.PecuarioDietaOvinosCaprinosAlimentos$1
-com/example/geosegalmex/unidadcaracterizacionhortalizas/TiempoRiego.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.TiempoRiego
- com.example.geosegalmex.unidadcaracterizacionhortalizas.TiempoRiego$1
- com.example.geosegalmex.unidadcaracterizacionhortalizas.TiempoRiego$2
- com.example.geosegalmex.unidadcaracterizacionhortalizas.TiempoRiego$3
-com/example/geosegalmex/PGBeneficiariosGranosIncentivos/PGBeneficiariosGranosIncentivosBD.java
- com.example.geosegalmex.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivosBD
-com/example/geosegalmex/Pecuario/PecuarioOvinos.java
- com.example.geosegalmex.Pecuario.PecuarioOvinos
- com.example.geosegalmex.Pecuario.PecuarioOvinos$1
- com.example.geosegalmex.Pecuario.PecuarioOvinos$2
-com/example/geosegalmex/Pecuario/InventarioGanBovinoLeche.java
- com.example.geosegalmex.Pecuario.InventarioGanBovinoLeche
- com.example.geosegalmex.Pecuario.InventarioGanBovinoLeche$1
-com/example/geosegalmex/dbstorage/Coordenadas.java
- com.example.geosegalmex.dbstorage.Coordenadas
-com/example/geosegalmex/Infra_Engorda/Engorda_bd.java
- com.example.geosegalmex.Infra_Engorda.Engorda_bd
-com/example/geosegalmex/apicola/CosechaApicola.java
- com.example.geosegalmex.apicola.CosechaApicola
- com.example.geosegalmex.apicola.CosechaApicola$1
-com/example/geosegalmex/caracterizacion/ciclo_caracterizacion5.java
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion5
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion5$1
-com/example/geosegalmex/PGBeneficiarioGranos/PGB_granos_bd.java
- com.example.geosegalmex.PGBeneficiarioGranos.PGB_granos_bd
-com/example/geosegalmex/unidadcomercializacion/comercializacion_8.java
- com.example.geosegalmex.unidadcomercializacion.comercializacion_8
- com.example.geosegalmex.unidadcomercializacion.comercializacion_8$1
-com/example/geosegalmex/Liconsa/Liconsa.java
- com.example.geosegalmex.Liconsa.Liconsa
- com.example.geosegalmex.Liconsa.Liconsa$1
- com.example.geosegalmex.Liconsa.Liconsa$10
- com.example.geosegalmex.Liconsa.Liconsa$11
- com.example.geosegalmex.Liconsa.Liconsa$12
- com.example.geosegalmex.Liconsa.Liconsa$13
- com.example.geosegalmex.Liconsa.Liconsa$14
- com.example.geosegalmex.Liconsa.Liconsa$15
- com.example.geosegalmex.Liconsa.Liconsa$16
- com.example.geosegalmex.Liconsa.Liconsa$17
- com.example.geosegalmex.Liconsa.Liconsa$18
- com.example.geosegalmex.Liconsa.Liconsa$19
- com.example.geosegalmex.Liconsa.Liconsa$2
- com.example.geosegalmex.Liconsa.Liconsa$20
- com.example.geosegalmex.Liconsa.Liconsa$21
- com.example.geosegalmex.Liconsa.Liconsa$22
- com.example.geosegalmex.Liconsa.Liconsa$22$1
- com.example.geosegalmex.Liconsa.Liconsa$23
- com.example.geosegalmex.Liconsa.Liconsa$23$1
- com.example.geosegalmex.Liconsa.Liconsa$24
- com.example.geosegalmex.Liconsa.Liconsa$25
- com.example.geosegalmex.Liconsa.Liconsa$3
- com.example.geosegalmex.Liconsa.Liconsa$4
- com.example.geosegalmex.Liconsa.Liconsa$5
- com.example.geosegalmex.Liconsa.Liconsa$6
- com.example.geosegalmex.Liconsa.Liconsa$7
- com.example.geosegalmex.Liconsa.Liconsa$8
- com.example.geosegalmex.Liconsa.Liconsa$9
-com/example/geosegalmex/PGOperativoEstimulos/PGOperativoEstimulos_bd.java
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos_bd
-com/example/geosegalmex/unidadproduccion/variables/UtilidadesModuloTres.java
- com.example.geosegalmex.unidadproduccion.variables.UtilidadesModuloTres
-com/example/geosegalmex/unidadcomercializacion/comercializacion_7.java
- com.example.geosegalmex.unidadcomercializacion.comercializacion_7
- com.example.geosegalmex.unidadcomercializacion.comercializacion_7$1
-com/example/geosegalmex/BuildConfig.java
- com.example.geosegalmex.BuildConfig
-com/example/geosegalmex/unidadcaracterizacionhortalizas/date/CalendarioActivity.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.date.CalendarioActivity
- com.example.geosegalmex.unidadcaracterizacionhortalizas.date.CalendarioActivity$1
-com/example/geosegalmex/Catalogos/db/DbHelper.java
- com.example.geosegalmex.Catalogos.db.DbHelper
-com/example/geosegalmex/Pecuario/GlobalPecuario/GlobalPecuario.java
- com.example.geosegalmex.Pecuario.GlobalPecuario.GlobalPecuario
-com/example/geosegalmex/PAROperativo/PAR_operativo_model.java
- com.example.geosegalmex.PAROperativo.PAR_operativo_model
-com/example/geosegalmex/apicola/variables_apicola/VariablesModuloSiete.java
- com.example.geosegalmex.apicola.variables_apicola.VariablesModuloSiete
-com/example/geosegalmex/unidadcomercializacion/Apicultura_1.java
- com.example.geosegalmex.unidadcomercializacion.Apicultura_1
- com.example.geosegalmex.unidadcomercializacion.Apicultura_1$1
- com.example.geosegalmex.unidadcomercializacion.Apicultura_1$2
- com.example.geosegalmex.unidadcomercializacion.Apicultura_1$3
-com/example/geosegalmex/PGBeneficiarioLeche/PGBeneficiarioLeche_Model.java
- com.example.geosegalmex.PGBeneficiarioLeche.PGBeneficiarioLeche_Model
-com/example/geosegalmex/Productor/IntegranteFamilia.java
- com.example.geosegalmex.Productor.IntegranteFamilia
- com.example.geosegalmex.Productor.IntegranteFamilia$1
- com.example.geosegalmex.Productor.IntegranteFamilia$2
-com/example/geosegalmex/Pecuario/EstructuraDelHato.java
- com.example.geosegalmex.Pecuario.EstructuraDelHato
- com.example.geosegalmex.Pecuario.EstructuraDelHato$1
-com/example/geosegalmex/unidadproduccion/TiposAlimentosDos.java
- com.example.geosegalmex.unidadproduccion.TiposAlimentosDos
- com.example.geosegalmex.unidadproduccion.TiposAlimentosDos$1
-com/example/geosegalmex/Pecuario/PecuarioEventosUnidadProduccion.java
- com.example.geosegalmex.Pecuario.PecuarioEventosUnidadProduccion
- com.example.geosegalmex.Pecuario.PecuarioEventosUnidadProduccion$1
-com/example/geosegalmex/unidadcaracterizacionhortalizas/ControlPlagasEnfermB.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnfermB
- com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnfermB$1
- com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlPlagasEnfermB$2
-com/example/geosegalmex/NewCamara.java
- com.example.geosegalmex.NewCamara
- com.example.geosegalmex.NewCamara$1
- com.example.geosegalmex.NewCamara$1$1
- com.example.geosegalmex.NewCamara$2
- com.example.geosegalmex.NewCamara$2$1
- com.example.geosegalmex.NewCamara$3
- com.example.geosegalmex.NewCamara$3$1
- com.example.geosegalmex.NewCamara$4
- com.example.geosegalmex.NewCamara$4$1
-com/example/geosegalmex/unidadcomercializacion/comercializacion_6.java
- com.example.geosegalmex.unidadcomercializacion.comercializacion_6
- com.example.geosegalmex.unidadcomercializacion.comercializacion_6$1
-com/example/geosegalmex/frutales/frutales_10.java
- com.example.geosegalmex.frutales.frutales_10
- com.example.geosegalmex.frutales.frutales_10$1
- com.example.geosegalmex.frutales.frutales_10$2
-com/example/geosegalmex/unidadproduccion/FuenteAgua.java
- com.example.geosegalmex.unidadproduccion.FuenteAgua
- com.example.geosegalmex.unidadproduccion.FuenteAgua$1
- com.example.geosegalmex.unidadproduccion.FuenteAgua$2
- com.example.geosegalmex.unidadproduccion.FuenteAgua$3
-com/example/geosegalmex/PGOperativoEstimulos/PGOperativoEstimulos_Model.java
- com.example.geosegalmex.PGOperativoEstimulos.PGOperativoEstimulos_Model
-com/example/geosegalmex/unidadcaracterizacionhortalizas/Cosecha.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.Cosecha
- com.example.geosegalmex.unidadcaracterizacionhortalizas.Cosecha$1
-com/example/geosegalmex/infraestructura_1.java
- com.example.geosegalmex.infraestructura_1
- com.example.geosegalmex.infraestructura_1$1
- com.example.geosegalmex.infraestructura_1$2
- com.example.geosegalmex.infraestructura_1$3
- com.example.geosegalmex.infraestructura_1$4
-com/example/geosegalmex/Gps/GpsEnableb.java
- com.example.geosegalmex.Gps.GpsEnableb
- com.example.geosegalmex.Gps.GpsEnableb$1
- com.example.geosegalmex.Gps.GpsEnableb$2
- com.example.geosegalmex.Gps.GpsEnableb$3
- com.example.geosegalmex.Gps.GpsEnableb$4
- com.example.geosegalmex.Gps.GpsEnableb$4$1
- com.example.geosegalmex.Gps.GpsEnableb$4$1$1
- com.example.geosegalmex.Gps.GpsEnableb$4$1$1$1
- com.example.geosegalmex.Gps.GpsEnableb$4$1$1$1$1
- com.example.geosegalmex.Gps.GpsEnableb$5
- com.example.geosegalmex.Gps.GpsEnableb$6
- com.example.geosegalmex.Gps.GpsEnableb$7
- com.example.geosegalmex.Gps.GpsEnableb$7$1
-com/example/geosegalmex/unidadcaracterizacionhortalizas/FertilizanteSi.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.FertilizanteSi
- com.example.geosegalmex.unidadcaracterizacionhortalizas.FertilizanteSi$1
- com.example.geosegalmex.unidadcaracterizacionhortalizas.FertilizanteSi$2
- com.example.geosegalmex.unidadcaracterizacionhortalizas.FertilizanteSi$3
- com.example.geosegalmex.unidadcaracterizacionhortalizas.FertilizanteSi$4
-com/example/geosegalmex/Liconsa2/LiconsaVerificacionBD.java
- com.example.geosegalmex.Liconsa2.LiconsaVerificacionBD
-com/example/geosegalmex/drawer/fragment_drawer/bdmunicipios/VolleySingleton.java
- com.example.geosegalmex.drawer.fragment_drawer.bdmunicipios.VolleySingleton
-com/example/geosegalmex/apicola/ReproduccionApicola.java
- com.example.geosegalmex.apicola.ReproduccionApicola
- com.example.geosegalmex.apicola.ReproduccionApicola$1
- com.example.geosegalmex.apicola.ReproduccionApicola$2
-com/example/geosegalmex/unidadproduccion/ProduccionAgricola.java
- com.example.geosegalmex.unidadproduccion.ProduccionAgricola
- com.example.geosegalmex.unidadproduccion.ProduccionAgricola$1
- com.example.geosegalmex.unidadproduccion.ProduccionAgricola$2
- com.example.geosegalmex.unidadproduccion.ProduccionAgricola$3
- com.example.geosegalmex.unidadproduccion.ProduccionAgricola$4
-com/example/geosegalmex/unidadproduccion/ProduccionForestal.java
- com.example.geosegalmex.unidadproduccion.ProduccionForestal
- com.example.geosegalmex.unidadproduccion.ProduccionForestal$1
- com.example.geosegalmex.unidadproduccion.ProduccionForestal$2
-com/example/geosegalmex/Pecuario/PecuarioComposicDietaOvinosCaprinos.java
- com.example.geosegalmex.Pecuario.PecuarioComposicDietaOvinosCaprinos
- com.example.geosegalmex.Pecuario.PecuarioComposicDietaOvinosCaprinos$1
-com/example/geosegalmex/Infra_Engorda/EngordaBD.java
- com.example.geosegalmex.Infra_Engorda.EngordaBD
-com/example/geosegalmex/unidadcaracterizacionhortalizas/HortalizasPvunoD.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPvunoD
- com.example.geosegalmex.unidadcaracterizacionhortalizas.HortalizasPvunoD$1
-com/example/geosegalmex/Pecuario/InventarioGanCaprino.java
- com.example.geosegalmex.Pecuario.InventarioGanCaprino
- com.example.geosegalmex.Pecuario.InventarioGanCaprino$1
-com/example/geosegalmex/Infra_Ave/Ave.java
- com.example.geosegalmex.Infra_Ave.Ave
- com.example.geosegalmex.Infra_Ave.Ave$1
- com.example.geosegalmex.Infra_Ave.Ave$2
- com.example.geosegalmex.Infra_Ave.Ave$3
- com.example.geosegalmex.Infra_Ave.Ave$4
- com.example.geosegalmex.Infra_Ave.Ave$5
- com.example.geosegalmex.Infra_Ave.Ave$6
-com/example/geosegalmex/frutales/frutales_6.java
- com.example.geosegalmex.frutales.frutales_6
- com.example.geosegalmex.frutales.frutales_6$1
-com/example/geosegalmex/unidadproduccion/TenenciaTierra.java
- com.example.geosegalmex.unidadproduccion.TenenciaTierra
- com.example.geosegalmex.unidadproduccion.TenenciaTierra$1
-com/example/geosegalmex/unidadcaracterizacionhortalizas/ControlMalezas.java
- com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlMalezas
- com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlMalezas$1
- com.example.geosegalmex.unidadcaracterizacionhortalizas.ControlMalezas$2
-com/example/geosegalmex/caracterizacion/ciclo_caracterizacion4.java
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion4
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion4$1
- com.example.geosegalmex.caracterizacion.ciclo_caracterizacion4$2
-com/example/geosegalmex/unidadproduccion/TiposAlimentos.java
- com.example.geosegalmex.unidadproduccion.TiposAlimentos
- com.example.geosegalmex.unidadproduccion.TiposAlimentos$1
-com/example/geosegalmex/Productor/bd_prod/UtilidadesProductor.java
- com.example.geosegalmex.Productor.bd_prod.UtilidadesProductor
-com/example/geosegalmex/PGOperativoGranos/PGOperativoGranos.java
- com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos
- com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos$1
- com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos$10
- com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos$11
- com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos$12
- com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos$13
- com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos$2
- com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos$3
- com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos$4
- com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos$5
- com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos$6
- com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos$7
- com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos$8
- com.example.geosegalmex.PGOperativoGranos.PGOperativoGranos$9
-com/example/geosegalmex/caracterizacion/variables_caracterizacion/DatePickerFragment.java
- com.example.geosegalmex.caracterizacion.variables_caracterizacion.DatePickerFragment
-com/example/geosegalmex/Gps/Trayectoria.java
- com.example.geosegalmex.Gps.Trayectoria
-com/example/geosegalmex/Pecuario/PecuarioReproduccionGenetica.java
- com.example.geosegalmex.Pecuario.PecuarioReproduccionGenetica
- com.example.geosegalmex.Pecuario.PecuarioReproduccionGenetica$1
-com/example/geosegalmex/Pecuario/PecuarioAlimentacionGanado.java
- com.example.geosegalmex.Pecuario.PecuarioAlimentacionGanado
- com.example.geosegalmex.Pecuario.PecuarioAlimentacionGanado$1
-com/example/geosegalmex/Enviar/Enviar.java
- com.example.geosegalmex.Enviar.Enviar
- com.example.geosegalmex.Enviar.Enviar$1
- com.example.geosegalmex.Enviar.Enviar$10
- com.example.geosegalmex.Enviar.Enviar$10$1
- com.example.geosegalmex.Enviar.Enviar$11
- com.example.geosegalmex.Enviar.Enviar$12
- com.example.geosegalmex.Enviar.Enviar$12$1
- com.example.geosegalmex.Enviar.Enviar$13
- com.example.geosegalmex.Enviar.Enviar$14
- com.example.geosegalmex.Enviar.Enviar$15
- com.example.geosegalmex.Enviar.Enviar$16
- com.example.geosegalmex.Enviar.Enviar$17
- com.example.geosegalmex.Enviar.Enviar$18
- com.example.geosegalmex.Enviar.Enviar$19
- com.example.geosegalmex.Enviar.Enviar$2
- com.example.geosegalmex.Enviar.Enviar$2$1
- com.example.geosegalmex.Enviar.Enviar$20
- com.example.geosegalmex.Enviar.Enviar$21
- com.example.geosegalmex.Enviar.Enviar$22
- com.example.geosegalmex.Enviar.Enviar$23
- com.example.geosegalmex.Enviar.Enviar$24
- com.example.geosegalmex.Enviar.Enviar$25
- com.example.geosegalmex.Enviar.Enviar$26
- com.example.geosegalmex.Enviar.Enviar$27
- com.example.geosegalmex.Enviar.Enviar$28
- com.example.geosegalmex.Enviar.Enviar$29
- com.example.geosegalmex.Enviar.Enviar$3
- com.example.geosegalmex.Enviar.Enviar$30
- com.example.geosegalmex.Enviar.Enviar$31
- com.example.geosegalmex.Enviar.Enviar$31$1
- com.example.geosegalmex.Enviar.Enviar$32
- com.example.geosegalmex.Enviar.Enviar$33
- com.example.geosegalmex.Enviar.Enviar$34
- com.example.geosegalmex.Enviar.Enviar$34$1
- com.example.geosegalmex.Enviar.Enviar$35
- com.example.geosegalmex.Enviar.Enviar$36
- com.example.geosegalmex.Enviar.Enviar$37
- com.example.geosegalmex.Enviar.Enviar$37$1
- com.example.geosegalmex.Enviar.Enviar$38
- com.example.geosegalmex.Enviar.Enviar$39
- com.example.geosegalmex.Enviar.Enviar$4
- com.example.geosegalmex.Enviar.Enviar$4$1
- com.example.geosegalmex.Enviar.Enviar$40
- com.example.geosegalmex.Enviar.Enviar$40$1
- com.example.geosegalmex.Enviar.Enviar$41
- com.example.geosegalmex.Enviar.Enviar$42
- com.example.geosegalmex.Enviar.Enviar$43
- com.example.geosegalmex.Enviar.Enviar$43$1
- com.example.geosegalmex.Enviar.Enviar$44
- com.example.geosegalmex.Enviar.Enviar$45
- com.example.geosegalmex.Enviar.Enviar$46
- com.example.geosegalmex.Enviar.Enviar$46$1
- com.example.geosegalmex.Enviar.Enviar$47
- com.example.geosegalmex.Enviar.Enviar$48
- com.example.geosegalmex.Enviar.Enviar$5
- com.example.geosegalmex.Enviar.Enviar$6
- com.example.geosegalmex.Enviar.Enviar$6$1
- com.example.geosegalmex.Enviar.Enviar$7
- com.example.geosegalmex.Enviar.Enviar$8
- com.example.geosegalmex.Enviar.Enviar$8$1
- com.example.geosegalmex.Enviar.Enviar$9
+com/example/infraestructura/PGOperativoEstimulos/PGOperativoEstimulos.java
+ com.example.infraestructura.PGOperativoEstimulos.PGOperativoEstimulos
+ com.example.infraestructura.PGOperativoEstimulos.PGOperativoEstimulos$1
+ com.example.infraestructura.PGOperativoEstimulos.PGOperativoEstimulos$2
+ com.example.infraestructura.PGOperativoEstimulos.PGOperativoEstimulos$3
+com/example/infraestructura/apicola/AspectosProductivosApicola.java
+ com.example.infraestructura.apicola.AspectosProductivosApicola
+ com.example.infraestructura.apicola.AspectosProductivosApicola$1
+com/example/infraestructura/Pecuario/PecuarioReproduccionGenetica.java
+ com.example.infraestructura.Pecuario.PecuarioReproduccionGenetica
+ com.example.infraestructura.Pecuario.PecuarioReproduccionGenetica$1
+com/example/infraestructura/unidadproduccion/model/ActividadAgricola.java
+ com.example.infraestructura.unidadproduccion.model.ActividadAgricola
+com/example/infraestructura/apicola/variables_apicola/VariablesModuloSiete.java
+ com.example.infraestructura.apicola.variables_apicola.VariablesModuloSiete
+com/example/infraestructura/Pecuario/PecuarioInicio.java
+ com.example.infraestructura.Pecuario.PecuarioInicio
+ com.example.infraestructura.Pecuario.PecuarioInicio$1
+ com.example.infraestructura.Pecuario.PecuarioInicio$2
+ com.example.infraestructura.Pecuario.PecuarioInicio$3
+ com.example.infraestructura.Pecuario.PecuarioInicio$4
+ com.example.infraestructura.Pecuario.PecuarioInicio$5
+com/example/infraestructura/Enviar/Enviar.java
+ com.example.infraestructura.Enviar.Enviar
+ com.example.infraestructura.Enviar.Enviar$1
+ com.example.infraestructura.Enviar.Enviar$10
+ com.example.infraestructura.Enviar.Enviar$10$1
+ com.example.infraestructura.Enviar.Enviar$11
+ com.example.infraestructura.Enviar.Enviar$12
+ com.example.infraestructura.Enviar.Enviar$12$1
+ com.example.infraestructura.Enviar.Enviar$13
+ com.example.infraestructura.Enviar.Enviar$14
+ com.example.infraestructura.Enviar.Enviar$15
+ com.example.infraestructura.Enviar.Enviar$16
+ com.example.infraestructura.Enviar.Enviar$17
+ com.example.infraestructura.Enviar.Enviar$18
+ com.example.infraestructura.Enviar.Enviar$19
+ com.example.infraestructura.Enviar.Enviar$2
+ com.example.infraestructura.Enviar.Enviar$2$1
+ com.example.infraestructura.Enviar.Enviar$20
+ com.example.infraestructura.Enviar.Enviar$21
+ com.example.infraestructura.Enviar.Enviar$22
+ com.example.infraestructura.Enviar.Enviar$23
+ com.example.infraestructura.Enviar.Enviar$24
+ com.example.infraestructura.Enviar.Enviar$25
+ com.example.infraestructura.Enviar.Enviar$26
+ com.example.infraestructura.Enviar.Enviar$27
+ com.example.infraestructura.Enviar.Enviar$28
+ com.example.infraestructura.Enviar.Enviar$29
+ com.example.infraestructura.Enviar.Enviar$3
+ com.example.infraestructura.Enviar.Enviar$30
+ com.example.infraestructura.Enviar.Enviar$31
+ com.example.infraestructura.Enviar.Enviar$31$1
+ com.example.infraestructura.Enviar.Enviar$32
+ com.example.infraestructura.Enviar.Enviar$33
+ com.example.infraestructura.Enviar.Enviar$34
+ com.example.infraestructura.Enviar.Enviar$34$1
+ com.example.infraestructura.Enviar.Enviar$35
+ com.example.infraestructura.Enviar.Enviar$36
+ com.example.infraestructura.Enviar.Enviar$37
+ com.example.infraestructura.Enviar.Enviar$37$1
+ com.example.infraestructura.Enviar.Enviar$38
+ com.example.infraestructura.Enviar.Enviar$39
+ com.example.infraestructura.Enviar.Enviar$4
+ com.example.infraestructura.Enviar.Enviar$4$1
+ com.example.infraestructura.Enviar.Enviar$40
+ com.example.infraestructura.Enviar.Enviar$40$1
+ com.example.infraestructura.Enviar.Enviar$41
+ com.example.infraestructura.Enviar.Enviar$42
+ com.example.infraestructura.Enviar.Enviar$43
+ com.example.infraestructura.Enviar.Enviar$43$1
+ com.example.infraestructura.Enviar.Enviar$44
+ com.example.infraestructura.Enviar.Enviar$45
+ com.example.infraestructura.Enviar.Enviar$46
+ com.example.infraestructura.Enviar.Enviar$46$1
+ com.example.infraestructura.Enviar.Enviar$47
+ com.example.infraestructura.Enviar.Enviar$48
+ com.example.infraestructura.Enviar.Enviar$5
+ com.example.infraestructura.Enviar.Enviar$6
+ com.example.infraestructura.Enviar.Enviar$6$1
+ com.example.infraestructura.Enviar.Enviar$7
+ com.example.infraestructura.Enviar.Enviar$8
+ com.example.infraestructura.Enviar.Enviar$8$1
+ com.example.infraestructura.Enviar.Enviar$9
+com/example/infraestructura/frutales/frutales_8.java
+ com.example.infraestructura.frutales.frutales_8
+ com.example.infraestructura.frutales.frutales_8$1
+ com.example.infraestructura.frutales.frutales_8$2
+com/example/infraestructura/caracterizacion/ciclo_caracterizacion9.java
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion9
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion9$1
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion9$2
+com/example/infraestructura/Productor/ProductorInfo.java
+ com.example.infraestructura.Productor.ProductorInfo
+ com.example.infraestructura.Productor.ProductorInfo$1
+ com.example.infraestructura.Productor.ProductorInfo$2
+com/example/infraestructura/PGBeneficiarioLeche/PGBeneficiarioLeche_Model.java
+ com.example.infraestructura.PGBeneficiarioLeche.PGBeneficiarioLeche_Model
+com/example/infraestructura/PGBeneficiarioGranos/PGB_granos_model.java
+ com.example.infraestructura.PGBeneficiarioGranos.PGB_granos_model
+com/example/infraestructura/Liconsa/Liconsa_bd.java
+ com.example.infraestructura.Liconsa.Liconsa_bd
+com/example/infraestructura/apicola/CosechaApicola.java
+ com.example.infraestructura.apicola.CosechaApicola
+ com.example.infraestructura.apicola.CosechaApicola$1
+com/example/infraestructura/Pecuario/PecuarioComposicDietaOvinosCaprinos.java
+ com.example.infraestructura.Pecuario.PecuarioComposicDietaOvinosCaprinos
+ com.example.infraestructura.Pecuario.PecuarioComposicDietaOvinosCaprinos$1
+com/example/infraestructura/Infra_Lecheros/LecherosBD.java
+ com.example.infraestructura.Infra_Lecheros.LecherosBD
+com/example/infraestructura/unidadproduccion/TiposAlimentosTres.java
+ com.example.infraestructura.unidadproduccion.TiposAlimentosTres
+ com.example.infraestructura.unidadproduccion.TiposAlimentosTres$1
+com/example/infraestructura/frutales/frutales_6.java
+ com.example.infraestructura.frutales.frutales_6
+ com.example.infraestructura.frutales.frutales_6$1
+com/example/infraestructura/Productor/ProductorEconom.java
+ com.example.infraestructura.Productor.ProductorEconom
+ com.example.infraestructura.Productor.ProductorEconom$1
+ com.example.infraestructura.Productor.ProductorEconom$2
+ com.example.infraestructura.Productor.ProductorEconom$3
+com/example/infraestructura/Liconsa2/LiconsaVerificacion_Model.java
+ com.example.infraestructura.Liconsa2.LiconsaVerificacion_Model
+com/example/infraestructura/Georeferencia/GeoreferenciaActivity.java
+ com.example.infraestructura.Georeferencia.GeoreferenciaActivity
+ com.example.infraestructura.Georeferencia.GeoreferenciaActivity$1
+ com.example.infraestructura.Georeferencia.GeoreferenciaActivity$2
+com/example/infraestructura/caracterizacion/ciclo_caracterizacion11.java
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion11
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion11$1
+com/example/infraestructura/Liconsa/Liconsa.java
+ com.example.infraestructura.Liconsa.Liconsa
+ com.example.infraestructura.Liconsa.Liconsa$1
+ com.example.infraestructura.Liconsa.Liconsa$10
+ com.example.infraestructura.Liconsa.Liconsa$11
+ com.example.infraestructura.Liconsa.Liconsa$12
+ com.example.infraestructura.Liconsa.Liconsa$13
+ com.example.infraestructura.Liconsa.Liconsa$14
+ com.example.infraestructura.Liconsa.Liconsa$15
+ com.example.infraestructura.Liconsa.Liconsa$16
+ com.example.infraestructura.Liconsa.Liconsa$17
+ com.example.infraestructura.Liconsa.Liconsa$18
+ com.example.infraestructura.Liconsa.Liconsa$19
+ com.example.infraestructura.Liconsa.Liconsa$2
+ com.example.infraestructura.Liconsa.Liconsa$20
+ com.example.infraestructura.Liconsa.Liconsa$21
+ com.example.infraestructura.Liconsa.Liconsa$22
+ com.example.infraestructura.Liconsa.Liconsa$22$1
+ com.example.infraestructura.Liconsa.Liconsa$23
+ com.example.infraestructura.Liconsa.Liconsa$23$1
+ com.example.infraestructura.Liconsa.Liconsa$24
+ com.example.infraestructura.Liconsa.Liconsa$25
+ com.example.infraestructura.Liconsa.Liconsa$3
+ com.example.infraestructura.Liconsa.Liconsa$4
+ com.example.infraestructura.Liconsa.Liconsa$5
+ com.example.infraestructura.Liconsa.Liconsa$6
+ com.example.infraestructura.Liconsa.Liconsa$7
+ com.example.infraestructura.Liconsa.Liconsa$8
+ com.example.infraestructura.Liconsa.Liconsa$9
+com/example/infraestructura/unidadcomercializacion/comercializacion_2.java
+ com.example.infraestructura.unidadcomercializacion.comercializacion_2
+ com.example.infraestructura.unidadcomercializacion.comercializacion_2$1
+com/example/infraestructura/PGBeneficiariosGranosIncentivos/PGBeneficiariosGranosIncentivos_Model.java
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos_Model
+com/example/infraestructura/IdentificacionCuestionario.java
+ com.example.infraestructura.IdentificacionCuestionario
+ com.example.infraestructura.IdentificacionCuestionario$1
+ com.example.infraestructura.IdentificacionCuestionario$10
+ com.example.infraestructura.IdentificacionCuestionario$11
+ com.example.infraestructura.IdentificacionCuestionario$12
+ com.example.infraestructura.IdentificacionCuestionario$13
+ com.example.infraestructura.IdentificacionCuestionario$14
+ com.example.infraestructura.IdentificacionCuestionario$15
+ com.example.infraestructura.IdentificacionCuestionario$16
+ com.example.infraestructura.IdentificacionCuestionario$17
+ com.example.infraestructura.IdentificacionCuestionario$18
+ com.example.infraestructura.IdentificacionCuestionario$19
+ com.example.infraestructura.IdentificacionCuestionario$2
+ com.example.infraestructura.IdentificacionCuestionario$20
+ com.example.infraestructura.IdentificacionCuestionario$21
+ com.example.infraestructura.IdentificacionCuestionario$22
+ com.example.infraestructura.IdentificacionCuestionario$23
+ com.example.infraestructura.IdentificacionCuestionario$24
+ com.example.infraestructura.IdentificacionCuestionario$25
+ com.example.infraestructura.IdentificacionCuestionario$26
+ com.example.infraestructura.IdentificacionCuestionario$3
+ com.example.infraestructura.IdentificacionCuestionario$4
+ com.example.infraestructura.IdentificacionCuestionario$5
+ com.example.infraestructura.IdentificacionCuestionario$6
+ com.example.infraestructura.IdentificacionCuestionario$7
+ com.example.infraestructura.IdentificacionCuestionario$8
+ com.example.infraestructura.IdentificacionCuestionario$9
+com/example/infraestructura/unidadcomercializacion/comercializacion_3_1.java
+ com.example.infraestructura.unidadcomercializacion.comercializacion_3_1
+ com.example.infraestructura.unidadcomercializacion.comercializacion_3_1$1
+ com.example.infraestructura.unidadcomercializacion.comercializacion_3_1$2
+ com.example.infraestructura.unidadcomercializacion.comercializacion_3_1$3
+ com.example.infraestructura.unidadcomercializacion.comercializacion_3_1$4
+com/example/infraestructura/PGOperativoGranos/PGOperativoGranos_bd.java
+ com.example.infraestructura.PGOperativoGranos.PGOperativoGranos_bd
+com/example/infraestructura/unidadproduccion/TiposAlimentos.java
+ com.example.infraestructura.unidadproduccion.TiposAlimentos
+ com.example.infraestructura.unidadproduccion.TiposAlimentos$1
+com/example/infraestructura/Infra_Granos/GranosBD.java
+ com.example.infraestructura.Infra_Granos.GranosBD
+com/example/infraestructura/Infra_Ave/Ave_Model.java
+ com.example.infraestructura.Infra_Ave.Ave_Model
+com/example/infraestructura/unidadcaracterizacionhortalizas/ControlMalezas.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.ControlMalezas
+ com.example.infraestructura.unidadcaracterizacionhortalizas.ControlMalezas$1
+ com.example.infraestructura.unidadcaracterizacionhortalizas.ControlMalezas$2
+com/example/infraestructura/Catalogos/entidades/Ddr.java
+ com.example.infraestructura.Catalogos.entidades.Ddr
+com/example/infraestructura/unidadcaracterizacionhortalizas/HortalizasPvunob.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.HortalizasPvunob
+ com.example.infraestructura.unidadcaracterizacionhortalizas.HortalizasPvunob$1
+ com.example.infraestructura.unidadcaracterizacionhortalizas.HortalizasPvunob$2
+ com.example.infraestructura.unidadcaracterizacionhortalizas.HortalizasPvunob$3
+com/example/infraestructura/Infra_Porcino/PorcinoBD.java
+ com.example.infraestructura.Infra_Porcino.PorcinoBD
+com/example/infraestructura/PGBeneficiariosGranosIncentivos/PGBeneficiariosGranosIncentivos.java
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$1
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$10
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$11
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$12
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$13
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$14
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$15
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$16
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$2
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$3
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$4
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$5
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$6
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$7
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$8
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos$9
+com/example/infraestructura/PGOperativoLeche/PGOperativoLeche.java
+ com.example.infraestructura.PGOperativoLeche.PGOperativoLeche
+ com.example.infraestructura.PGOperativoLeche.PGOperativoLeche$1
+ com.example.infraestructura.PGOperativoLeche.PGOperativoLeche$2
+ com.example.infraestructura.PGOperativoLeche.PGOperativoLeche$3
+com/example/infraestructura/unidadcaracterizacionhortalizas/variables/VariblesGlobalesHortalizas.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.variables.VariblesGlobalesHortalizas
+com/example/infraestructura/unidadcaracterizacionhortalizas/db/UtilidadesModuloCinco.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.db.UtilidadesModuloCinco
+com/example/infraestructura/unidadcaracterizacionhortalizas/date/CalendarioActivity.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.date.CalendarioActivity
+ com.example.infraestructura.unidadcaracterizacionhortalizas.date.CalendarioActivity$1
+com/example/infraestructura/unidadproduccion/FuenteAgua.java
+ com.example.infraestructura.unidadproduccion.FuenteAgua
+ com.example.infraestructura.unidadproduccion.FuenteAgua$1
+ com.example.infraestructura.unidadproduccion.FuenteAgua$2
+ com.example.infraestructura.unidadproduccion.FuenteAgua$3
+com/example/infraestructura/Infra_Engorda/Engorda_Model.java
+ com.example.infraestructura.Infra_Engorda.Engorda_Model
+com/example/infraestructura/unidadproduccion/ProduccionAcuicola.java
+ com.example.infraestructura.unidadproduccion.ProduccionAcuicola
+ com.example.infraestructura.unidadproduccion.ProduccionAcuicola$1
+ com.example.infraestructura.unidadproduccion.ProduccionAcuicola$2
+ com.example.infraestructura.unidadproduccion.ProduccionAcuicola$3
+com/example/infraestructura/drawer/fragment_drawer/SyncUserFragment.java
+ com.example.infraestructura.drawer.fragment_drawer.SyncUserFragment
+ com.example.infraestructura.drawer.fragment_drawer.SyncUserFragment$1
+ com.example.infraestructura.drawer.fragment_drawer.SyncUserFragment$2
+ com.example.infraestructura.drawer.fragment_drawer.SyncUserFragment$3
+ com.example.infraestructura.drawer.fragment_drawer.SyncUserFragment$4
+ com.example.infraestructura.drawer.fragment_drawer.SyncUserFragment$TareaAsyncTask
+com/example/infraestructura/LiconsaVentanilla/PASLOperativo.java
+ com.example.infraestructura.LiconsaVentanilla.PASLOperativo
+ com.example.infraestructura.LiconsaVentanilla.PASLOperativo$1
+ com.example.infraestructura.LiconsaVentanilla.PASLOperativo$2
+ com.example.infraestructura.LiconsaVentanilla.PASLOperativo$3
+ com.example.infraestructura.LiconsaVentanilla.PASLOperativo$4
+ com.example.infraestructura.LiconsaVentanilla.PASLOperativo$5
+com/example/infraestructura/frutales/frutales_4.java
+ com.example.infraestructura.frutales.frutales_4
+ com.example.infraestructura.frutales.frutales_4$1
+com/example/infraestructura/Infra_Sacrificio/Sacrificio_1.java
+ com.example.infraestructura.Infra_Sacrificio.Sacrificio_1
+ com.example.infraestructura.Infra_Sacrificio.Sacrificio_1$1
+ com.example.infraestructura.Infra_Sacrificio.Sacrificio_1$2
+ com.example.infraestructura.Infra_Sacrificio.Sacrificio_1$3
+ com.example.infraestructura.Infra_Sacrificio.Sacrificio_1$4
+ com.example.infraestructura.Infra_Sacrificio.Sacrificio_1$5
+ com.example.infraestructura.Infra_Sacrificio.Sacrificio_1$6
+com/example/infraestructura/Pecuario/PecuarioCaprinos.java
+ com.example.infraestructura.Pecuario.PecuarioCaprinos
+ com.example.infraestructura.Pecuario.PecuarioCaprinos$1
+ com.example.infraestructura.Pecuario.PecuarioCaprinos$2
+com/example/infraestructura/drawer/fragment_drawer/LiconsaPrecios.java
+ com.example.infraestructura.drawer.fragment_drawer.LiconsaPrecios
+ com.example.infraestructura.drawer.fragment_drawer.LiconsaPrecios$1
+ com.example.infraestructura.drawer.fragment_drawer.LiconsaPrecios$2
+ com.example.infraestructura.drawer.fragment_drawer.LiconsaPrecios$2$1
+ com.example.infraestructura.drawer.fragment_drawer.LiconsaPrecios$3
+ com.example.infraestructura.drawer.fragment_drawer.LiconsaPrecios$3$1
+com/example/infraestructura/caracterizacion/ciclo_caracterizacion2.java
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion2
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion2$1
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion2$2
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion2$3
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion2$4
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion2$5
+com/example/infraestructura/caracterizacion/variables_caracterizacion/DatePickerFragment.java
+ com.example.infraestructura.caracterizacion.variables_caracterizacion.DatePickerFragment
+com/example/infraestructura/caracterizacion/ciclo_caracterizacion5.java
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion5
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion5$1
+com/example/infraestructura/Segunda.java
+ com.example.infraestructura.Segunda
+ com.example.infraestructura.Segunda$1
+com/example/infraestructura/Liconsa/LiconsaBD.java
+ com.example.infraestructura.Liconsa.LiconsaBD
+com/example/infraestructura/PGOperativoLeche/PGOperativoLeche_bd.java
+ com.example.infraestructura.PGOperativoLeche.PGOperativoLeche_bd
+com/example/infraestructura/Pecuario/GlobalPecuario/GlobalPecuario.java
+ com.example.infraestructura.Pecuario.GlobalPecuario.GlobalPecuario
+com/example/infraestructura/frutales/frutales_10.java
+ com.example.infraestructura.frutales.frutales_10
+ com.example.infraestructura.frutales.frutales_10$1
+ com.example.infraestructura.frutales.frutales_10$2
+com/example/infraestructura/unidadproduccion/ProduccionPecuaria.java
+ com.example.infraestructura.unidadproduccion.ProduccionPecuaria
+ com.example.infraestructura.unidadproduccion.ProduccionPecuaria$1
+ com.example.infraestructura.unidadproduccion.ProduccionPecuaria$2
+ com.example.infraestructura.unidadproduccion.ProduccionPecuaria$3
+com/example/infraestructura/LiconsaVentanilla/PASLoperativoBD.java
+ com.example.infraestructura.LiconsaVentanilla.PASLoperativoBD
+com/example/infraestructura/LiconsaBeneficiario/PASLBeneficiario.java
+ com.example.infraestructura.LiconsaBeneficiario.PASLBeneficiario
+ com.example.infraestructura.LiconsaBeneficiario.PASLBeneficiario$1
+ com.example.infraestructura.LiconsaBeneficiario.PASLBeneficiario$10
+ com.example.infraestructura.LiconsaBeneficiario.PASLBeneficiario$11
+ com.example.infraestructura.LiconsaBeneficiario.PASLBeneficiario$12
+ com.example.infraestructura.LiconsaBeneficiario.PASLBeneficiario$13
+ com.example.infraestructura.LiconsaBeneficiario.PASLBeneficiario$14
+ com.example.infraestructura.LiconsaBeneficiario.PASLBeneficiario$15
+ com.example.infraestructura.LiconsaBeneficiario.PASLBeneficiario$2
+ com.example.infraestructura.LiconsaBeneficiario.PASLBeneficiario$3
+ com.example.infraestructura.LiconsaBeneficiario.PASLBeneficiario$4
+ com.example.infraestructura.LiconsaBeneficiario.PASLBeneficiario$5
+ com.example.infraestructura.LiconsaBeneficiario.PASLBeneficiario$6
+ com.example.infraestructura.LiconsaBeneficiario.PASLBeneficiario$7
+ com.example.infraestructura.LiconsaBeneficiario.PASLBeneficiario$8
+ com.example.infraestructura.LiconsaBeneficiario.PASLBeneficiario$9
+com/example/infraestructura/PARBeneficiario/PARBeneficiarioBD.java
+ com.example.infraestructura.PARBeneficiario.PARBeneficiarioBD
+com/example/infraestructura/Liconsa2/LiconsaVerificacion_bd.java
+ com.example.infraestructura.Liconsa2.LiconsaVerificacion_bd
+com/example/infraestructura/caracterizacion/ciclo_caracterizacion4.java
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion4
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion4$1
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion4$2
+com/example/infraestructura/Infra_Engorda/Engorda_bd.java
+ com.example.infraestructura.Infra_Engorda.Engorda_bd
+com/example/infraestructura/LiconsaBeneficiario/pasl_beneficiario_bd.java
+ com.example.infraestructura.LiconsaBeneficiario.pasl_beneficiario_bd
+com/example/infraestructura/Firma.java
+ com.example.infraestructura.Firma
+ com.example.infraestructura.Firma$1
+ com.example.infraestructura.Firma$2
+com/example/infraestructura/Catalogos/entidades/Cader.java
+ com.example.infraestructura.Catalogos.entidades.Cader
+com/example/infraestructura/BuildConfig.java
+ com.example.infraestructura.BuildConfig
+com/example/infraestructura/LiconsaVentanilla/pasl_operativo_bd.java
+ com.example.infraestructura.LiconsaVentanilla.pasl_operativo_bd
+com/example/infraestructura/dbstorage/Coordenadas.java
+ com.example.infraestructura.dbstorage.Coordenadas
+com/example/infraestructura/Pecuario/InventarioGanCaprino.java
+ com.example.infraestructura.Pecuario.InventarioGanCaprino
+ com.example.infraestructura.Pecuario.InventarioGanCaprino$1
+com/example/infraestructura/frutales/frutales_1.java
+ com.example.infraestructura.frutales.frutales_1
+ com.example.infraestructura.frutales.frutales_1$1
+ com.example.infraestructura.frutales.frutales_1$2
+ com.example.infraestructura.frutales.frutales_1$3
+ com.example.infraestructura.frutales.frutales_1$4
+ com.example.infraestructura.frutales.frutales_1$5
+ com.example.infraestructura.frutales.frutales_1$6
+ com.example.infraestructura.frutales.frutales_1$7
+com/example/infraestructura/apicola/variables_apicola/UtilidadesModuloSiete.java
+ com.example.infraestructura.apicola.variables_apicola.UtilidadesModuloSiete
+com/example/infraestructura/Pecuario/PecuarioParamProdReproductivos.java
+ com.example.infraestructura.Pecuario.PecuarioParamProdReproductivos
+ com.example.infraestructura.Pecuario.PecuarioParamProdReproductivos$1
+com/example/infraestructura/frutales/frutales_3.java
+ com.example.infraestructura.frutales.frutales_3
+ com.example.infraestructura.frutales.frutales_3$1
+ com.example.infraestructura.frutales.frutales_3$2
+ com.example.infraestructura.frutales.frutales_3$3
+com/example/infraestructura/PGOperativoGranos/PGOperativoGranos_Model.java
+ com.example.infraestructura.PGOperativoGranos.PGOperativoGranos_Model
+com/example/infraestructura/Infra_Ave/AveBD.java
+ com.example.infraestructura.Infra_Ave.AveBD
+com/example/infraestructura/unidadcaracterizacionhortalizas/CosechaB.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.CosechaB
+ com.example.infraestructura.unidadcaracterizacionhortalizas.CosechaB$1
+com/example/infraestructura/apicola/ManejoApicola.java
+ com.example.infraestructura.apicola.ManejoApicola
+ com.example.infraestructura.apicola.ManejoApicola$1
+ com.example.infraestructura.apicola.ManejoApicola$2
+com/example/infraestructura/unidadcaracterizacionhortalizas/FoliarRiego.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.FoliarRiego
+ com.example.infraestructura.unidadcaracterizacionhortalizas.FoliarRiego$1
+com/example/infraestructura/PAROperativo/PAR_Operativo.java
+ com.example.infraestructura.PAROperativo.PAR_Operativo
+ com.example.infraestructura.PAROperativo.PAR_Operativo$1
+ com.example.infraestructura.PAROperativo.PAR_Operativo$10
+ com.example.infraestructura.PAROperativo.PAR_Operativo$11
+ com.example.infraestructura.PAROperativo.PAR_Operativo$12
+ com.example.infraestructura.PAROperativo.PAR_Operativo$13
+ com.example.infraestructura.PAROperativo.PAR_Operativo$14
+ com.example.infraestructura.PAROperativo.PAR_Operativo$15
+ com.example.infraestructura.PAROperativo.PAR_Operativo$16
+ com.example.infraestructura.PAROperativo.PAR_Operativo$17
+ com.example.infraestructura.PAROperativo.PAR_Operativo$18
+ com.example.infraestructura.PAROperativo.PAR_Operativo$19
+ com.example.infraestructura.PAROperativo.PAR_Operativo$2
+ com.example.infraestructura.PAROperativo.PAR_Operativo$3
+ com.example.infraestructura.PAROperativo.PAR_Operativo$4
+ com.example.infraestructura.PAROperativo.PAR_Operativo$5
+ com.example.infraestructura.PAROperativo.PAR_Operativo$6
+ com.example.infraestructura.PAROperativo.PAR_Operativo$7
+ com.example.infraestructura.PAROperativo.PAR_Operativo$8
+ com.example.infraestructura.PAROperativo.PAR_Operativo$9
+com/example/infraestructura/unidadcomercializacion/Apicultura_2.java
+ com.example.infraestructura.unidadcomercializacion.Apicultura_2
+ com.example.infraestructura.unidadcomercializacion.Apicultura_2$1
+com/example/infraestructura/Productor/ProductorFamilia.java
+ com.example.infraestructura.Productor.ProductorFamilia
+ com.example.infraestructura.Productor.ProductorFamilia$1
+ com.example.infraestructura.Productor.ProductorFamilia$2
+com/example/infraestructura/caracterizacion/ciclo_caracterizacion_tabla.java
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion_tabla
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion_tabla$1
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion_tabla$2
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion_tabla$3
+com/example/infraestructura/unidadcomercializacion/comercializacion_5.java
+ com.example.infraestructura.unidadcomercializacion.comercializacion_5
+ com.example.infraestructura.unidadcomercializacion.comercializacion_5$1
+ com.example.infraestructura.unidadcomercializacion.comercializacion_5$2
+ com.example.infraestructura.unidadcomercializacion.comercializacion_5$3
+com/example/infraestructura/drawer/fragment_drawer/bdusers/UtilidadesUsuarios.java
+ com.example.infraestructura.drawer.fragment_drawer.bdusers.UtilidadesUsuarios
+com/example/infraestructura/unidadcaracterizacionhortalizas/hortalizas.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.hortalizas
+ com.example.infraestructura.unidadcaracterizacionhortalizas.hortalizas$1
+ com.example.infraestructura.unidadcaracterizacionhortalizas.hortalizas$2
+ com.example.infraestructura.unidadcaracterizacionhortalizas.hortalizas$3
+com/example/infraestructura/PARBeneficiario/PARBeneficiario_Model.java
+ com.example.infraestructura.PARBeneficiario.PARBeneficiario_Model
+com/example/infraestructura/unidadproduccion/variables/VariablesGlobalesUpf.java
+ com.example.infraestructura.unidadproduccion.variables.VariablesGlobalesUpf
+com/example/infraestructura/PGOperativoEstimulos/PGOperativoEstimulos_bd.java
+ com.example.infraestructura.PGOperativoEstimulos.PGOperativoEstimulos_bd
+com/example/infraestructura/Gps/GpsTrayectoria.java
+ com.example.infraestructura.Gps.GpsTrayectoria
+ com.example.infraestructura.Gps.GpsTrayectoria$1
+ com.example.infraestructura.Gps.GpsTrayectoria$2
+ com.example.infraestructura.Gps.GpsTrayectoria$3
+ com.example.infraestructura.Gps.GpsTrayectoria$4
+ com.example.infraestructura.Gps.GpsTrayectoria$4$1
+com/example/infraestructura/Infra_Sacrificio/SacrificioBD.java
+ com.example.infraestructura.Infra_Sacrificio.SacrificioBD
+com/example/infraestructura/Catalogos/entidades/Estados.java
+ com.example.infraestructura.Catalogos.entidades.Estados
+com/example/infraestructura/PGBeneficiarioGranos/PGBeneficiariosGranos.java
+ com.example.infraestructura.PGBeneficiarioGranos.PGBeneficiariosGranos
+ com.example.infraestructura.PGBeneficiarioGranos.PGBeneficiariosGranos$1
+ com.example.infraestructura.PGBeneficiarioGranos.PGBeneficiariosGranos$2
+ com.example.infraestructura.PGBeneficiarioGranos.PGBeneficiariosGranos$3
+ com.example.infraestructura.PGBeneficiarioGranos.PGBeneficiariosGranos$4
+ com.example.infraestructura.PGBeneficiarioGranos.PGBeneficiariosGranos$5
+ com.example.infraestructura.PGBeneficiarioGranos.PGBeneficiariosGranos$6
+ com.example.infraestructura.PGBeneficiarioGranos.PGBeneficiariosGranos$7
+com/example/infraestructura/frutales/dbfrutales/UtilidadesModuloSeis.java
+ com.example.infraestructura.frutales.dbfrutales.UtilidadesModuloSeis
+com/example/infraestructura/Catalogos/db/DbCatalogos.java
+ com.example.infraestructura.Catalogos.db.DbCatalogos
+com/example/infraestructura/PGOperativoLeche/PGOperativoLecheBD.java
+ com.example.infraestructura.PGOperativoLeche.PGOperativoLecheBD
+com/example/infraestructura/Pecuario/ManejoSanitarioOrdenia.java
+ com.example.infraestructura.Pecuario.ManejoSanitarioOrdenia
+ com.example.infraestructura.Pecuario.ManejoSanitarioOrdenia$1
+com/example/infraestructura/Pecuario/PecuarioManejoSanGanado.java
+ com.example.infraestructura.Pecuario.PecuarioManejoSanGanado
+ com.example.infraestructura.Pecuario.PecuarioManejoSanGanado$1
+com/example/infraestructura/caracterizacion/ciclo_carac.java
+ com.example.infraestructura.caracterizacion.ciclo_carac
+ com.example.infraestructura.caracterizacion.ciclo_carac$1
+ com.example.infraestructura.caracterizacion.ciclo_carac$2
+ com.example.infraestructura.caracterizacion.ciclo_carac$3
+com/example/infraestructura/apicola/SanidadApicola.java
+ com.example.infraestructura.apicola.SanidadApicola
+ com.example.infraestructura.apicola.SanidadApicola$1
+com/example/infraestructura/drawer/fragment_drawer/bdmunicipios/UtilidadesEdoMunicipios.java
+ com.example.infraestructura.drawer.fragment_drawer.bdmunicipios.UtilidadesEdoMunicipios
+com/example/infraestructura/Geo/FotoActivityUno.java
+ com.example.infraestructura.Geo.FotoActivityUno
+ com.example.infraestructura.Geo.FotoActivityUno$1
+ com.example.infraestructura.Geo.FotoActivityUno$2
+ com.example.infraestructura.Geo.FotoActivityUno$3
+ com.example.infraestructura.Geo.FotoActivityUno$4
+ com.example.infraestructura.Geo.FotoActivityUno$5
+ com.example.infraestructura.Geo.FotoActivityUno$6
+ com.example.infraestructura.Geo.FotoActivityUno$7
+ com.example.infraestructura.Geo.FotoActivityUno$8
+ com.example.infraestructura.Geo.FotoActivityUno$9
+com/example/infraestructura/frutales/frutales_12.java
+ com.example.infraestructura.frutales.frutales_12
+ com.example.infraestructura.frutales.frutales_12$1
+com/example/infraestructura/Infra_Engorda/Engorda.java
+ com.example.infraestructura.Infra_Engorda.Engorda
+ com.example.infraestructura.Infra_Engorda.Engorda$1
+ com.example.infraestructura.Infra_Engorda.Engorda$2
+ com.example.infraestructura.Infra_Engorda.Engorda$3
+ com.example.infraestructura.Infra_Engorda.Engorda$4
+ com.example.infraestructura.Infra_Engorda.Engorda$5
+ com.example.infraestructura.Infra_Engorda.Engorda$6
+ com.example.infraestructura.Infra_Engorda.Engorda$7
+com/example/infraestructura/caracterizacion/variables_caracterizacion/ActividadesCosecha.java
+ com.example.infraestructura.caracterizacion.variables_caracterizacion.ActividadesCosecha
+com/example/infraestructura/PARBeneficiario/PARBeneficiario_bd.java
+ com.example.infraestructura.PARBeneficiario.PARBeneficiario_bd
+com/example/infraestructura/dbstorage/Georreferencia.java
+ com.example.infraestructura.dbstorage.Georreferencia
+com/example/infraestructura/unidadcomercializacion/comercializacion_4.java
+ com.example.infraestructura.unidadcomercializacion.comercializacion_4
+ com.example.infraestructura.unidadcomercializacion.comercializacion_4$1
+ com.example.infraestructura.unidadcomercializacion.comercializacion_4$2
+ com.example.infraestructura.unidadcomercializacion.comercializacion_4$3
+com/example/infraestructura/Infra_Porcino/Porcino_bd.java
+ com.example.infraestructura.Infra_Porcino.Porcino_bd
+com/example/infraestructura/PAROperativo/PAR_operativo_bd.java
+ com.example.infraestructura.PAROperativo.PAR_operativo_bd
+com/example/infraestructura/unidadcomercializacion/Apicultura_3.java
+ com.example.infraestructura.unidadcomercializacion.Apicultura_3
+ com.example.infraestructura.unidadcomercializacion.Apicultura_3$1
+com/example/infraestructura/unidadcaracterizacionhortalizas/ControlPlagasEnferm.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.ControlPlagasEnferm
+ com.example.infraestructura.unidadcaracterizacionhortalizas.ControlPlagasEnferm$1
+com/example/infraestructura/Pecuario/InventarioGanadoOvino.java
+ com.example.infraestructura.Pecuario.InventarioGanadoOvino
+ com.example.infraestructura.Pecuario.InventarioGanadoOvino$1
+com/example/infraestructura/frutales/frutales_2.java
+ com.example.infraestructura.frutales.frutales_2
+ com.example.infraestructura.frutales.frutales_2$1
+ com.example.infraestructura.frutales.frutales_2$2
+ com.example.infraestructura.frutales.frutales_2$3
+ com.example.infraestructura.frutales.frutales_2$4
+ com.example.infraestructura.frutales.frutales_2$5
+ com.example.infraestructura.frutales.frutales_2$6
+com/example/infraestructura/apicola/ApicolaInicio.java
+ com.example.infraestructura.apicola.ApicolaInicio
+ com.example.infraestructura.apicola.ApicolaInicio$1
+com/example/infraestructura/PGOperativoGranos/PGOperativoGranosBD.java
+ com.example.infraestructura.PGOperativoGranos.PGOperativoGranosBD
+com/example/infraestructura/drawer/fragment_drawer/MapaFragment.java
+ com.example.infraestructura.drawer.fragment_drawer.MapaFragment
+ com.example.infraestructura.drawer.fragment_drawer.MapaFragment$1
+com/example/infraestructura/PGBeneficiariosGranosIncentivos/PGBeneficiariosGranosIncentivos_bd.java
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos_bd
+com/example/infraestructura/LiconsaBeneficiario/PASLbeneficiarioBD.java
+ com.example.infraestructura.LiconsaBeneficiario.PASLbeneficiarioBD
+com/example/infraestructura/caracterizacion/ciclo_caracterizacion12.java
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion12
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion12$1
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion12$2
+com/example/infraestructura/Infra_Sacrificio/Sacrificio_model.java
+ com.example.infraestructura.Infra_Sacrificio.Sacrificio_model
+com/example/infraestructura/PGBeneficiarioLeche/PGBeneficiarioLeche_bd.java
+ com.example.infraestructura.PGBeneficiarioLeche.PGBeneficiarioLeche_bd
+com/example/infraestructura/Geo/FotoActivityDos.java
+ com.example.infraestructura.Geo.FotoActivityDos
+ com.example.infraestructura.Geo.FotoActivityDos$1
+ com.example.infraestructura.Geo.FotoActivityDos$2
+ com.example.infraestructura.Geo.FotoActivityDos$3
+ com.example.infraestructura.Geo.FotoActivityDos$4
+ com.example.infraestructura.Geo.FotoActivityDos$5
+ com.example.infraestructura.Geo.FotoActivityDos$6
+ com.example.infraestructura.Geo.FotoActivityDos$7
+ com.example.infraestructura.Geo.FotoActivityDos$8
+com/example/infraestructura/Infra_Sacrificio/Sacrificio_bd.java
+ com.example.infraestructura.Infra_Sacrificio.Sacrificio_bd
+com/example/infraestructura/frutales/frutales_7.java
+ com.example.infraestructura.frutales.frutales_7
+ com.example.infraestructura.frutales.frutales_7$1
+com/example/infraestructura/caracterizacion/variables_caracterizacion/CalendarioDate.java
+ com.example.infraestructura.caracterizacion.variables_caracterizacion.CalendarioDate
+ com.example.infraestructura.caracterizacion.variables_caracterizacion.CalendarioDate$1
+com/example/infraestructura/PGOperativoEstimulos/PGOperativoEstimulos_Model.java
+ com.example.infraestructura.PGOperativoEstimulos.PGOperativoEstimulos_Model
+com/example/infraestructura/unidadproduccion/ModalidadHidrica.java
+ com.example.infraestructura.unidadproduccion.ModalidadHidrica
+ com.example.infraestructura.unidadproduccion.ModalidadHidrica$1
+com/example/infraestructura/Catalogos/db/DbHelper.java
+ com.example.infraestructura.Catalogos.db.DbHelper
+com/example/infraestructura/apicola/AlimentacionApicola.java
+ com.example.infraestructura.apicola.AlimentacionApicola
+ com.example.infraestructura.apicola.AlimentacionApicola$1
+com/example/infraestructura/unidadcaracterizacionhortalizas/PostCosecha.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.PostCosecha
+ com.example.infraestructura.unidadcaracterizacionhortalizas.PostCosecha$1
+ com.example.infraestructura.unidadcaracterizacionhortalizas.PostCosecha$2
+com/example/infraestructura/Gps/GpsActivity.java
+ com.example.infraestructura.Gps.GpsActivity
+com/example/infraestructura/frutales/frutales_11.java
+ com.example.infraestructura.frutales.frutales_11
+ com.example.infraestructura.frutales.frutales_11$1
+com/example/infraestructura/unidadproduccion/variables/UtilidadesModuloTres.java
+ com.example.infraestructura.unidadproduccion.variables.UtilidadesModuloTres
+com/example/infraestructura/Pecuario/PecuarioDietaOvinosCaprinosAlimentos.java
+ com.example.infraestructura.Pecuario.PecuarioDietaOvinosCaprinosAlimentos
+ com.example.infraestructura.Pecuario.PecuarioDietaOvinosCaprinosAlimentos$1
+com/example/infraestructura/PGBeneficiarioLeche/PGBeneficiarioLeche.java
+ com.example.infraestructura.PGBeneficiarioLeche.PGBeneficiarioLeche
+ com.example.infraestructura.PGBeneficiarioLeche.PGBeneficiarioLeche$1
+ com.example.infraestructura.PGBeneficiarioLeche.PGBeneficiarioLeche$2
+ com.example.infraestructura.PGBeneficiarioLeche.PGBeneficiarioLeche$3
+ com.example.infraestructura.PGBeneficiarioLeche.PGBeneficiarioLeche$4
+ com.example.infraestructura.PGBeneficiarioLeche.PGBeneficiarioLeche$5
+com/example/infraestructura/unidadcaracterizacionhortalizas/model/MlTiempoRiegoAdapter.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.model.MlTiempoRiegoAdapter
+com/example/infraestructura/frutales/frutales_4_0.java
+ com.example.infraestructura.frutales.frutales_4_0
+ com.example.infraestructura.frutales.frutales_4_0$1
+ com.example.infraestructura.frutales.frutales_4_0$2
+ com.example.infraestructura.frutales.frutales_4_0$3
+com/example/infraestructura/frutales/frutales_9.java
+ com.example.infraestructura.frutales.frutales_9
+com/example/infraestructura/PARBeneficiario/PARBeneficiario.java
+ com.example.infraestructura.PARBeneficiario.PARBeneficiario
+ com.example.infraestructura.PARBeneficiario.PARBeneficiario$1
+ com.example.infraestructura.PARBeneficiario.PARBeneficiario$10
+ com.example.infraestructura.PARBeneficiario.PARBeneficiario$11
+ com.example.infraestructura.PARBeneficiario.PARBeneficiario$12
+ com.example.infraestructura.PARBeneficiario.PARBeneficiario$2
+ com.example.infraestructura.PARBeneficiario.PARBeneficiario$3
+ com.example.infraestructura.PARBeneficiario.PARBeneficiario$4
+ com.example.infraestructura.PARBeneficiario.PARBeneficiario$5
+ com.example.infraestructura.PARBeneficiario.PARBeneficiario$6
+ com.example.infraestructura.PARBeneficiario.PARBeneficiario$7
+ com.example.infraestructura.PARBeneficiario.PARBeneficiario$8
+ com.example.infraestructura.PARBeneficiario.PARBeneficiario$9
+com/example/infraestructura/caracterizacion/ciclo_caracterizacion.java
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion$1
+com/example/infraestructura/Liconsa/Liconsa_Model.java
+ com.example.infraestructura.Liconsa.Liconsa_Model
+com/example/infraestructura/Principal.java
+ com.example.infraestructura.Principal
+ com.example.infraestructura.Principal$1
+com/example/infraestructura/Liconsa2/LiconsaVerificacionBD.java
+ com.example.infraestructura.Liconsa2.LiconsaVerificacionBD
+com/example/infraestructura/drawer/fragment_drawer/ExportarFragment.java
+ com.example.infraestructura.drawer.fragment_drawer.ExportarFragment
+ com.example.infraestructura.drawer.fragment_drawer.ExportarFragment$1
+ com.example.infraestructura.drawer.fragment_drawer.ExportarFragment$1$1
+ com.example.infraestructura.drawer.fragment_drawer.ExportarFragment$1$2
+ com.example.infraestructura.drawer.fragment_drawer.ExportarFragment$2
+ com.example.infraestructura.drawer.fragment_drawer.ExportarFragment$2$1
+ com.example.infraestructura.drawer.fragment_drawer.ExportarFragment$TareaAsyncTask
+com/example/infraestructura/unidadcomercializacion/comercializacion_3.java
+ com.example.infraestructura.unidadcomercializacion.comercializacion_3
+ com.example.infraestructura.unidadcomercializacion.comercializacion_3$1
+com/example/infraestructura/unidadcomercializacion/Apicultura_4.java
+ com.example.infraestructura.unidadcomercializacion.Apicultura_4
+ com.example.infraestructura.unidadcomercializacion.Apicultura_4$1
+com/example/infraestructura/Infra_Lecheros/Lecheros_Model.java
+ com.example.infraestructura.Infra_Lecheros.Lecheros_Model
+com/example/infraestructura/NewCamara.java
+ com.example.infraestructura.NewCamara
+ com.example.infraestructura.NewCamara$1
+ com.example.infraestructura.NewCamara$1$1
+ com.example.infraestructura.NewCamara$2
+ com.example.infraestructura.NewCamara$2$1
+ com.example.infraestructura.NewCamara$3
+ com.example.infraestructura.NewCamara$3$1
+ com.example.infraestructura.NewCamara$4
+ com.example.infraestructura.NewCamara$4$1
+com/example/infraestructura/frutales/frutales_13.java
+ com.example.infraestructura.frutales.frutales_13
+ com.example.infraestructura.frutales.frutales_13$1
+com/example/infraestructura/General.java
+ com.example.infraestructura.General
+com/example/infraestructura/apicola/EnfermedadesCambioPanales.java
+ com.example.infraestructura.apicola.EnfermedadesCambioPanales
+ com.example.infraestructura.apicola.EnfermedadesCambioPanales$1
+ com.example.infraestructura.apicola.EnfermedadesCambioPanales$2
+com/example/infraestructura/PGOperativoLeche/PGOperativoLeche_Model.java
+ com.example.infraestructura.PGOperativoLeche.PGOperativoLeche_Model
+com/example/infraestructura/drawer/fragment_drawer/bdmunicipios/VolleySingleton.java
+ com.example.infraestructura.drawer.fragment_drawer.bdmunicipios.VolleySingleton
+com/example/infraestructura/unidadcaracterizacionhortalizas/FertilizanteSi.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.FertilizanteSi
+ com.example.infraestructura.unidadcaracterizacionhortalizas.FertilizanteSi$1
+ com.example.infraestructura.unidadcaracterizacionhortalizas.FertilizanteSi$2
+ com.example.infraestructura.unidadcaracterizacionhortalizas.FertilizanteSi$3
+ com.example.infraestructura.unidadcaracterizacionhortalizas.FertilizanteSi$4
+com/example/infraestructura/PGBeneficiarioLeche/PGBeneficiarioLecheBD.java
+ com.example.infraestructura.PGBeneficiarioLeche.PGBeneficiarioLecheBD
+com/example/infraestructura/Pecuario/PecuarioAgregarAlimentos.java
+ com.example.infraestructura.Pecuario.PecuarioAgregarAlimentos
+ com.example.infraestructura.Pecuario.PecuarioAgregarAlimentos$1
+ com.example.infraestructura.Pecuario.PecuarioAgregarAlimentos$2
+com/example/infraestructura/LiconsaBeneficiario/Pasl_b_Model.java
+ com.example.infraestructura.LiconsaBeneficiario.Pasl_b_Model
+com/example/infraestructura/caracterizacion/ciclo_caracterizacion8.java
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion8
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion8$1
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion8$2
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion8$3
+com/example/infraestructura/PAROperativo/PARoperativoBD.java
+ com.example.infraestructura.PAROperativo.PARoperativoBD
+com/example/infraestructura/unidadcaracterizacionhortalizas/HortalizasPvunoC.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.HortalizasPvunoC
+ com.example.infraestructura.unidadcaracterizacionhortalizas.HortalizasPvunoC$1
+com/example/infraestructura/Pecuario/EstructuraDelHato.java
+ com.example.infraestructura.Pecuario.EstructuraDelHato
+ com.example.infraestructura.Pecuario.EstructuraDelHato$1
+com/example/infraestructura/drawer/fragment_drawer/bdusers/ModelUsuarios.java
+ com.example.infraestructura.drawer.fragment_drawer.bdusers.ModelUsuarios
+com/example/infraestructura/unidadcaracterizacionhortalizas/Nutricion.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.Nutricion
+ com.example.infraestructura.unidadcaracterizacionhortalizas.Nutricion$1
+com/example/infraestructura/Infra_Lecheros/lecheros1.java
+ com.example.infraestructura.Infra_Lecheros.lecheros1
+ com.example.infraestructura.Infra_Lecheros.lecheros1$1
+ com.example.infraestructura.Infra_Lecheros.lecheros1$2
+ com.example.infraestructura.Infra_Lecheros.lecheros1$3
+ com.example.infraestructura.Infra_Lecheros.lecheros1$4
+ com.example.infraestructura.Infra_Lecheros.lecheros1$5
+ com.example.infraestructura.Infra_Lecheros.lecheros1$6
+ com.example.infraestructura.Infra_Lecheros.lecheros1$7
+com/example/infraestructura/unidadcaracterizacionhortalizas/TiempoRiego.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.TiempoRiego
+ com.example.infraestructura.unidadcaracterizacionhortalizas.TiempoRiego$1
+ com.example.infraestructura.unidadcaracterizacionhortalizas.TiempoRiego$2
+ com.example.infraestructura.unidadcaracterizacionhortalizas.TiempoRiego$3
+com/example/infraestructura/Geo/GeoFotos.java
+ com.example.infraestructura.Geo.GeoFotos
+ com.example.infraestructura.Geo.GeoFotos$1
+ com.example.infraestructura.Geo.GeoFotos$2
+ com.example.infraestructura.Geo.GeoFotos$2$1
+ com.example.infraestructura.Geo.GeoFotos$Localizacion
+com/example/infraestructura/unidadcomercializacion/bdcomercializacion/UtilidadesModuloDiez.java
+ com.example.infraestructura.unidadcomercializacion.bdcomercializacion.UtilidadesModuloDiez
+com/example/infraestructura/infraestructura_1.java
+ com.example.infraestructura.infraestructura_1
+ com.example.infraestructura.infraestructura_1$1
+ com.example.infraestructura.infraestructura_1$2
+ com.example.infraestructura.infraestructura_1$3
+ com.example.infraestructura.infraestructura_1$4
+com/example/infraestructura/unidadcaracterizacionhortalizas/ControlPlagasEnfermB.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.ControlPlagasEnfermB
+ com.example.infraestructura.unidadcaracterizacionhortalizas.ControlPlagasEnfermB$1
+ com.example.infraestructura.unidadcaracterizacionhortalizas.ControlPlagasEnfermB$2
+com/example/infraestructura/Pecuario/PecuarioAlimentacionGanado.java
+ com.example.infraestructura.Pecuario.PecuarioAlimentacionGanado
+ com.example.infraestructura.Pecuario.PecuarioAlimentacionGanado$1
+com/example/infraestructura/unidadcomercializacion/comercializacion_6.java
+ com.example.infraestructura.unidadcomercializacion.comercializacion_6
+ com.example.infraestructura.unidadcomercializacion.comercializacion_6$1
+com/example/infraestructura/Infra_Lecheros/Lecheros_bd.java
+ com.example.infraestructura.Infra_Lecheros.Lecheros_bd
+com/example/infraestructura/LiconsaVentanilla/Pasl_o_Model.java
+ com.example.infraestructura.LiconsaVentanilla.Pasl_o_Model
+com/example/infraestructura/Pecuario/PecuarioOvinos.java
+ com.example.infraestructura.Pecuario.PecuarioOvinos
+ com.example.infraestructura.Pecuario.PecuarioOvinos$1
+ com.example.infraestructura.Pecuario.PecuarioOvinos$2
+com/example/infraestructura/drawer/fragment_drawer/bdmunicipios/ModelMunicipios.java
+ com.example.infraestructura.drawer.fragment_drawer.bdmunicipios.ModelMunicipios
+com/example/infraestructura/unidadcomercializacion/Apicultura_1.java
+ com.example.infraestructura.unidadcomercializacion.Apicultura_1
+ com.example.infraestructura.unidadcomercializacion.Apicultura_1$1
+ com.example.infraestructura.unidadcomercializacion.Apicultura_1$2
+ com.example.infraestructura.unidadcomercializacion.Apicultura_1$3
+com/example/infraestructura/PGBeneficiarioGranos/PGB_granos_bd.java
+ com.example.infraestructura.PGBeneficiarioGranos.PGB_granos_bd
+com/example/infraestructura/caracterizacion/variables_caracterizacion/UtilidadesModuloCuatro.java
+ com.example.infraestructura.caracterizacion.variables_caracterizacion.UtilidadesModuloCuatro
+com/example/infraestructura/Pecuario/InventarioGanBovinoLeche.java
+ com.example.infraestructura.Pecuario.InventarioGanBovinoLeche
+ com.example.infraestructura.Pecuario.InventarioGanBovinoLeche$1
+com/example/infraestructura/unidadcaracterizacionhortalizas/db/DatabaseHelper.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.db.DatabaseHelper
+com/example/infraestructura/frutales/dbfrutales/VariablesFrutales.java
+ com.example.infraestructura.frutales.dbfrutales.VariablesFrutales
+com/example/infraestructura/Pecuario/UtilidadesPecuario/UtilidadesPecuario.java
+ com.example.infraestructura.Pecuario.UtilidadesPecuario.UtilidadesPecuario
+com/example/infraestructura/unidadproduccion/model/ActividadAgricolaAdapter.java
+ com.example.infraestructura.unidadproduccion.model.ActividadAgricolaAdapter
+com/example/infraestructura/Infra_Ave/Ave.java
+ com.example.infraestructura.Infra_Ave.Ave
+ com.example.infraestructura.Infra_Ave.Ave$1
+ com.example.infraestructura.Infra_Ave.Ave$2
+ com.example.infraestructura.Infra_Ave.Ave$3
+ com.example.infraestructura.Infra_Ave.Ave$4
+ com.example.infraestructura.Infra_Ave.Ave$5
+ com.example.infraestructura.Infra_Ave.Ave$6
+com/example/infraestructura/Catalogos/entidades/Municipio.java
+ com.example.infraestructura.Catalogos.entidades.Municipio
+com/example/infraestructura/PAROperativo/PAR_operativo_model.java
+ com.example.infraestructura.PAROperativo.PAR_operativo_model
+com/example/infraestructura/Infra_Porcino/Porcino.java
+ com.example.infraestructura.Infra_Porcino.Porcino
+ com.example.infraestructura.Infra_Porcino.Porcino$1
+ com.example.infraestructura.Infra_Porcino.Porcino$2
+ com.example.infraestructura.Infra_Porcino.Porcino$3
+ com.example.infraestructura.Infra_Porcino.Porcino$4
+ com.example.infraestructura.Infra_Porcino.Porcino$5
+ com.example.infraestructura.Infra_Porcino.Porcino$6
+ com.example.infraestructura.Infra_Porcino.Porcino$7
+com/example/infraestructura/unidadcomercializacion/bdcomercializacion/VariablesGlobalesCmrz.java
+ com.example.infraestructura.unidadcomercializacion.bdcomercializacion.VariablesGlobalesCmrz
+com/example/infraestructura/caracterizacion/variables_caracterizacion/VariablesModuloCuatro.java
+ com.example.infraestructura.caracterizacion.variables_caracterizacion.VariablesModuloCuatro
+com/example/infraestructura/caracterizacion/variables_caracterizacion/ConservaGranos.java
+ com.example.infraestructura.caracterizacion.variables_caracterizacion.ConservaGranos
+com/example/infraestructura/apicola/CapacitacionAsistenciaApicola.java
+ com.example.infraestructura.apicola.CapacitacionAsistenciaApicola
+ com.example.infraestructura.apicola.CapacitacionAsistenciaApicola$1
+ com.example.infraestructura.apicola.CapacitacionAsistenciaApicola$2
+com/example/infraestructura/frutales/frutales_14.java
+ com.example.infraestructura.frutales.frutales_14
+ com.example.infraestructura.frutales.frutales_14$1
+com/example/infraestructura/PGOperativoEstimulos/PGOperativoEstimulosBD.java
+ com.example.infraestructura.PGOperativoEstimulos.PGOperativoEstimulosBD
+com/example/infraestructura/unidadcaracterizacionhortalizas/model/MlTiempoRiego.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.model.MlTiempoRiego
+com/example/infraestructura/Georeferencia/Utilidades.java
+ com.example.infraestructura.Georeferencia.Utilidades
+com/example/infraestructura/Gps/Trayectoria.java
+ com.example.infraestructura.Gps.Trayectoria
+com/example/infraestructura/Infra_Granos/Granos_Model.java
+ com.example.infraestructura.Infra_Granos.Granos_Model
+com/example/infraestructura/unidadproduccion/TiposAlimentosDos.java
+ com.example.infraestructura.unidadproduccion.TiposAlimentosDos
+ com.example.infraestructura.unidadproduccion.TiposAlimentosDos$1
+com/example/infraestructura/unidadcomercializacion/comercializacion_8.java
+ com.example.infraestructura.unidadcomercializacion.comercializacion_8
+ com.example.infraestructura.unidadcomercializacion.comercializacion_8$1
+com/example/infraestructura/unidadproduccion/UnidadProduccion.java
+ com.example.infraestructura.unidadproduccion.UnidadProduccion
+ com.example.infraestructura.unidadproduccion.UnidadProduccion$1
+ com.example.infraestructura.unidadproduccion.UnidadProduccion$2
+ com.example.infraestructura.unidadproduccion.UnidadProduccion$3
+com/example/infraestructura/Productor/bd_prod/UtilidadesProductor.java
+ com.example.infraestructura.Productor.bd_prod.UtilidadesProductor
+com/example/infraestructura/apicola/HerramientasProteccion.java
+ com.example.infraestructura.apicola.HerramientasProteccion
+ com.example.infraestructura.apicola.HerramientasProteccion$1
+ com.example.infraestructura.apicola.HerramientasProteccion$2
+ com.example.infraestructura.apicola.HerramientasProteccion$3
+com/example/infraestructura/PGBeneficiarioGranos/PGBgranosBD.java
+ com.example.infraestructura.PGBeneficiarioGranos.PGBgranosBD
+com/example/infraestructura/Infra_Ave/Ave_bd.java
+ com.example.infraestructura.Infra_Ave.Ave_bd
+com/example/infraestructura/unidadproduccion/TenenciaTierra.java
+ com.example.infraestructura.unidadproduccion.TenenciaTierra
+ com.example.infraestructura.unidadproduccion.TenenciaTierra$1
+com/example/infraestructura/Gps/UtilidadesTrayectoria.java
+ com.example.infraestructura.Gps.UtilidadesTrayectoria
+com/example/infraestructura/unidadproduccion/ProduccionForestal.java
+ com.example.infraestructura.unidadproduccion.ProduccionForestal
+ com.example.infraestructura.unidadproduccion.ProduccionForestal$1
+ com.example.infraestructura.unidadproduccion.ProduccionForestal$2
+com/example/infraestructura/caracterizacion/ciclo_caracterizacion7.java
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion7
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion7$1
+com/example/infraestructura/drawer/fragment_drawer/SyncMunFragment.java
+ com.example.infraestructura.drawer.fragment_drawer.SyncMunFragment
+ com.example.infraestructura.drawer.fragment_drawer.SyncMunFragment$1
+ com.example.infraestructura.drawer.fragment_drawer.SyncMunFragment$2
+ com.example.infraestructura.drawer.fragment_drawer.SyncMunFragment$3
+ com.example.infraestructura.drawer.fragment_drawer.SyncMunFragment$4
+ com.example.infraestructura.drawer.fragment_drawer.SyncMunFragment$TareaAsyncTask
+com/example/infraestructura/caracterizacion/ciclo_caracterizacion6.java
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion6
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion6$1
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion6$2
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion6$3
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion6$4
+com/example/infraestructura/unidadcaracterizacionhortalizas/HortalizasPvunoD.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.HortalizasPvunoD
+ com.example.infraestructura.unidadcaracterizacionhortalizas.HortalizasPvunoD$1
+com/example/infraestructura/Infra_Granos/Granos_bd.java
+ com.example.infraestructura.Infra_Granos.Granos_bd
+com/example/infraestructura/unidadcaracterizacionhortalizas/Cosecha.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.Cosecha
+ com.example.infraestructura.unidadcaracterizacionhortalizas.Cosecha$1
+com/example/infraestructura/Infra_Engorda/EngordaBD.java
+ com.example.infraestructura.Infra_Engorda.EngordaBD
+com/example/infraestructura/Catalogos/entidades/Delegacion.java
+ com.example.infraestructura.Catalogos.entidades.Delegacion
+com/example/infraestructura/Pecuario/PecuarioManejoAgostadero.java
+ com.example.infraestructura.Pecuario.PecuarioManejoAgostadero
+ com.example.infraestructura.Pecuario.PecuarioManejoAgostadero$1
+ com.example.infraestructura.Pecuario.PecuarioManejoAgostadero$2
+com/example/infraestructura/PGBeneficiariosGranosIncentivos/PGBeneficiariosGranosIncentivosBD.java
+ com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivosBD
+com/example/infraestructura/unidadcomercializacion/comercializacion_7.java
+ com.example.infraestructura.unidadcomercializacion.comercializacion_7
+ com.example.infraestructura.unidadcomercializacion.comercializacion_7$1
+com/example/infraestructura/Productor/IntegranteFamilia.java
+ com.example.infraestructura.Productor.IntegranteFamilia
+ com.example.infraestructura.Productor.IntegranteFamilia$1
+ com.example.infraestructura.Productor.IntegranteFamilia$2
+com/example/infraestructura/PGOperativoGranos/PGOperativoGranos.java
+ com.example.infraestructura.PGOperativoGranos.PGOperativoGranos
+ com.example.infraestructura.PGOperativoGranos.PGOperativoGranos$1
+ com.example.infraestructura.PGOperativoGranos.PGOperativoGranos$10
+ com.example.infraestructura.PGOperativoGranos.PGOperativoGranos$11
+ com.example.infraestructura.PGOperativoGranos.PGOperativoGranos$12
+ com.example.infraestructura.PGOperativoGranos.PGOperativoGranos$13
+ com.example.infraestructura.PGOperativoGranos.PGOperativoGranos$2
+ com.example.infraestructura.PGOperativoGranos.PGOperativoGranos$3
+ com.example.infraestructura.PGOperativoGranos.PGOperativoGranos$4
+ com.example.infraestructura.PGOperativoGranos.PGOperativoGranos$5
+ com.example.infraestructura.PGOperativoGranos.PGOperativoGranos$6
+ com.example.infraestructura.PGOperativoGranos.PGOperativoGranos$7
+ com.example.infraestructura.PGOperativoGranos.PGOperativoGranos$8
+ com.example.infraestructura.PGOperativoGranos.PGOperativoGranos$9
+com/example/infraestructura/unidadcomercializacion/comercializacion_1.java
+ com.example.infraestructura.unidadcomercializacion.comercializacion_1
+ com.example.infraestructura.unidadcomercializacion.comercializacion_1$1
+ com.example.infraestructura.unidadcomercializacion.comercializacion_1$2
+ com.example.infraestructura.unidadcomercializacion.comercializacion_1$3
+com/example/infraestructura/unidadcaracterizacionhortalizas/HortalizasPVuno.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.HortalizasPVuno
+ com.example.infraestructura.unidadcaracterizacionhortalizas.HortalizasPVuno$1
+com/example/infraestructura/unidadproduccion/ProduccionAgricola.java
+ com.example.infraestructura.unidadproduccion.ProduccionAgricola
+ com.example.infraestructura.unidadproduccion.ProduccionAgricola$1
+ com.example.infraestructura.unidadproduccion.ProduccionAgricola$2
+ com.example.infraestructura.unidadproduccion.ProduccionAgricola$3
+ com.example.infraestructura.unidadproduccion.ProduccionAgricola$4
+com/example/infraestructura/Infra_Granos/Granos.java
+ com.example.infraestructura.Infra_Granos.Granos
+ com.example.infraestructura.Infra_Granos.Granos$1
+ com.example.infraestructura.Infra_Granos.Granos$2
+ com.example.infraestructura.Infra_Granos.Granos$3
+ com.example.infraestructura.Infra_Granos.Granos$4
+ com.example.infraestructura.Infra_Granos.Granos$5
+ com.example.infraestructura.Infra_Granos.Granos$6
+com/example/infraestructura/frutales/frutales_5.java
+ com.example.infraestructura.frutales.frutales_5
+ com.example.infraestructura.frutales.frutales_5$1
+ com.example.infraestructura.frutales.frutales_5$2
+ com.example.infraestructura.frutales.frutales_5$3
+ com.example.infraestructura.frutales.frutales_5$4
+com/example/infraestructura/caracterizacion/ciclo_caracterizacion10.java
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion10
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion10$1
+ com.example.infraestructura.caracterizacion.ciclo_caracterizacion10$2
+com/example/infraestructura/Liconsa2/LiconsaVerificacion.java
+ com.example.infraestructura.Liconsa2.LiconsaVerificacion
+ com.example.infraestructura.Liconsa2.LiconsaVerificacion$1
+ com.example.infraestructura.Liconsa2.LiconsaVerificacion$2
+ com.example.infraestructura.Liconsa2.LiconsaVerificacion$3
+ com.example.infraestructura.Liconsa2.LiconsaVerificacion$4
+ com.example.infraestructura.Liconsa2.LiconsaVerificacion$5
+ com.example.infraestructura.Liconsa2.LiconsaVerificacion$6
+com/example/infraestructura/drawer/DrawerActivity.java
+ com.example.infraestructura.drawer.DrawerActivity
+com/example/infraestructura/Infra_Porcino/Porcino_Model.java
+ com.example.infraestructura.Infra_Porcino.Porcino_Model
+com/example/infraestructura/Gps/GpsEnableb.java
+ com.example.infraestructura.Gps.GpsEnableb
+ com.example.infraestructura.Gps.GpsEnableb$1
+ com.example.infraestructura.Gps.GpsEnableb$2
+ com.example.infraestructura.Gps.GpsEnableb$3
+ com.example.infraestructura.Gps.GpsEnableb$4
+ com.example.infraestructura.Gps.GpsEnableb$4$1
+ com.example.infraestructura.Gps.GpsEnableb$4$1$1
+ com.example.infraestructura.Gps.GpsEnableb$4$1$1$1
+ com.example.infraestructura.Gps.GpsEnableb$4$1$1$1$1
+ com.example.infraestructura.Gps.GpsEnableb$5
+ com.example.infraestructura.Gps.GpsEnableb$6
+ com.example.infraestructura.Gps.GpsEnableb$7
+ com.example.infraestructura.Gps.GpsEnableb$7$1
+com/example/infraestructura/Pecuario/PecuarioEventosUnidadProduccion.java
+ com.example.infraestructura.Pecuario.PecuarioEventosUnidadProduccion
+ com.example.infraestructura.Pecuario.PecuarioEventosUnidadProduccion$1
+com/example/infraestructura/apicola/ReproduccionApicola.java
+ com.example.infraestructura.apicola.ReproduccionApicola
+ com.example.infraestructura.apicola.ReproduccionApicola$1
+ com.example.infraestructura.apicola.ReproduccionApicola$2
+com/example/infraestructura/unidadcaracterizacionhortalizas/ControlPlagasEnfermC.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.ControlPlagasEnfermC
+ com.example.infraestructura.unidadcaracterizacionhortalizas.ControlPlagasEnfermC$1

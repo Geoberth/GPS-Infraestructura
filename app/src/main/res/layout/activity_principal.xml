@@ -9,7 +9,7 @@
     android:layout_marginRight="10dp"
     android:layout_marginBottom="10dp"
     android:orientation="vertical"
-    tools:context=".Principal">
+    tools:context="com.example.infraestructura.Principal">
 
 
     <LinearLayout

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".drawer.fragment_drawer.SyncMunFragment">
+    tools:context="com.example.infraestructura.drawer.fragment_drawer.SyncMunFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <!--

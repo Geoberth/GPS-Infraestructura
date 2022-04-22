@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos">
+    tools:context="com.example.infraestructura.PGBeneficiariosGranosIncentivos.PGBeneficiariosGranosIncentivos">
 
     <ScrollView
         android:layout_width="match_parent"
