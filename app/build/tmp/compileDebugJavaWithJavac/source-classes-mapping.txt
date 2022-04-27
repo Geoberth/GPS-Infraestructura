@@ -671,16 +671,9 @@ com/example/infraestructura/unidadcomercializacion/Apicultura_4.java
  com.example.infraestructura.unidadcomercializacion.Apicultura_4$1
 com/example/infraestructura/Infra_Lecheros/Lecheros_Model.java
  com.example.infraestructura.Infra_Lecheros.Lecheros_Model
-com/example/infraestructura/NewCamara.java
- com.example.infraestructura.NewCamara
- com.example.infraestructura.NewCamara$1
- com.example.infraestructura.NewCamara$1$1
- com.example.infraestructura.NewCamara$2
- com.example.infraestructura.NewCamara$2$1
- com.example.infraestructura.NewCamara$3
- com.example.infraestructura.NewCamara$3$1
- com.example.infraestructura.NewCamara$4
- com.example.infraestructura.NewCamara$4$1
+com/example/infraestructura/unidadcaracterizacionhortalizas/ControlPlagasEnfermC.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.ControlPlagasEnfermC
+ com.example.infraestructura.unidadcaracterizacionhortalizas.ControlPlagasEnfermC$1
 com/example/infraestructura/frutales/frutales_13.java
  com.example.infraestructura.frutales.frutales_13
  com.example.infraestructura.frutales.frutales_13$1
@@ -969,6 +962,23 @@ com/example/infraestructura/drawer/DrawerActivity.java
  com.example.infraestructura.drawer.DrawerActivity
 com/example/infraestructura/Infra_Porcino/Porcino_Model.java
  com.example.infraestructura.Infra_Porcino.Porcino_Model
+com/example/infraestructura/apicola/ReproduccionApicola.java
+ com.example.infraestructura.apicola.ReproduccionApicola
+ com.example.infraestructura.apicola.ReproduccionApicola$1
+ com.example.infraestructura.apicola.ReproduccionApicola$2
+com/example/infraestructura/Pecuario/PecuarioEventosUnidadProduccion.java
+ com.example.infraestructura.Pecuario.PecuarioEventosUnidadProduccion
+ com.example.infraestructura.Pecuario.PecuarioEventosUnidadProduccion$1
+com/example/infraestructura/NewCamara.java
+ com.example.infraestructura.NewCamara
+ com.example.infraestructura.NewCamara$1
+ com.example.infraestructura.NewCamara$1$1
+ com.example.infraestructura.NewCamara$2
+ com.example.infraestructura.NewCamara$2$1
+ com.example.infraestructura.NewCamara$3
+ com.example.infraestructura.NewCamara$3$1
+ com.example.infraestructura.NewCamara$4
+ com.example.infraestructura.NewCamara$4$1
 com/example/infraestructura/Gps/GpsEnableb.java
  com.example.infraestructura.Gps.GpsEnableb
  com.example.infraestructura.Gps.GpsEnableb$1
@@ -983,13 +993,3 @@ com/example/infraestructura/Gps/GpsEnableb.java
  com.example.infraestructura.Gps.GpsEnableb$6
  com.example.infraestructura.Gps.GpsEnableb$7
  com.example.infraestructura.Gps.GpsEnableb$7$1
-com/example/infraestructura/Pecuario/PecuarioEventosUnidadProduccion.java
- com.example.infraestructura.Pecuario.PecuarioEventosUnidadProduccion
- com.example.infraestructura.Pecuario.PecuarioEventosUnidadProduccion$1
-com/example/infraestructura/apicola/ReproduccionApicola.java
- com.example.infraestructura.apicola.ReproduccionApicola
- com.example.infraestructura.apicola.ReproduccionApicola$1
- com.example.infraestructura.apicola.ReproduccionApicola$2
-com/example/infraestructura/unidadcaracterizacionhortalizas/ControlPlagasEnfermC.java
- com.example.infraestructura.unidadcaracterizacionhortalizas.ControlPlagasEnfermC
- com.example.infraestructura.unidadcaracterizacionhortalizas.ControlPlagasEnfermC$1

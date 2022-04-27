@@ -314,7 +314,7 @@ public class NewCamara extends AppCompatActivity {
             Log.e("Error", ex.toString());
         }
         if(imagenarchivo != null){
-            Uri fotoUri = FileProvider.getUriForFile(this, "com.example.geosegalmex.fileprovider", imagenarchivo);
+            Uri fotoUri = FileProvider.getUriForFile(this, "com.example.infraestructura.fileprovider", imagenarchivo);
             intent.putExtra(MediaStore.EXTRA_OUTPUT, fotoUri);
             startActivityForResult(intent, 1);
         }
