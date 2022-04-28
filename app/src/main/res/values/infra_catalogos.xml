@@ -18,6 +18,13 @@
         <item>Producción de becerro</item>
     </string-array>
 
+
+    <string-array name="infra_actividadcorrales2">
+        <item>Ciclo completo</item>
+        <item>Engorda</item>
+        <item>Producción de porcinos</item>
+    </string-array>
+
     <string-array name="infra_razaengorda">
         <item>Criolla</item>
         <item>Angus</item>
@@ -71,7 +78,7 @@
     <string-array name="infra_actividadporcino">
         <item>Ciclo completo</item>
         <item>Engorda</item>
-        <item>Producción de becerro</item>
+        <item>Producción de porcinos</item>
     </string-array>
 
     <string-array name="infra_razaporcina">

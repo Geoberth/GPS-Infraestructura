@@ -212,7 +212,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"
-                android:text="Número de vacas (hemnras que han tenido por lo menos un parto) con que cuenta la unidad de producción:"
+                android:text="Número de vacas (hembras que han tenido por lo menos un parto) con que cuenta la unidad de producción:"
                 android:textColor="#000000" />
 
             <EditText
@@ -295,7 +295,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Superficie total de la UPP destinada a la produción de leche de bovino:"
+                android:text="Superficie total de la UPP destinada a la producción de leche de bovino:"
                 android:textColor="#000000" />
 
             <EditText
