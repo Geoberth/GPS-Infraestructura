@@ -9414,7 +9414,7 @@
     </string-array><string-array name="infra_actividadporcino">
         <item>Ciclo completo</item>
         <item>Engorda</item>
-        <item>Producción de becerro</item>
+        <item>Producción de lechones</item>
     </string-array><string-array name="infra_razaporcina">
         <item>Chester white</item>
         <item>Duroc</item>
@@ -9428,6 +9428,10 @@
     </string-array><string-array name="infra_catalogoaves">
         <item>Pollo de engorda</item>
         <item>Huevo para plato</item>
+    </string-array><string-array name="infra_actividadcorrales2">
+        <item>Ciclo completo</item>
+        <item>Engorda</item>
+        <item>Producción de porcinos</item>
     </string-array></file><file path="C:\Users\norberto.rojas\AndroidStudioProjects\GPS-Infraestructura\app\src\main\res\values\lenguaoriginaria.xml" qualifiers=""><string-array name="combo_lengua">
          <item>Akateko</item>
          <item>amuzgo</item>

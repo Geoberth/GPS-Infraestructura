@@ -195,7 +195,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Estatus en la que se encuentra el centro de sacrificio:"
+                android:text="Estatus en la que se encuentra la unidad de producción:"
                 android:textColor="#000000" />
 
             <Spinner
@@ -212,7 +212,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"
-                android:text="Número de vacas (hembras que han tenido por lo menos un parto) con que cuenta la unidad de producción:"
+                android:text="Número de vacas:"
                 android:textColor="#000000" />
 
             <EditText
@@ -225,7 +225,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"
-                android:text="Número de vaquillas con que cuenta la unidad de producción (hembras que alcanzaron su madurez reproductiva pero no han tenido partos):"
+                android:text="Número de vaquillas:"
                 android:textColor="#000000" />
 
             <EditText

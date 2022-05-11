@@ -400,7 +400,6 @@
                 android:id="@+id/sacriobs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="%"
                 android:maxLines="1" />
 
             <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton

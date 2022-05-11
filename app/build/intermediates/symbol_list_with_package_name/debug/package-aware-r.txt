@@ -172,6 +172,7 @@ array fuenteagua
 array grado_estudios
 array hora
 array infra_actividadcorrales
+array infra_actividadcorrales2
 array infra_actividadporcino
 array infra_catalogoaves
 array infra_estatus

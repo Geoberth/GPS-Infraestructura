@@ -2,7 +2,7 @@
 <resources>
 
     <string-array name="type_censacri">
-        <item>Tif</item>
+        <item>TIF</item>
         <item>Municipal</item>
         <item>Privado</item>
         <item>Otros</item>
