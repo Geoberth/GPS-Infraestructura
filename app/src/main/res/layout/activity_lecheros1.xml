@@ -166,6 +166,7 @@
                 android:id="@+id/leche_loca"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="textCapWords|textAutoCorrect"
                 android:maxLines="1" />
 
             <TextView
@@ -178,6 +179,7 @@
                 android:id="@+id/lech1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="textCapWords|textAutoCorrect"
                 android:maxLines="1" />
 
             <TextView
@@ -190,6 +192,7 @@
                 android:id="@+id/lech2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="textCapWords|textAutoCorrect"
                 android:maxLines="1" />
 
             <TextView
@@ -261,6 +264,7 @@
                 android:id="@+id/lech6o"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="textCapWords|textAutoCorrect"
                 android:maxLines="1" />
 
             <TextView
@@ -274,6 +278,7 @@
                 android:id="@+id/lech7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="textCapWords|textAutoCorrect"
                 android:maxLines="1" />
 
             <TextView
@@ -315,6 +320,7 @@
                 android:id="@+id/lech10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="textCapWords|textAutoCorrect"
                 android:maxLines="1" />
 
 

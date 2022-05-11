@@ -15,6 +15,8 @@ import com.example.infraestructura.R;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -70,6 +72,55 @@ public class Ave extends AppCompatActivity {
 
         //Llamada a la funcion de los spinners con los catalogos
         spinnersCatalogosEvent();
+
+        total.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                //System.out.println(s.toString() + " " + start + " " + count + " " + after);
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if(capins.getText().toString().isEmpty() || total.getText().toString().isEmpty()){
+                    caputi.setText("");
+                }
+                else{
+                    float valor = 0;
+                    valor = Float.parseFloat(total.getText().toString()) / Float.parseFloat(capins.getText().toString()) * 100;
+                    caputi.setText("" + valor);
+                }
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                //System.out.println(s.toString());
+            }
+        });
+
+        capins.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                //System.out.println(s.toString() + " " + start + " " + count + " " + after);
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if(capins.getText().toString().isEmpty() || total.getText().toString().isEmpty()){
+                    caputi.setText("");
+                }
+                else{
+                    float valor = 0;
+                    valor = Float.parseFloat(total.getText().toString()) / Float.parseFloat(capins.getText().toString()) * 100;
+                    caputi.setText("" + valor);
+                }
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                //System.out.println(s.toString());
+            }
+        });
 
         //Guardar datos
         btnNext.setOnClickListener(new View.OnClickListener() {
@@ -151,12 +202,20 @@ public class Ave extends AppCompatActivity {
             capins.setError("No puede quedar vacio");
             retorno=false;
         }
+        else if(Integer.parseInt(capins.getText().toString()) < 3000){
+            capins.setError("No puede ser menor a 3000 aves");
+            retorno=false;
+        }
         else if(caputi.getText().toString().isEmpty()){
             caputi.setError("No puede quedar vacio");
             retorno=false;
         }
         else if(total.getText().toString().isEmpty()){
             total.setError("No puede quedar vacio");
+            retorno=false;
+        }
+        else if(Integer.parseInt(total.getText().toString()) > Integer.parseInt(capins.getText().toString())){
+            total.setError("No puede ser mayor a la Capacidad Instalada");
             retorno=false;
         }
         else if(naves.getText().toString().isEmpty()){

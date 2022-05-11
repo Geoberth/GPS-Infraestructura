@@ -15,6 +15,8 @@ import com.example.infraestructura.R;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -78,6 +80,155 @@ public class Porcino extends AppCompatActivity {
 
         //Llamada a la funcion de los spinners con los catalogos
         spinnersCatalogosEvent();
+
+        vientres.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                //System.out.println(s.toString() + " " + start + " " + count + " " + after);
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
+                    total.setText("");
+                }
+                else{
+                    float valor = 0;
+                    valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString()) + Float.parseFloat(sementales.getText().toString());
+                    total.setText("" + valor);
+                }
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                //System.out.println(s.toString());
+            }
+        });
+
+        lechones.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                //System.out.println(s.toString() + " " + start + " " + count + " " + after);
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
+                    total.setText("");
+                }
+                else{
+                    float valor = 0;
+                    valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString()) + Float.parseFloat(sementales.getText().toString());
+                    total.setText("" + valor);
+                }
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                //System.out.println(s.toString());
+            }
+        });
+
+        crecimiento.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                //System.out.println(s.toString() + " " + start + " " + count + " " + after);
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
+                    total.setText("");
+                }
+                else{
+                    float valor = 0;
+                    valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString()) + Float.parseFloat(sementales.getText().toString());
+                    total.setText("" + valor);
+                }
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                //System.out.println(s.toString());
+            }
+        });
+
+        finalizacion.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                //System.out.println(s.toString() + " " + start + " " + count + " " + after);
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
+                    total.setText("");
+                }
+                else{
+                    float valor = 0;
+                    valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString()) + Float.parseFloat(sementales.getText().toString());
+                    total.setText("" + valor);
+                }
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                //System.out.println(s.toString());
+            }
+        });
+
+        sementales.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                //System.out.println(s.toString() + " " + start + " " + count + " " + after);
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
+                    total.setText("");
+                }
+                else{
+                    float valor = 0;
+                    valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString()) + Float.parseFloat(sementales.getText().toString());
+                    total.setText("" + valor);
+                }
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                //System.out.println(s.toString());
+            }
+        });
+
+        capins.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                //System.out.println(s.toString() + " " + start + " " + count + " " + after);
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if(capins.getText().toString().isEmpty() || total.getText().toString().isEmpty()){
+                    caputi.setText("");
+                }
+                else{
+                    float valor = 0;
+                    valor = Float.parseFloat(total.getText().toString()) / Float.parseFloat(capins.getText().toString()) * 100;
+                    caputi.setText("" + valor);
+                }
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                //System.out.println(s.toString());
+            }
+        });
 
         //Validacion Spineer Raza
         tvCruza.setVisibility(View.GONE);

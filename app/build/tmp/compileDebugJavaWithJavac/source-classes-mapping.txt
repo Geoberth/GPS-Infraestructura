@@ -520,7 +520,6 @@ com/example/infraestructura/Infra_Engorda/Engorda.java
  com.example.infraestructura.Infra_Engorda.Engorda$4
  com.example.infraestructura.Infra_Engorda.Engorda$5
  com.example.infraestructura.Infra_Engorda.Engorda$6
- com.example.infraestructura.Infra_Engorda.Engorda$7
 com/example/infraestructura/caracterizacion/variables_caracterizacion/ActividadesCosecha.java
  com.example.infraestructura.caracterizacion.variables_caracterizacion.ActividadesCosecha
 com/example/infraestructura/PARBeneficiario/PARBeneficiario_bd.java
@@ -802,6 +801,8 @@ com/example/infraestructura/Infra_Ave/Ave.java
  com.example.infraestructura.Infra_Ave.Ave$4
  com.example.infraestructura.Infra_Ave.Ave$5
  com.example.infraestructura.Infra_Ave.Ave$6
+ com.example.infraestructura.Infra_Ave.Ave$7
+ com.example.infraestructura.Infra_Ave.Ave$8
 com/example/infraestructura/Catalogos/entidades/Municipio.java
  com.example.infraestructura.Catalogos.entidades.Municipio
 com/example/infraestructura/PAROperativo/PAR_operativo_model.java
@@ -809,12 +810,18 @@ com/example/infraestructura/PAROperativo/PAR_operativo_model.java
 com/example/infraestructura/Infra_Porcino/Porcino.java
  com.example.infraestructura.Infra_Porcino.Porcino
  com.example.infraestructura.Infra_Porcino.Porcino$1
+ com.example.infraestructura.Infra_Porcino.Porcino$10
+ com.example.infraestructura.Infra_Porcino.Porcino$11
+ com.example.infraestructura.Infra_Porcino.Porcino$12
+ com.example.infraestructura.Infra_Porcino.Porcino$13
  com.example.infraestructura.Infra_Porcino.Porcino$2
  com.example.infraestructura.Infra_Porcino.Porcino$3
  com.example.infraestructura.Infra_Porcino.Porcino$4
  com.example.infraestructura.Infra_Porcino.Porcino$5
  com.example.infraestructura.Infra_Porcino.Porcino$6
  com.example.infraestructura.Infra_Porcino.Porcino$7
+ com.example.infraestructura.Infra_Porcino.Porcino$8
+ com.example.infraestructura.Infra_Porcino.Porcino$9
 com/example/infraestructura/unidadcomercializacion/bdcomercializacion/VariablesGlobalesCmrz.java
  com.example.infraestructura.unidadcomercializacion.bdcomercializacion.VariablesGlobalesCmrz
 com/example/infraestructura/caracterizacion/variables_caracterizacion/VariablesModuloCuatro.java

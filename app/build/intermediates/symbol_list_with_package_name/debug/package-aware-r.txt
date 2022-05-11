@@ -211,6 +211,7 @@ array selectproyect
 array semillas_cultivo
 array siniestro_esti
 array suelo_esti
+array turno
 array type_censacri
 array typeide
 array vialidad
@@ -1992,7 +1993,6 @@ id ce_spiObservaciones
 id ce_spiRepresentacion
 id ce_spiactividad
 id ce_spiestatus
-id ce_spiraza
 id ce_spisistema
 id ce_tvCruza
 id ce_tvOtra
@@ -6182,7 +6182,6 @@ id sacri15
 id sacri16
 id sacri17
 id sacri3
-id sacri5
 id sacri6
 id sacri7
 id sacri8
@@ -6283,6 +6282,7 @@ id spin_pro_pln_frt4
 id spin_pro_pln_frt5
 id spinner_sacri1
 id spinner_sacri4
+id spinner_sacri45
 id spinorte_esti
 id spioeste_esti
 id spipredio_esti

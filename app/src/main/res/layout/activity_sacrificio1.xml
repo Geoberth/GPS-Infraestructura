@@ -214,12 +214,17 @@
                 android:text="Número de turnos que se realizan en un día (24 horas):"
                 android:textColor="#000000" />
 
-            <EditText
-                android:id="@+id/sacri5"
+
+            <Spinner
+                android:id="@+id/spinner_sacri45"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:maxLines="1" />
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/borde"
+                android:entries="@array/turno"
+                android:spinnerMode="dialog" />
+
 
             <TextView
                 android:layout_width="match_parent"
@@ -309,7 +314,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Capacidad instalada Mensual para sacrificio de equinos:"
+                android:text="Capacidad utilizada Mensual para sacrificio de equinos:"
                 android:textColor="#000000" />
 
             <EditText
@@ -323,7 +328,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Capacidad instalada Mensual para sacrificio de bovinos:"
+                android:text="Capacidad utilizada Mensual para sacrificio de bovinos:"
                 android:textColor="#000000" />
 
             <EditText
@@ -337,7 +342,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Capacidad instalada Mensual para sacrificio de porcinos:"
+                android:text="Capacidad utilizada Mensual para sacrificio de porcinos:"
                 android:textColor="#000000" />
 
             <EditText
@@ -351,7 +356,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Capacidad instalada Mensual para sacrificio de ovinos:"
+                android:text="Capacidad utilizada Mensual para sacrificio de ovinos:"
                 android:textColor="#000000" />
 
             <EditText
@@ -365,7 +370,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Capacidad instalada Mensual para sacrificio de caprinos:"
+                android:text="Capacidad utilizada Mensual para sacrificio de caprinos:"
                 android:textColor="#000000" />
 
             <EditText
@@ -379,7 +384,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Capacidad instalada Mensual para sacrificio de aves (pollos y/o gallinas):"
+                android:text="Capacidad utilizada Mensual para sacrificio de aves (pollos y/o gallinas):"
                 android:textColor="#000000" />
 
             <EditText

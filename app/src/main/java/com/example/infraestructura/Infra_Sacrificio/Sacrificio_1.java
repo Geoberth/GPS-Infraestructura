@@ -32,8 +32,8 @@ public class Sacrificio_1 extends AppCompatActivity {
 
     Sacrificio_model model;
     Button btnnext;
-    Spinner spi_edo, spi_representacion, spi_ddr, spi_cader, spi_mun, spi_sacri1, spi_sacri4;
-    EditText fec, loca, sacri3, sacri5, sacri6, sacri7, sacri8, sacri9, sacri10, sacri11, sacri12, sacri13, sacri14, sacri15, sacri16, sacri17, sacriobs;
+    Spinner spi_edo, spi_representacion, spi_ddr, spi_cader, spi_mun, spi_sacri1, spi_sacri4, spi_sacri45;
+    EditText fec, loca, sacri3, sacri6, sacri7, sacri8, sacri9, sacri10, sacri11, sacri12, sacri13, sacri14, sacri15, sacri16, sacri17, sacriobs;
     int dia, mes, anio;
     TextView sacri_fecha;
 
@@ -57,7 +57,7 @@ public class Sacrificio_1 extends AppCompatActivity {
         spi_sacri1 = (Spinner) findViewById(R.id.spinner_sacri1);
         sacri3 = findViewById(R.id.sacri3);
         spi_sacri4 = (Spinner) findViewById(R.id.spinner_sacri4);
-        sacri5 = findViewById(R.id.sacri5);
+        spi_sacri45 = findViewById(R.id.spinner_sacri45);
         sacri6 = findViewById(R.id.sacri6);
         sacri7 = findViewById(R.id.sacri7);
         sacri8 = findViewById(R.id.sacri8);
@@ -102,7 +102,7 @@ public class Sacrificio_1 extends AppCompatActivity {
                 String tiporastro = spi_sacri1.getSelectedItem().toString();
                 String rastro = sacri3.getText().toString();
                 String estatus_rastro = spi_sacri4.getSelectedItem().toString();
-                String turno = sacri5.getText().toString();
+                String turno = spi_sacri45.getSelectedItem().toString();
                 String CIMequino = sacri6.getText().toString();
                 String CIMbovino = sacri7.getText().toString();
                 String CIMporcino = sacri8.getText().toString();
@@ -162,11 +162,6 @@ public class Sacrificio_1 extends AppCompatActivity {
             loca.setError("Debe especificar la localidad");
             retorno=false;
         }
-        else if(sacri5.getText().toString().isEmpty()){
-            sacri5.setError("no puede quedar vacío");
-            retorno=false;
-        }
-
         else if(sacri6.getText().toString().isEmpty()){
             sacri6.setError("no puede quedar vacío");
             retorno=false;

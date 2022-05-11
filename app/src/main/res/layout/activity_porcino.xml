@@ -437,6 +437,7 @@
                     android:ems="10"
                     android:maxLength="5"
                     android:hint="%"
+                    android:enabled="false"
                     android:inputType="number" />
 
             </LinearLayout>
@@ -462,6 +463,7 @@
                     android:ems="10"
                     android:hint="cabezas"
                     android:maxLength="7"
+                    android:enabled="false"
                     android:inputType="number" />
 
             </LinearLayout>

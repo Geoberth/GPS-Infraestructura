@@ -210,6 +210,7 @@ int array selectproyect 0x7f030097
 int array semillas_cultivo 0x7f030098
 int array siniestro_esti 0x7f030099
 int array suelo_esti 0x7f03009a
+int array turno 0x7f03009e
 int array type_censacri 0x7f03009b
 int array typeide 0x7f03009c
 int array vialidad 0x7f03009d
@@ -1991,7 +1992,6 @@ int id ce_spiObservaciones 0x7f09012d
 int id ce_spiRepresentacion 0x7f09012e
 int id ce_spiactividad 0x7f09012f
 int id ce_spiestatus 0x7f090130
-int id ce_spiraza 0x7f090131
 int id ce_spisistema 0x7f090132
 int id ce_tvCruza 0x7f090133
 int id ce_tvOtra 0x7f090134
@@ -6181,7 +6181,6 @@ int id sacri15 0x7f09118b
 int id sacri16 0x7f09118c
 int id sacri17 0x7f09118d
 int id sacri3 0x7f09118e
-int id sacri5 0x7f09118f
 int id sacri6 0x7f091190
 int id sacri7 0x7f091191
 int id sacri8 0x7f091192
@@ -6282,6 +6281,7 @@ int id spin_pro_pln_frt4 0x7f0911f0
 int id spin_pro_pln_frt5 0x7f0911f1
 int id spinner_sacri1 0x7f0911f2
 int id spinner_sacri4 0x7f0911f3
+int id spinner_sacri45 0x7f091389
 int id spinorte_esti 0x7f0911f4
 int id spioeste_esti 0x7f0911f5
 int id spipredio_esti 0x7f0911f6

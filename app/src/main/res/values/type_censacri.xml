@@ -33,5 +33,12 @@
         <item>Mecanizada</item>
     </string-array>
 
+    <string-array name="turno">
+        <item>Turno 1</item>
+        <item>Turno 2</item>
+        <item>Turno 3</item>
+        <item>Sin turno</item>
+    </string-array>
+
 
 </resources>

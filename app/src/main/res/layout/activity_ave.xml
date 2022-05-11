@@ -318,6 +318,7 @@
                     android:ems="10"
                     android:maxLength="5"
                     android:hint="%"
+                    android:enabled="false"
                     android:inputType="number" />
 
             </LinearLayout>
