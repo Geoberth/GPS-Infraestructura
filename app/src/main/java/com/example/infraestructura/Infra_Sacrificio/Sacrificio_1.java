@@ -162,6 +162,8 @@ public class Sacrificio_1 extends AppCompatActivity {
             loca.setError("Debe especificar la localidad");
             retorno=false;
         }
+
+        /*
         else if(sacri6.getText().toString().isEmpty()){
             sacri6.setError("no puede quedar vacío");
             retorno=false;
@@ -217,8 +219,8 @@ public class Sacrificio_1 extends AppCompatActivity {
             retorno=false;
         }
 
+*/
         return retorno;
-
 
     }
 

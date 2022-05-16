@@ -10,7 +10,7 @@
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/drawable/redondo2.xml" value="0.339" />
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/drawable/redondo3.xml" value="0.339" />
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/drawable/redondo4.xml" value="0.339" />
-        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_ave.xml" value="0.32381940840685003" />
+        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_ave.xml" value="0.25" />
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_drawer.xml" value="0.5022644927536232" />
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_engorda.xml" value="0.25" />
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_enviar.xml" value="0.45113788487282463" />
@@ -19,9 +19,8 @@
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_lecheros1.xml" value="0.28532608695652173" />
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_lista_bd.xml" value="0.37916666666666665" />
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_new_camara.xml" value="0.4" />
-        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_parbeneficiario.xml" value="0.1" />
-        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_porcino.xml" value="0.5" />
-        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_sacrificio1.xml" value="0.5" />
+        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_porcino.xml" value="0.17532795156407668" />
+        <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_sacrificio1.xml" value="0.17532795156407668" />
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/app_bar_drawer.xml" value="0.5022644927536232" />
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/content_drawer.xml" value="0.5022644927536232" />
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/fragment_exportar.xml" value="0.37916666666666665" />
@@ -29,8 +28,10 @@
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/nav_header_drawer.xml" value="0.5022644927536232" />
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/menu/activity_drawer_drawer.xml" value="0.5244791666666667" />
         <entry key="..\:/Users/erick.burgos/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/menu/drawer.xml" value="0.5244791666666667" />
-        <entry key="..\:/Users/norberto.rojas/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_engorda.xml" value="0.20555555555555555" />
-        <entry key="..\:/Users/norberto.rojas/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_lecheros1.xml" value="0.24435318275154005" />
+        <entry key="..\:/Users/norberto.rojas/.gradle/caches/transforms-3/d76f35a08c08216004feed386d7db8d0/transformed/appcompat-1.2.0/res/layout/support_simple_spinner_dropdown_item.xml" value="0.5489583333333333" />
+        <entry key="..\:/Users/norberto.rojas/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_ave.xml" value="0.5" />
+        <entry key="..\:/Users/norberto.rojas/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_engorda.xml" value="0.33" />
+        <entry key="..\:/Users/norberto.rojas/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_lecheros1.xml" value="0.33" />
         <entry key="..\:/Users/norberto.rojas/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_liconsa.xml" value="0.25" />
         <entry key="..\:/Users/norberto.rojas/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_liconsa_verificacion.xml" value="0.32314814814814813" />
         <entry key="..\:/Users/norberto.rojas/AndroidStudioProjects/GPS-Infraestructura/app/src/main/res/layout/activity_par_operativo.xml" value="0.25" />
