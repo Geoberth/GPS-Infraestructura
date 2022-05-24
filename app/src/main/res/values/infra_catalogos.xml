@@ -71,11 +71,13 @@
     </string-array>
 
     <string-array name="infra_sistemagranjas">
+        <item></item>
         <item>Tecnificado</item>
         <item>Semi-tecnificado</item>
     </string-array>
 
     <string-array name="infra_actividadporcino">
+        <item></item>
         <item>Ciclo completo</item>
         <item>Engorda</item>
         <item>Producción de lechones</item>

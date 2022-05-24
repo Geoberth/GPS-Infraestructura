@@ -35,7 +35,7 @@ public class Porcino extends AppCompatActivity {
     Porcino_Model model;
     int dia, mes, anio;
     Button btnNext;
-    TextView textFecha, tvCruza, tvOtra;
+    TextView textFecha, tvCruza, tvOtra, por1, por2, por3, por4, por5, por6, por7, por8, por9, por10, por11, por12;
     Spinner spi_edo, spi_representacion, spi_ddr, spi_cader, spi_mun, spi_estatus, spi_sistema, spi_actividad, spi_raza;
     EditText localidad, domupp, nomupp, vientres, lechones, crecimiento, finalizacion, sementales, capins, caputi, total, cruza, otra, superficie, observaciones;
 
@@ -75,6 +75,22 @@ public class Porcino extends AppCompatActivity {
         otra = (EditText)findViewById(R.id.po_txtOtra);
         superficie = (EditText)findViewById(R.id.po_txtSuperficie);
         observaciones = (EditText)findViewById(R.id.po_spiObservaciones);
+
+
+        por1 = (TextView)findViewById(R.id.po_txtsistema);
+        por2 = (TextView)findViewById(R.id.po_txtactividad);
+        por3 = (TextView)findViewById(R.id.po_tvvientres);
+        por4 = (TextView)findViewById(R.id.po_tvcrecimiento);
+        por5 = (TextView)findViewById(R.id.po_tvlechones);
+        por6 = (TextView)findViewById(R.id.po_tvfinalización);
+        por7 = (TextView)findViewById(R.id.po_tvSementales);
+        por8 = (TextView)findViewById(R.id.po_tvinstalada);
+        por9 = (TextView)findViewById(R.id.po_tvutilizada);
+        por10 = (TextView)findViewById(R.id.po_tvanimales);
+        por11 = (TextView)findViewById(R.id.po_txtraza);
+        por12 = (TextView)findViewById(R.id.po_tvSuperficie);
+
+
 
         muestrafecha();
 
@@ -261,58 +277,159 @@ public class Porcino extends AppCompatActivity {
             }
         });
 
+
+        spi_estatus.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
+                if(position == 0){
+
+                    otra.setVisibility(View.GONE);
+
+                }
+                else if(position == 1){
+                    spi_sistema.setVisibility(View.GONE);
+                    spi_actividad.setVisibility(View.GONE);
+                    vientres.setVisibility(View.GONE);
+                    lechones.setVisibility(View.GONE);
+                    crecimiento.setVisibility(View.GONE);
+                    finalizacion.setVisibility(View.GONE);
+                    sementales.setVisibility(View.GONE);
+                    capins.setVisibility(View.GONE);
+                    caputi.setVisibility(View.GONE);
+                    total.setVisibility(View.GONE);
+                    spi_raza.setVisibility(View.GONE);
+                    tvCruza.setVisibility(View.GONE);
+                    cruza.setVisibility(View.GONE);
+                    tvOtra.setVisibility(View.GONE);
+                    otra.setVisibility(View.GONE);
+                    superficie.setVisibility(View.GONE);
+                    total.setVisibility(View.GONE);
+                    por1.setVisibility(View.GONE);
+                    por2.setVisibility(View.GONE);
+                    por3.setVisibility(View.GONE);
+                    por4.setVisibility(View.GONE);
+                    por5.setVisibility(View.GONE);
+                    por6.setVisibility(View.GONE);
+                    por7.setVisibility(View.GONE);
+                    por8.setVisibility(View.GONE);
+                    por9.setVisibility(View.GONE);
+                    por10.setVisibility(View.GONE);
+                    por11.setVisibility(View.GONE);
+                    por12.setVisibility(View.GONE);
+
+                }
+            }
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                return;
+            }
+        });
+
         //Guardar datos
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                if(validar()){
-                    String folio = General.Foliocuestion;
-                    String fecha = textFecha.getText().toString();
-                    String cveEntidad = cveEdo;
-                    String entidad = nombreEdo;
-                    String cveRepresentacion = cveDelegacion;
-                    String representacion = nombreDelegacion;
-                    String cveDdr2 = cveDdr;
-                    String ddr = nombreDdr;
-                    String cveCader2 = cveCader;
-                    String cader = nombreCader;
-                    String cveMunicipio2 = cveMunicipio;
-                    String municipio = nombreMunicipio;
-                    String cveLocalidad = "1";
-                    String loc = localidad.getText().toString();
-                    String domUpp = domupp.getText().toString();
-                    String nomUpp = nomupp.getText().toString();
-                    String estatus = spi_estatus.getSelectedItem().toString();
-                    String sistema = spi_sistema.getSelectedItem().toString();
-                    String actividad = spi_actividad.getSelectedItem().toString();
-                    String numVientres = vientres.getText().toString();
-                    String numLechones = lechones.getText().toString();
-                    String numCrecimiento = crecimiento.getText().toString();
-                    String numFinalizacion = finalizacion.getText().toString();
-                    String numSementales = sementales.getText().toString();
-                    String capInst = capins.getText().toString();
-                    String capUtil = caputi.getText().toString();
-                    String totalAnim = total.getText().toString();
-                    String raza = spi_raza.getSelectedItem().toString();
-                    String razaCruza = (spi_raza.getSelectedItem().toString().equals("Cruza"))? cruza.getText().toString() : "";
-                    String razaOtra = (spi_raza.getSelectedItem().toString().equals("Otra"))? otra.getText().toString() : "";
-                    String superf = superficie.getText().toString();
-                    String observ = observaciones.getText().toString();
-                    String longitud = "";
-                    String latitud = "";
-                    String f1 = General.Foto1;
-                    String f2 = General.Foto2;
+                if(Porcino.this.equals("Activo")) {
+                    if (validar()) {
+                        String folio = General.Foliocuestion;
+                        String fecha = textFecha.getText().toString();
+                        String cveEntidad = cveEdo;
+                        String entidad = nombreEdo;
+                        String cveRepresentacion = cveDelegacion;
+                        String representacion = nombreDelegacion;
+                        String cveDdr2 = cveDdr;
+                        String ddr = nombreDdr;
+                        String cveCader2 = cveCader;
+                        String cader = nombreCader;
+                        String cveMunicipio2 = cveMunicipio;
+                        String municipio = nombreMunicipio;
+                        String cveLocalidad = "1";
+                        String loc = localidad.getText().toString();
+                        String domUpp = domupp.getText().toString();
+                        String nomUpp = nomupp.getText().toString();
+                        String estatus = spi_estatus.getSelectedItem().toString();
+                        String sistema = spi_sistema.getSelectedItem().toString();
+                        String actividad = spi_actividad.getSelectedItem().toString();
+                        String numVientres = vientres.getText().toString();
+                        String numLechones = lechones.getText().toString();
+                        String numCrecimiento = crecimiento.getText().toString();
+                        String numFinalizacion = finalizacion.getText().toString();
+                        String numSementales = sementales.getText().toString();
+                        String capInst = capins.getText().toString();
+                        String capUtil = caputi.getText().toString();
+                        String totalAnim = total.getText().toString();
+                        String raza = spi_raza.getSelectedItem().toString();
+                        String razaCruza = (spi_raza.getSelectedItem().toString().equals("Cruza")) ? cruza.getText().toString() : "";
+                        String razaOtra = (spi_raza.getSelectedItem().toString().equals("Otra")) ? otra.getText().toString() : "";
+                        String superf = superficie.getText().toString();
+                        String observ = observaciones.getText().toString();
+                        String longitud = "";
+                        String latitud = "";
+                        String f1 = General.Foto1;
+                        String f2 = General.Foto2;
 
-                    model = new Porcino_Model(folio,fecha,cveEntidad,entidad,cveRepresentacion,representacion,cveDdr2,ddr,cveCader2,cader,cveMunicipio2,municipio,cveLocalidad,loc,domUpp,nomUpp,estatus,sistema,actividad,numVientres,numLechones,numCrecimiento,numFinalizacion,numSementales,capInst,capUtil,totalAnim,raza,razaCruza,razaOtra,superf,observ,longitud,latitud,f1,f2,"0","0");
-                    Intent in = new Intent(Porcino.this, GeoreferenciaActivity.class);
-                    in.putExtra("model", model);
-                    startActivity(in);
+                        model = new Porcino_Model(folio, fecha, cveEntidad, entidad, cveRepresentacion, representacion, cveDdr2, ddr, cveCader2, cader, cveMunicipio2, municipio, cveLocalidad, loc, domUpp, nomUpp, estatus, sistema, actividad, numVientres, numLechones, numCrecimiento, numFinalizacion, numSementales, capInst, capUtil, totalAnim, raza, razaCruza, razaOtra, superf, observ, longitud, latitud, f1, f2, "0", "0");
+                        Intent in = new Intent(Porcino.this, GeoreferenciaActivity.class);
+                        in.putExtra("model", model);
+                        startActivity(in);
+
+                    } else {
+                        Toast.makeText(getApplicationContext(), "Faltan respuestas", Toast.LENGTH_SHORT).show();
+                    }
+
 
                 }
                 else{
-                    Toast.makeText(getApplicationContext(), "Faltan respuestas",Toast.LENGTH_SHORT).show();
+                    if (validar2()) {
+                        String folio = General.Foliocuestion;
+                        String fecha = textFecha.getText().toString();
+                        String cveEntidad = cveEdo;
+                        String entidad = nombreEdo;
+                        String cveRepresentacion = cveDelegacion;
+                        String representacion = nombreDelegacion;
+                        String cveDdr2 = cveDdr;
+                        String ddr = nombreDdr;
+                        String cveCader2 = cveCader;
+                        String cader = nombreCader;
+                        String cveMunicipio2 = cveMunicipio;
+                        String municipio = nombreMunicipio;
+                        String cveLocalidad = "1";
+                        String loc = localidad.getText().toString();
+                        String domUpp = domupp.getText().toString();
+                        String nomUpp = nomupp.getText().toString();
+                        String estatus = spi_estatus.getSelectedItem().toString();
+                        String sistema = spi_sistema.getSelectedItem().toString();
+                        String actividad = spi_actividad.getSelectedItem().toString();
+                        String numVientres = vientres.getText().toString();
+                        String numLechones = lechones.getText().toString();
+                        String numCrecimiento = crecimiento.getText().toString();
+                        String numFinalizacion = finalizacion.getText().toString();
+                        String numSementales = sementales.getText().toString();
+                        String capInst = capins.getText().toString();
+                        String capUtil = caputi.getText().toString();
+                        String totalAnim = total.getText().toString();
+                        String raza = "";
+                        String razaCruza = (spi_raza.getSelectedItem().toString().equals("Cruza")) ? cruza.getText().toString() : "";
+                        String razaOtra = (spi_raza.getSelectedItem().toString().equals("Otra")) ? otra.getText().toString() : "";
+                        String superf = superficie.getText().toString();
+                        String observ = observaciones.getText().toString();
+                        String longitud = "";
+                        String latitud = "";
+                        String f1 = General.Foto1;
+                        String f2 = General.Foto2;
+
+                        model = new Porcino_Model(folio, fecha, cveEntidad, entidad, cveRepresentacion, representacion, cveDdr2, ddr, cveCader2, cader, cveMunicipio2, municipio, cveLocalidad, loc, domUpp, nomUpp, estatus, sistema, actividad, numVientres, numLechones, numCrecimiento, numFinalizacion, numSementales, capInst, capUtil, totalAnim, raza, razaCruza, razaOtra, superf, observ, longitud, latitud, f1, f2, "0", "0");
+                        Intent in = new Intent(Porcino.this, GeoreferenciaActivity.class);
+                        in.putExtra("model", model);
+                        startActivity(in);
+
+                    } else {
+                        Toast.makeText(getApplicationContext(), "Faltan respuestas", Toast.LENGTH_SHORT).show();
+                    }
+
                 }
+
+
+
             }
         });
 
@@ -390,6 +507,27 @@ public class Porcino extends AppCompatActivity {
 
         return retorno;
     }
+
+    public boolean validar2(){
+        boolean retorno=true;
+
+        if(localidad.getText().toString().isEmpty()){
+            localidad.setError("No puede quedar vacio");
+            retorno=false;
+        }
+        else if(domupp.getText().toString().isEmpty()){
+            domupp.setError("No puede quedar vacio");
+            retorno=false;
+        }
+        else if(nomupp.getText().toString().isEmpty()){
+            nomupp.setError("No puede quedar vacio");
+            retorno=false;
+        }
+
+        return retorno;
+    }
+
+
 
     //Funciones para los spinners con los catalogos
     private List<Estados> llenarEstados(){

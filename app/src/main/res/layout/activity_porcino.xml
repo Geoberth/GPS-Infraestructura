@@ -281,7 +281,7 @@
                     android:id="@+id/po_tvvientres"
                     android:layout_width="178dp"
                     android:layout_height="wrap_content"
-                    android:text="No. de Vientres:"
+                    android:text="No. de vientres:"
                     android:textColor="#000000"
                     android:textSize="15sp" />
 
@@ -305,7 +305,7 @@
                     android:id="@+id/po_tvlechones"
                     android:layout_width="178dp"
                     android:layout_height="wrap_content"
-                    android:text="No. de Lechones:"
+                    android:text="No. de lechones:"
                     android:textColor="#000000"
                     android:textSize="15sp" />
 
@@ -329,7 +329,7 @@
                     android:id="@+id/po_tvcrecimiento"
                     android:layout_width="220dp"
                     android:layout_height="wrap_content"
-                    android:text="No. de Cerdos en crecimiento:"
+                    android:text="No. de cerdos en crecimiento:"
                     android:textColor="#000000"
                     android:textSize="15sp" />
 
@@ -353,7 +353,7 @@
                     android:id="@+id/po_tvfinalización"
                     android:layout_width="220dp"
                     android:layout_height="wrap_content"
-                    android:text="No. de Cerdos en finalización:"
+                    android:text="No. de cerdos en finalización:"
                     android:textColor="#000000"
                     android:textSize="15sp" />
 
@@ -377,7 +377,7 @@
                     android:id="@+id/po_tvSementales"
                     android:layout_width="178dp"
                     android:layout_height="wrap_content"
-                    android:text="No. de Sementales:"
+                    android:text="No. de sementales:"
                     android:textColor="#000000"
                     android:textSize="15sp" />
 
@@ -473,7 +473,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
-                android:text="Raza Predominante:"
+                android:text="Raza predominante:"
                 android:textColor="#000000"
                 android:textSize="15sp" />
 

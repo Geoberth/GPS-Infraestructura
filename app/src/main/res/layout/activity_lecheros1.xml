@@ -84,7 +84,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:text="Delegación:"
+                android:text="Representación:"
                 android:textColor="#000000" />
 
             <Spinner
@@ -214,7 +214,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
+
                 android:text="Número de vacas:"
                 android:textColor="#000000" />
 
@@ -222,12 +222,13 @@
                 android:id="@+id/lech4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="number"
                 android:maxLines="1" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
+
                 android:text="Número de vaquillas:"
                 android:textColor="#000000" />
 
@@ -235,6 +236,7 @@
                 android:id="@+id/lech5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="number"
                 android:maxLines="1" />
 
             <TextView
@@ -308,6 +310,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal"
+                android:hint="m2"
                 android:maxLines="1" />
 
             <TextView

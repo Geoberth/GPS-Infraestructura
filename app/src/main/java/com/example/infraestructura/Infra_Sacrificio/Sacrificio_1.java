@@ -98,7 +98,6 @@ public class Sacrificio_1 extends AppCompatActivity {
                 String municipio = nombreMunicipio;
                 String cveLocalidad = "1";
                 String localidad = loca.getText().toString();
-
                 String tiporastro = spi_sacri1.getSelectedItem().toString();
                 String rastro = sacri3.getText().toString();
                 String estatus_rastro = spi_sacri4.getSelectedItem().toString();
@@ -141,9 +140,6 @@ public class Sacrificio_1 extends AppCompatActivity {
         //TERMINA ONCREATE
 
     }
-
-
-
 
 
 
