@@ -97,6 +97,51 @@ public class Porcino extends AppCompatActivity {
         //Llamada a la funcion de los spinners con los catalogos
         spinnersCatalogosEvent();
 
+        spi_actividad.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                String nombre = spi_actividad.getSelectedItem().toString();
+
+                switch (nombre){
+                    case "Ciclo completo":
+                        vientres.setEnabled(true);
+                        lechones.setEnabled(true);
+                        crecimiento.setEnabled(true);
+                        finalizacion.setEnabled(true);
+                        sementales.setEnabled(true);
+                        break;
+                    case "Engorda":
+                        vientres.setEnabled(false);
+                        lechones.setEnabled(false);
+                        crecimiento.setEnabled(true);
+                        finalizacion.setEnabled(true);
+                        sementales.setEnabled(false);
+
+                        vientres.setText("");
+                        lechones.setText("");
+                        sementales.setText("");
+                        break;
+                    case "Producción de lechones":
+                        vientres.setEnabled(true);
+                        lechones.setEnabled(true);
+                        crecimiento.setEnabled(false);
+                        finalizacion.setEnabled(false);
+                        sementales.setEnabled(true);
+
+                        crecimiento.setText("");
+                        finalizacion.setText("");
+                        break;
+
+                }
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+            }
+        });
+
+
         vientres.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -105,13 +150,64 @@ public class Porcino extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
-                    total.setText("");
-                }
-                else{
-                    float valor = 0;
-                    valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString()) + Float.parseFloat(sementales.getText().toString());
-                    total.setText("" + valor);
+                String nombre = spi_actividad.getSelectedItem().toString();
+
+                switch (nombre){
+                    case "Ciclo completo":
+                        if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
+                            total.setText("");
+                        }
+                        else{
+                            float valor = 0;
+                            valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString()) + Float.parseFloat(sementales.getText().toString());
+                            total.setText("" + valor);
+                            if(capins.getText().toString().isEmpty() || total.getText().toString().isEmpty()){
+                                caputi.setText("");
+                            }
+                            else{
+                                float valor2 = 0;
+                                valor2 = Float.parseFloat(total.getText().toString()) / Float.parseFloat(capins.getText().toString()) * 100;
+                                caputi.setText("" + valor2);
+                            }
+                        }
+                        break;
+                    case "Engorda":
+                        if(crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty()){
+                            total.setText("");
+                        }
+                        else{
+                            float valor = 0;
+                            valor = Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString());
+                            total.setText("" + valor);
+                            if(capins.getText().toString().isEmpty() || total.getText().toString().isEmpty()){
+                                caputi.setText("");
+                            }
+                            else{
+                                float valor2 = 0;
+                                valor2 = Float.parseFloat(total.getText().toString()) / Float.parseFloat(capins.getText().toString()) * 100;
+                                caputi.setText("" + valor2);
+                            }
+                        }
+                        break;
+                    case "Producción de lechones":
+                        if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
+                            total.setText("");
+                        }
+                        else{
+                            float valor = 0;
+                            valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(sementales.getText().toString());
+                            total.setText("" + valor);
+                            if(capins.getText().toString().isEmpty() || total.getText().toString().isEmpty()){
+                                caputi.setText("");
+                            }
+                            else{
+                                float valor2 = 0;
+                                valor2 = Float.parseFloat(total.getText().toString()) / Float.parseFloat(capins.getText().toString()) * 100;
+                                caputi.setText("" + valor2);
+                            }
+                        }
+                        break;
+
                 }
 
             }
@@ -130,13 +226,64 @@ public class Porcino extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
-                    total.setText("");
-                }
-                else{
-                    float valor = 0;
-                    valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString()) + Float.parseFloat(sementales.getText().toString());
-                    total.setText("" + valor);
+                String nombre = spi_actividad.getSelectedItem().toString();
+
+                switch (nombre){
+                    case "Ciclo completo":
+                        if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
+                            total.setText("");
+                        }
+                        else{
+                            float valor = 0;
+                            valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString()) + Float.parseFloat(sementales.getText().toString());
+                            total.setText("" + valor);
+                            if(capins.getText().toString().isEmpty() || total.getText().toString().isEmpty()){
+                                caputi.setText("");
+                            }
+                            else{
+                                float valor2 = 0;
+                                valor2 = Float.parseFloat(total.getText().toString()) / Float.parseFloat(capins.getText().toString()) * 100;
+                                caputi.setText("" + valor2);
+                            }
+                        }
+                        break;
+                    case "Engorda":
+                        if(crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty()){
+                            total.setText("");
+                        }
+                        else{
+                            float valor = 0;
+                            valor = Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString());
+                            total.setText("" + valor);
+                            if(capins.getText().toString().isEmpty() || total.getText().toString().isEmpty()){
+                                caputi.setText("");
+                            }
+                            else{
+                                float valor2 = 0;
+                                valor2 = Float.parseFloat(total.getText().toString()) / Float.parseFloat(capins.getText().toString()) * 100;
+                                caputi.setText("" + valor2);
+                            }
+                        }
+                        break;
+                    case "Producción de lechones":
+                        if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
+                            total.setText("");
+                        }
+                        else{
+                            float valor = 0;
+                            valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(sementales.getText().toString());
+                            total.setText("" + valor);
+                            if(capins.getText().toString().isEmpty() || total.getText().toString().isEmpty()){
+                                caputi.setText("");
+                            }
+                            else{
+                                float valor2 = 0;
+                                valor2 = Float.parseFloat(total.getText().toString()) / Float.parseFloat(capins.getText().toString()) * 100;
+                                caputi.setText("" + valor2);
+                            }
+                        }
+                        break;
+
                 }
 
             }
@@ -155,13 +302,64 @@ public class Porcino extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
-                    total.setText("");
-                }
-                else{
-                    float valor = 0;
-                    valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString()) + Float.parseFloat(sementales.getText().toString());
-                    total.setText("" + valor);
+                String nombre = spi_actividad.getSelectedItem().toString();
+
+                switch (nombre){
+                    case "Ciclo completo":
+                        if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
+                            total.setText("");
+                        }
+                        else{
+                            float valor = 0;
+                            valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString()) + Float.parseFloat(sementales.getText().toString());
+                            total.setText("" + valor);
+                            if(capins.getText().toString().isEmpty() || total.getText().toString().isEmpty()){
+                                caputi.setText("");
+                            }
+                            else{
+                                float valor2 = 0;
+                                valor2 = Float.parseFloat(total.getText().toString()) / Float.parseFloat(capins.getText().toString()) * 100;
+                                caputi.setText("" + valor2);
+                            }
+                        }
+                        break;
+                    case "Engorda":
+                        if(crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty()){
+                            total.setText("");
+                        }
+                        else{
+                            float valor = 0;
+                            valor = Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString());
+                            total.setText("" + valor);
+                            if(capins.getText().toString().isEmpty() || total.getText().toString().isEmpty()){
+                                caputi.setText("");
+                            }
+                            else{
+                                float valor2 = 0;
+                                valor2 = Float.parseFloat(total.getText().toString()) / Float.parseFloat(capins.getText().toString()) * 100;
+                                caputi.setText("" + valor2);
+                            }
+                        }
+                        break;
+                    case "Producción de lechones":
+                        if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
+                            total.setText("");
+                        }
+                        else{
+                            float valor = 0;
+                            valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(sementales.getText().toString());
+                            total.setText("" + valor);
+                            if(capins.getText().toString().isEmpty() || total.getText().toString().isEmpty()){
+                                caputi.setText("");
+                            }
+                            else{
+                                float valor2 = 0;
+                                valor2 = Float.parseFloat(total.getText().toString()) / Float.parseFloat(capins.getText().toString()) * 100;
+                                caputi.setText("" + valor2);
+                            }
+                        }
+                        break;
+
                 }
 
             }
@@ -180,13 +378,64 @@ public class Porcino extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
-                    total.setText("");
-                }
-                else{
-                    float valor = 0;
-                    valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString()) + Float.parseFloat(sementales.getText().toString());
-                    total.setText("" + valor);
+                String nombre = spi_actividad.getSelectedItem().toString();
+
+                switch (nombre){
+                    case "Ciclo completo":
+                        if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
+                            total.setText("");
+                        }
+                        else{
+                            float valor = 0;
+                            valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString()) + Float.parseFloat(sementales.getText().toString());
+                            total.setText("" + valor);
+                            if(capins.getText().toString().isEmpty() || total.getText().toString().isEmpty()){
+                                caputi.setText("");
+                            }
+                            else{
+                                float valor2 = 0;
+                                valor2 = Float.parseFloat(total.getText().toString()) / Float.parseFloat(capins.getText().toString()) * 100;
+                                caputi.setText("" + valor2);
+                            }
+                        }
+                        break;
+                    case "Engorda":
+                        if(crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty()){
+                            total.setText("");
+                        }
+                        else{
+                            float valor = 0;
+                            valor = Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString());
+                            total.setText("" + valor);
+                            if(capins.getText().toString().isEmpty() || total.getText().toString().isEmpty()){
+                                caputi.setText("");
+                            }
+                            else{
+                                float valor2 = 0;
+                                valor2 = Float.parseFloat(total.getText().toString()) / Float.parseFloat(capins.getText().toString()) * 100;
+                                caputi.setText("" + valor2);
+                            }
+                        }
+                        break;
+                    case "Producción de lechones":
+                        if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
+                            total.setText("");
+                        }
+                        else{
+                            float valor = 0;
+                            valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(sementales.getText().toString());
+                            total.setText("" + valor);
+                            if(capins.getText().toString().isEmpty() || total.getText().toString().isEmpty()){
+                                caputi.setText("");
+                            }
+                            else{
+                                float valor2 = 0;
+                                valor2 = Float.parseFloat(total.getText().toString()) / Float.parseFloat(capins.getText().toString()) * 100;
+                                caputi.setText("" + valor2);
+                            }
+                        }
+                        break;
+
                 }
 
             }
@@ -205,13 +454,64 @@ public class Porcino extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
-                    total.setText("");
-                }
-                else{
-                    float valor = 0;
-                    valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString()) + Float.parseFloat(sementales.getText().toString());
-                    total.setText("" + valor);
+                String nombre = spi_actividad.getSelectedItem().toString();
+
+                switch (nombre){
+                    case "Ciclo completo":
+                        if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
+                            total.setText("");
+                        }
+                        else{
+                            float valor = 0;
+                            valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString()) + Float.parseFloat(sementales.getText().toString());
+                            total.setText("" + valor);
+                            if(capins.getText().toString().isEmpty() || total.getText().toString().isEmpty()){
+                                caputi.setText("");
+                            }
+                            else{
+                                float valor2 = 0;
+                                valor2 = Float.parseFloat(total.getText().toString()) / Float.parseFloat(capins.getText().toString()) * 100;
+                                caputi.setText("" + valor2);
+                            }
+                        }
+                        break;
+                    case "Engorda":
+                        if(crecimiento.getText().toString().isEmpty() || finalizacion.getText().toString().isEmpty()){
+                            total.setText("");
+                        }
+                        else{
+                            float valor = 0;
+                            valor = Float.parseFloat(crecimiento.getText().toString()) + Float.parseFloat(finalizacion.getText().toString());
+                            total.setText("" + valor);
+                            if(capins.getText().toString().isEmpty() || total.getText().toString().isEmpty()){
+                                caputi.setText("");
+                            }
+                            else{
+                                float valor2 = 0;
+                                valor2 = Float.parseFloat(total.getText().toString()) / Float.parseFloat(capins.getText().toString()) * 100;
+                                caputi.setText("" + valor2);
+                            }
+                        }
+                        break;
+                    case "Producción de lechones":
+                        if(vientres.getText().toString().isEmpty() || lechones.getText().toString().isEmpty() || sementales.getText().toString().isEmpty()){
+                            total.setText("");
+                        }
+                        else{
+                            float valor = 0;
+                            valor = Float.parseFloat(vientres.getText().toString()) + Float.parseFloat(lechones.getText().toString()) + Float.parseFloat(sementales.getText().toString());
+                            total.setText("" + valor);
+                            if(capins.getText().toString().isEmpty() || total.getText().toString().isEmpty()){
+                                caputi.setText("");
+                            }
+                            else{
+                                float valor2 = 0;
+                                valor2 = Float.parseFloat(total.getText().toString()) / Float.parseFloat(capins.getText().toString()) * 100;
+                                caputi.setText("" + valor2);
+                            }
+                        }
+                        break;
+
                 }
 
             }
@@ -521,6 +821,23 @@ public class Porcino extends AppCompatActivity {
         }
         else if(nomupp.getText().toString().isEmpty()){
             nomupp.setError("No puede quedar vacio");
+            retorno=false;
+        }
+        else if(capins.getText().toString().isEmpty()){
+            capins.setError("No puede quedar vacio");
+            retorno=false;
+        }
+        else if(caputi.getText().toString().isEmpty()){
+            caputi.setError("No puede quedar vacio");
+            retorno=false;
+        }
+        else if(total.getText().toString().isEmpty()){
+            total.setError("No puede quedar vacio");
+            retorno=false;
+        }
+        else if(Float.parseFloat(total.getText().toString()) < 50){
+            total.setError("No puede haber menos de 50 cabezas en total");
+            Toast.makeText(getApplicationContext(), "No puede haber menos de 50 cabezas en total", Toast.LENGTH_SHORT).show();
             retorno=false;
         }
 
