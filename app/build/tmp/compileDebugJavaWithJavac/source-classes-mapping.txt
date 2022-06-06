@@ -670,9 +670,16 @@ com/example/infraestructura/unidadcomercializacion/Apicultura_4.java
  com.example.infraestructura.unidadcomercializacion.Apicultura_4$1
 com/example/infraestructura/Infra_Lecheros/Lecheros_Model.java
  com.example.infraestructura.Infra_Lecheros.Lecheros_Model
-com/example/infraestructura/unidadcaracterizacionhortalizas/ControlPlagasEnfermC.java
- com.example.infraestructura.unidadcaracterizacionhortalizas.ControlPlagasEnfermC
- com.example.infraestructura.unidadcaracterizacionhortalizas.ControlPlagasEnfermC$1
+com/example/infraestructura/NewCamara.java
+ com.example.infraestructura.NewCamara
+ com.example.infraestructura.NewCamara$1
+ com.example.infraestructura.NewCamara$1$1
+ com.example.infraestructura.NewCamara$2
+ com.example.infraestructura.NewCamara$2$1
+ com.example.infraestructura.NewCamara$3
+ com.example.infraestructura.NewCamara$3$1
+ com.example.infraestructura.NewCamara$4
+ com.example.infraestructura.NewCamara$4$1
 com/example/infraestructura/frutales/frutales_13.java
  com.example.infraestructura.frutales.frutales_13
  com.example.infraestructura.frutales.frutales_13$1
@@ -800,10 +807,23 @@ com/example/infraestructura/Catalogos/entidades/Municipio.java
  com.example.infraestructura.Catalogos.entidades.Municipio
 com/example/infraestructura/PAROperativo/PAR_operativo_model.java
  com.example.infraestructura.PAROperativo.PAR_operativo_model
-com/example/infraestructura/apicola/ReproduccionApicola.java
- com.example.infraestructura.apicola.ReproduccionApicola
- com.example.infraestructura.apicola.ReproduccionApicola$1
- com.example.infraestructura.apicola.ReproduccionApicola$2
+com/example/infraestructura/Infra_Porcino/Porcino.java
+ com.example.infraestructura.Infra_Porcino.Porcino
+ com.example.infraestructura.Infra_Porcino.Porcino$1
+ com.example.infraestructura.Infra_Porcino.Porcino$10
+ com.example.infraestructura.Infra_Porcino.Porcino$11
+ com.example.infraestructura.Infra_Porcino.Porcino$12
+ com.example.infraestructura.Infra_Porcino.Porcino$13
+ com.example.infraestructura.Infra_Porcino.Porcino$14
+ com.example.infraestructura.Infra_Porcino.Porcino$15
+ com.example.infraestructura.Infra_Porcino.Porcino$2
+ com.example.infraestructura.Infra_Porcino.Porcino$3
+ com.example.infraestructura.Infra_Porcino.Porcino$4
+ com.example.infraestructura.Infra_Porcino.Porcino$5
+ com.example.infraestructura.Infra_Porcino.Porcino$6
+ com.example.infraestructura.Infra_Porcino.Porcino$7
+ com.example.infraestructura.Infra_Porcino.Porcino$8
+ com.example.infraestructura.Infra_Porcino.Porcino$9
 com/example/infraestructura/unidadcomercializacion/bdcomercializacion/VariablesGlobalesCmrz.java
  com.example.infraestructura.unidadcomercializacion.bdcomercializacion.VariablesGlobalesCmrz
 com/example/infraestructura/caracterizacion/variables_caracterizacion/VariablesModuloCuatro.java
@@ -975,30 +995,10 @@ com/example/infraestructura/Gps/GpsEnableb.java
 com/example/infraestructura/Pecuario/PecuarioEventosUnidadProduccion.java
  com.example.infraestructura.Pecuario.PecuarioEventosUnidadProduccion
  com.example.infraestructura.Pecuario.PecuarioEventosUnidadProduccion$1
-com/example/infraestructura/NewCamara.java
- com.example.infraestructura.NewCamara
- com.example.infraestructura.NewCamara$1
- com.example.infraestructura.NewCamara$1$1
- com.example.infraestructura.NewCamara$2
- com.example.infraestructura.NewCamara$2$1
- com.example.infraestructura.NewCamara$3
- com.example.infraestructura.NewCamara$3$1
- com.example.infraestructura.NewCamara$4
- com.example.infraestructura.NewCamara$4$1
-com/example/infraestructura/Infra_Porcino/Porcino.java
- com.example.infraestructura.Infra_Porcino.Porcino
- com.example.infraestructura.Infra_Porcino.Porcino$1
- com.example.infraestructura.Infra_Porcino.Porcino$10
- com.example.infraestructura.Infra_Porcino.Porcino$11
- com.example.infraestructura.Infra_Porcino.Porcino$12
- com.example.infraestructura.Infra_Porcino.Porcino$13
- com.example.infraestructura.Infra_Porcino.Porcino$14
- com.example.infraestructura.Infra_Porcino.Porcino$15
- com.example.infraestructura.Infra_Porcino.Porcino$2
- com.example.infraestructura.Infra_Porcino.Porcino$3
- com.example.infraestructura.Infra_Porcino.Porcino$4
- com.example.infraestructura.Infra_Porcino.Porcino$5
- com.example.infraestructura.Infra_Porcino.Porcino$6
- com.example.infraestructura.Infra_Porcino.Porcino$7
- com.example.infraestructura.Infra_Porcino.Porcino$8
- com.example.infraestructura.Infra_Porcino.Porcino$9
+com/example/infraestructura/apicola/ReproduccionApicola.java
+ com.example.infraestructura.apicola.ReproduccionApicola
+ com.example.infraestructura.apicola.ReproduccionApicola$1
+ com.example.infraestructura.apicola.ReproduccionApicola$2
+com/example/infraestructura/unidadcaracterizacionhortalizas/ControlPlagasEnfermC.java
+ com.example.infraestructura.unidadcaracterizacionhortalizas.ControlPlagasEnfermC
+ com.example.infraestructura.unidadcaracterizacionhortalizas.ControlPlagasEnfermC$1
