@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string-array name="edoInst">
+        <item>Opera</item>
+        <item>No Opera</item>
+    </string-array>
+
     <string-array name="infra_estatus">
         <item>Activo</item>
         <item>Inactivo</item>

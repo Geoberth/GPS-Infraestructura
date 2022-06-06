@@ -229,7 +229,7 @@
                     android:id="@+id/ce_tvinstalada"
                     android:layout_width="178dp"
                     android:layout_height="wrap_content"
-                    android:text="Capacidad instalada:"
+                    android:text="Capacidad instalada (ton):"
                     android:textColor="#000000"
                     android:textSize="15sp" />
 
@@ -277,17 +277,11 @@
                 android:inputType="textCapWords|textAutoCorrect" />
 
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="1dp"
-                android:orientation="horizontal">
-
                 <TextView
                     android:id="@+id/ce_tvutilizada"
-                    android:layout_width="178dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Volumen almacenado: "
+                    android:text="Volumen almacenado (ton): "
                     android:textColor="#000000"
                     android:textSize="15sp" />
 
@@ -300,20 +294,12 @@
                     android:hint="ton"
                     android:inputType="number" />
 
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="1dp"
-                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/ce_tvSuperficie"
-                    android:layout_width="178dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Superficie:"
+                    android:text="Superficie de la instalación de almacenamiento (ha):"
                     android:textColor="#000000"
                     android:textSize="15sp" />
 
@@ -321,12 +307,9 @@
                     android:id="@+id/ce_txtSuperficie"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
                     android:maxLength="9"
                     android:hint="ha"
                     android:inputType="number" />
-
-            </LinearLayout>
 
             <TextView
                 android:id="@+id/ce_tvestadoins"
@@ -337,12 +320,16 @@
                 android:textColor="#000000"
                 android:textSize="15sp" />
 
-            <EditText
+            <Spinner
                 android:id="@+id/ce_txtestadoins"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textCapWords|textAutoCorrect" />
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:entries="@array/edoInst"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
 
 
             <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton

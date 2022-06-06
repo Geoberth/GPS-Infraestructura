@@ -34,8 +34,8 @@ public class Granos extends AppCompatActivity {
     int dia, mes, anio;
     Button btnNext;
     TextView textFecha;
-    Spinner spi_edo, spi_representacion, spi_ddr, spi_cader, spi_mun;
-    EditText localidad, dom, cp, almacen, capins, principal, secundario, vol, superficie, estado;
+    Spinner spi_edo, spi_representacion, spi_ddr, spi_cader, spi_mun, estado;
+    EditText localidad, dom, cp, almacen, capins, principal, secundario, vol, superficie;
 
     //Variables para los catalogos
     String tablaDb,cveEdo, nombreEdo,cveDelegacion,nombreDelegacion,cveDdr,nombreDdr,cveCader,nombreCader,cveMunicipio,nombreMunicipio;
@@ -62,7 +62,7 @@ public class Granos extends AppCompatActivity {
         secundario = (EditText)findViewById(R.id.ce_txtgranosec);
         vol = (EditText)findViewById(R.id.ce_txtutilizada);
         superficie = (EditText)findViewById(R.id.ce_txtSuperficie);
-        estado = (EditText)findViewById(R.id.ce_txtestadoins);
+        estado = (Spinner)findViewById(R.id.ce_txtestadoins);
         muestrafecha();
 
         //Llamada a la funcion de los spinners con los catalogos
@@ -96,7 +96,7 @@ public class Granos extends AppCompatActivity {
                     String secundario1 = secundario.getText().toString();
                     String vol1 = vol.getText().toString();
                     String superficie1 = superficie.getText().toString();
-                    String estado1 = estado.getText().toString();
+                    String estado1 = estado.getSelectedItem().toString();
                     String longitud = "";
                     String latitud = "";
                     String f1 = General.Foto1;
@@ -587,8 +587,7 @@ public class Granos extends AppCompatActivity {
             superficie.setError("No puede quedar vacio");
             retorno=false;
         }
-        else if(estado.getText().toString().isEmpty()){
-            estado.setError("No puede quedar vacio");
+        else if(estado.getSelectedItem().toString().isEmpty()){
             retorno=false;
         }
 
