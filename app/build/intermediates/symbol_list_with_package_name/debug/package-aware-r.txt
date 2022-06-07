@@ -154,6 +154,7 @@ array cveVeracruzdeIgnaciodelaLlave2021
 array cveYucatán2021
 array cveZacatecas2021
 array dia
+array edoInst
 array especiepecuaria
 array estado_Aguascalientes
 array estado_Jalisco

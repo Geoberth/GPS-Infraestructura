@@ -583,6 +583,10 @@ public class Granos extends AppCompatActivity {
             vol.setError("No puede quedar vacio");
             retorno=false;
         }
+        else if(Float.parseFloat(vol.getText().toString()) > Float.parseFloat(capins.getText().toString()) ){
+            vol.setError("Volumen almacenado no puede ser mayor a la capacidad instalada");
+            retorno=false;
+        }
         else if(superficie.getText().toString().isEmpty()){
             superficie.setError("No puede quedar vacio");
             retorno=false;
