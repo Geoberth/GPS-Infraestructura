@@ -9355,8 +9355,8 @@
         <item>Regular </item>
         <item>Mala</item>
     </string-array><string name="infracondicion_prompt">Tipo de relacion</string></file><file path="C:\Users\norberto.rojas\AndroidStudioProjects\GPS-Infraestructura\app\src\main\res\values\infra_catalogos.xml" qualifiers=""><string-array name="edoInst">
-        <item>Opera</item>
-        <item>No Opera</item>
+        <item>Activo</item>
+        <item>Inactivo</item>
     </string-array><string-array name="infra_estatus">
         <item>Activo</item>
         <item>Inactivo</item>
