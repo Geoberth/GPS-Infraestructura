@@ -583,6 +583,35 @@ public class Porcino extends AppCompatActivity {
                 if(position == 0){
 
                     otra.setVisibility(View.GONE);
+                    spi_sistema.setVisibility(View.VISIBLE);
+                    spi_actividad.setVisibility(View.VISIBLE);
+                    vientres.setVisibility(View.VISIBLE);
+                    lechones.setVisibility(View.VISIBLE);
+                    crecimiento.setVisibility(View.VISIBLE);
+                    finalizacion.setVisibility(View.VISIBLE);
+                    sementales.setVisibility(View.VISIBLE);
+                    capins.setVisibility(View.VISIBLE);
+                    caputi.setVisibility(View.VISIBLE);
+                    total.setVisibility(View.VISIBLE);
+                    spi_raza.setVisibility(View.VISIBLE);
+                    tvCruza.setVisibility(View.VISIBLE);
+                    cruza.setVisibility(View.VISIBLE);
+                    tvOtra.setVisibility(View.VISIBLE);
+                    otra.setVisibility(View.VISIBLE);
+                    superficie.setVisibility(View.VISIBLE);
+                    total.setVisibility(View.VISIBLE);
+                    por1.setVisibility(View.VISIBLE);
+                    por2.setVisibility(View.VISIBLE);
+                    por3.setVisibility(View.VISIBLE);
+                    por4.setVisibility(View.VISIBLE);
+                    por5.setVisibility(View.VISIBLE);
+                    por6.setVisibility(View.VISIBLE);
+                    por7.setVisibility(View.VISIBLE);
+                    por8.setVisibility(View.VISIBLE);
+                    por9.setVisibility(View.VISIBLE);
+                    por10.setVisibility(View.VISIBLE);
+                    por11.setVisibility(View.VISIBLE);
+                    por12.setVisibility(View.VISIBLE);
 
                 }
                 else if(position == 1){

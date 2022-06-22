@@ -9437,6 +9437,11 @@
     </string-array><string-array name="infra_catalogoaves">
         <item>Pollo de engorda</item>
         <item>Huevo para plato</item>
+    </string-array><string-array name="granosInfra">
+        <item>Maíz</item>
+        <item>Trigo</item>
+        <item>Sorgo</item>
+        <item>Frijol</item>
     </string-array></file><file path="C:\Users\norberto.rojas\AndroidStudioProjects\GPS-Infraestructura\app\src\main\res\values\lenguaoriginaria.xml" qualifiers=""><string-array name="combo_lengua">
          <item>Akateko</item>
          <item>amuzgo</item>

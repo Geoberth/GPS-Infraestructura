@@ -171,6 +171,7 @@ array frecuencia_asistencia
 array frutales
 array fuenteagua
 array grado_estudios
+array granosInfra
 array hora
 array infra_actividadcorrales
 array infra_actividadcorrales2

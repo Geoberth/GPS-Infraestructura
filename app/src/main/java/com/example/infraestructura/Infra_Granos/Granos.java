@@ -34,8 +34,8 @@ public class Granos extends AppCompatActivity {
     int dia, mes, anio;
     Button btnNext;
     TextView textFecha;
-    Spinner spi_edo, spi_representacion, spi_ddr, spi_cader, spi_mun, estado;
-    EditText localidad, dom, cp, almacen, capins, principal, secundario, vol, superficie;
+    Spinner spi_edo, spi_representacion, spi_ddr, spi_cader, spi_mun, estado, principal, secundario;
+    EditText localidad, dom, cp, almacen, capins, vol, superficie;
 
     //Variables para los catalogos
     String tablaDb,cveEdo, nombreEdo,cveDelegacion,nombreDelegacion,cveDdr,nombreDdr,cveCader,nombreCader,cveMunicipio,nombreMunicipio;
@@ -58,8 +58,8 @@ public class Granos extends AppCompatActivity {
         cp = (EditText)findViewById(R.id.ce_txtuppnom);
         almacen = (EditText)findViewById(R.id.ce_txtuppnomalm);
         capins = (EditText)findViewById(R.id.ce_txtinstalada);
-        principal = (EditText)findViewById(R.id.ce_txtgrano);
-        secundario = (EditText)findViewById(R.id.ce_txtgranosec);
+        principal = (Spinner)findViewById(R.id.ce_txtgrano);
+        secundario = (Spinner)findViewById(R.id.ce_txtgranosec);
         vol = (EditText)findViewById(R.id.ce_txtutilizada);
         superficie = (EditText)findViewById(R.id.ce_txtSuperficie);
         estado = (Spinner)findViewById(R.id.ce_txtestadoins);
@@ -92,8 +92,8 @@ public class Granos extends AppCompatActivity {
                     String cp1 = cp.getText().toString();
                     String almacen1 = almacen.getText().toString();
                     String capins1 = capins.getText().toString();
-                    String principal1 = principal.getText().toString();
-                    String secundario1 = secundario.getText().toString();
+                    String principal1 = principal.getSelectedItem().toString();;
+                    String secundario1 = secundario.getSelectedItem().toString();;
                     String vol1 = vol.getText().toString();
                     String superficie1 = superficie.getText().toString();
                     String estado1 = estado.getSelectedItem().toString();
@@ -571,6 +571,9 @@ public class Granos extends AppCompatActivity {
             capins.setError("No puede quedar vacio");
             retorno=false;
         }
+
+
+        /*
         else if(principal.getText().toString().isEmpty()){
             principal.setError("No puede quedar vacio");
             retorno=false;
@@ -579,6 +582,9 @@ public class Granos extends AppCompatActivity {
             secundario.setError("No puede quedar vacio");
             retorno=false;
         }
+         */
+
+
         else if(vol.getText().toString().isEmpty()){
             vol.setError("No puede quedar vacio");
             retorno=false;

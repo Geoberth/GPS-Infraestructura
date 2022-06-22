@@ -253,12 +253,17 @@
                 android:textColor="#000000"
                 android:textSize="15sp" />
 
-            <EditText
+
+            <Spinner
                 android:id="@+id/ce_txtgrano"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textCapWords|textAutoCorrect" />
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:entries="@array/granosInfra"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/ce_tvgranosec"
@@ -269,13 +274,16 @@
                 android:textColor="#000000"
                 android:textSize="15sp" />
 
-            <EditText
+            <Spinner
                 android:id="@+id/ce_txtgranosec"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textCapWords|textAutoCorrect" />
-
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/borde"
+                android:entries="@array/granosInfra"
+                android:spinnerMode="dropdown"
+                android:textSize="15sp" />
 
                 <TextView
                     android:id="@+id/ce_tvutilizada"
